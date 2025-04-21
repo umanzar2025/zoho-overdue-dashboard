@@ -2,13 +2,12 @@ name: Biweekly Invoice Refresh
 
 on:
   schedule:
-    - cron: '0 8 */14 * *' # Every 14 days at 8am UTC
+    - cron: '0 8 */14 * *'  # Every 14 days at 8am UTC
   workflow_dispatch:
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -19,15 +18,15 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pandas requests
+        run: pip install requests pandas
 
       - name: Run fetch script
         run: python fetch_overdue_invoices.py
 
       - name: Commit updated CSV
         run: |
-          git config user.name "Umar Manzar"
-          git config user.email "umarmanzar@gofleet.com"
+          git config --global user.name "Umar Manzar"
+          git config --global user.email "umarmanzar@gofleet.com"
           git add zoho_overdue_invoices.csv
           git commit -m "🔁 Biweekly auto-refresh of invoice CSV" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/umanza2025/zoho-overdue-dashboard.git HEAD:master
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/umanzar2025/zoho-overdue-dashboard.git HEAD:master
