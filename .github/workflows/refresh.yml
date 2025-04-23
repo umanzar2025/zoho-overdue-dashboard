@@ -29,12 +29,13 @@ jobs:
         run: python fetch_overdue_invoices.py
 
       - name: Commit updated CSVs for GoFleet and Zenduit
-  run: |
-    git config --global user.name "GitHub Actions"
-    git config --global user.email "actions@github.com"
-    git add gofleet_*_overdue_invoices_*.csv zenduit_*_overdue_invoices_*.csv || true
-    git commit -m "Auto-update overdue invoices for GoFleet and Zenduit" || echo "No changes to commit"
-    git pull --rebase || echo "Rebase failed, likely due to no upstream changes"
-    git push || echo "Push failed, likely due to fast-forward conflict"
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add gofleet_*_overdue_invoices_*.csv zenduit_*_overdue_invoices_*.csv || true
+          git commit -m "Auto-update overdue invoices for GoFleet and Zenduit" || echo "No changes to commit"
+          git pull --rebase || echo "Rebase failed, likely due to no upstream changes"
+          git push || echo "Push failed, likely due to fast-forward conflict"
+
 
 
