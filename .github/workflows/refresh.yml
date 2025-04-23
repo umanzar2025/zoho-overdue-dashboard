@@ -28,11 +28,11 @@ jobs:
       - name: Run fetch script
         run: python fetch_overdue_invoices.py
 
-      - name: Commit updated CSV
+       - name: Commit updated CSVs for GoFleet and Zenduit
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add zoho_overdue_invoices.csv
-          git commit -m "Auto-update overdue invoices CSV" || echo "No changes to commit"
+          git add gofleet_overdue_invoices.csv zenduit_overdue_invoices.csv
+          git commit -m "Auto-update overdue invoices for GoFleet and Zenduit" || echo "No changes to commit"
           git push
 
