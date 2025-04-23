@@ -1,52 +1,66 @@
 import requests
-import pandas as pd
+import csv
+from datetime import datetime
 
 # ✅ Your updated credentials
 refresh_token = "1000.70726dab2668b0965020fb3d8b76950d.0f1e66164f7cac0a89d1eaf55a666694"
 client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
 client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
 
-# Step 1: Get fresh access token
-token_url = "https://accounts.zoho.com/oauth/v2/token"
-token_data = {
-    "refresh_token": refresh_token,
-    "client_id": client_id,
-    "client_secret": client_secret,
-    "grant_type": "refresh_token"
-}
-token_resp = requests.post(token_url, data=token_data)
-token_json = token_resp.json()
+# 🔐 Refresh the access token
+def get_access_token():
+    url = "https://accounts.zoho.com/oauth/v2/token"
+    payload = {
+        "refresh_token": refresh_token,
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "grant_type": "refresh_token"
+    }
+    response = requests.post(url, data=payload)
+    response.raise_for_status()
+    return response.json()["access_token"]
 
-print("Zoho token response:", token_json)
+# 📥 Fetch overdue invoices for a given organization
+def fetch_overdue_invoices(org_id, access_token):
+    url = f"https://www.zohoapis.com/books/v3/invoices?organization_id={org_id}&status=overdue"
+    headers = {
+        "Authorization": f"Zoho-oauthtoken {access_token}"
+    }
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.json()["invoices"]
 
-if "access_token" not in token_json:
-    raise Exception("❌ Error: No access token received. Check your credentials or refresh token.")
+# 💾 Write invoice data to CSV
+def export_to_csv(invoices, org_name):
+    now = datetime.now().strftime("%Y-%m-%d")
+    filename = f"{org_name.lower().replace(' ', '_')}_overdue_invoices_{now}.csv"
+    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Invoice Number", "Customer Name", "Due Date", "Amount Due", "Status"])
+        for invoice in invoices:
+            writer.writerow([
+                invoice["invoice_number"],
+                invoice["customer_name"],
+                invoice["due_date"],
+                invoice["balance"],
+                invoice["status"]
+            ])
+    print(f"✅ Saved {len(invoices)} overdue invoices to {filename}")
 
-access_token = token_json['access_token']
+# 🎯 Main logic
+def main():
+    access_token = get_access_token()
 
-# Step 2: Get your organization ID
-org_url = "https://www.zohoapis.com/books/v3/organizations"
-org_headers = {"Authorization": f"Zoho-oauthtoken {access_token}"}
-org_resp = requests.get(org_url, headers=org_headers)
-org_data = org_resp.json()
+    # Org IDs from your earlier script output
+    orgs = {
+        "GoFleet Corporation": "673162904",
+        "Zenduit Corporation": "696828433"
+    }
 
-print("Organization data:", org_data)
+    for name, org_id in orgs.items():
+        print(f"🔄 Fetching overdue invoices for {name}...")
+        invoices = fetch_overdue_invoices(org_id, access_token)
+        export_to_csv(invoices, name)
 
-organization_id = org_data['organizations'][0]['organization_id']
-
-# Step 3: Get overdue invoices
-invoice_url = f"https://www.zohoapis.com/books/v3/invoices?status=overdue&organization_id={organization_id}"
-invoice_headers = {"Authorization": f"Zoho-oauthtoken {access_token}"}
-invoice_resp = requests.get(invoice_url, headers=invoice_headers)
-invoice_data = invoice_resp.json()
-
-print("Sample overdue invoices:", invoice_data.get("invoices", [])[:3])
-
-# Step 4: Save to CSV
-invoices = invoice_data.get("invoices", [])
-if invoices:
-    df = pd.DataFrame(invoices)
-    df.to_csv("zoho_overdue_invoices.csv", index=False)
-    print("✅ Invoices saved to zoho_overdue_invoices.csv")
-else:
-    print("⚠️ No overdue invoices found.")
+if __name__ == "__main__":
+    main()
