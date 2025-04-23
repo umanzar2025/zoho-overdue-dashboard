@@ -1,201 +1,555 @@
-Invoice Number,Customer Name,Due Date,Amount Due,Status
-INV-058815_,Upper Canada Forestry,2025-03-31,202.27,overdue
-INV-058856_,Upper Canada Forestry,2025-03-31,437.31,overdue
-INV-059308_,Upper Canada Forestry,2025-03-31,190.97,overdue
-INV-061161,Total Street Maintenance Inc,2025-04-17,2348.14,overdue
-INV-061101,Williams Multi Services LLC,2025-04-15,229.0,overdue
-INV-060227-1,Darch Fire Inc,2025-04-18,341.26,overdue
-INV-061025,Diabolical haulerz,2025-04-13,60.01,overdue
-INV-061018,TRI-AIR SYSTEMS,2025-04-13,518.67,overdue
-INV-060982,Down to Earth,2025-04-11,26.54,overdue
-INV-060934,Advanced Fleet GPS,2025-04-09,145.77,overdue
-INV-060917,Khobran Holdings Ltd,2025-04-09,76.38,overdue
-INV-060904,University of Guelph,2025-04-09,144.64,overdue
-INV-060796,Brad Aitken dba Brad Aitken & Sons Trucking,2025-04-05,47.38,overdue
-INV-060743,Towtal Roadside Solutions Inc.,2025-04-04,1508.55,overdue
-INV-060688,Peros Masonry,2025-04-02,339.0,overdue
-INV-060662,8857121 Canada inc,2025-04-02,263.13,overdue
-INV-060576,Talize,2025-03-31,51533.05,overdue
-INV-060552,CR&R Waste,2025-03-30,30998.0,overdue
-INV-060516,EBS Geostructural INC.,2025-03-29,350.87,overdue
-INV-060509,Gibraltar Mine,2025-03-28,3758.72,overdue
-INV-059809,colossus security,2025-04-04,2090.5,overdue
-INV-060340,Lindsay Beer Equestrian,2025-04-22,30.51,overdue
-INV-060334,A-1 Environmental Services,2025-04-22,683.66,overdue
-INV-060329,Trash Inc,2025-04-22,105.93,overdue
-INV-060327,Canadian Kraft Paper Industries Ltd.,2025-04-22,2155.65,overdue
-INV-060324,TRS TRANSPORTATION LLC,2025-04-21,25.0,overdue
-INV-060317,Roof Tile Management,2025-04-21,791.0,overdue
-INV-060312,CanWing Travel LTD,2025-04-21,186.45,overdue
-INV-060311,F W Transport,2025-04-21,23.69,overdue
-INV-060306,Dom Amodeo Produce Ltd,2025-04-21,377.31,overdue
-INV-060305,Central Arizona Transport,2025-04-21,2983.91,overdue
-INV-060297,"JENOPTIK Smart Mobility Solutions, LLC",2025-04-21,744.67,overdue
-INV-060294,Atlantic Alarm & Sound Ltd.,2025-04-21,316.25,overdue
-INV-060293,Cascades Canada ULC,2025-04-20,320.07,overdue
-INV-060278,Tolko Industries - High Level Woodlands (HLW),2025-04-20,9691.4,overdue
-INV-060267,Mara Lumber,2025-04-19,115.32,overdue
-INV-060266,"California Waste Services, LLC",2025-04-19,179.7,overdue
-INV-060263,Nevius Entreprises LLC,2025-04-19,69.0,overdue
-INV-060261,DS Pipe and Steel Supply,2025-04-19,665.0,overdue
-INV-060259,"Lone Pine Bus Lines, Inc.",2025-04-19,370.8,overdue
-INV-060244,BMR Logistics LLC,2025-04-19,173.0,overdue
-INV-060239,VLocity Group,2025-04-19,515.0,overdue
-INV-060231,Hastings Utilities Contracting,2025-04-19,1243.0,overdue
-INV-060228,EBS Geostructural INC.,2025-04-18,626.02,overdue
-INV-060226,Approved Site Services,2025-04-18,195.5,overdue
-INV-060225,Regional Municipality of York,2025-04-18,1241.42,overdue
-INV-060224,Joe Johnson Equipment,2025-04-18,2922.18,overdue
-INV-060223,Foss National Leasing Ltd.,2025-04-18,609.07,overdue
-INV-060222,Miller Waste Systems,2025-04-18,278.66,overdue
-INV-060221,Miller Waste Systems,2025-04-18,209.05,overdue
-INV-060220,Miller Waste Systems,2025-04-18,233.46,overdue
-INV-060219,Miller Waste Systems,2025-04-18,606.36,overdue
-INV-060214,CONTROLTEK INCORPORATED,2025-04-18,200.0,overdue
-INV-060213,Bright Lumber Inc,2025-04-18,175.0,overdue
-INV-060212,6251692 Canada Inc,2025-04-18,94.92,overdue
-INV-060202,Bailey Distribution LLC,2025-04-18,204.0,overdue
-INV-060199,Truck Transfer - Mississauga,2025-04-18,1245.26,overdue
-INV-060196,Don Mashburn,2025-04-18,95.0,overdue
-INV-060189,Premier Concrete Pumping,2025-04-18,1050.9,overdue
-INV-060187,Speedy Transport Group Inc.,2025-04-17,36623.02,overdue
-INV-060186,San Antonio Water System,2025-04-17,1700.0,overdue
-INV-060179,Speedi Shuttle,2025-04-17,10800.0,overdue
-INV-060173,Burnbrae Farms - Winnipeg (MB),2025-04-17,463.05,overdue
-INV-060172,City of Moose Jaw,2025-04-17,5978.91,overdue
-INV-060166,"Scapes, inc",2025-04-16,134.0,overdue
-INV-060162,Speedy Transport Group Inc.,2025-04-16,762.75,overdue
-INV-060160,Miller Waste Systems,2025-04-16,9540.0,overdue
-INV-060158,City of Summerside,2025-04-16,368.0,overdue
-INV-060157,Maxim Truck & Trailer,2025-04-16,2373.0,overdue
-INV-060156,Foss National Leasing Ltd.,2025-04-16,218.09,overdue
-INV-060155,Foss National Leasing Ltd.,2025-04-16,195.49,overdue
-INV-060154,Foss National Leasing Ltd.,2025-04-16,1875.8,overdue
-INV-060153,Foss National Leasing Ltd.,2025-04-16,1691.61,overdue
-INV-060151,Speedy Transport Group Inc.,2025-04-16,3457.8,overdue
-INV-060148,Lux Car Hire Corp,2025-04-16,533.15,overdue
-INV-060145,San Antonio Water System,2025-04-16,1120.5,overdue
-INV-060139,Ray Hamilton Co,2025-04-16,75.0,overdue
-INV-060138,Hydro Hauling Operations,2025-04-16,1704.26,overdue
-INV-060137,San Antonio Water System,2025-04-16,23576.8,overdue
-INV-060134,Total Street Maintenance Inc,2025-03-17,2348.14,overdue
-INV-060128,SKO Logistics,2025-04-15,11.84,overdue
-INV-060122,High Value Logistix,2025-04-15,668.96,overdue
-INV-060114,G&I Logistics,2025-04-15,1585.74,overdue
-INV-060112,Total Landscape,2025-04-15,692.4,overdue
-INV-060098,Bear Mountain Transport LLC,2025-04-14,23.0,overdue
-INV-060094,Mill Street Brewery,2025-04-14,123.74,overdue
-INV-060093,Guru Road Connections Ltd,2025-04-14,787.61,overdue
-INV-060092,Drewlo Holdings Inc.,2025-04-14,1267.86,overdue
-INV-060088,Fleetsource Leasing,2025-04-14,2239.25,overdue
-INV-060087,Driver Safety Technology,2025-04-14,885.0,overdue
-INV-060081,Foss National Leasing Ltd.,2025-04-14,24458.85,overdue
-INV-060078,Beltway Driving Academy,2025-04-14,149.04,overdue
-INV-060073,Larry Potter Magicians,2025-04-14,51.93,overdue
-INV-060072,Parkview Building Supplies,2025-04-14,677.15,overdue
-INV-060066,Mercedes-Benz Markham,2025-04-14,71.02,overdue
-INV-060064,Mercedes-Benz The Queensway,2025-04-14,47.35,overdue
-INV-060056,San Antonio Water System,2025-04-13,604.62,overdue
-INV-060052,Fitzsimmons Hospital Services,2025-04-13,800.0,overdue
-INV-060051,Fitzsimmons Hospital Services,2025-04-13,805.0,overdue
-INV-060050,Approved Site Services,2025-04-13,800.0,overdue
-INV-060049,Dufferin Peel Catholic District School Board,2025-04-13,361.6,overdue
-INV-060047,James Thoume Construction Ltd,2025-04-13,33.9,overdue
-INV-060045,5Starhaulers LLC,2025-04-13,23.0,overdue
-INV-060041,Spectaire,2025-04-13,59.0,overdue
-INV-060038,Martin Grove Volkswagen,2025-04-13,79.1,overdue
-INV-060027,9736484 Canada Corporation,2025-04-12,54.24,overdue
-INV-060011,TRI-AIR SYSTEMS,2025-03-13,488.16,overdue
-INV-059984,Transervice Logistics Inc.,2025-04-10,675.0,overdue
-INV-059974,San Antonio Water System,2025-04-10,4666.0,overdue
-INV-059967,Nevada Department of Transportation (NDOT),2025-04-13,72686.25,overdue
-INV-059947,Joe Johnson Equipment,2025-04-09,27835.29,overdue
-INV-059943,Ellis Moving & Storage,2025-04-09,204.41,overdue
-INV-059942,"Highland Global, Inc.",2025-04-09,91.53,overdue
-INV-059940,Mint Tiny House Company,2025-04-09,27.48,overdue
-INV-059926,Unique Store Fixtures Ltd,2025-04-09,152.33,overdue
-INV-059924,Guru Road Connections Ltd,2025-04-09,932.4,overdue
-INV-059921,Sydney Airport,2025-04-08,1815.0,overdue
-INV-059886,Eurcan Int'l Trading & Logistics Co.,2025-04-08,7.72,overdue
-INV-059876,A & A Transport LLC,2025-04-07,252.35,overdue
-INV-059875,Vale Canada Limited,2025-04-07,41.48,overdue
-INV-059857,Cascades Canada ULC,2025-04-06,5629.42,overdue
-INV-059854,EVERGLADES HARVESTING INC,2025-04-06,350.0,overdue
-INV-059836,Huron Alloys,2025-04-06,237.3,overdue
-INV-059831,Mistic Hauling Inc,2025-04-05,87.15,overdue
-INV-059821,Bins on Wheels,2025-04-05,26.44,overdue
-INV-059810,Miller Waste Systems,2025-04-04,519.8,overdue
-INV-059794,Cresco lines,2025-04-04,20.0,overdue
-INV-059790,Imperial Fence,2025-04-04,38.42,overdue
-INV-059786,Electrical Contracting,2025-04-04,719.58,overdue
-INV-059754,dnata,2025-03-30,7500.0,overdue
-INV-059753,dnata,2025-03-30,8640.0,overdue
-INV-059752,dnata,2025-03-30,4739.55,overdue
-INV-059751,dnata,2025-03-30,750.0,overdue
-INV-059750,dnata,2025-03-30,11820.0,overdue
-INV-059748,Freewind Bus Service,2025-04-02,113.0,overdue
-INV-059743,CLK/Carl’s Jr./Jamba Juice,2025-04-02,210.0,overdue
-INV-059720,FNBP 55 LLC,2025-04-01,90.9,overdue
-INV-059706,"Partners, Corp.",2025-04-01,121.56,overdue
-INV-059698,Hawthorne Foundation Inc.,2025-04-01,490.0,overdue
-INV-059691,Whitelaw Transportation Solutions,2025-04-01,101.7,overdue
-INV-059690,SASK FREIGHTLINES,2025-04-01,518.33,overdue
-INV-059686,Precise Logistics Inc,2025-03-31,0.6,overdue
-INV-059676,JRC Trucking LLC,2025-03-31,20.57,overdue
-INV-059641,Burnbrae Farms - Mississauga (ON),2025-03-31,1736.25,overdue
-INV-059633,VNH Enterprises,2025-03-30,791.0,overdue
-INV-059631,Nevada Department of Transportation (NDOT),2025-04-02,72706.75,overdue
-INV-059621,Dedicated Transport Inc.,2025-03-30,27.12,overdue
-INV-059619,The Electronic Recycling Association (ERA),2025-03-30,128.88,overdue
-INV-059610,Mag Mile Logistic,2025-03-30,46.0,overdue
-INV-059574,ClearPath Utility Solutions LLC,2025-03-30,1715.7,overdue
-INV-059565,LC Construction,2025-03-30,337.6,overdue
-INV-059561,Beaver Valley Environmental LLC,2025-03-30,156.15,overdue
-INV-059557,CR&R Waste,2025-02-28,30509.0,overdue
-INV-059555,Pilot Freight Services,2025-03-30,25.9,overdue
-INV-059487,VNH Enterprises,2025-03-29,290.0,overdue
-INV-059484,Cascades Canada ULC,2025-03-29,45.2,overdue
-INV-059476,Speedy Transport Group Inc.,2025-03-28,847.5,overdue
-INV-059474,CR&R Waste,2025-03-28,1462.0,overdue
-INV-059473,Mamba Global Logistics LLC,2025-03-28,23.0,overdue
-INV-059456,Aecon Utilities (US) Ltd.,2025-03-27,146.0,overdue
-INV-059439,JAW Logistics Corp,2025-03-27,29.85,overdue
-INV-059425,PG Parks,2025-03-26,3075.0,overdue
-INV-059405,NMPHC,2025-03-26,273.45,overdue
-INV-059383,Trash Inc,2025-03-25,105.93,overdue
-INV-059366,CanWing Travel LTD,2025-03-24,124.3,overdue
-INV-059359,Central Arizona Transport,2025-03-24,2983.91,overdue
-INV-059350,Tolko Industries - Southern Interior (SIW),2025-03-24,1140.5,overdue
-INV-059346,Roof Pro Plus Home Improvements South,2025-03-23,169.5,overdue
-INV-059340,Foss National Leasing Ltd.,2025-03-23,1323.23,overdue
-INV-059339,Foss National Leasing Ltd.,2025-03-23,586.47,overdue
-INV-059338,Foss National Leasing Ltd.,2025-03-23,1323.23,overdue
-INV-059335,5Starhaulers LLC,2025-03-23,35.0,overdue
-INV-059333,Foss National Leasing Ltd.,2025-03-23,770.66,overdue
-INV-059323,Cascades Holding US Inc,2025-03-23,1290.5,overdue
-INV-059303,Nevius Entreprises LLC,2025-03-22,69.0,overdue
-INV-059301,DS Pipe and Steel Supply,2025-03-22,112.0,overdue
-INV-059279,VLocity Group,2025-03-22,515.0,overdue
-INV-059254,Smith Casing,2025-03-21,50.0,overdue
-INV-059232,Truck Transfer - Mississauga,2025-03-21,1245.26,overdue
-INV-059223,Miles Tire,2025-03-21,406.58,overdue
-INV-059221,Cascades Canada ULC,2025-03-20,372.28,overdue
-INV-059186,Ray Hamilton Co,2025-03-19,75.0,overdue
-INV-059175,SKO Logistics,2025-03-18,23.69,overdue
-INV-059161,G&I Logistics,2025-03-18,1594.74,overdue
-INV-059141,Mill Street Brewery,2025-03-17,123.74,overdue
-INV-059124,Beltway Driving Academy,2025-03-17,149.04,overdue
-INV-059102,5Starhaulers LLC,2025-03-16,23.0,overdue
-INV-059085,CR&R Waste,2025-03-15,1956.0,overdue
-INV-059058,TRI-AIR SYSTEMS,2025-02-13,9.0,overdue
-INV-059041,Oregon Department of Transportation (ODOT),2025-03-13,37972.2,overdue
-INV-059038,Midnight Hauling,2025-03-14,36.0,overdue
-INV-058993,"Highland Global, Inc.",2025-03-12,91.53,overdue
-INV-058977,Unique Store Fixtures Ltd,2025-03-12,152.33,overdue
-INV-058973,Regional Municipality of York,2025-03-11,565.0,overdue
-INV-058971,Sydney Airport,2025-03-11,715.0,overdue
-INV-058966,Gordon Devauld Trucking,2025-03-11,76.38,overdue
-INV-058959,Hiller Truck Tech Inc.,2025-03-11,33.9,overdue
-INV-058919,H & R Logistics LLC,2025-03-10,20.6,overdue
-INV-058911,Vale Canada Limited,2025-03-10,624.89,overdue
-INV-058909,GMH Fleet Services Inc,2025-03-10,109.63,overdue
+invoice_number,customer_name,due_date,total,balance,status,is_emailed,organization
+INV-058815_,Upper Canada Forestry,2025-03-31,202.27,202.27,overdue,False,GoFleet Corporation
+INV-058856_,Upper Canada Forestry,2025-03-31,437.31,437.31,overdue,False,GoFleet Corporation
+INV-059308_,Upper Canada Forestry,2025-03-31,190.97,190.97,overdue,False,GoFleet Corporation
+INV-061161,Total Street Maintenance Inc,2025-04-17,2348.14,2348.14,overdue,True,GoFleet Corporation
+INV-061101,Williams Multi Services LLC,2025-04-15,229.0,229.0,overdue,True,GoFleet Corporation
+INV-060227-1,Darch Fire Inc,2025-04-18,341.26,341.26,overdue,True,GoFleet Corporation
+INV-061025,Diabolical haulerz,2025-04-13,667.01,60.01,overdue,True,GoFleet Corporation
+INV-061018,TRI-AIR SYSTEMS,2025-04-13,518.67,518.67,overdue,True,GoFleet Corporation
+INV-060982,Down to Earth,2025-04-11,26.54,26.54,overdue,True,GoFleet Corporation
+INV-060934,Advanced Fleet GPS,2025-04-09,145.77,145.77,overdue,True,GoFleet Corporation
+INV-060917,Khobran Holdings Ltd,2025-04-09,76.38,76.38,overdue,True,GoFleet Corporation
+INV-060904,University of Guelph,2025-04-09,144.64,144.64,overdue,True,GoFleet Corporation
+INV-060796,Brad Aitken dba Brad Aitken & Sons Trucking,2025-04-05,47.38,47.38,overdue,True,GoFleet Corporation
+INV-060743,Towtal Roadside Solutions Inc.,2025-04-04,1508.55,1508.55,overdue,True,GoFleet Corporation
+INV-060688,Peros Masonry,2025-04-02,339.0,339.0,overdue,True,GoFleet Corporation
+INV-060662,8857121 Canada inc,2025-04-02,263.13,263.13,overdue,True,GoFleet Corporation
+INV-060576,Talize,2025-03-31,51533.05,51533.05,overdue,True,GoFleet Corporation
+INV-060552,CR&R Waste,2025-03-30,30998.0,30998.0,overdue,True,GoFleet Corporation
+INV-060516,EBS Geostructural INC.,2025-03-29,350.87,350.87,overdue,True,GoFleet Corporation
+INV-060509,Gibraltar Mine,2025-03-28,3758.72,3758.72,overdue,True,GoFleet Corporation
+INV-059809,colossus security,2025-04-04,2090.5,2090.5,overdue,True,GoFleet Corporation
+INV-060340,Lindsay Beer Equestrian,2025-04-22,30.51,30.51,overdue,True,GoFleet Corporation
+INV-060334,A-1 Environmental Services,2025-04-22,683.66,683.66,overdue,True,GoFleet Corporation
+INV-060329,Trash Inc,2025-04-22,105.93,105.93,overdue,True,GoFleet Corporation
+INV-060327,Canadian Kraft Paper Industries Ltd.,2025-04-22,2155.65,2155.65,overdue,True,GoFleet Corporation
+INV-060324,TRS TRANSPORTATION LLC,2025-04-21,25.0,25.0,overdue,True,GoFleet Corporation
+INV-060317,Roof Tile Management,2025-04-21,791.0,791.0,overdue,True,GoFleet Corporation
+INV-060312,CanWing Travel LTD,2025-04-21,186.45,186.45,overdue,True,GoFleet Corporation
+INV-060311,F W Transport,2025-04-21,23.69,23.69,overdue,True,GoFleet Corporation
+INV-060306,Dom Amodeo Produce Ltd,2025-04-21,377.31,377.31,overdue,True,GoFleet Corporation
+INV-060305,Central Arizona Transport,2025-04-21,2983.91,2983.91,overdue,True,GoFleet Corporation
+INV-060297,"JENOPTIK Smart Mobility Solutions, LLC",2025-04-21,744.67,744.67,overdue,True,GoFleet Corporation
+INV-060294,Atlantic Alarm & Sound Ltd.,2025-04-21,316.25,316.25,overdue,True,GoFleet Corporation
+INV-060293,Cascades Canada ULC,2025-04-20,320.07,320.07,overdue,True,GoFleet Corporation
+INV-060278,Tolko Industries - High Level Woodlands (HLW),2025-04-20,9691.4,9691.4,overdue,True,GoFleet Corporation
+INV-060267,Mara Lumber,2025-04-19,115.32,115.32,overdue,True,GoFleet Corporation
+INV-060266,"California Waste Services, LLC",2025-04-19,179.7,179.7,overdue,True,GoFleet Corporation
+INV-060263,Nevius Entreprises LLC,2025-04-19,69.0,69.0,overdue,True,GoFleet Corporation
+INV-060261,DS Pipe and Steel Supply,2025-04-19,665.0,665.0,overdue,True,GoFleet Corporation
+INV-060259,"Lone Pine Bus Lines, Inc.",2025-04-19,370.8,370.8,overdue,True,GoFleet Corporation
+INV-060244,BMR Logistics LLC,2025-04-19,173.0,173.0,overdue,True,GoFleet Corporation
+INV-060239,VLocity Group,2025-04-19,515.0,515.0,overdue,True,GoFleet Corporation
+INV-060231,Hastings Utilities Contracting,2025-04-19,1243.0,1243.0,overdue,True,GoFleet Corporation
+INV-060228,EBS Geostructural INC.,2025-04-18,626.02,626.02,overdue,True,GoFleet Corporation
+INV-060226,Approved Site Services,2025-04-18,195.5,195.5,overdue,True,GoFleet Corporation
+INV-060225,Regional Municipality of York,2025-04-18,1241.42,1241.42,overdue,True,GoFleet Corporation
+INV-060224,Joe Johnson Equipment,2025-04-18,2922.18,2922.18,overdue,True,GoFleet Corporation
+INV-060223,Foss National Leasing Ltd.,2025-04-18,609.07,609.07,overdue,True,GoFleet Corporation
+INV-060222,Miller Waste Systems,2025-04-18,278.66,278.66,overdue,True,GoFleet Corporation
+INV-060221,Miller Waste Systems,2025-04-18,209.05,209.05,overdue,True,GoFleet Corporation
+INV-060220,Miller Waste Systems,2025-04-18,233.46,233.46,overdue,True,GoFleet Corporation
+INV-060219,Miller Waste Systems,2025-04-18,606.36,606.36,overdue,True,GoFleet Corporation
+INV-060214,CONTROLTEK INCORPORATED,2025-04-18,200.0,200.0,overdue,True,GoFleet Corporation
+INV-060213,Bright Lumber Inc,2025-04-18,175.0,175.0,overdue,True,GoFleet Corporation
+INV-060212,6251692 Canada Inc,2025-04-18,94.92,94.92,overdue,True,GoFleet Corporation
+INV-060202,Bailey Distribution LLC,2025-04-18,204.0,204.0,overdue,True,GoFleet Corporation
+INV-060199,Truck Transfer - Mississauga,2025-04-18,1245.26,1245.26,overdue,True,GoFleet Corporation
+INV-060196,Don Mashburn,2025-04-18,95.0,95.0,overdue,True,GoFleet Corporation
+INV-060189,Premier Concrete Pumping,2025-04-18,1050.9,1050.9,overdue,True,GoFleet Corporation
+INV-060187,Speedy Transport Group Inc.,2025-04-17,36623.02,36623.02,overdue,True,GoFleet Corporation
+INV-060186,San Antonio Water System,2025-04-17,1700.0,1700.0,overdue,True,GoFleet Corporation
+INV-060179,Speedi Shuttle,2025-04-17,10800.0,10800.0,overdue,True,GoFleet Corporation
+INV-060173,Burnbrae Farms - Winnipeg (MB),2025-04-17,463.05,463.05,overdue,True,GoFleet Corporation
+INV-060172,City of Moose Jaw,2025-04-17,5978.91,5978.91,overdue,True,GoFleet Corporation
+INV-060166,"Scapes, inc",2025-04-16,134.0,134.0,overdue,True,GoFleet Corporation
+INV-060162,Speedy Transport Group Inc.,2025-04-16,762.75,762.75,overdue,True,GoFleet Corporation
+INV-060160,Miller Waste Systems,2025-04-16,9540.0,9540.0,overdue,True,GoFleet Corporation
+INV-060158,City of Summerside,2025-04-16,368.0,368.0,overdue,True,GoFleet Corporation
+INV-060157,Maxim Truck & Trailer,2025-04-16,2373.0,2373.0,overdue,True,GoFleet Corporation
+INV-060156,Foss National Leasing Ltd.,2025-04-16,218.09,218.09,overdue,True,GoFleet Corporation
+INV-060155,Foss National Leasing Ltd.,2025-04-16,195.49,195.49,overdue,True,GoFleet Corporation
+INV-060154,Foss National Leasing Ltd.,2025-04-16,1875.8,1875.8,overdue,True,GoFleet Corporation
+INV-060153,Foss National Leasing Ltd.,2025-04-16,1691.61,1691.61,overdue,True,GoFleet Corporation
+INV-060151,Speedy Transport Group Inc.,2025-04-16,3457.8,3457.8,overdue,True,GoFleet Corporation
+INV-060148,Lux Car Hire Corp,2025-04-16,533.15,533.15,overdue,True,GoFleet Corporation
+INV-060145,San Antonio Water System,2025-04-16,1120.5,1120.5,overdue,True,GoFleet Corporation
+INV-060139,Ray Hamilton Co,2025-04-16,75.0,75.0,overdue,True,GoFleet Corporation
+INV-060138,Hydro Hauling Operations,2025-04-16,1704.26,1704.26,overdue,True,GoFleet Corporation
+INV-060137,San Antonio Water System,2025-04-16,23576.8,23576.8,overdue,True,GoFleet Corporation
+INV-060134,Total Street Maintenance Inc,2025-03-17,2348.14,2348.14,overdue,True,GoFleet Corporation
+INV-060128,SKO Logistics,2025-04-15,11.84,11.84,overdue,True,GoFleet Corporation
+INV-060122,High Value Logistix,2025-04-15,668.96,668.96,overdue,True,GoFleet Corporation
+INV-060114,G&I Logistics,2025-04-15,1585.74,1585.74,overdue,True,GoFleet Corporation
+INV-060112,Total Landscape,2025-04-15,692.4,692.4,overdue,True,GoFleet Corporation
+INV-060098,Bear Mountain Transport LLC,2025-04-14,23.0,23.0,overdue,True,GoFleet Corporation
+INV-060094,Mill Street Brewery,2025-04-14,123.74,123.74,overdue,True,GoFleet Corporation
+INV-060093,Guru Road Connections Ltd,2025-04-14,787.61,787.61,overdue,True,GoFleet Corporation
+INV-060092,Drewlo Holdings Inc.,2025-04-14,1267.86,1267.86,overdue,True,GoFleet Corporation
+INV-060088,Fleetsource Leasing,2025-04-14,2239.25,2239.25,overdue,True,GoFleet Corporation
+INV-060087,Driver Safety Technology,2025-04-14,885.0,885.0,overdue,True,GoFleet Corporation
+INV-060081,Foss National Leasing Ltd.,2025-04-14,24458.85,24458.85,overdue,True,GoFleet Corporation
+INV-060078,Beltway Driving Academy,2025-04-14,149.04,149.04,overdue,True,GoFleet Corporation
+INV-060073,Larry Potter Magicians,2025-04-14,51.93,51.93,overdue,True,GoFleet Corporation
+INV-060072,Parkview Building Supplies,2025-04-14,677.15,677.15,overdue,True,GoFleet Corporation
+INV-060066,Mercedes-Benz Markham,2025-04-14,71.02,71.02,overdue,True,GoFleet Corporation
+INV-060064,Mercedes-Benz The Queensway,2025-04-14,47.35,47.35,overdue,True,GoFleet Corporation
+INV-060056,San Antonio Water System,2025-04-13,604.62,604.62,overdue,True,GoFleet Corporation
+INV-060052,Fitzsimmons Hospital Services,2025-04-13,800.0,800.0,overdue,True,GoFleet Corporation
+INV-060051,Fitzsimmons Hospital Services,2025-04-13,1175.0,805.0,overdue,True,GoFleet Corporation
+INV-060050,Approved Site Services,2025-04-13,800.0,800.0,overdue,True,GoFleet Corporation
+INV-060049,Dufferin Peel Catholic District School Board,2025-04-13,361.6,361.6,overdue,True,GoFleet Corporation
+INV-060047,James Thoume Construction Ltd,2025-04-13,33.9,33.9,overdue,True,GoFleet Corporation
+INV-060045,5Starhaulers LLC,2025-04-13,23.0,23.0,overdue,True,GoFleet Corporation
+INV-060041,Spectaire,2025-04-13,59.0,59.0,overdue,True,GoFleet Corporation
+INV-060038,Martin Grove Volkswagen,2025-04-13,79.1,79.1,overdue,True,GoFleet Corporation
+INV-060027,9736484 Canada Corporation,2025-04-12,54.24,54.24,overdue,True,GoFleet Corporation
+INV-060011,TRI-AIR SYSTEMS,2025-03-13,488.16,488.16,overdue,True,GoFleet Corporation
+INV-059984,Transervice Logistics Inc.,2025-04-10,675.0,675.0,overdue,True,GoFleet Corporation
+INV-059974,San Antonio Water System,2025-04-10,4666.0,4666.0,overdue,True,GoFleet Corporation
+INV-059967,Nevada Department of Transportation (NDOT),2025-04-13,72686.25,72686.25,overdue,False,GoFleet Corporation
+INV-059947,Joe Johnson Equipment,2025-04-09,27835.29,27835.29,overdue,True,GoFleet Corporation
+INV-059943,Ellis Moving & Storage,2025-04-09,204.41,204.41,overdue,True,GoFleet Corporation
+INV-059942,"Highland Global, Inc.",2025-04-09,91.53,91.53,overdue,True,GoFleet Corporation
+INV-059940,Mint Tiny House Company,2025-04-09,27.48,27.48,overdue,True,GoFleet Corporation
+INV-059926,Unique Store Fixtures Ltd,2025-04-09,152.33,152.33,overdue,True,GoFleet Corporation
+INV-059924,Guru Road Connections Ltd,2025-04-09,932.4,932.4,overdue,True,GoFleet Corporation
+INV-059921,Sydney Airport,2025-04-08,1815.0,1815.0,overdue,True,GoFleet Corporation
+INV-059886,Eurcan Int'l Trading & Logistics Co.,2025-04-08,51.93,7.72,overdue,True,GoFleet Corporation
+INV-059876,A & A Transport LLC,2025-04-07,252.35,252.35,overdue,True,GoFleet Corporation
+INV-059875,Vale Canada Limited,2025-04-07,41.48,41.48,overdue,True,GoFleet Corporation
+INV-059857,Cascades Canada ULC,2025-04-06,5629.42,5629.42,overdue,True,GoFleet Corporation
+INV-059854,EVERGLADES HARVESTING INC,2025-04-06,350.0,350.0,overdue,True,GoFleet Corporation
+INV-059836,Huron Alloys,2025-04-06,237.3,237.3,overdue,True,GoFleet Corporation
+INV-059831,Mistic Hauling Inc,2025-04-05,87.15,87.15,overdue,True,GoFleet Corporation
+INV-059821,Bins on Wheels,2025-04-05,26.44,26.44,overdue,True,GoFleet Corporation
+INV-059810,Miller Waste Systems,2025-04-04,519.8,519.8,overdue,True,GoFleet Corporation
+INV-059794,Cresco lines,2025-04-04,20.0,20.0,overdue,True,GoFleet Corporation
+INV-059790,Imperial Fence,2025-04-04,689.3,38.42,overdue,True,GoFleet Corporation
+INV-059786,Electrical Contracting,2025-04-04,719.58,719.58,overdue,True,GoFleet Corporation
+INV-059754,dnata,2025-03-30,7500.0,7500.0,overdue,False,GoFleet Corporation
+INV-059753,dnata,2025-03-30,8640.0,8640.0,overdue,False,GoFleet Corporation
+INV-059752,dnata,2025-03-30,4739.55,4739.55,overdue,False,GoFleet Corporation
+INV-059751,dnata,2025-03-30,750.0,750.0,overdue,False,GoFleet Corporation
+INV-059750,dnata,2025-03-30,11820.0,11820.0,overdue,False,GoFleet Corporation
+INV-059748,Freewind Bus Service,2025-04-02,113.0,113.0,overdue,True,GoFleet Corporation
+INV-059743,CLK/Carl’s Jr./Jamba Juice,2025-04-02,210.0,210.0,overdue,True,GoFleet Corporation
+INV-059720,FNBP 55 LLC,2025-04-01,90.9,90.9,overdue,True,GoFleet Corporation
+INV-059706,"Partners, Corp.",2025-04-01,121.56,121.56,overdue,True,GoFleet Corporation
+INV-059698,Hawthorne Foundation Inc.,2025-04-01,490.0,490.0,overdue,True,GoFleet Corporation
+INV-059691,Whitelaw Transportation Solutions,2025-04-01,101.7,101.7,overdue,True,GoFleet Corporation
+INV-059690,SASK FREIGHTLINES,2025-04-01,518.33,518.33,overdue,True,GoFleet Corporation
+INV-059686,Precise Logistics Inc,2025-03-31,33.9,0.6,overdue,True,GoFleet Corporation
+INV-059676,JRC Trucking LLC,2025-03-31,20.57,20.57,overdue,True,GoFleet Corporation
+INV-059641,Burnbrae Farms - Mississauga (ON),2025-03-31,1736.25,1736.25,overdue,True,GoFleet Corporation
+INV-059633,VNH Enterprises,2025-03-30,791.0,791.0,overdue,True,GoFleet Corporation
+INV-059631,Nevada Department of Transportation (NDOT),2025-04-02,72706.75,72706.75,overdue,False,GoFleet Corporation
+INV-059621,Dedicated Transport Inc.,2025-03-30,27.12,27.12,overdue,True,GoFleet Corporation
+INV-059619,The Electronic Recycling Association (ERA),2025-03-30,128.88,128.88,overdue,True,GoFleet Corporation
+INV-059610,Mag Mile Logistic,2025-03-30,46.0,46.0,overdue,True,GoFleet Corporation
+INV-059574,ClearPath Utility Solutions LLC,2025-03-30,1715.7,1715.7,overdue,True,GoFleet Corporation
+INV-059565,LC Construction,2025-03-30,337.6,337.6,overdue,True,GoFleet Corporation
+INV-059561,Beaver Valley Environmental LLC,2025-03-30,156.15,156.15,overdue,True,GoFleet Corporation
+INV-059557,CR&R Waste,2025-02-28,30509.0,30509.0,overdue,True,GoFleet Corporation
+INV-059555,Pilot Freight Services,2025-03-30,25.9,25.9,overdue,True,GoFleet Corporation
+INV-059487,VNH Enterprises,2025-03-29,290.0,290.0,overdue,True,GoFleet Corporation
+INV-059484,Cascades Canada ULC,2025-03-29,45.2,45.2,overdue,True,GoFleet Corporation
+INV-059476,Speedy Transport Group Inc.,2025-03-28,847.5,847.5,overdue,True,GoFleet Corporation
+INV-059474,CR&R Waste,2025-03-28,1462.0,1462.0,overdue,True,GoFleet Corporation
+INV-059473,Mamba Global Logistics LLC,2025-03-28,23.0,23.0,overdue,True,GoFleet Corporation
+INV-059456,Aecon Utilities (US) Ltd.,2025-03-27,146.0,146.0,overdue,True,GoFleet Corporation
+INV-059439,JAW Logistics Corp,2025-03-27,29.85,29.85,overdue,True,GoFleet Corporation
+INV-059425,PG Parks,2025-03-26,3075.0,3075.0,overdue,True,GoFleet Corporation
+INV-059405,NMPHC,2025-03-26,273.45,273.45,overdue,True,GoFleet Corporation
+INV-059383,Trash Inc,2025-03-25,105.93,105.93,overdue,True,GoFleet Corporation
+INV-059366,CanWing Travel LTD,2025-03-24,124.3,124.3,overdue,True,GoFleet Corporation
+INV-059359,Central Arizona Transport,2025-03-24,2983.91,2983.91,overdue,True,GoFleet Corporation
+INV-059350,Tolko Industries - Southern Interior (SIW),2025-03-24,1140.5,1140.5,overdue,True,GoFleet Corporation
+INV-059346,Roof Pro Plus Home Improvements South,2025-03-23,169.5,169.5,overdue,True,GoFleet Corporation
+INV-059340,Foss National Leasing Ltd.,2025-03-23,1323.23,1323.23,overdue,True,GoFleet Corporation
+INV-059339,Foss National Leasing Ltd.,2025-03-23,586.47,586.47,overdue,True,GoFleet Corporation
+INV-059338,Foss National Leasing Ltd.,2025-03-23,1323.23,1323.23,overdue,True,GoFleet Corporation
+INV-059335,5Starhaulers LLC,2025-03-23,35.0,35.0,overdue,True,GoFleet Corporation
+INV-059333,Foss National Leasing Ltd.,2025-03-23,770.66,770.66,overdue,True,GoFleet Corporation
+INV-059323,Cascades Holding US Inc,2025-03-23,2548.4,1290.5,overdue,True,GoFleet Corporation
+INV-059303,Nevius Entreprises LLC,2025-03-22,69.0,69.0,overdue,True,GoFleet Corporation
+INV-059301,DS Pipe and Steel Supply,2025-03-22,1022.0,112.0,overdue,True,GoFleet Corporation
+INV-059279,VLocity Group,2025-03-22,515.0,515.0,overdue,True,GoFleet Corporation
+INV-059254,Smith Casing,2025-03-21,50.0,50.0,overdue,True,GoFleet Corporation
+INV-059232,Truck Transfer - Mississauga,2025-03-21,1245.26,1245.26,overdue,True,GoFleet Corporation
+INV-059223,Miles Tire,2025-03-21,406.58,406.58,overdue,True,GoFleet Corporation
+INV-059221,Cascades Canada ULC,2025-03-20,372.28,372.28,overdue,True,GoFleet Corporation
+INV-059186,Ray Hamilton Co,2025-03-19,75.0,75.0,overdue,True,GoFleet Corporation
+INV-059175,SKO Logistics,2025-03-18,23.69,23.69,overdue,True,GoFleet Corporation
+INV-059161,G&I Logistics,2025-03-18,1594.74,1594.74,overdue,True,GoFleet Corporation
+INV-059141,Mill Street Brewery,2025-03-17,123.74,123.74,overdue,True,GoFleet Corporation
+INV-059124,Beltway Driving Academy,2025-03-17,149.04,149.04,overdue,True,GoFleet Corporation
+INV-059102,5Starhaulers LLC,2025-03-16,23.0,23.0,overdue,True,GoFleet Corporation
+INV-059085,CR&R Waste,2025-03-15,1956.0,1956.0,overdue,True,GoFleet Corporation
+INV-059058,TRI-AIR SYSTEMS,2025-02-13,488.16,9.0,overdue,True,GoFleet Corporation
+INV-059041,Oregon Department of Transportation (ODOT),2025-03-13,37972.2,37972.2,overdue,False,GoFleet Corporation
+INV-059038,Midnight Hauling,2025-03-14,36.0,36.0,overdue,True,GoFleet Corporation
+INV-058993,"Highland Global, Inc.",2025-03-12,91.53,91.53,overdue,True,GoFleet Corporation
+INV-058977,Unique Store Fixtures Ltd,2025-03-12,152.33,152.33,overdue,True,GoFleet Corporation
+INV-058973,Regional Municipality of York,2025-03-11,565.0,565.0,overdue,True,GoFleet Corporation
+INV-058971,Sydney Airport,2025-03-11,715.0,715.0,overdue,True,GoFleet Corporation
+INV-058966,Gordon Devauld Trucking,2025-03-11,76.38,76.38,overdue,True,GoFleet Corporation
+INV-058959,Hiller Truck Tech Inc.,2025-03-11,33.9,33.9,overdue,True,GoFleet Corporation
+INV-058919,H & R Logistics LLC,2025-03-10,20.6,20.6,overdue,True,GoFleet Corporation
+INV-058911,Vale Canada Limited,2025-03-10,624.89,624.89,overdue,True,GoFleet Corporation
+INV-058909,GMH Fleet Services Inc,2025-03-10,109.63,109.63,overdue,True,GoFleet Corporation
+INV-058900,EVERGLADES HARVESTING INC,2025-03-09,350.0,350.0,overdue,True,GoFleet Corporation
+INV-058896,Layten gould,2025-03-09,30.9,30.9,overdue,True,GoFleet Corporation
+INV-058867,Trans-Cold,2025-03-08,1056.98,1056.98,overdue,True,GoFleet Corporation
+INV-058865,Joe Johnson Equipment,2025-03-08,25897.34,11480.76,overdue,True,GoFleet Corporation
+INV-058814,Frontline Hauling LLC,2025-03-06,391.0,391.0,overdue,True,GoFleet Corporation
+INV-058812,Ojeda’s Transport LLC,2025-03-06,23.69,23.69,overdue,True,GoFleet Corporation
+INV-058776,CLK/Carl’s Jr./Jamba Juice,2025-03-05,210.0,210.0,overdue,True,GoFleet Corporation
+INV-058747,Damas Logistics LLC,2025-02-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-058739,"Partners, Corp.",2025-03-04,121.56,121.56,overdue,True,GoFleet Corporation
+INV-058710,JRC Trucking LLC,2025-03-03,20.57,20.57,overdue,True,GoFleet Corporation
+INV-058664,Miller Waste Systems,2025-03-02,6531.4,6531.4,overdue,True,GoFleet Corporation
+INV-058650,Mistik Management Ltd.,2025-03-02,206.46,206.46,overdue,True,GoFleet Corporation
+INV-058641,ClearPath Utility Solutions LLC,2025-03-02,1715.7,1715.7,overdue,True,GoFleet Corporation
+INV-058638,Ottawa Dental Laboratory LLC,2025-03-01,560.0,560.0,overdue,True,GoFleet Corporation
+INV-058637,Miller Waste Systems,2025-03-01,8928.07,8928.07,overdue,True,GoFleet Corporation
+INV-058632,Oregon Department of Transportation (ODOT),2025-03-01,40.0,40.0,overdue,True,GoFleet Corporation
+INV-058613,Beaver Valley Environmental LLC,2025-03-01,156.15,156.15,overdue,True,GoFleet Corporation
+INV-058591,San Antonio Water System,2025-02-28,604.62,604.62,overdue,True,GoFleet Corporation
+INV-058581,Regional Municipality of York,2025-02-28,336.85,336.85,overdue,True,GoFleet Corporation
+INV-058576,Dedicated Transport Inc.,2025-02-28,27.12,27.12,overdue,True,GoFleet Corporation
+INV-058574,The Electronic Recycling Association (ERA),2025-02-28,128.88,128.88,overdue,True,GoFleet Corporation
+INV-058567,Mag Mile Logistic,2025-02-28,46.0,46.0,overdue,True,GoFleet Corporation
+INV-058524,LC Construction,2025-02-27,337.6,337.6,overdue,True,GoFleet Corporation
+INV-058520,Pilot Freight Services,2025-02-27,25.9,25.9,overdue,True,GoFleet Corporation
+INV-058504,Mtr Logistics LLC,2025-02-26,30.0,30.0,overdue,True,GoFleet Corporation
+INV-058475,Mamba Global Logistics LLC,2025-02-25,23.0,23.0,overdue,True,GoFleet Corporation
+INV-058473,VNH Enterprises,2025-02-25,791.0,791.0,overdue,True,GoFleet Corporation
+INV-058455,Aecon Utilities (US) Ltd.,2025-02-24,146.0,146.0,overdue,True,GoFleet Corporation
+INV-058437,JAW Logistics Corp,2025-02-24,29.85,29.85,overdue,True,GoFleet Corporation
+INV-058420,"AICS, a div of Aecon Construction Group Inc",2025-02-23,58.76,58.76,overdue,True,GoFleet Corporation
+INV-058379,Trash Inc,2025-02-22,158.9,158.9,overdue,True,GoFleet Corporation
+INV-058362,CanWing Travel LTD,2025-02-21,124.3,124.3,overdue,True,GoFleet Corporation
+INV-058361,F W Transport,2025-02-21,23.69,23.69,overdue,True,GoFleet Corporation
+INV-058354,Central Arizona Transport,2025-02-21,2983.91,2983.91,overdue,True,GoFleet Corporation
+INV-058319,Frontline Hauling LLC,2025-02-19,23.0,23.0,overdue,True,GoFleet Corporation
+INV-058318,Nevius Entreprises LLC,2025-02-19,69.0,69.0,overdue,True,GoFleet Corporation
+INV-058294,VLocity Group,2025-02-19,530.45,530.45,overdue,True,GoFleet Corporation
+INV-058270,Truck Transfer - Mississauga,2025-02-18,1508.66,1508.66,overdue,True,GoFleet Corporation
+INV-058234,Miller Waste Systems,2025-02-16,1704.35,1704.35,overdue,True,GoFleet Corporation
+INV-058210,Jl Transportation LLC,2025-02-15,11.5,11.5,overdue,True,GoFleet Corporation
+INV-058209,SKO Logistics,2025-02-15,23.69,23.69,overdue,True,GoFleet Corporation
+INV-058207,GoWrench,2025-02-15,45.2,45.2,overdue,True,GoFleet Corporation
+INV-058169,Mill Street Brewery,2025-02-14,123.74,123.74,overdue,True,GoFleet Corporation
+INV-058130,Burnbrae Farms - Mississauga (ON),2025-02-13,847.5,847.5,overdue,True,GoFleet Corporation
+INV-058107,Gordon Devauld Trucking,2025-01-13,56.0,56.0,overdue,True,GoFleet Corporation
+INV-058091,One Transport Inc,2025-02-12,25.99,25.99,overdue,True,GoFleet Corporation
+INV-058076,Midnight Hauling,2025-02-11,36.0,36.0,overdue,True,GoFleet Corporation
+INV-058074,Dedicated Boundless LLC,2025-02-11,21.0,21.0,overdue,True,GoFleet Corporation
+INV-058063,BSC Technologies,2025-02-11,4874.5,4874.5,overdue,True,GoFleet Corporation
+INV-058011,Sydney Airport,2025-02-08,715.0,715.0,overdue,True,GoFleet Corporation
+INV-058006,Gordon Devauld Trucking,2025-02-08,76.38,76.38,overdue,True,GoFleet Corporation
+INV-057999,Hiller Truck Tech Inc.,2025-02-08,33.9,33.9,overdue,True,GoFleet Corporation
+INV-057963,Speedy Transport Group Inc.,2025-02-07,206.79,206.79,overdue,True,GoFleet Corporation
+INV-057931,EVERGLADES HARVESTING INC,2025-02-06,350.0,350.0,overdue,True,GoFleet Corporation
+INV-057866,Ojeda’s Transport LLC,2025-02-03,23.69,23.69,overdue,True,GoFleet Corporation
+INV-057837,VNH Enterprises,2025-02-02,190.0,190.0,overdue,True,GoFleet Corporation
+INV-057833,NS Transport Logistics Inc,2025-02-02,33.9,33.9,overdue,True,GoFleet Corporation
+INV-057802,Regional Municipality of York,2025-02-01,445.73,445.73,overdue,True,GoFleet Corporation
+INV-057794,Damas Logistics LLC,2025-01-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-057786,"Partners, Corp.",2025-02-01,121.56,121.56,overdue,True,GoFleet Corporation
+INV-057764,"Goat Transport & Logistics, Inc",2025-01-31,12.5,12.5,overdue,True,GoFleet Corporation
+INV-057711,Oregon Department of Transportation (ODOT),2025-01-30,15093.92,15093.92,overdue,False,GoFleet Corporation
+INV-057700,ClearPath Utility Solutions LLC,2025-01-30,1715.7,1715.7,overdue,True,GoFleet Corporation
+INV-057684,Beaver Valley Environmental LLC,2025-01-29,156.15,156.15,overdue,True,GoFleet Corporation
+INV-057672,Miller Waste Systems,2025-01-28,185.0,185.0,overdue,True,GoFleet Corporation
+INV-057669,Dedicated Transport Inc.,2025-01-28,27.12,27.12,overdue,True,GoFleet Corporation
+INV-057667,The Electronic Recycling Association (ERA),2025-01-28,77.33,77.33,overdue,True,GoFleet Corporation
+INV-057660,Mag Mile Logistic,2025-01-28,46.0,46.0,overdue,True,GoFleet Corporation
+INV-057618,LC Construction,2025-01-27,337.6,337.6,overdue,True,GoFleet Corporation
+INV-057596,Mtr Logistics LLC,2025-01-26,30.0,30.0,overdue,True,GoFleet Corporation
+INV-057570,Mamba Global Logistics LLC,2025-01-25,23.0,23.0,overdue,True,GoFleet Corporation
+INV-057552,Aecon Utilities (US) Ltd.,2025-01-24,10.0,10.0,overdue,True,GoFleet Corporation
+INV-057534,JAW Logistics Corp,2025-01-24,29.85,29.85,overdue,True,GoFleet Corporation
+INV-057509,Audette’s Moving Inc,2025-01-23,25.99,25.99,overdue,True,GoFleet Corporation
+INV-057503,Myrlene - Leyana Trucking LLC,2025-01-23,71.02,71.02,overdue,True,GoFleet Corporation
+INV-057490,CR&R Waste,2025-01-22,105.0,105.0,overdue,True,GoFleet Corporation
+INV-057486,CR&R Waste,2025-01-22,1670.0,1670.0,overdue,True,GoFleet Corporation
+INV-057485,CR&R Waste,2025-01-22,1670.0,1670.0,overdue,True,GoFleet Corporation
+INV-057484,CR&R Waste,2025-01-22,1670.0,1670.0,overdue,True,GoFleet Corporation
+INV-057483,CR&R Waste,2025-01-22,1670.0,1670.0,overdue,True,GoFleet Corporation
+INV-057482,CR&R Waste,2025-01-22,1670.0,1670.0,overdue,True,GoFleet Corporation
+INV-057481,CR&R Waste,2025-01-22,1250.0,1250.0,overdue,True,GoFleet Corporation
+INV-057480,CR&R Waste,2025-01-22,1250.0,1250.0,overdue,True,GoFleet Corporation
+INV-057479,CR&R Waste,2025-01-22,1250.0,1250.0,overdue,True,GoFleet Corporation
+INV-057452,Burnbrae Farms - Mississauga (ON),2025-01-21,1949.25,1949.25,overdue,True,GoFleet Corporation
+INV-057423,CanWing Travel LTD,2025-01-21,186.45,186.45,overdue,True,GoFleet Corporation
+INV-057415,Central Arizona Transport,2025-01-21,2983.91,2983.91,overdue,True,GoFleet Corporation
+INV-057394,Rebuild Transportation LLC,2025-01-20,20.6,20.6,overdue,True,GoFleet Corporation
+INV-057391,J & M Towing,2025-01-20,25.75,25.75,overdue,True,GoFleet Corporation
+INV-057367,Regional Municipality of York,2025-01-19,1625.39,1625.39,overdue,True,GoFleet Corporation
+INV-057363-A,Miller Waste Systems,2025-01-19,12599.9,12599.9,overdue,True,GoFleet Corporation
+INV-057361,Frontline Hauling LLC,2025-01-19,23.0,23.0,overdue,True,GoFleet Corporation
+INV-057360,Nevius Entreprises LLC,2025-01-19,69.0,69.0,overdue,True,GoFleet Corporation
+INV-057358,A United International Inc,2025-01-19,36.05,36.05,overdue,True,GoFleet Corporation
+INV-057335,VLocity Group,2025-01-19,530.45,530.45,overdue,True,GoFleet Corporation
+INV-057324,Oregon Department of Transportation (ODOT),2025-01-18,5198.0,5198.0,overdue,True,GoFleet Corporation
+INV-057296,Miller Waste Systems,2025-01-17,3315.82,3315.82,overdue,True,GoFleet Corporation
+INV-057291,Nevada Department of Transportation (NDOT),2025-01-17,5305.0,5305.0,overdue,True,GoFleet Corporation
+INV-057259,Nevada Department of Transportation (NDOT),2025-01-16,40.0,40.0,overdue,True,GoFleet Corporation
+INV-057257,Oregon Department of Transportation (ODOT),2025-01-16,50.0,50.0,overdue,True,GoFleet Corporation
+INV-057256,Oregon Department of Transportation (ODOT),2025-01-16,208.4,208.4,overdue,True,GoFleet Corporation
+INV-057255,Oregon Department of Transportation (ODOT),2025-01-16,148.08,148.08,overdue,True,GoFleet Corporation
+INV-057221,Oregon Department of Transportation (ODOT),2025-01-15,50.0,50.0,overdue,True,GoFleet Corporation
+INV-057219,Jl Transportation LLC,2025-01-15,23.0,23.0,overdue,True,GoFleet Corporation
+INV-057218,SKO Logistics,2025-01-15,23.69,23.69,overdue,True,GoFleet Corporation
+INV-057216,GoWrench,2025-01-15,45.2,45.2,overdue,True,GoFleet Corporation
+INV-057183,Mill Street Brewery,2025-01-14,123.74,123.74,overdue,True,GoFleet Corporation
+INV-057174,Canadian Fruit & Product Company,2025-01-14,203.4,203.4,overdue,True,GoFleet Corporation
+INV-057105,Midnight Hauling,2025-01-11,36.0,36.0,overdue,True,GoFleet Corporation
+INV-057103,Dedicated Boundless LLC,2025-01-11,21.0,21.0,overdue,True,GoFleet Corporation
+INV-057098,Mansha Transport & Logistics Inc,2025-01-11,60.01,60.01,overdue,True,GoFleet Corporation
+INV-057034,Miller Waste Systems,2025-01-08,1925.92,1925.92,overdue,True,GoFleet Corporation
+INV-057023,Gordon Devauld Trucking,2025-01-08,76.38,76.38,overdue,True,GoFleet Corporation
+INV-057016,Hiller Truck Tech Inc.,2025-01-08,33.9,33.9,overdue,True,GoFleet Corporation
+INV-056954,EVERGLADES HARVESTING INC,2025-01-06,350.0,350.0,overdue,True,GoFleet Corporation
+INV-056865,Ojeda’s Transport LLC,2025-01-03,23.69,23.69,overdue,True,GoFleet Corporation
+INV-056819,NS Transport Logistics Inc,2025-01-02,67.8,49.84,overdue,True,GoFleet Corporation
+INV-056780,Burnbrae Farms - Lyn (ON),2025-01-01,80.8,80.8,overdue,True,GoFleet Corporation
+INV-056770,Damas Logistics LLC,2024-12-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-056769,AJ Sabbath Logistics LLC,2025-01-01,11.84,11.84,overdue,True,GoFleet Corporation
+INV-056737,"Goat Transport & Logistics, Inc",2024-12-31,25.0,25.0,overdue,True,GoFleet Corporation
+INV-056720,Aecon Transportation West,2025-03-01,6762.0,6762.0,overdue,True,GoFleet Corporation
+INV-056684,KRK HAULING AND TRANSPORTING LLC,2024-12-30,51.4,51.4,overdue,True,GoFleet Corporation
+INV-056662,Beaver Valley Environmental LLC,2024-12-30,156.15,156.15,overdue,True,GoFleet Corporation
+INV-056645,Dedicated Transport Inc.,2024-12-29,27.12,27.12,overdue,True,GoFleet Corporation
+INV-056636,Mag Mile Logistic,2024-12-29,46.0,46.0,overdue,True,GoFleet Corporation
+INV-056594,LC Construction,2024-12-28,337.6,337.6,overdue,True,GoFleet Corporation
+INV-056573,Mtr Logistics LLC,2024-12-27,30.0,30.0,overdue,True,GoFleet Corporation
+INV-056525,Aecon Utilities (US) Ltd.,2024-12-25,10.0,10.0,overdue,True,GoFleet Corporation
+INV-056507,JAW Logistics Corp,2024-12-25,29.85,29.85,overdue,True,GoFleet Corporation
+INV-056478,Myrlene - Leyana Trucking LLC,2024-12-24,71.02,71.02,overdue,True,GoFleet Corporation
+INV-056433,CanWing Travel LTD,2024-12-22,136.73,136.73,overdue,True,GoFleet Corporation
+INV-056417,Tolko Industries - Southern Interior (SIW),2024-12-22,1710.74,1710.74,overdue,True,GoFleet Corporation
+INV-056405,Rebuild Transportation LLC,2024-12-21,20.6,20.6,overdue,True,GoFleet Corporation
+INV-056401,J & M Towing,2024-12-21,25.75,25.75,overdue,True,GoFleet Corporation
+INV-056388,Trinity Communication,2024-12-20,197.75,197.75,overdue,True,GoFleet Corporation
+INV-056370,Frontline Hauling LLC,2024-12-20,23.0,23.0,overdue,True,GoFleet Corporation
+INV-056369,Nevius Entreprises LLC,2024-12-20,46.0,46.0,overdue,True,GoFleet Corporation
+INV-056367,A United International Inc,2024-12-20,36.05,36.05,overdue,True,GoFleet Corporation
+INV-056343,VLocity Group,2024-12-20,530.45,530.45,overdue,True,GoFleet Corporation
+INV-056321,Har-Cor Construction Ltd,2024-12-19,36.8,36.8,overdue,True,GoFleet Corporation
+INV-056254,Jl Transportation LLC,2024-12-16,23.0,23.0,overdue,True,GoFleet Corporation
+INV-056253,SKO Logistics,2024-12-16,23.69,23.69,overdue,True,GoFleet Corporation
+INV-056251,GoWrench,2024-12-16,45.2,45.2,overdue,True,GoFleet Corporation
+INV-056209,Canadian Fruit & Product Company,2024-12-15,203.4,203.4,overdue,True,GoFleet Corporation
+INV-056127,Midnight Hauling,2024-12-12,36.0,36.0,overdue,True,GoFleet Corporation
+INV-056125,Dedicated Boundless LLC,2024-12-12,21.0,21.0,overdue,True,GoFleet Corporation
+INV-056120,Mansha Transport & Logistics Inc,2024-12-12,120.02,120.02,overdue,True,GoFleet Corporation
+INV-056114,S & M Trucking Trans LLC,2024-12-12,28.84,28.84,overdue,True,GoFleet Corporation
+INV-056054,Gordon Devauld Trucking,2024-12-09,76.38,76.38,overdue,True,GoFleet Corporation
+INV-056047,Hiller Truck Tech Inc.,2024-12-09,33.9,33.9,overdue,True,GoFleet Corporation
+INV-055973,EVERGLADES HARVESTING INC,2024-12-07,350.0,350.0,overdue,True,GoFleet Corporation
+INV-055910,BSides Logistics,2024-11-05,23.0,23.0,overdue,True,GoFleet Corporation
+INV-055827,Damas Logistics LLC,2024-11-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-055826,AJ Sabbath Logistics LLC,2024-12-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-055771,"Goat Transport & Logistics, Inc",2024-12-01,25.0,25.0,overdue,True,GoFleet Corporation
+INV-055705,CR&R Waste,2024-11-30,1831.0,1831.0,overdue,True,GoFleet Corporation
+INV-055682,KRK HAULING AND TRANSPORTING LLC,2024-11-29,51.4,51.4,overdue,True,GoFleet Corporation
+INV-055642,Mag Mile Logistic,2024-11-28,46.0,46.0,overdue,True,GoFleet Corporation
+INV-055577,Mtr Logistics LLC,2024-11-26,30.0,30.0,overdue,True,GoFleet Corporation
+INV-055530,Aecon Utilities (US) Ltd.,2024-11-24,10.0,10.0,overdue,True,GoFleet Corporation
+INV-055513,"Maroon Group, LLC",2024-11-24,187.9,187.9,overdue,True,GoFleet Corporation
+INV-055490,Dufresne Furniture,2024-11-23,145.6,145.6,overdue,True,GoFleet Corporation
+INV-055484,CR&R Waste,2024-11-23,18230.5,18230.5,overdue,True,GoFleet Corporation
+INV-055440,Myrlene - Leyana Trucking LLC,2024-11-23,71.02,71.02,overdue,True,GoFleet Corporation
+INV-055404,Miller Waste Systems,2024-11-21,258.77,258.77,overdue,True,GoFleet Corporation
+INV-055356,Rebuild Transportation LLC,2024-11-20,20.6,20.6,overdue,True,GoFleet Corporation
+INV-055351,J & M Towing,2024-11-20,25.75,25.75,overdue,True,GoFleet Corporation
+INV-055338,Nevius Entreprises LLC,2024-11-19,46.0,46.0,overdue,True,GoFleet Corporation
+INV-055335,A United International Inc,2024-11-19,36.05,36.05,overdue,True,GoFleet Corporation
+INV-055290,Har-Cor Construction Ltd,2024-11-18,36.8,30.4,overdue,True,GoFleet Corporation
+INV-055270,VNH Enterprises,2024-11-17,417.0,417.0,overdue,True,GoFleet Corporation
+INV-055214,Jl Transportation LLC,2024-11-15,23.0,23.0,overdue,True,GoFleet Corporation
+INV-055210,GoWrench,2024-11-15,45.2,45.2,overdue,True,GoFleet Corporation
+INV-055092,Midnight Hauling,2024-11-11,36.0,36.0,overdue,True,GoFleet Corporation
+INV-055090,Dedicated Boundless LLC,2024-11-11,21.0,21.0,overdue,True,GoFleet Corporation
+INV-055085,Mansha Transport & Logistics Inc,2024-11-11,120.02,120.02,overdue,True,GoFleet Corporation
+INV-055078,S & M Trucking Trans LLC,2024-11-11,28.84,28.84,overdue,True,GoFleet Corporation
+INV-055062,CR&R Waste,2024-11-10,2081.5,2081.5,overdue,True,GoFleet Corporation
+INV-055048,HDM Transportation,2024-11-10,33.94,33.94,overdue,True,GoFleet Corporation
+INV-054996,Gordon Devauld Trucking,2024-11-08,76.38,76.38,overdue,True,GoFleet Corporation
+INV-054989,Hiller Truck Tech Inc.,2024-11-08,33.9,33.9,overdue,True,GoFleet Corporation
+INV-054974,Shockwave services llc,2024-11-08,118.77,118.77,overdue,True,GoFleet Corporation
+INV-054964,Riverside Concrete Forming,2024-11-08,946.94,946.94,overdue,True,GoFleet Corporation
+INV-054849,BSides Logistics,2024-10-05,23.0,23.0,overdue,True,GoFleet Corporation
+INV-054752,AJ Sabbath Logistics LLC,2024-11-01,23.69,23.69,overdue,True,GoFleet Corporation
+INV-054719,"Goat Transport & Logistics, Inc",2024-10-31,25.0,25.0,overdue,True,GoFleet Corporation
+INV-054658,KRK HAULING AND TRANSPORTING LLC,2024-10-30,51.4,51.4,overdue,True,GoFleet Corporation
+INV-054617,Dedicated Transport Inc.,2024-10-29,27.12,27.12,overdue,True,GoFleet Corporation
+INV-054606,Mag Mile Logistic,2024-10-29,46.0,46.0,overdue,True,GoFleet Corporation
+INV-054539,Mtr Logistics LLC,2024-10-27,30.0,30.0,overdue,True,GoFleet Corporation
+INV-054481,Aecon Utilities (US) Ltd.,2024-10-25,10.0,10.0,overdue,True,GoFleet Corporation
+INV-054435,Myrlene - Leyana Trucking LLC,2024-10-24,71.02,71.02,overdue,True,GoFleet Corporation
+INV-054356,Rebuild Transportation LLC,2024-10-21,20.6,20.6,overdue,True,GoFleet Corporation
+INV-054351,J & M Towing,2024-10-21,25.75,25.75,overdue,True,GoFleet Corporation
+INV-054331,A United International Inc,2024-10-20,36.05,36.05,overdue,True,GoFleet Corporation
+INV-054194,Jl Transportation LLC,2024-10-16,23.0,23.0,overdue,True,GoFleet Corporation
+INV-054190,GoWrench,2024-10-16,45.2,45.2,overdue,True,GoFleet Corporation
+INV-054062,Midnight Hauling,2024-10-12,36.0,36.0,overdue,True,GoFleet Corporation
+INV-054060,Dedicated Boundless LLC,2024-10-12,21.0,21.0,overdue,True,GoFleet Corporation
+INV-054053,Mansha Transport & Logistics Inc,2024-10-12,120.02,120.02,overdue,True,GoFleet Corporation
+INV-054046,S & M Trucking Trans LLC,2024-10-12,28.84,28.84,overdue,True,GoFleet Corporation
+INV-054018,HDM Transportation,2024-10-11,33.94,33.94,overdue,True,GoFleet Corporation
+INV-053983,"Safebus Technologies, Inc.",2024-10-10,90.64,90.64,overdue,True,GoFleet Corporation
+INV-053974,Gordon Devauld Trucking,2024-10-09,76.38,76.38,overdue,True,GoFleet Corporation
+INV-053967,Hiller Truck Tech Inc.,2024-10-09,33.9,33.9,overdue,True,GoFleet Corporation
+INV-053952,Shockwave services llc,2024-10-09,118.77,118.77,overdue,True,GoFleet Corporation
+INV-053841,BSides Logistics,2024-09-05,23.0,23.0,overdue,True,GoFleet Corporation
+INV-053823,Ojeda’s Transport LLC,2024-10-04,23.69,23.69,overdue,True,GoFleet Corporation
+INV-053781,Darrick Divine,2024-10-03,600.0,600.0,overdue,True,GoFleet Corporation
+INV-053742,AJ Sabbath Logistics LLC,2024-10-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-053711,"Goat Transport & Logistics, Inc",2024-10-01,25.0,25.0,overdue,True,GoFleet Corporation
+INV-053642,CR&R Waste,2024-09-29,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053640,CR&R Waste,2024-09-29,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053638,KRK HAULING AND TRANSPORTING LLC,2024-09-29,51.4,51.4,overdue,True,GoFleet Corporation
+INV-053570,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053569,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053568,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053567,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053566,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053565,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053564,CR&R Waste,2024-09-27,1670.1,1670.1,overdue,True,GoFleet Corporation
+INV-053497,Cinmar Group Inc.,2024-08-26,596.64,596.64,overdue,True,GoFleet Corporation
+INV-053426,Myrlene - Leyana Trucking LLC,2024-09-23,71.02,71.02,overdue,True,GoFleet Corporation
+INV-053382,Canadian Kraft Paper Industries Ltd.,2024-09-21,5456.9,5456.9,overdue,True,GoFleet Corporation
+INV-053373,JCV Transport,2024-08-22,25.7,25.7,overdue,True,GoFleet Corporation
+INV-053324,TEST,2024-09-20,2.5,2.5,overdue,False,GoFleet Corporation
+INV-053305,T Coleman Trucking LLC,2024-08-21,23.96,23.96,overdue,True,GoFleet Corporation
+INV-053298,Rebuild Transportation LLC,2024-09-20,20.6,20.6,overdue,True,GoFleet Corporation
+INV-053293,J & M Towing,2024-09-20,25.75,25.75,overdue,True,GoFleet Corporation
+INV-053267,A United International Inc,2024-09-19,36.05,36.05,overdue,True,GoFleet Corporation
+INV-053229,Test ZN 55,2024-09-18,4.29,2.29,overdue,False,GoFleet Corporation
+INV-053136,Jl Transportation LLC,2024-09-15,23.0,23.0,overdue,True,GoFleet Corporation
+INV-053132,GoWrench,2024-09-15,45.2,45.2,overdue,True,GoFleet Corporation
+INV-053106,Optic Light and Contracting,2024-09-14,3360.0,3360.0,overdue,True,GoFleet Corporation
+INV-053007,Dedicated Boundless LLC,2024-09-11,21.0,21.0,overdue,True,GoFleet Corporation
+INV-053002,Mansha Transport & Logistics Inc,2024-09-11,120.02,120.02,overdue,True,GoFleet Corporation
+INV-052995,S & M Trucking Trans LLC,2024-09-11,28.84,28.84,overdue,True,GoFleet Corporation
+INV-052928,Hiller Truck Tech Inc.,2024-09-08,33.9,33.9,overdue,True,GoFleet Corporation
+INV-052912,Shockwave services llc,2024-09-08,118.77,118.77,overdue,True,GoFleet Corporation
+INV-052832,Miller Time Trucking,2024-08-06,391.4,391.4,overdue,True,GoFleet Corporation
+INV-052715,AJ Sabbath Logistics LLC,2024-09-01,23.69,23.69,overdue,True,GoFleet Corporation
+INV-052683,"Goat Transport & Logistics, Inc",2024-08-31,25.0,25.0,overdue,True,GoFleet Corporation
+INV-052606,KRK HAULING AND TRANSPORTING LLC,2024-08-29,51.4,51.4,overdue,True,GoFleet Corporation
+INV-052541,Cinmar Group Inc.,2024-07-29,27.12,27.12,overdue,True,GoFleet Corporation
+INV-052443,NS Transport Logistics Inc,2024-08-25,207.72,207.72,overdue,True,GoFleet Corporation
+INV-052360,CR&R Waste,2024-08-22,1220.0,1220.0,overdue,True,GoFleet Corporation
+INV-052359,CR&R Waste,2024-08-22,1220.0,1220.0,overdue,True,GoFleet Corporation
+INV-052321,JCV Transport,2024-07-22,25.7,25.7,overdue,True,GoFleet Corporation
+INV-052286,T Coleman Trucking LLC,2024-07-21,23.96,23.96,overdue,True,GoFleet Corporation
+INV-052283,Optic Light and Contracting,2024-08-20,210.0,210.0,overdue,True,GoFleet Corporation
+INV-052274,J & M Towing,2024-08-20,25.75,25.75,overdue,True,GoFleet Corporation
+INV-052259,A United International Inc,2024-08-19,36.05,36.05,overdue,True,GoFleet Corporation
+INV-052194,CR&R Waste,2024-08-17,735.0,735.0,overdue,True,GoFleet Corporation
+INV-052098,Hayden’s trucking,2024-08-14,1587.0,1238.38,overdue,True,GoFleet Corporation
+INV-051999,Mansha Transport & Logistics Inc,2024-08-11,120.02,120.02,overdue,True,GoFleet Corporation
+INV-051992,S & M Trucking Trans LLC,2024-08-11,28.84,28.84,overdue,True,GoFleet Corporation
+INV-051944,CR&R Waste,2024-08-09,1648.0,1648.0,overdue,True,GoFleet Corporation
+INV-051943,CR&R Waste,2024-08-09,1648.0,1648.0,overdue,True,GoFleet Corporation
+INV-051942,CR&R Waste,2024-08-09,1648.0,1648.0,overdue,True,GoFleet Corporation
+INV-051941,CR&R Waste,2024-08-09,1648.0,1648.0,overdue,True,GoFleet Corporation
+INV-051940,CR&R Waste,2024-08-09,1648.0,1648.0,overdue,True,GoFleet Corporation
+INV-051923,"Safebus Technologies, Inc.",2024-08-09,183.34,183.34,overdue,True,GoFleet Corporation
+INV-051904,Hiller Truck Tech Inc.,2024-08-08,33.9,33.9,overdue,True,GoFleet Corporation
+INV-051888,Shockwave services llc,2024-08-08,118.77,118.77,overdue,True,GoFleet Corporation
+INV-051683,AJ Sabbath Logistics LLC,2024-08-01,23.69,23.69,overdue,True,GoFleet Corporation
+INV-051577,KRK HAULING AND TRANSPORTING LLC (CAD-DO NOT USE),2024-07-30,51.4,51.4,overdue,True,GoFleet Corporation
+INV-051549,Cinmar Group Inc.,2024-06-29,27.12,27.12,overdue,True,GoFleet Corporation
+INV-051436,Miller Waste Systems,2024-07-26,248.6,248.6,overdue,True,GoFleet Corporation
+INV-051430,CR&R Waste,2024-07-26,1930.0,1930.0,overdue,True,GoFleet Corporation
+INV-051357,Myrlene - Leyana Trucking LLC,2024-07-24,71.02,71.02,overdue,True,GoFleet Corporation
+INV-051312,JCV Transport (CAD-DO NOT USE),2024-07-22,25.7,25.7,overdue,True,GoFleet Corporation
+INV-051278,Geda JLI Inc,2024-07-21,623.76,623.76,overdue,True,GoFleet Corporation
+INV-051272,Optic Light and Contracting,2024-07-21,210.0,210.0,overdue,True,GoFleet Corporation
+INV-051263,J & M Towing,2024-07-21,25.75,25.75,overdue,True,GoFleet Corporation
+INV-051139,Terra Contracting,2024-07-17,339.0,339.0,overdue,True,GoFleet Corporation
+INV-051134,CR&R Waste,2024-07-17,480.32,480.32,overdue,True,GoFleet Corporation
+INV-050924,"Safebus Technologies, Inc.",2024-07-10,183.34,183.34,overdue,True,GoFleet Corporation
+INV-050913,Hiller Truck Tech Inc.,2024-07-09,33.9,33.9,overdue,True,GoFleet Corporation
+INV-050897,Shockwave services llc,2024-07-09,118.77,118.77,overdue,True,GoFleet Corporation
+INV-050802,Helios Transport Ltd,2024-07-06,571.78,571.78,overdue,True,GoFleet Corporation
+INV-050669,AJ Sabbath Logistics LLC,2024-07-02,23.69,23.69,overdue,True,GoFleet Corporation
+INV-050578,dnata,2025-04-11,3420.0,3420.0,overdue,False,GoFleet Corporation
+INV-050577,dnata,2024-07-15,4820.0,4820.0,overdue,False,GoFleet Corporation
+INV-050576,dnata,2024-07-15,510.0,510.0,overdue,False,GoFleet Corporation
+INV-050574,dnata,2024-07-15,3130.0,3130.0,overdue,False,GoFleet Corporation
+INV-050573,dnata,2024-07-15,7500.0,7500.0,overdue,False,GoFleet Corporation
+INV-050536,KRK HAULING AND TRANSPORTING LLC (CAD-DO NOT USE),2024-06-29,51.4,51.4,overdue,True,GoFleet Corporation
+INV-050534,Innovative Injection Technologies,2024-06-29,6.18,6.18,overdue,True,GoFleet Corporation
+INV-050347,Nest Movers,2024-06-23,53.08,53.08,overdue,True,GoFleet Corporation
+INV-050291,JCV Transport (CAD-DO NOT USE),2024-06-21,25.7,25.7,overdue,True,GoFleet Corporation
+INV-050269,T Coleman Trucking LLC,2024-05-21,23.96,23.96,overdue,True,GoFleet Corporation
+INV-050266,Optic Light and Contracting,2024-06-20,210.0,210.0,overdue,True,GoFleet Corporation
+INV-050237,Geda JLI Inc,2024-06-19,53.08,53.08,overdue,True,GoFleet Corporation
+INV-049906,Miller Waste Systems,2024-06-08,659.3,659.3,overdue,True,GoFleet Corporation
+INV-049892,Hiller Truck Tech Inc.,2024-06-08,45.2,45.2,overdue,True,GoFleet Corporation
+INV-049873,Shockwave services llc,2024-06-08,118.77,118.77,overdue,True,GoFleet Corporation
+INV-049854,Clark's Transportation LLC,2024-06-07,437.0,437.0,overdue,True,GoFleet Corporation
+INV-049662,AJ Sabbath Logistics LLC,2024-06-01,23.69,23.69,overdue,True,GoFleet Corporation
+INV-049307,Nest Movers,2024-05-24,53.08,53.08,overdue,True,GoFleet Corporation
+INV-049175,JCV Transport (CAD-DO NOT USE),2024-05-22,25.7,25.7,overdue,True,GoFleet Corporation
+INV-049156,T Coleman Trucking LLC,2024-04-21,23.96,23.96,overdue,True,GoFleet Corporation
+INV-049153,Optic Light and Contracting,2024-05-21,210.0,210.0,overdue,True,GoFleet Corporation
+INV-049125,Geda JLI Inc,2024-05-20,53.08,53.08,overdue,True,GoFleet Corporation
+INV-049060,WFT Trucking LLC,2024-04-18,394.8,394.8,overdue,True,GoFleet Corporation
+INV-049011,Speedy Transport Group Inc.,2024-05-17,1107.4,1107.4,overdue,True,GoFleet Corporation
+INV-048867,WFT Trucking LLC,2024-05-13,18.8,18.8,overdue,True,GoFleet Corporation
+INV-048810,Clark's Transportation LLC,2024-05-11,23.0,23.0,overdue,True,GoFleet Corporation
+INV-048723,Hiller Truck Tech Inc.,2024-05-09,45.2,45.2,overdue,True,GoFleet Corporation
+INV-048701,Shockwave services llc,2024-05-09,118.77,118.77,overdue,True,GoFleet Corporation
+INV-048140,Nest Movers,2024-04-23,53.08,53.08,overdue,True,GoFleet Corporation
+INV-048088,JCV Transport (CAD-DO NOT USE),2024-04-21,25.7,25.7,overdue,True,GoFleet Corporation
+INV-048061,Optic Light and Contracting,2024-04-20,210.0,210.0,overdue,True,GoFleet Corporation
+INV-048028,Geda JLI Inc,2024-04-19,53.08,53.08,overdue,True,GoFleet Corporation
+INV-047960,dnata,2024-03-31,7544.22,7544.22,overdue,False,GoFleet Corporation
+INV-047817,CR&R Waste,2024-04-13,1000.0,1000.0,overdue,True,GoFleet Corporation
+INV-047816,CR&R Waste,2024-04-13,1000.0,1000.0,overdue,True,GoFleet Corporation
+INV-047815,CR&R Waste,2024-04-13,1000.0,1000.0,overdue,True,GoFleet Corporation
+INV-047763,CR&R Waste,2024-04-12,1814.0,1814.0,overdue,True,GoFleet Corporation
+INV-047756,WFT Trucking LLC,2024-04-12,18.8,18.8,overdue,True,GoFleet Corporation
+INV-047702,"HNE LOGISTICS, LLC",2024-04-10,399.2,399.2,overdue,False,GoFleet Corporation
+INV-047701,Deshawn and Family Express,2024-04-10,483.0,3.0,overdue,False,GoFleet Corporation
+INV-047660,"Safebus Technologies, Inc.",2024-04-09,183.34,183.34,overdue,True,GoFleet Corporation
+INV-047549,"HNE LOGISTICS, LLC",2024-04-05,12.84,12.84,overdue,True,GoFleet Corporation
+INV-047118,Nest Movers,2024-03-25,53.08,53.08,overdue,True,GoFleet Corporation
+INV-047066,JCV Transport (CAD-DO NOT USE),2024-03-23,25.7,25.7,overdue,True,GoFleet Corporation
+INV-047041,Optic Light and Contracting,2024-03-22,210.0,210.0,overdue,True,GoFleet Corporation
+INV-047008,Geda JLI Inc,2024-03-21,53.08,53.08,overdue,True,GoFleet Corporation
+INV-046790,WFT Trucking LLC,2024-03-14,18.8,18.8,overdue,True,GoFleet Corporation
+INV-046560,"HNE LOGISTICS, LLC",2024-03-07,25.7,25.7,overdue,True,GoFleet Corporation
+INV-046204,GREEN CEMENT FACTORY LLC,2024-01-29,330.0,330.0,overdue,True,GoFleet Corporation
+INV-046006,dnata,2024-03-08,5000.0,5000.0,overdue,False,GoFleet Corporation
+INV-046005,dnata,2024-03-08,1250.0,1250.0,overdue,False,GoFleet Corporation
+INV-045943,Optic Light and Contracting,2024-02-20,210.0,210.0,overdue,True,GoFleet Corporation
+INV-045435,"HNE LOGISTICS, LLC",2024-02-05,25.7,25.7,overdue,True,GoFleet Corporation
+INV-045164,DNR Logistics LLC,2024-04-20,548.9,548.9,overdue,True,GoFleet Corporation
+INV-044975,Optic Light and Contracting,2024-01-20,210.0,210.0,overdue,True,GoFleet Corporation
+INV-044527,"HNE LOGISTICS, LLC",2024-01-05,25.7,25.7,overdue,True,GoFleet Corporation
+INV-043865,Cascades Canada ULC,2023-12-15,62.15,62.15,overdue,True,GoFleet Corporation
+INV-043813,Big O Trucking,2024-04-17,569.0,569.0,overdue,True,GoFleet Corporation
+INV-043588,"HNE LOGISTICS, LLC",2023-12-06,25.7,25.7,overdue,True,GoFleet Corporation
+INV-041886,Nevada Department of Transportation (NDOT),2023-10-13,12599.5,40.0,overdue,True,GoFleet Corporation
+INV-041865,Heaven Express LLC,2023-10-13,123.3,8.66,overdue,True,GoFleet Corporation
+INV-041678,CR&R Waste,2023-10-05,9450.0,7570.0,overdue,True,GoFleet Corporation
+INV-039127,CR&R Waste,2023-07-15,1525.0,1525.0,overdue,True,GoFleet Corporation
+INV-039072,Spectaire,2023-07-14,29.5,29.5,overdue,True,GoFleet Corporation
+INV-038882,CR&R Waste,2023-07-05,661.0,661.0,overdue,True,GoFleet Corporation
+INV-034719,"TrackCam, LLC",2023-02-18,339.0,339.0,overdue,True,GoFleet Corporation
+INV-032887,Foss National Leasing Ltd.,2022-12-15,1336.65,535.87,overdue,False,GoFleet Corporation
+INV-030760,CR&R Waste,2022-10-30,1112.97,109.97,overdue,True,GoFleet Corporation
+INV-025737,CR&R Waste,2022-03-30,315.99,315.99,overdue,True,GoFleet Corporation
+INV-023895,CR&R Waste,2022-01-19,90.58,90.58,overdue,True,GoFleet Corporation
+INV-023786,CR&R Waste,2022-01-15,329.18,329.18,overdue,True,GoFleet Corporation
+INV-016915,CR&R Waste,2021-05-15,614.96,506.23,overdue,True,GoFleet Corporation
