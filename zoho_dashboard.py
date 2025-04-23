@@ -8,12 +8,23 @@ st.title("📄 Overdue Invoices Dashboard")
 # ===== Load Latest CSV for Each Org =====
 def load_latest_csv(prefix, org_name):
     files = sorted(glob.glob(f"{prefix}_overdue_invoices_*.csv"), reverse=True)
-    if files:
-        df = pd.read_csv(files[0])
-        df["organization"] = org_name
-        df["Due Date"] = pd.to_datetime(df["Due Date"], errors='coerce')
-        return df
-    return pd.DataFrame()
+    if not files:
+        st.warning(f"No CSV file found for {org_name}")
+        return pd.DataFrame()
+
+    df = pd.read_csv(files[0])
+    df["organization"] = org_name
+
+    # Display available columns for debugging
+    st.write(f"📁 Columns in {org_name} CSV:", df.columns.tolist())
+
+    # Check if 'Due Date' column exists
+    if "Due Date" in df.columns:
+        df["Due Date"] = pd.to_datetime(df["Due Date"], errors="coerce")
+    else:
+        st.warning(f"'Due Date' column not found in {org_name} CSV. Check column names or file format.")
+
+    return df
 
 # Load data
 gofleet_df = load_latest_csv("gofleet_corporation", "GoFleet Corporation")
