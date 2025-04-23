@@ -42,6 +42,41 @@ elif org_choice == "Zenduit":
 else:
     df_display = combined_df.copy()
 
+# ===== CFO Summary Box =====
+st.markdown("### 💼 CFO Snapshot: High-Level Insights")
+
+if not df_display.empty:
+    total_balance = df_display["balance"].sum()
+    avg_balance = df_display["balance"].mean()
+    top_customer = df_display.groupby("customer_name")["balance"].sum().idxmax()
+    top_balance = df_display.groupby("customer_name")["balance"].sum().max()
+
+    st.info(
+        f"""
+        - **Total Overdue Balance:** ${total_balance:,.2f}  
+        - **Average Invoice Balance:** ${avg_balance:,.2f}  
+        - **Top Customer (By Balance):** {top_customer} (${top_balance:,.2f})
+        """
+    )
+
+# ===== High-Risk Flagging (Smart Logic) =====
+if "due_date" in df_display.columns:
+    today = pd.Timestamp.today()
+    df_display["days_overdue"] = (today - df_display["due_date"]).dt.days
+
+    # Flag as high-risk if overdue more than 90 days OR balance over $10,000
+    df_display["risk_flag"] = df_display.apply(
+        lambda row: "🚨 High Risk" if row["days_overdue"] > 90 or row["balance"] > 10000 else "", axis=1
+    )
+
+    st.markdown("### 🚩 High-Risk Invoices")
+    high_risk_df = df_display[df_display["risk_flag"] != ""]
+    if not high_risk_df.empty:
+        st.dataframe(high_risk_df[["invoice_number", "customer_name", "due_date", "balance", "days_overdue", "risk_flag"]])
+    else:
+        st.success("No high-risk invoices at the moment. 🎉")
+
+
 # ===== Display Section =====
 if not df_display.empty:
     try:
