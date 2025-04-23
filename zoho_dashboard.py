@@ -16,7 +16,7 @@ def load_latest_csv(prefix, org_name):
     df.columns = [col.strip().lower() for col in df.columns]
     df["organization"] = org_name
 
-    st.write(f"📁 Columns in {org_name} CSV:", df.columns.tolist())
+    ## st.write(f"📁 Columns in {org_name} CSV:", df.columns.tolist())
 
     if "due_date" in df.columns:
         df["due_date"] = pd.to_datetime(df["due_date"], errors="coerce")
