@@ -13,16 +13,15 @@ def load_latest_csv(prefix, org_name):
         return pd.DataFrame()
 
     df = pd.read_csv(files[0])
+    df.columns = [col.strip().lower() for col in df.columns]
     df["organization"] = org_name
 
-    # Display available columns for debugging
     st.write(f"📁 Columns in {org_name} CSV:", df.columns.tolist())
 
-    # Check if 'Due Date' column exists
-    if "Due Date" in df.columns:
-        df["Due Date"] = pd.to_datetime(df["Due Date"], errors="coerce")
+    if "due_date" in df.columns:
+        df["due_date"] = pd.to_datetime(df["due_date"], errors="coerce")
     else:
-        st.warning(f"'Due Date' column not found in {org_name} CSV. Check column names or file format.")
+        st.warning(f"'due_date' column not found in {org_name} CSV. Check column names or file format.")
 
     return df
 
@@ -46,11 +45,11 @@ else:
 # ===== Display Section =====
 if not df_display.empty:
     try:
-        display_df = df_display[["Invoice Number", "Customer Name", "Due Date", "total", "balance", "status", "is_emailed"]].copy()
+        display_df = df_display[["invoice_number", "customer_name", "due_date", "total", "balance", "status", "is_emailed"]].copy()
         display_df.rename(columns={
-            "Invoice Number": "Invoice #",
-            "Customer Name": "Customer",
-            "Due Date": "Due Date",
+            "invoice_number": "Invoice #",
+            "customer_name": "Customer",
+            "due_date": "Due Date",
             "total": "Amount",
             "balance": "Balance",
             "status": "Status",
@@ -61,14 +60,12 @@ if not df_display.empty:
         st.success(f"Fetched {len(display_df)} invoices for {org_choice}.")
         st.dataframe(display_df)
 
-        # Chart: Top 10 Customers
         st.subheader("📊 Top 10 Customers by Overdue Balance")
-        top_customers = df_display.groupby("Customer Name")["balance"].sum().nlargest(10).reset_index()
-        st.bar_chart(top_customers.rename(columns={"Customer Name": "Customer", "balance": "Overdue Balance"}).set_index("Customer"))
+        top_customers = df_display.groupby("customer_name")["balance"].sum().nlargest(10).reset_index()
+        st.bar_chart(top_customers.rename(columns={"customer_name": "Customer", "balance": "Overdue Balance"}).set_index("Customer"))
 
-        # Chart: Invoices by Due Date
         st.subheader("📈 Overdue Invoices by Due Date")
-        due_counts = df_display["Due Date"].value_counts().sort_index()
+        due_counts = df_display["due_date"].value_counts().sort_index()
         st.line_chart(due_counts)
 
     except KeyError as e:
