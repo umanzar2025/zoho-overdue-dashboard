@@ -16,8 +16,6 @@ def load_latest_csv(prefix, org_name):
     df.columns = [col.strip().lower() for col in df.columns]
     df["organization"] = org_name
 
-    ## st.write(f"📁 Columns in {org_name} CSV:", df.columns.tolist())
-
     if "due_date" in df.columns:
         df["due_date"] = pd.to_datetime(df["due_date"], errors="coerce")
     else:
@@ -59,12 +57,10 @@ if not df_display.empty:
         """
     )
 
-# ===== High-Risk Flagging (Smart Logic) =====
+# ===== High-Risk Flagging =====
 if "due_date" in df_display.columns:
     today = pd.Timestamp.today()
     df_display["days_overdue"] = (today - df_display["due_date"]).dt.days
-
-    # Flag as high-risk if overdue more than 90 days OR balance over $10,000
     df_display["risk_flag"] = df_display.apply(
         lambda row: "🚨 High Risk" if row["days_overdue"] > 90 or row["balance"] > 10000 else "", axis=1
     )
@@ -76,6 +72,19 @@ if "due_date" in df_display.columns:
     else:
         st.success("No high-risk invoices at the moment. 🎉")
 
+# ===== Top 20 High-Risk Customers =====
+if not high_risk_df.empty:
+    st.markdown("### 🧾 Top 20 High-Risk Customers by Balance")
+    high_risk_customers = (
+        high_risk_df.groupby("customer_name")["balance"]
+        .sum()
+        .sort_values(ascending=False)
+        .head(20)
+        .reset_index()
+        .rename(columns={"customer_name": "Customer", "balance": "Total High-Risk Balance"})
+    )
+    high_risk_customers["Total High-Risk Balance"] = high_risk_customers["Total High-Risk Balance"].map("${:,.2f}".format)
+    st.dataframe(high_risk_customers)
 
 # ===== Display Section =====
 if not df_display.empty:
@@ -91,13 +100,18 @@ if not df_display.empty:
             "is_emailed": "Email Sent"
         }, inplace=True)
 
+        display_df["Amount"] = display_df["Amount"].map("${:,.2f}".format)
+        display_df["Balance"] = display_df["Balance"].map("${:,.2f}".format)
         display_df["Email Sent"] = display_df["Email Sent"].apply(lambda x: "✅" if x else "❌")
+
         st.success(f"Fetched {len(display_df)} invoices for {org_choice}.")
         st.dataframe(display_df)
 
         st.subheader("📊 Top 10 Customers by Overdue Balance")
         top_customers = df_display.groupby("customer_name")["balance"].sum().nlargest(10).reset_index()
-        st.bar_chart(top_customers.rename(columns={"customer_name": "Customer", "balance": "Overdue Balance"}).set_index("Customer"))
+        top_customers.rename(columns={"customer_name": "Customer", "balance": "Overdue Balance"}, inplace=True)
+        top_customers["Overdue Balance"] = top_customers["Overdue Balance"].round(2)
+        st.bar_chart(top_customers.set_index("Customer"))
 
         st.subheader("📈 Overdue Invoices by Due Date")
         due_counts = df_display["due_date"].value_counts().sort_index()
