@@ -50,7 +50,11 @@ os.makedirs("data", exist_ok=True)
 if os.path.exists(HISTORY_FILE):
     historical_df = pd.read_csv(HISTORY_FILE)
     historical_df["date"] = pd.to_datetime(historical_df["date"], errors="coerce")
-    historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce", utc=True)
+    if "timestamp" in historical_df.columns:
+    if "timestamp" in historical_df.columns:
+    historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce")
+
+
 else:
     historical_df = pd.DataFrame()
 
