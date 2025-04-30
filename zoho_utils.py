@@ -7,26 +7,23 @@ BASE_URL = "https://www.zohoapis.com/books/v3"
 # ✅ AUTHENTICATION
 # -------------------------------
 def get_access_token(refresh_token, client_id, client_secret):
+    token_url = "https://accounts.zoho.com/oauth/v2/token"  # ✅ Add this line
+
     params = {
         "client_id": client_id,
         "client_secret": client_secret,
-        "grant_type": "refresh_token",
-        "refresh_token": refresh_token
+        "refresh_token": refresh_token,
+        "grant_type": "refresh_token"
     }
 
     response = requests.post(token_url, data=params)
 
     print("🔍 ZOHO DEBUG RESPONSE:")
     print("Status Code:", response.status_code)
-    print("Text:", response.text)
-    print("JSON:", response.json())  # this is where we'll see what's missing
+    print("Response Text:", response.text)
 
-    # fail safely
-    token_json = response.json()
-    if "access_token" not in token_json:
-        raise Exception(f"access_token missing! Full response: {token_json}")
-    
-    return token_json["access_token"]
+    return response.json()["access_token"]
+
 
 # -------------------------------
 # 📄 FETCH INVOICES (PAID or OVERDUE)
