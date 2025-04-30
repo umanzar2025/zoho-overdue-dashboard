@@ -3,6 +3,10 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 import os
+import sys
+
+# 👇 Fix: Add root directory to path to find zoho_utils.py
+sys.path.append(os.path.abspath("."))
 
 from zoho_utils import (
     get_access_token,
@@ -10,10 +14,11 @@ from zoho_utils import (
     summarize_payment_modes
 )
 
-# 🔐 Credentials (replace with secure method in production)
-refresh_token = "1000.ceb568459748c5fe5a1f9ac6f2d33f3.2a1c0a5032f87c4a66c5541549fc537c"
+# 🔐 Credentials (temporary, replace with secrets in production)
+refresh_token = "1000.bac8728899b3380025375951ad6ad93c.7b68459d8a25e1655741c2fd8a01eca7"
 client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
 client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
+
 org_ids = {
     "GoFleet Corporation": "673162904",
     "Zenduit Corporation": "696828433"
