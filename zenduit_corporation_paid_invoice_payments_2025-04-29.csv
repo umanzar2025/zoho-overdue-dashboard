@@ -1,0 +1,1789 @@
+invoice_number,customer_name,due_date,total,balance,payment_mode,organization
+INV-010868,acm servicios multiples,2025-05-29,69.09,0.0,Stripe,Zenduit Corporation
+INV-010867,http://www.argosconnected.com,2025-05-29,100.0,0.0,Stripe,Zenduit Corporation
+INV-010865,Financial Technology Solutions International (T-Mobile Customer),2025-05-29,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010864,Robert J. Devereaux Corp.,2025-05-29,198.0,0.0,Stripe,Zenduit Corporation
+INV-010861,SSC International (T-Mobile Client),2025-05-28,60.0,0.0,Stripe,Zenduit Corporation
+INV-010857,Arias Farms,2025-05-26,50.0,0.0,Stripe,Zenduit Corporation
+INV-010856,Merrill Steel Inc (Fiix Lead),2025-05-26,72.0,0.0,Stripe,Zenduit Corporation
+INV-010854,EMS Technology Solutions LLC/ Operative IQ,2025-05-26,477.0,0.0,Stripe,Zenduit Corporation
+INV-010853,"Fleet Nav Systems : Fleet Nav Systems, LLC.",2025-04-25,0.0,0.0,N/A,Zenduit Corporation
+INV-010852,"Paper Cuts, Inc. (T-Mobile Customer)",2025-05-25,131.89,0.0,Stripe,Zenduit Corporation
+INV-010850,Administration of Fleets SA de CV,2025-05-25,735.0,0.0,Stripe,Zenduit Corporation
+INV-010848,Coopers Petroleum (T-Mobile Customer),2025-05-24,219.66,0.0,Stripe,Zenduit Corporation
+INV-010845,SAC Wireless,2025-05-23,25.0,0.0,Stripe,Zenduit Corporation
+INV-010834,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-05-22,36.0,0.0,Stripe,Zenduit Corporation
+INV-010833,Pontrelli & Laricchia (T-Mobile Customer),2025-05-22,60.0,0.0,Stripe,Zenduit Corporation
+INV-010832,Le Groupe ESSA Inc. (Fiix Client),2025-05-22,265.77,0.0,Stripe,Zenduit Corporation
+INV-010831,Global Plumbing & Fire Supply (T-Mobile Customer),2025-05-22,190.0,0.0,Stripe,Zenduit Corporation
+INV-010830,DBC Group,2025-05-22,174.02,0.0,Stripe,Zenduit Corporation
+INV-010829,"Welch Excavation & Utility Company, Inc.",2025-05-22,471.0,0.0,Stripe,Zenduit Corporation
+INV-010828,The Three C's Properties Inc,2025-05-22,726.5,0.0,Stripe,Zenduit Corporation
+INV-010826,Neotech,2025-05-21,249.0,0.0,Stripe,Zenduit Corporation
+INV-010825,Biomedical Waste Disposal (T-Mobile Client),2025-05-21,144.0,0.0,Stripe,Zenduit Corporation
+INV-010823,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-05-21,312.0,0.0,Stripe,Zenduit Corporation
+INV-010821,McClay's Transportation Ltd.,2025-05-20,612.57,0.0,Stripe,Zenduit Corporation
+INV-010820,Fleet Shield,2025-05-20,195.0,0.0,Stripe,Zenduit Corporation
+INV-010819,Henry & Henry Inc.,2025-05-20,336.0,0.0,Stripe,Zenduit Corporation
+INV-010818,GotPrint,2025-05-20,108.0,0.0,Stripe,Zenduit Corporation
+INV-010817,Four Seasons Landscape and Property Services,2025-05-19,90.0,0.0,Stripe,Zenduit Corporation
+INV-010814,Meridith Baer Home (T-Mobile Client),2025-05-18,300.0,0.0,Stripe,Zenduit Corporation
+INV-010812,Hawkeye Electronic Security,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010811,Lavish Lifestyles Concierge,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010810,"Kenworth Northeast Group, Inc.",2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010809,OnTrak Solutions,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010808,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010807,Incident Clear,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010806,Hagerstown Fire Department,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010805,Traxxis GPS Solutions,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010804,APC Transport (T-Mobile Client),2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010803,Incident Clear - Florida,2025-05-17,0.0,0.0,N/A,Zenduit Corporation
+INV-010798,NY TRANSPORT INC (T-Mobile Client),2025-05-16,30.0,0.0,Stripe,Zenduit Corporation
+INV-010797,"Midwest Environmental Services, Inc.",2025-05-16,240.0,0.0,Stripe,Zenduit Corporation
+INV-010794,"Participation House, Markham",2025-05-16,175.15,0.0,Stripe,Zenduit Corporation
+INV-010793,Miami LNG - FIXX/ Samsara,2025-05-15,20.0,0.0,Stripe,Zenduit Corporation
+INV-010790,Premier Truck Group,2025-05-14,0.0,0.0,N/A,Zenduit Corporation
+INV-010789,Assetflo (Unique Partnership Agreement),2025-05-14,153.91,0.0,N/A,Zenduit Corporation
+INV-010787,Super Win Enterprises,2025-05-14,90.0,0.0,Stripe,Zenduit Corporation
+INV-010785,Smart MUBE,2025-04-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-010784,Port Connect Intermodel,2025-05-13,60.0,0.0,Stripe,Zenduit Corporation
+INV-010783,Dynasty provisions,2025-05-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-010782,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-05-12,392.0,0.0,Stripe,Zenduit Corporation
+INV-010780,City of Vernon,2025-05-12,175.14,0.0,Stripe,Zenduit Corporation
+INV-010778,SoCal Rentals (T-Mobile Client),2025-05-10,36.0,0.0,Stripe,Zenduit Corporation
+INV-010777,Santosa Delivery (T-Mobile Client),2025-05-10,108.0,0.0,Stripe,Zenduit Corporation
+INV-010775,Northern Business Intelligence,2025-05-10,89.7,0.0,Stripe,Zenduit Corporation
+INV-010772,"Techweb of Puerto Rico, Inc.",2025-05-09,489.0,0.0,Stripe,Zenduit Corporation
+INV-010770,EcoTrack Fleet Management,2025-05-09,60.0,0.0,Stripe,Zenduit Corporation
+INV-010769,Line Drive Trucking (T-Mobile Customer),2025-05-09,1500.0,0.0,Stripe,Zenduit Corporation
+INV-010768,Platinum Energy Services,2025-05-09,387.0,0.0,Stripe,Zenduit Corporation
+INV-010767,GPS to GO Ltd.,2025-05-09,434.52,0.0,Stripe,Zenduit Corporation
+INV-010766,ASAP Trucking Company LLC,2025-05-09,392.0,0.0,Stripe,Zenduit Corporation
+INV-010763,Apex Wireless,2025-05-08,565.0,0.0,Stripe,Zenduit Corporation
+INV-010762,QUALTRACKS,2025-05-08,21.5,0.0,Stripe,Zenduit Corporation
+INV-010760,Grupo Invictus,2025-05-07,23.21,0.0,Stripe,Zenduit Corporation
+INV-010758,Genesis Dispatch,2025-05-07,548.55,0.0,Stripe,Zenduit Corporation
+INV-010757,RMA Testing Company Zenduit,2025-05-07,979.34,0.0,N/A,Zenduit Corporation
+INV-010755,Hawkeye Electronic Security,2025-05-07,475.0,0.0,Stripe,Zenduit Corporation
+INV-010754,Precise Fleet Tracking Solutions,2025-05-06,5.75,0.0,N/A,Zenduit Corporation
+INV-010753,"Georgia Pack & Load Moving and Storage, Inc.",2025-04-06,243.0,0.0,Stripe,Zenduit Corporation
+INV-010752,Cal Freight,2025-05-06,30.0,0.0,Stripe,Zenduit Corporation
+INV-010750,Bital Services Inc,2025-05-05,448.93,0.0,Stripe,Zenduit Corporation
+INV-010749,Lee Fish USA (T-Mobile Client),2025-05-05,83.93,0.0,Stripe,Zenduit Corporation
+INV-010748,Arjan Trans Inc (T-Mobile Client),2025-05-05,78.0,0.0,Stripe,Zenduit Corporation
+INV-010747,GLEZ Trucking (T-Mobile Customer),2025-05-05,80.0,0.0,Stripe,Zenduit Corporation
+INV-010743,LMD Integrated Logistics (USD),2025-05-04,444.0,0.0,Stripe,Zenduit Corporation
+INV-010742,The Standard Design Group (T-Mobile Client),2025-05-04,96.0,0.0,Stripe,Zenduit Corporation
+INV-010740,"Advantage Fleet, LLC.",2025-05-04,90.0,0.0,Stripe,Zenduit Corporation
+INV-010735,JLRG Consulting (Tel-Sol),2025-05-03,4298.35,0.0,Stripe,Zenduit Corporation
+INV-010734,ARTHOFER FINANCIAL,2025-05-03,15.0,0.0,Stripe,Zenduit Corporation
+INV-010732,ENS Transport (T-Mobile Client),2025-05-03,72.0,0.0,Stripe,Zenduit Corporation
+INV-010731,GA Department of Driver Services,2025-05-03,3864.0,0.0,Check,Zenduit Corporation
+INV-010729,Trulite Glass and Aluminum Solutions,2025-05-02,0.0,0.0,N/A,Zenduit Corporation
+INV-010724,"California Waste Services, LLC(OLD)",2025-05-01,1650.0,0.0,Stripe,Zenduit Corporation
+INV-010723,Pun Enterprises Incorporated,2025-05-01,36.0,0.0,Stripe,Zenduit Corporation
+INV-010722,College Hunks Hauling Junk and Moving of Grand Rapids,2025-05-01,260.0,0.0,Stripe,Zenduit Corporation
+INV-010721,Finger Lakes TC,2025-05-01,125.0,0.0,Stripe,Zenduit Corporation
+INV-010719,Aalto Technologies,2025-05-01,142.3,0.0,Stripe,Zenduit Corporation
+INV-010718,KELLY TOURS,2025-05-01,420.0,0.0,Stripe,Zenduit Corporation
+INV-010714,Dynasty Communications,2025-04-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-010713,Dynasty Communications,2025-04-29,738.0,0.0,Stripe,Zenduit Corporation
+INV-010712,WEX INC,2025-04-29,1352.0,0.0,Stripe,Zenduit Corporation
+INV-010711,Smart Witness LLC,2025-04-29,8155.0,0.0,Cash,Zenduit Corporation
+INV-010710,"Pat's Offroad, Inc.",2025-04-29,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010708,http://www.argosconnected.com,2025-04-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-010707,"Badia Spices, LLC. (T-Mobile Client)",2025-04-28,432.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010706,Financial Technology Solutions International (T-Mobile Customer),2025-04-28,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010705,Robert J. Devereaux Corp.,2025-04-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-010704,Traxxis GPS Solutions,2025-04-28,34225.5,0.0,Stripe,Zenduit Corporation
+INV-010703,SSC International (T-Mobile Client),2025-04-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-010702,Trulite Glass and Aluminum Solutions Canada,2025-04-26,186.38,0.0,Check,Zenduit Corporation
+INV-010700,Magic Metals,2025-04-26,240.0,0.0,N/A,Zenduit Corporation
+INV-010699,Total Protection Security Systems L.L.C,2025-04-25,650.0,0.0,Stripe,Zenduit Corporation
+INV-010698,Precise Fleet Tracking Solutions,2025-04-25,0.0,0.0,N/A,Zenduit Corporation
+INV-010695,Traxxis GPS Solutions,2025-04-25,20530.0,0.0,Stripe,Zenduit Corporation
+INV-010694,Meridith Baer Home (T-Mobile Client),2025-04-25,115.0,0.0,Stripe,Zenduit Corporation
+INV-010693,Arias Farms,2025-04-25,50.0,0.0,Stripe,Zenduit Corporation
+INV-010692,Merrill Steel Inc (Fiix Lead),2025-04-25,72.0,0.0,Stripe,Zenduit Corporation
+INV-010690,EMS Technology Solutions LLC/ Operative IQ,2025-04-25,477.0,0.0,Stripe,Zenduit Corporation
+INV-010688,"Paper Cuts, Inc. (T-Mobile Customer)",2025-04-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-010687,Hagerstown Fire Department,2025-04-24,654.57,0.0,Check,Zenduit Corporation
+INV-010686,Administration of Fleets SA de CV,2025-04-24,705.0,0.0,Stripe,Zenduit Corporation
+INV-010685,Traxxis GPS Solutions,2025-04-23,715.0,0.0,N/A,Zenduit Corporation
+INV-010684,"TrackCam, LLC",2025-04-23,415.0,0.0,N/A,Zenduit Corporation
+INV-010683,Coopers Petroleum (T-Mobile Customer),2025-04-23,219.66,0.0,Stripe,Zenduit Corporation
+INV-010682,Solugaz Inc (Fiix Client),2025-04-23,238.74,0.0,Cash,Zenduit Corporation
+INV-010680,H.T. Hackney,2025-04-22,578.55,0.0,Stripe,Zenduit Corporation
+INV-010679,Premier Truck Group,2025-04-22,2937.44,0.0,Check,Zenduit Corporation
+INV-010677,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-04-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-010676,Pontrelli & Laricchia (T-Mobile Customer),2025-04-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-010675,Le Groupe ESSA Inc. (Fiix Client),2025-04-21,265.77,0.0,Stripe,Zenduit Corporation
+INV-010674,Global Plumbing & Fire Supply (T-Mobile Customer),2025-04-21,190.0,0.0,Stripe,Zenduit Corporation
+INV-010673,DBC Group,2025-04-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-010672,"Welch Excavation & Utility Company, Inc.",2025-04-21,471.0,0.0,Stripe,Zenduit Corporation
+INV-010671,The Three C's Properties Inc,2025-04-21,703.0,0.0,Stripe,Zenduit Corporation
+INV-010670,Biomedical Waste Disposal (T-Mobile Client),2025-04-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-010669,Locke Supply (T-Mobile Customer),2025-04-20,1295.0,0.0,N/A,Zenduit Corporation
+INV-010668,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-04-20,312.0,0.0,Stripe,Zenduit Corporation
+INV-010667,Dynasty Communications,2025-04-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-010664,Efficient Fleets,2025-04-19,3490.1,0.0,Bank Transfer,Zenduit Corporation
+INV-010662,McClay's Transportation Ltd.,2025-04-19,612.57,0.0,Stripe,Zenduit Corporation
+INV-010661,Fleet Shield,2025-04-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-010660,Henry & Henry Inc.,2025-04-19,336.0,0.0,Stripe,Zenduit Corporation
+INV-010659,GotPrint,2025-04-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-010658,Canadian Grounds,2025-04-18,0.0,0.0,N/A,Zenduit Corporation
+INV-010657,Four Seasons Landscape and Property Services,2025-04-18,80.0,0.0,Stripe,Zenduit Corporation
+INV-010656,Incotec,2025-04-18,174.0,0.0,N/A,Zenduit Corporation
+INV-010653,"TrackCam, LLC",2025-04-17,415.0,0.0,N/A,Zenduit Corporation
+INV-010652,Lan Communications,2025-04-17,700.0,0.0,Stripe,Zenduit Corporation
+INV-010651,Meridith Baer Home (T-Mobile Client),2025-04-17,300.0,0.0,Stripe,Zenduit Corporation
+INV-010650,Dynasty Communications,2025-04-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-010649,Axiom Fleet Telematics,2025-04-16,555.0,0.0,Stripe,Zenduit Corporation
+INV-010647,NY TRANSPORT INC (T-Mobile Client),2025-04-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-010646,"Midwest Environmental Services, Inc.",2025-04-15,240.0,0.0,Stripe,Zenduit Corporation
+INV-010645,"Cee Kay Supply, Inc.",2025-04-15,228.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010644,Advantage Asset Tracking Inc.,2025-04-15,374.26,0.0,Stripe,Zenduit Corporation
+INV-010643,"Participation House, Markham",2025-04-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-010642,Miami LNG - FIXX/ Samsara,2025-04-14,20.0,0.0,Stripe,Zenduit Corporation
+INV-010641,Dynasty Communications,2025-04-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-010639,Mercury GPS,2025-04-13,3376.0,0.0,Stripe,Zenduit Corporation
+INV-010637,JLRG Consulting (Tel-Sol),2025-04-13,190.0,0.0,N/A,Zenduit Corporation
+INV-010636,Trulite Glass and Aluminum Solutions,2025-04-13,679.0,0.0,Cash,Zenduit Corporation
+INV-010635,"Techweb of Puerto Rico, Inc.",2025-04-13,3990.0,0.0,Stripe,Zenduit Corporation
+INV-010633,Assetflo (Unique Partnership Agreement),2025-04-13,153.91,0.0,N/A,Zenduit Corporation
+INV-010631,Super Win Enterprises,2025-04-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-010630,Efficient Fleets,2025-04-12,48.75,0.0,N/A,Zenduit Corporation
+INV-010629,Smart MUBE,2025-03-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-010628,Port Connect Intermodel,2025-04-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-010627,"Pro-Vac, LLC (Fiix Customer)",2025-04-12,1614.0,0.0,Stripe,Zenduit Corporation
+INV-010626,Dynasty provisions,2025-04-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-010625,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-04-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-010624,Dynasty Communications,2025-04-11,234.0,0.0,Stripe,Zenduit Corporation
+INV-010623,City of Vernon,2025-04-11,175.14,0.0,Stripe,Zenduit Corporation
+INV-010620,Precise Fleet Tracking Solutions,2025-04-10,3376.0,0.0,N/A,Zenduit Corporation
+INV-010618,SoCal Rentals (T-Mobile Client),2025-04-09,36.0,0.0,Stripe,Zenduit Corporation
+INV-010617,Santosa Delivery (T-Mobile Client),2025-04-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-010616,"A & V Reality Transportation , LLC",2025-04-09,396.0,0.0,Stripe,Zenduit Corporation
+INV-010615,Northern Business Intelligence,2025-04-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-010612,EcoTrack Fleet Management,2025-04-08,60.0,0.0,Stripe,Zenduit Corporation
+INV-010611,Line Drive Trucking (T-Mobile Customer),2025-04-08,1500.0,0.0,Stripe,Zenduit Corporation
+INV-010610,Platinum Energy Services,2025-04-08,387.0,0.0,Stripe,Zenduit Corporation
+INV-010609,GPS to GO Ltd.,2025-04-08,146.37,0.0,Stripe,Zenduit Corporation
+INV-010607,Furst McNess Company,2025-04-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010606,Apex Wireless,2025-04-07,535.0,0.0,Stripe,Zenduit Corporation
+INV-010605,QUALTRACKS,2025-04-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-010603,iPTT Wireless Solutions,2025-04-06,141.5,0.0,Stripe,Zenduit Corporation
+INV-010602,Grupo Invictus,2025-04-06,23.21,0.0,Stripe,Zenduit Corporation
+INV-010601,Quixote Studios LLC,2025-03-07,4172.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010600,Genesis Dispatch,2025-04-06,548.55,0.0,Stripe,Zenduit Corporation
+INV-010599,RMA Testing Company Zenduit,2025-04-06,979.34,0.0,N/A,Zenduit Corporation
+INV-010598,Badger Fleet Solutions,2025-04-06,304.0,0.0,Stripe,Zenduit Corporation
+INV-010597,Hawkeye Electronic Security,2025-04-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-010596,Precise Fleet Tracking Solutions,2025-04-05,5.75,0.0,Stripe,Zenduit Corporation
+INV-010595,"Georgia Pack & Load Moving and Storage, Inc.",2025-03-06,243.0,0.0,Stripe,Zenduit Corporation
+INV-010594,Cal Freight,2025-04-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-010593,Dynasty Communications,2025-04-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-010590,Meridith Baer Home (T-Mobile Client),2025-04-04,115.0,0.0,Stripe,Zenduit Corporation
+INV-010589,Bital Services Inc,2025-04-04,273.99,0.0,Stripe,Zenduit Corporation
+INV-010588,Lee Fish USA (T-Mobile Client),2025-04-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-010586,GLEZ Trucking (T-Mobile Customer),2025-04-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-010585,Dynasty Communications,2025-04-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-010584,Dynasty Communications,2025-04-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-010583,GISCAD Limited,2025-04-04,3955.11,0.0,Bank Transfer,Zenduit Corporation
+INV-010582,LMD Integrated Logistics (USD),2025-04-03,444.0,0.0,Stripe,Zenduit Corporation
+INV-010581,The Standard Design Group (T-Mobile Client),2025-04-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-010579,"Advantage Fleet, LLC.",2025-04-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-010578,SAC Wireless,2025-04-03,600.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010576,JLRG Consulting (Tel-Sol),2025-04-02,11.5,0.0,N/A,Zenduit Corporation
+INV-010575,ENS Transport (T-Mobile Client),2025-04-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-010574,GA Department of Driver Services,2025-04-02,3738.0,0.0,Check,Zenduit Corporation
+INV-010573,Highland Wireless Services,2025-03-31,145.0,0.0,Check,Zenduit Corporation
+INV-010572,"Geotab, Inc USD",2025-03-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010569,"California Waste Services, LLC(OLD)",2025-03-31,1595.0,0.0,Stripe,Zenduit Corporation
+INV-010568,Pun Enterprises Incorporated,2025-03-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-010567,College Hunks Hauling Junk and Moving of Grand Rapids,2025-03-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-010566,Finger Lakes TC,2025-03-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-010565,Carbentec (Formerly Titan Innovations),2025-03-31,606.0,0.0,N/A,Zenduit Corporation
+INV-010564,Aalto Technologies,2025-03-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-010563,KELLY TOURS,2025-03-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-010562,"TrackCam, LLC",2025-03-30,45923.0,0.0,N/A,Zenduit Corporation
+INV-010561,VLC,2025-03-30,4366.49,0.0,Check,Zenduit Corporation
+INV-010560,http://www.argosconnected.com,2025-03-30,100.0,0.0,Stripe,Zenduit Corporation
+INV-010559,"Badia Spices, LLC. (T-Mobile Client)",2025-03-30,432.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010558,SSC International (T-Mobile Client),2025-03-30,60.0,0.0,Stripe,Zenduit Corporation
+INV-010557,Financial Technology Solutions International (T-Mobile Customer),2025-03-30,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010556,GISCAD Jamaica Limited,2025-03-30,384.8,0.0,Stripe,Zenduit Corporation
+INV-010555,Robert J. Devereaux Corp.,2025-03-30,198.0,0.0,Stripe,Zenduit Corporation
+INV-010554,Dynasty Communications,2025-03-30,36.0,0.0,Stripe,Zenduit Corporation
+INV-010553,Dynasty Communications,2025-03-30,738.0,0.0,Stripe,Zenduit Corporation
+INV-010552,WEX INC,2025-03-30,1352.0,0.0,Stripe,Zenduit Corporation
+INV-010551,Smart Witness LLC,2025-03-30,8135.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010550,Traxxis GPS Solutions,2025-03-30,35101.0,0.0,Stripe,Zenduit Corporation
+INV-010549,"Pat's Offroad, Inc.",2025-03-30,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010548,Metrica Movil,2025-03-30,780.08,0.0,Bank Transfer,Zenduit Corporation
+INV-010546,Traxxis GPS Solutions,2025-03-29,265.0,0.0,N/A,Zenduit Corporation
+INV-010545,"TrackCam, LLC",2025-03-29,4926.0,0.0,N/A,Zenduit Corporation
+INV-010543,Velocity Rail Solution,2025-03-29,1405.0,0.0,N/A,Zenduit Corporation
+INV-010542,Traxxis GPS Solutions,2025-03-29,265.0,0.0,N/A,Zenduit Corporation
+INV-010541,Traxxis GPS Solutions,2025-03-29,279.0,0.0,N/A,Zenduit Corporation
+INV-010540,"TrackCam, LLC",2025-03-29,415.0,0.0,N/A,Zenduit Corporation
+INV-010539,Trulite Glass and Aluminum Solutions Canada,2025-03-29,149.1,0.0,Check,Zenduit Corporation
+INV-010537,Magic Metals,2025-03-29,240.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010536,Trulite Glass and Aluminum Solutions,2025-03-29,315.0,0.0,N/A,Zenduit Corporation
+INV-010534,Traxxis GPS Solutions,2025-03-29,1675.0,0.0,Stripe,Zenduit Corporation
+INV-010533,Traxxis GPS Solutions,2025-03-29,265.0,0.0,N/A,Zenduit Corporation
+INV-010532,Traxxis GPS Solutions,2025-03-29,279.0,0.0,Stripe,Zenduit Corporation
+INV-010531,T&J Unlimited Transportation,2025-02-26,106.0,0.0,Stripe,Zenduit Corporation
+INV-010530,Arias Farms,2025-03-28,50.0,0.0,Stripe,Zenduit Corporation
+INV-010529,Merrill Steel Inc (Fiix Lead),2025-03-28,72.0,0.0,Stripe,Zenduit Corporation
+INV-010528,HMR Transportation (T-Mobile Client),2025-03-28,42.0,0.0,Stripe,Zenduit Corporation
+INV-010527,EAGLEi GPS,2025-03-28,1388.7,0.0,Stripe,Zenduit Corporation
+INV-010526,EMS Technology Solutions LLC/ Operative IQ,2025-03-28,477.0,0.0,Stripe,Zenduit Corporation
+INV-010525,"Paper Cuts, Inc. (T-Mobile Customer)",2025-03-27,131.89,0.0,Stripe,Zenduit Corporation
+INV-010524,Hagerstown Fire Department,2025-03-27,654.57,0.0,Check,Zenduit Corporation
+INV-010523,Administration of Fleets SA de CV,2025-03-27,605.0,0.0,Stripe,Zenduit Corporation
+INV-010522,Traxxis GPS Solutions,2025-03-26,438.0,0.0,N/A,Zenduit Corporation
+INV-010521,Coopers Petroleum (T-Mobile Customer),2025-03-26,219.66,0.0,Stripe,Zenduit Corporation
+INV-010520,Solugaz Inc (Fiix Client),2025-03-26,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-010519,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-03-25,1515.0,0.0,Check,Zenduit Corporation
+INV-010518,H.T. Hackney,2025-03-25,578.55,0.0,Stripe,Zenduit Corporation
+INV-010517,Premier Truck Group,2025-03-25,3222.2,0.0,Check,Zenduit Corporation
+INV-010516,DeNYSE Signage & Arcitectural Elements,2025-03-25,120.0,0.0,N/A,Zenduit Corporation
+INV-010515,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-03-24,36.0,0.0,Stripe,Zenduit Corporation
+INV-010514,Pontrelli & Laricchia (T-Mobile Customer),2025-03-24,60.0,0.0,Stripe,Zenduit Corporation
+INV-010513,Le Groupe ESSA Inc. (Fiix Client),2025-03-24,265.77,0.0,Stripe,Zenduit Corporation
+INV-010512,Global Plumbing & Fire Supply (T-Mobile Customer),2025-03-24,190.0,0.0,Stripe,Zenduit Corporation
+INV-010511,DBC Group,2025-03-24,174.02,0.0,Stripe,Zenduit Corporation
+INV-010510,"Welch Excavation & Utility Company, Inc.",2025-03-24,585.0,0.0,Stripe,Zenduit Corporation
+INV-010509,The Three C's Properties Inc,2025-03-24,679.5,0.0,Stripe,Zenduit Corporation
+INV-010508,Trulite Glass and Aluminum Solutions,2025-03-24,7358.0,0.0,N/A,Zenduit Corporation
+INV-010507,"Metro Mobile Electronics, LLC",2025-03-23,859.0,0.0,Stripe,Zenduit Corporation
+INV-010506,Biomedical Waste Disposal (T-Mobile Client),2025-03-23,132.0,0.0,Stripe,Zenduit Corporation
+INV-010505,Locke Supply (T-Mobile Customer),2025-03-23,1295.0,0.0,N/A,Zenduit Corporation
+INV-010504,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-03-23,312.0,0.0,Stripe,Zenduit Corporation
+INV-010503,Dynasty Communications,2025-03-23,90.0,0.0,Stripe,Zenduit Corporation
+INV-010502,"Mobile Fleet Solutions, Inc.",2025-03-23,136.0,0.0,Stripe,Zenduit Corporation
+INV-010501,McClay's Transportation Ltd.,2025-03-22,612.57,0.0,Stripe,Zenduit Corporation
+INV-010500,Fleet Shield,2025-03-22,195.0,0.0,Stripe,Zenduit Corporation
+INV-010498,Henry & Henry Inc.,2025-03-22,336.0,0.0,Stripe,Zenduit Corporation
+INV-010497,GotPrint,2025-03-22,108.0,0.0,Stripe,Zenduit Corporation
+INV-010496,Four Seasons Landscape and Property Services,2025-03-21,30.0,0.0,Stripe,Zenduit Corporation
+INV-010495,iPTT Wireless Solutions,2025-02-19,584.0,0.0,N/A,Zenduit Corporation
+INV-010494,Incotec,2025-03-21,174.0,0.0,N/A,Zenduit Corporation
+INV-010493,Velocity Rail Solution,2025-03-21,8310.0,0.0,N/A,Zenduit Corporation
+INV-010492,Meridith Baer Home (T-Mobile Client),2025-03-20,270.0,0.0,Stripe,Zenduit Corporation
+INV-010491,Dynasty Communications,2025-03-20,72.0,0.0,Stripe,Zenduit Corporation
+INV-010490,Track and Talk,2025-03-18,57.0,0.0,Stripe,Zenduit Corporation
+INV-010489,NY TRANSPORT INC (T-Mobile Client),2025-03-18,30.0,0.0,Stripe,Zenduit Corporation
+INV-010488,"Midwest Environmental Services, Inc.",2025-03-18,240.0,0.0,Stripe,Zenduit Corporation
+INV-010487,"Cee Kay Supply, Inc.",2025-03-18,228.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010486,Advantage Asset Tracking Inc.,2025-03-18,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-010485,"Participation House, Markham",2025-03-18,175.15,0.0,Stripe,Zenduit Corporation
+INV-010484,Miami LNG - FIXX/ Samsara,2025-03-17,20.0,0.0,Stripe,Zenduit Corporation
+INV-010483,Dynasty Communications,2025-03-17,106.0,0.0,Stripe,Zenduit Corporation
+INV-010481,Assetflo (Unique Partnership Agreement),2025-03-16,256.82,0.0,N/A,Zenduit Corporation
+INV-010480,Assetflo (Unique Partnership Agreement),2025-03-16,153.91,0.0,N/A,Zenduit Corporation
+INV-010479,A#1Air,2025-03-16,3335.5,0.0,Check,Zenduit Corporation
+INV-010478,Super Win Enterprises,2025-03-16,90.0,0.0,Stripe,Zenduit Corporation
+INV-010477,iPTT Wireless Solutions,2025-03-15,620.0,0.0,Stripe,Zenduit Corporation
+INV-010476,Smart MUBE,2025-02-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-010475,Port Connect Intermodel,2025-03-15,60.0,0.0,Stripe,Zenduit Corporation
+INV-010474,"Pro-Vac, LLC (Fiix Customer)",2025-03-15,1614.0,0.0,Stripe,Zenduit Corporation
+INV-010473,Efficient Fleets,2025-03-14,50.0,0.0,N/A,Zenduit Corporation
+INV-010472,Meridith Baer Home (T-Mobile Client),2025-03-14,73.5,0.0,Stripe,Zenduit Corporation
+INV-010471,"Fleet Nav Systems, LLC.",2025-03-14,171.0,0.0,Stripe,Zenduit Corporation
+INV-010470,Traxxis GPS Solutions,2025-03-14,105.0,0.0,Stripe,Zenduit Corporation
+INV-010469,Traxxis GPS Solutions,2025-03-14,0.0,0.0,N/A,Zenduit Corporation
+INV-010468,Traxxis GPS Solutions,2025-03-14,498.75,0.0,N/A,Zenduit Corporation
+INV-010467,Asset - Hawk,2025-03-14,383.0,0.0,Stripe,Zenduit Corporation
+INV-010466,Dynasty provisions,2025-03-14,60.0,0.0,Stripe,Zenduit Corporation
+INV-010465,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-03-14,392.0,0.0,Stripe,Zenduit Corporation
+INV-010464,Dynasty Communications,2025-03-14,234.0,0.0,Stripe,Zenduit Corporation
+INV-010463,City of Vernon,2025-03-14,175.14,0.0,Stripe,Zenduit Corporation
+INV-010462,GISCAD Guyana Inc,2025-03-13,4189.35,0.0,Stripe,Zenduit Corporation
+INV-010461,Traxxis GPS Solutions,2025-03-13,438.0,0.0,N/A,Zenduit Corporation
+INV-010459,SoCal Rentals (T-Mobile Client),2025-03-12,36.0,0.0,Stripe,Zenduit Corporation
+INV-010458,Santosa Delivery (T-Mobile Client),2025-03-12,108.0,0.0,Stripe,Zenduit Corporation
+INV-010457,"A & V Reality Transportation , LLC",2025-03-12,486.0,0.0,Stripe,Zenduit Corporation
+INV-010456,Northern Business Intelligence,2025-03-12,89.7,0.0,Stripe,Zenduit Corporation
+INV-010455,"DICAN, Inc.",2025-03-27,2064.61,0.0,Check,Zenduit Corporation
+INV-010453,EcoTrack Fleet Management,2025-03-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-010452,Line Drive Trucking (T-Mobile Customer),2025-03-11,1500.0,0.0,Stripe,Zenduit Corporation
+INV-010451,Platinum Energy Services,2025-03-11,402.5,0.0,Stripe,Zenduit Corporation
+INV-010450,GPS to GO Ltd.,2025-03-11,99.47,0.0,Stripe,Zenduit Corporation
+INV-010449,ASAP Trucking Company LLC,2025-03-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-010448,Furst McNess Company,2025-03-10,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010447,Apex Wireless,2025-03-10,545.0,0.0,Stripe,Zenduit Corporation
+INV-010446,QUALTRACKS,2025-03-10,21.5,0.0,Stripe,Zenduit Corporation
+INV-010445,QES Pressure Control,2025-03-10,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010444,Grupo Invictus,2025-03-09,23.21,0.0,Stripe,Zenduit Corporation
+INV-010443,Quixote Studios LLC,2025-02-07,4172.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010442,Genesis Dispatch,2025-03-09,404.55,0.0,Stripe,Zenduit Corporation
+INV-010441,RMA Testing Company Zenduit,2025-03-09,979.34,0.0,N/A,Zenduit Corporation
+INV-010440,Badger Fleet Solutions,2025-03-09,304.0,0.0,Stripe,Zenduit Corporation
+INV-010439,Hawkeye Electronic Security,2025-03-09,475.0,0.0,Stripe,Zenduit Corporation
+INV-010437,Precise Fleet Tracking Solutions,2025-03-08,125.0,0.0,Stripe,Zenduit Corporation
+INV-010436,"Georgia Pack & Load Moving and Storage, Inc.",2025-02-06,244.0,0.0,Stripe,Zenduit Corporation
+INV-010435,Cal Freight,2025-03-08,30.0,0.0,Stripe,Zenduit Corporation
+INV-010434,Dynasty Communications,2025-03-08,18.0,0.0,Stripe,Zenduit Corporation
+INV-010433,Velocity Rail Solution,2025-03-07,200.0,0.0,N/A,Zenduit Corporation
+INV-010432,Traxxis GPS Solutions,2025-03-07,660.0,0.0,Stripe,Zenduit Corporation
+INV-010431,Line Drive Trucking (T-Mobile Customer),2025-03-07,2313.0,0.0,Stripe,Zenduit Corporation
+INV-010430,Traxxis GPS Solutions,2025-03-07,125.0,0.0,Stripe,Zenduit Corporation
+INV-010428,Traxxis GPS Solutions,2025-03-07,2405.0,0.0,Stripe,Zenduit Corporation
+INV-010427,Velocity Rail Solution,2025-03-07,935.0,0.0,N/A,Zenduit Corporation
+INV-010426,Biomedical Waste Disposal (T-Mobile Client),2025-03-07,30.0,0.0,Stripe,Zenduit Corporation
+INV-010425,Traxxis GPS Solutions,2025-03-07,750.0,0.0,Check,Zenduit Corporation
+INV-010424,Bital Services Inc,2025-03-07,273.99,0.0,Stripe,Zenduit Corporation
+INV-010423,Lee Fish USA (T-Mobile Client),2025-03-07,83.93,0.0,Stripe,Zenduit Corporation
+INV-010422,Arjan Trans Inc (T-Mobile Client),2025-03-07,78.0,0.0,Stripe,Zenduit Corporation
+INV-010421,GLEZ Trucking (T-Mobile Customer),2025-03-07,80.0,0.0,Stripe,Zenduit Corporation
+INV-010420,Dynasty Communications,2025-03-07,78.0,0.0,Stripe,Zenduit Corporation
+INV-010419,Dynasty Communications,2025-03-07,180.5,0.0,Stripe,Zenduit Corporation
+INV-010418,GISCAD Limited,2025-03-07,3462.86,0.0,Stripe,Zenduit Corporation
+INV-010417,Traxxis GPS Solutions,2025-03-06,30469.0,0.0,Check,Zenduit Corporation
+INV-010416,Traxxis GPS Solutions,2025-03-06,34695.0,0.0,Check,Zenduit Corporation
+INV-010415,"TrackCam, LLC",2025-03-06,228.0,0.0,N/A,Zenduit Corporation
+INV-010414,"TrackCam, LLC",2025-03-06,2158.55,0.0,N/A,Zenduit Corporation
+INV-010413,"TrackCam, LLC",2025-03-06,3307.0,0.0,N/A,Zenduit Corporation
+INV-010412,"TrackCam, LLC",2025-03-06,2763.0,0.0,N/A,Zenduit Corporation
+INV-010411,"TrackCam, LLC",2025-03-06,0.0,0.0,N/A,Zenduit Corporation
+INV-010410,"TrackCam, LLC",2025-03-21,20050.0,0.0,N/A,Zenduit Corporation
+INV-010409,"TrackCam, LLC",2025-03-06,28875.0,0.0,N/A,Zenduit Corporation
+INV-010408,"TrackCam, LLC",2025-03-06,55615.0,0.0,N/A,Zenduit Corporation
+INV-010407,"TrackCam, LLC",2025-03-06,61590.0,0.0,N/A,Zenduit Corporation
+INV-010406,LMD Integrated Logistics (USD),2025-03-06,444.0,0.0,Stripe,Zenduit Corporation
+INV-010405,The Standard Design Group (T-Mobile Client),2025-03-06,96.0,0.0,Stripe,Zenduit Corporation
+INV-010404,Outdoor Inc (T-Mobile Client),2025-03-06,200.0,0.0,N/A,Zenduit Corporation
+INV-010403,"Advantage Fleet, LLC.",2025-03-06,90.0,0.0,Stripe,Zenduit Corporation
+INV-010402,SAC Wireless,2025-03-06,600.0,0.0,N/A,Zenduit Corporation
+INV-010400,Traxxis GPS Solutions,2025-03-05,265.0,0.0,N/A,Zenduit Corporation
+INV-010399,VLC,2025-03-05,4225.0,0.0,Check,Zenduit Corporation
+INV-010398,JLRG Consulting (Tel-Sol),2025-03-05,11.5,0.0,Stripe,Zenduit Corporation
+INV-010397,ENS Transport (T-Mobile Client),2025-03-05,72.0,0.0,Stripe,Zenduit Corporation
+INV-010396,GA Department of Driver Services,2025-03-05,3738.0,0.0,Check,Zenduit Corporation
+INV-010395,Highland Wireless Services,2025-03-03,145.0,0.0,Check,Zenduit Corporation
+INV-010393,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-03-03,276.0,0.0,Stripe,Zenduit Corporation
+INV-010391,"California Waste Services, LLC(OLD)",2025-03-03,1595.0,0.0,Stripe,Zenduit Corporation
+INV-010390,Pun Enterprises Incorporated,2025-03-03,36.0,0.0,Stripe,Zenduit Corporation
+INV-010389,College Hunks Hauling Junk and Moving of Grand Rapids,2025-03-03,260.0,0.0,Stripe,Zenduit Corporation
+INV-010388,Finger Lakes TC,2025-03-03,125.0,0.0,Stripe,Zenduit Corporation
+INV-010387,Carbentec (Formerly Titan Innovations),2025-03-03,606.0,0.0,N/A,Zenduit Corporation
+INV-010386,Aalto Technologies,2025-03-03,142.3,0.0,Stripe,Zenduit Corporation
+INV-010385,KELLY TOURS,2025-03-03,420.0,0.0,Stripe,Zenduit Corporation
+INV-010384,GPS to GO Ltd.,2025-03-02,430.25,0.0,Stripe,Zenduit Corporation
+INV-010383,GPS to GO Ltd.,2025-03-02,1015.31,0.0,Stripe,Zenduit Corporation
+INV-010381,Traxxis GPS Solutions,2025-03-01,70.0,0.0,Stripe,Zenduit Corporation
+INV-010380,Traxxis GPS Solutions,2025-03-01,35.0,0.0,Stripe,Zenduit Corporation
+INV-010379,GA Department of Driver Services,2025-03-01,800.0,0.0,Check,Zenduit Corporation
+INV-010378,"TrackCam, LLC",2025-03-01,261.25,0.0,N/A,Zenduit Corporation
+INV-010376,Efficient Fleets,2025-01-30,810.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010375,Incident Clear - Florida,2025-03-01,1840.0,0.0,Stripe,Zenduit Corporation
+INV-010374,GISCAD Jamaica Limited,2025-03-01,384.8,0.0,Stripe,Zenduit Corporation
+INV-010373,Dynasty Communications,2025-03-01,36.0,0.0,Stripe,Zenduit Corporation
+INV-010372,Dynasty Communications,2025-03-01,738.0,0.0,Stripe,Zenduit Corporation
+INV-010371,WEX INC,2025-03-01,1364.0,0.0,Stripe,Zenduit Corporation
+INV-010370,Smart Witness LLC,2025-03-01,8185.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010369,"Pat's Offroad, Inc.",2025-03-01,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010368,Rush Enterprises,2025-03-01,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010367,VLC,2025-02-28,4180.0,0.0,Check,Zenduit Corporation
+INV-010365,http://www.argosconnected.com,2025-02-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-010364,"Badia Spices, LLC. (T-Mobile Client)",2025-02-28,432.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010363,Financial Technology Solutions International (T-Mobile Customer),2025-02-28,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010362,Robert J. Devereaux Corp.,2025-02-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-010361,Traxxis GPS Solutions,2025-02-28,36573.75,0.0,Stripe,Zenduit Corporation
+INV-010360,SSC International (T-Mobile Client),2025-02-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-010358,Trulite Glass and Aluminum Solutions Canada,2025-02-26,149.1,0.0,Check,Zenduit Corporation
+INV-010357,Worldwide Recovery (T-Mobile Client),2025-02-26,240.0,0.0,Check,Zenduit Corporation
+INV-010356,Magic Metals,2025-02-26,240.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010355,Arias Farms,2025-02-25,50.0,0.0,Check,Zenduit Corporation
+INV-010354,Merrill Steel Inc (Fiix Lead),2025-02-25,72.0,0.0,Stripe,Zenduit Corporation
+INV-010353,HMR Transportation (T-Mobile Client),2025-02-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-010352,"TrackCam, LLC",2025-02-25,49521.0,0.0,N/A,Zenduit Corporation
+INV-010351,EAGLEi GPS,2025-02-25,1291.82,0.0,Stripe,Zenduit Corporation
+INV-010350,EMS Technology Solutions LLC/ Operative IQ,2025-02-25,477.0,0.0,Stripe,Zenduit Corporation
+INV-010349,"Paper Cuts, Inc. (T-Mobile Customer)",2025-02-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-010348,Hagerstown Fire Department,2025-02-24,654.57,0.0,Check,Zenduit Corporation
+INV-010347,Administration of Fleets SA de CV,2025-02-24,595.0,0.0,Stripe,Zenduit Corporation
+INV-010346,Administration of Fleets SA de CV,2025-02-23,512.0,0.0,N/A,Zenduit Corporation
+INV-010345,Velocity Rail Solution,2025-02-23,8493.38,0.0,N/A,Zenduit Corporation
+INV-010344,Velocity Rail Solution,2025-02-23,877.0,0.0,N/A,Zenduit Corporation
+INV-010343,Genesis Dispatch,2025-02-23,830.0,0.0,Stripe,Zenduit Corporation
+INV-010342,Administration of Fleets SA de CV,2025-02-23,395.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010341,Coopers Petroleum (T-Mobile Customer),2025-02-23,219.66,0.0,Stripe,Zenduit Corporation
+INV-010340,Solugaz Inc (Fiix Client),2025-02-23,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-010339,Meridith Baer Home (T-Mobile Client),2025-02-22,399.5,0.0,Stripe,Zenduit Corporation
+INV-010338,Premier Truck Group,2025-02-22,2745.9,0.0,Check,Zenduit Corporation
+INV-010337,VLC,2025-02-22,900.0,0.0,Check,Zenduit Corporation
+INV-010335,VNH Enterprises (OLD Account - INACTIVE),2025-02-22,1820.0,0.0,N/A,Zenduit Corporation
+INV-010334,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-02-22,1570.0,0.0,Check,Zenduit Corporation
+INV-010333,H.T. Hackney,2025-02-22,578.55,0.0,Stripe,Zenduit Corporation
+INV-010332,Premier Truck Group,2025-02-22,3222.2,0.0,Check,Zenduit Corporation
+INV-010331,DeNYSE Signage & Arcitectural Elements,2025-02-22,120.0,0.0,N/A,Zenduit Corporation
+INV-010330,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-02-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-010329,Pontrelli & Laricchia (T-Mobile Customer),2025-02-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-010328,Le Groupe ESSA Inc. (Fiix Client),2025-02-21,265.77,0.0,Stripe,Zenduit Corporation
+INV-010327,Global Plumbing & Fire Supply (T-Mobile Customer),2025-02-21,204.0,0.0,Stripe,Zenduit Corporation
+INV-010326,DBC Group,2025-02-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-010325,"Welch Excavation & Utility Company, Inc.",2025-02-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-010324,The Three C's Properties Inc,2025-02-21,732.0,0.0,Stripe,Zenduit Corporation
+INV-010323,Trulite Glass and Aluminum Solutions,2025-02-21,7228.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010322,Biomedical Waste Disposal (T-Mobile Client),2025-02-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-010321,Locke Supply (T-Mobile Customer),2025-02-20,1267.0,0.0,N/A,Zenduit Corporation
+INV-010320,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-02-20,312.0,0.0,Stripe,Zenduit Corporation
+INV-010319,Dynasty Communications,2025-02-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-010318,"Mobile Fleet Solutions, Inc.",2025-02-20,136.0,0.0,Stripe,Zenduit Corporation
+INV-010315,McClay's Transportation Ltd.,2025-02-19,622.0,0.0,Stripe,Zenduit Corporation
+INV-010314,Fleet Shield,2025-02-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-010312,Henry & Henry Inc.,2025-02-19,336.0,0.0,Stripe,Zenduit Corporation
+INV-010311,GotPrint,2025-02-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-010310,Incotec,2025-02-18,174.0,0.0,Stripe,Zenduit Corporation
+INV-010309,Velocity Rail Solution,2025-02-18,8255.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010308,Meridith Baer Home (T-Mobile Client),2025-02-17,270.0,0.0,Stripe,Zenduit Corporation
+INV-010307,Dynasty Communications,2025-02-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-010306,NY TRANSPORT INC (T-Mobile Client),2025-02-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-010305,"Midwest Environmental Services, Inc.",2025-02-15,223.0,0.0,Stripe,Zenduit Corporation
+INV-010304,"Cee Kay Supply, Inc.",2025-02-15,228.0,0.0,Check,Zenduit Corporation
+INV-010303,Advantage Asset Tracking Inc.,2025-02-15,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-010302,"Participation House, Markham",2025-02-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-010301,Bital Services Inc,2025-02-14,50.0,0.0,Stripe,Zenduit Corporation
+INV-010300,Trulite Glass and Aluminum Solutions,2025-02-14,810.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010299,Traxxis GPS Solutions,2025-02-14,35.0,0.0,Stripe,Zenduit Corporation
+INV-010298,"Techweb of Puerto Rico, Inc.",2025-02-14,16753.5,0.0,Stripe,Zenduit Corporation
+INV-010297,Miami LNG - FIXX/ Samsara,2025-02-14,20.0,0.0,N/A,Zenduit Corporation
+INV-010296,Dynasty Communications,2025-02-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-010293,GISCAD Limited,2025-02-13,0.0,0.0,N/A,Zenduit Corporation
+INV-010292,GISCAD Limited,2025-02-13,50.0,0.0,Stripe,Zenduit Corporation
+INV-010291,Assetflo (Unique Partnership Agreement),2025-02-13,205.21,0.0,N/A,Zenduit Corporation
+INV-010290,A#1Air,2025-02-13,3285.5,0.0,Check,Zenduit Corporation
+INV-010289,Super Win Enterprises,2025-02-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-010288,VLC,2025-02-12,30.0,0.0,Check,Zenduit Corporation
+INV-010287,"Fleet Nav Systems, LLC.",2025-02-12,1340.0,0.0,Stripe,Zenduit Corporation
+INV-010285,Smart MUBE,2025-01-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-010284,Port Connect Intermodel,2025-02-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-010283,"Pro-Vac, LLC (Fiix Customer)",2025-02-12,1611.0,0.0,Stripe,Zenduit Corporation
+INV-010282,Dynasty provisions,2025-02-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-010281,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-02-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-010280,Dynasty Communications,2025-02-11,234.0,0.0,Stripe,Zenduit Corporation
+INV-010279,City of Vernon,2025-02-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-010278,SoCal Rentals (T-Mobile Client),2025-02-09,36.0,0.0,Stripe,Zenduit Corporation
+INV-010277,Santosa Delivery (T-Mobile Client),2025-02-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-010276,"A & V Reality Transportation , LLC",2025-02-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-010275,Northern Business Intelligence,2025-02-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-010274,"DICAN, Inc.",2025-02-24,2064.61,0.0,Check,Zenduit Corporation
+INV-010273,Texas Instruments Incorporated,2025-02-08,24000.0,0.0,N/A,Zenduit Corporation
+INV-010272,Texas Instruments Incorporated,2025-02-08,8000.0,0.0,N/A,Zenduit Corporation
+INV-010271,Texas Instruments Incorporated,2025-02-08,57.0,0.0,N/A,Zenduit Corporation
+INV-010270,Texas Instruments Incorporated,2025-02-08,715.61,0.0,N/A,Zenduit Corporation
+INV-010269,Texas Instruments Incorporated,2025-02-08,57.0,0.0,N/A,Zenduit Corporation
+INV-010268,Texas Instruments Incorporated,2025-02-08,726.27,0.0,N/A,Zenduit Corporation
+INV-010267,Texas Instruments Incorporated,2025-02-08,2023.0,0.0,N/A,Zenduit Corporation
+INV-010266,Texas Instruments Incorporated,2025-02-08,1907.0,0.0,N/A,Zenduit Corporation
+INV-010265,Texas Instruments Incorporated,2025-02-08,1922.0,0.0,N/A,Zenduit Corporation
+INV-010264,Texas Instruments Incorporated,2025-02-08,2023.0,0.0,N/A,Zenduit Corporation
+INV-010259,Play Telematics / Eye Drivers,2025-02-08,94.22,0.0,N/A,Zenduit Corporation
+INV-010258,EcoTrack Fleet Management,2025-02-08,60.0,0.0,Stripe,Zenduit Corporation
+INV-010257,Line Drive Trucking (T-Mobile Customer),2025-02-08,1484.0,0.0,Stripe,Zenduit Corporation
+INV-010256,Platinum Energy Services,2025-02-08,402.5,0.0,Stripe,Zenduit Corporation
+INV-010254,GPS to GO Ltd.,2025-02-08,76.03,0.0,Stripe,Zenduit Corporation
+INV-010253,ASAP Trucking Company LLC,2025-02-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-010252,Furst McNess Company,2025-02-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010251,Apex Wireless,2025-02-07,545.0,0.0,Stripe,Zenduit Corporation
+INV-010250,QUALTRACKS,2025-02-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-010249,QES Pressure Control,2025-02-07,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010248,Grupo Invictus,2025-02-06,23.21,0.0,Stripe,Zenduit Corporation
+INV-010247,Quixote Studios LLC,2025-01-07,4172.0,0.0,N/A,Zenduit Corporation
+INV-010246,Genesis Dispatch,2025-02-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-010245,RMA Testing Company Zenduit,2025-02-06,979.34,0.0,N/A,Zenduit Corporation
+INV-010244,Badger Fleet Solutions,2025-02-06,304.0,0.0,Stripe,Zenduit Corporation
+INV-010243,Hawkeye Electronic Security,2025-02-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-010242,ARTHOFER FINANCIAL,2025-01-06,848.5,0.0,Stripe,Zenduit Corporation
+INV-010241,"Georgia Pack & Load Moving and Storage, Inc.",2025-01-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-010240,Cal Freight,2025-02-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-010239,Dynasty Communications,2025-02-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-010237,Bital Services Inc,2025-02-04,268.99,0.0,Stripe,Zenduit Corporation
+INV-010236,Lee Fish USA (T-Mobile Client),2025-02-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-010235,Arjan Trans Inc (T-Mobile Client),2025-02-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-010234,GLEZ Trucking (T-Mobile Customer),2025-02-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-010233,Dynasty Communications,2025-02-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-010232,Dynasty Communications,2025-02-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-010231,GISCAD Limited,2025-02-04,2896.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010230,LMD Integrated Logistics (USD),2025-02-03,444.0,0.0,Stripe,Zenduit Corporation
+INV-010229,The Standard Design Group (T-Mobile Client),2025-02-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-010228,Outdoor Inc (T-Mobile Client),2025-02-03,190.0,0.0,N/A,Zenduit Corporation
+INV-010227,"Advantage Fleet, LLC.",2025-02-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-010226,SAC Wireless,2025-02-03,600.0,0.0,N/A,Zenduit Corporation
+INV-010225,Meridith Baer Home (T-Mobile Client),2025-02-02,76.5,0.0,Stripe,Zenduit Corporation
+INV-010224,JLRG Consulting (Tel-Sol),2025-02-02,11.5,0.0,N/A,Zenduit Corporation
+INV-010223,ENS Transport (T-Mobile Client),2025-02-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-010222,GA Department of Driver Services,2025-02-02,3648.0,0.0,Check,Zenduit Corporation
+INV-010221,Highland Wireless Services,2025-01-31,145.0,0.0,Check,Zenduit Corporation
+INV-010220,"Geotab, Inc USD",2025-01-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010219,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-01-31,276.0,0.0,Stripe,Zenduit Corporation
+INV-010218,Secure Transportation,2025-01-31,160.0,0.0,Stripe,Zenduit Corporation
+INV-010217,"California Waste Services, LLC(OLD)",2025-01-31,1595.0,0.0,Stripe,Zenduit Corporation
+INV-010216,Pun Enterprises Incorporated,2025-01-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-010215,College Hunks Hauling Junk and Moving of Grand Rapids,2025-01-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-010214,Finger Lakes TC,2025-01-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-010213,Carbentec (Formerly Titan Innovations),2025-01-31,606.0,0.0,Stripe,Zenduit Corporation
+INV-010212,Aalto Technologies,2025-01-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-010211,KELLY TOURS,2025-01-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-010210,Metrica Movil,2025-01-30,975.08,0.0,Bank Transfer,Zenduit Corporation
+INV-010209,Incident Clear - Florida,2025-01-29,1840.0,0.0,Stripe,Zenduit Corporation
+INV-010208,GISCAD Jamaica Limited,2025-01-29,384.8,0.0,Stripe,Zenduit Corporation
+INV-010207,Dynasty Communications,2025-01-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-010206,Dynasty Communications,2025-01-29,738.0,0.0,Stripe,Zenduit Corporation
+INV-010205,WEX INC,2025-01-29,1364.0,0.0,Stripe,Zenduit Corporation
+INV-010204,Smart Witness LLC,2025-01-29,8185.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010203,"Pat's Offroad, Inc.",2025-01-29,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010202,Rush Enterprises,2025-01-29,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010200,http://www.argosconnected.com,2025-01-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-010199,"Badia Spices, LLC. (T-Mobile Client)",2025-01-28,336.0,0.0,N/A,Zenduit Corporation
+INV-010198,Financial Technology Solutions International (T-Mobile Customer),2025-01-28,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010197,Robert J. Devereaux Corp.,2025-01-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-010196,Traxxis GPS Solutions,2025-01-28,36911.25,0.0,Stripe,Zenduit Corporation
+INV-010195,SSC International (T-Mobile Client),2025-01-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-010193,"TrackCam, LLC",2025-01-26,48004.0,0.0,N/A,Zenduit Corporation
+INV-010192,Extreme Electronics Corp,2025-01-26,60.0,0.0,Stripe,Zenduit Corporation
+INV-010191,Trulite Glass and Aluminum Solutions Canada,2025-01-26,149.1,0.0,Bank Transfer,Zenduit Corporation
+INV-010190,Worldwide Recovery (T-Mobile Client),2025-01-26,240.0,0.0,Check,Zenduit Corporation
+INV-010189,Magic Metals,2025-01-26,240.0,0.0,N/A,Zenduit Corporation
+INV-010188,Arias Farms,2025-01-25,50.0,0.0,Check,Zenduit Corporation
+INV-010187,Merrill Steel Inc (Fiix Lead),2025-01-25,72.0,0.0,Stripe,Zenduit Corporation
+INV-010186,HMR Transportation (T-Mobile Client),2025-01-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-010185,EAGLEi GPS,2025-01-25,1291.82,0.0,Stripe,Zenduit Corporation
+INV-010184,EMS Technology Solutions LLC/ Operative IQ,2025-01-25,465.0,0.0,Stripe,Zenduit Corporation
+INV-010183,"Paper Cuts, Inc. (T-Mobile Customer)",2025-01-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-010182,Hagerstown Fire Department,2025-01-24,654.57,0.0,Check,Zenduit Corporation
+INV-010181,Administration of Fleets SA de CV,2025-01-24,480.0,0.0,Stripe,Zenduit Corporation
+INV-010180,Bital Services Inc,2025-01-23,325.0,0.0,Stripe,Zenduit Corporation
+INV-010179,Coopers Petroleum (T-Mobile Customer),2025-01-23,219.66,0.0,Stripe,Zenduit Corporation
+INV-010178,Solugaz Inc (Fiix Client),2025-01-23,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-010177,Breakthru Beverage Group Family,2025-01-22,10.0,0.0,Check,Zenduit Corporation
+INV-010176,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-01-22,1570.0,0.0,Check,Zenduit Corporation
+INV-010175,H.T. Hackney,2025-01-22,578.55,0.0,Stripe,Zenduit Corporation
+INV-010174,Premier Truck Group,2025-01-22,2743.08,0.0,Check,Zenduit Corporation
+INV-010173,DeNYSE Signage & Arcitectural Elements,2025-01-22,120.0,0.0,N/A,Zenduit Corporation
+INV-010172,Play Telematics / Eye Drivers,2025-01-21,121.98,0.0,N/A,Zenduit Corporation
+INV-010171,Assetflo (Unique Partnership Agreement),2025-01-21,468.95,0.0,N/A,Zenduit Corporation
+INV-010170,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-01-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-010169,Pontrelli & Laricchia (T-Mobile Customer),2025-01-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-010168,Le Groupe ESSA Inc. (Fiix Client),2025-01-21,265.77,0.0,Stripe,Zenduit Corporation
+INV-010167,Global Plumbing & Fire Supply (T-Mobile Customer),2025-01-21,184.0,0.0,Stripe,Zenduit Corporation
+INV-010166,DBC Group,2025-01-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-010165,"Welch Excavation & Utility Company, Inc.",2025-01-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-010164,The Three C's Properties Inc,2025-01-21,638.0,0.0,Stripe,Zenduit Corporation
+INV-010163,Trulite Glass and Aluminum Solutions,2025-01-21,7124.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010162,Biomedical Waste Disposal (T-Mobile Client),2025-01-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-010161,"Premier Transportation & Warehousing, Inc",2025-01-20,294.0,0.0,Stripe,Zenduit Corporation
+INV-010160,Locke Supply (T-Mobile Customer),2025-01-20,1253.0,0.0,Check,Zenduit Corporation
+INV-010159,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-01-20,312.0,0.0,Stripe,Zenduit Corporation
+INV-010158,Dynasty Communications,2025-01-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-010157,"Mobile Fleet Solutions, Inc.",2025-01-20,136.0,0.0,Stripe,Zenduit Corporation
+INV-010156,Play Telematics / Eye Drivers,2025-01-19,25.0,0.0,N/A,Zenduit Corporation
+INV-010154,JLRG Consulting (Tel-Sol),2025-01-19,659.0,0.0,N/A,Zenduit Corporation
+INV-010153,JLRG Consulting (Tel-Sol),2025-01-19,25.0,0.0,N/A,Zenduit Corporation
+INV-010152,McClay's Transportation Ltd.,2025-01-19,622.0,0.0,Stripe,Zenduit Corporation
+INV-010151,Fleet Shield,2025-01-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-010149,Henry & Henry Inc.,2025-01-19,286.0,0.0,Stripe,Zenduit Corporation
+INV-010148,GotPrint,2025-01-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-010147,Incotec,2025-01-18,174.0,0.0,Stripe,Zenduit Corporation
+INV-010146,Velocity Rail Solution,2025-01-18,8380.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010145,VLC,2025-01-17,1213.5,0.0,Check,Zenduit Corporation
+INV-010144,VLC,2025-01-17,198.0,0.0,Check,Zenduit Corporation
+INV-010143,VLC,2025-01-17,54.99,0.0,Check,Zenduit Corporation
+INV-010142,Meridith Baer Home (T-Mobile Client),2025-01-17,270.0,0.0,Stripe,Zenduit Corporation
+INV-010141,Dynasty Communications,2025-01-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-010140,EAGLEi GPS,2025-01-16,1155.99,0.0,Stripe,Zenduit Corporation
+INV-010139,NY TRANSPORT INC (T-Mobile Client),2025-01-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-010138,"Midwest Environmental Services, Inc.",2025-01-15,223.0,0.0,Stripe,Zenduit Corporation
+INV-010137,"Cee Kay Supply, Inc.",2025-01-15,228.0,0.0,Check,Zenduit Corporation
+INV-010136,Advantage Asset Tracking Inc.,2025-01-15,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-010135,"Participation House, Markham",2025-01-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-010134,Miami LNG - FIXX/ Samsara,2025-01-14,20.0,0.0,N/A,Zenduit Corporation
+INV-010133,Dynasty Communications,2025-01-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-010131,"Kenworth Northeast Group, Inc.",2025-01-14,1235.0,0.0,Check,Zenduit Corporation
+INV-010130,Assetflo (Unique Partnership Agreement),2025-01-13,205.21,0.0,N/A,Zenduit Corporation
+INV-010129,A#1Air,2025-01-13,3285.5,0.0,Check,Zenduit Corporation
+INV-010128,Super Win Enterprises,2025-01-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-010127,Smart MUBE,2024-12-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-010126,Port Connect Intermodel,2025-01-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-010125,"Pro-Vac, LLC (Fiix Customer)",2025-01-12,1605.0,0.0,Stripe,Zenduit Corporation
+INV-010124,Dynasty provisions,2025-01-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-010123,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-01-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-010122,Dynasty Communications,2025-01-11,234.0,0.0,Stripe,Zenduit Corporation
+INV-010121,City of Vernon,2025-01-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-010120,Velocity Rail Solution,2025-01-11,3100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010119,Marcial Ventas Rastreo Enlinea,2025-01-10,235.0,0.0,Stripe,Zenduit Corporation
+INV-010118,Luxury Flush,2024-12-10,2888.6,0.0,Stripe,Zenduit Corporation
+INV-010117,GISCAD Guyana Inc,2025-01-09,170.0,0.0,Stripe,Zenduit Corporation
+INV-010116,SoCal Rentals (T-Mobile Client),2025-01-09,36.0,0.0,Stripe,Zenduit Corporation
+INV-010115,Santosa Delivery (T-Mobile Client),2025-01-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-010114,"A & V Reality Transportation , LLC",2025-01-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-010113,Northern Business Intelligence,2025-01-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-010112,"DICAN, Inc.",2025-01-24,2064.61,0.0,Check,Zenduit Corporation
+INV-010111,Traxxis GPS Solutions,2025-01-08,34506.5,0.0,Check,Zenduit Corporation
+INV-010110,EcoTrack Fleet Management,2025-01-08,60.0,0.0,Stripe,Zenduit Corporation
+INV-010109,Line Drive Trucking (T-Mobile Customer),2025-01-08,1484.0,0.0,Stripe,Zenduit Corporation
+INV-010108,Platinum Energy Services,2025-01-08,402.5,0.0,Stripe,Zenduit Corporation
+INV-010106,GPS to GO Ltd.,2025-01-08,76.03,0.0,Stripe,Zenduit Corporation
+INV-010105,ASAP Trucking Company LLC,2025-01-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-010104,Furst McNess Company,2025-01-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010103,Apex Wireless,2025-01-07,525.0,0.0,Stripe,Zenduit Corporation
+INV-010102,QUALTRACKS,2025-01-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-010101,QES Pressure Control,2025-01-07,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010100,Grupo Invictus,2025-01-06,23.21,0.0,Stripe,Zenduit Corporation
+INV-010099,Quixote Studios LLC,2024-12-07,4172.0,0.0,N/A,Zenduit Corporation
+INV-010098,Genesis Dispatch,2025-01-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-010096,Badger Fleet Solutions,2025-01-06,300.0,0.0,Stripe,Zenduit Corporation
+INV-010095,Hawkeye Electronic Security,2025-01-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-010094,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2025-01-05,280.0,0.0,Check,Zenduit Corporation
+INV-010093,VLC,2025-01-05,3122.5,0.0,Check,Zenduit Corporation
+INV-010092,"Georgia Pack & Load Moving and Storage, Inc.",2024-12-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-010091,Cal Freight,2025-01-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-010090,Dynasty Communications,2025-01-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-010088,SAC Wireless,2025-01-04,255.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010087,Bital Services Inc,2025-01-04,254.74,0.0,Stripe,Zenduit Corporation
+INV-010086,Lee Fish USA (T-Mobile Client),2025-01-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-010085,Arjan Trans Inc (T-Mobile Client),2025-01-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-010084,GLEZ Trucking (T-Mobile Customer),2025-01-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-010083,Dynasty Communications,2025-01-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-010082,Dynasty Communications,2025-01-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-010081,GISCAD Limited,2025-01-04,2896.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010080,Traxxis GPS Solutions,2025-01-03,35.0,0.0,Stripe,Zenduit Corporation
+INV-010079,Assetflo (Unique Partnership Agreement),2025-01-03,468.95,0.0,N/A,Zenduit Corporation
+INV-010078,WEX INC,2025-01-03,1070.0,0.0,N/A,Zenduit Corporation
+INV-010077,"TrackCam, LLC",2025-02-06,3020.0,0.0,N/A,Zenduit Corporation
+INV-010076,"California Waste Services, LLC(OLD)",2025-01-03,935.0,0.0,Stripe,Zenduit Corporation
+INV-010075,Traxxis GPS Solutions,2025-01-03,475.0,0.0,Stripe,Zenduit Corporation
+INV-010074,Velocity Rail Solution,2025-01-03,1766.94,0.0,N/A,Zenduit Corporation
+INV-010073,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-01-03,1850.0,0.0,Stripe,Zenduit Corporation
+INV-010072,Global Plumbing & Fire Supply (T-Mobile Customer),2025-01-03,725.0,0.0,Stripe,Zenduit Corporation
+INV-010071,"California Waste Services, LLC(OLD)",2025-01-03,2570.0,0.0,Stripe,Zenduit Corporation
+INV-010070,Velocity Rail Solution,2025-01-03,5141.0,0.0,N/A,Zenduit Corporation
+INV-010069,Traxxis GPS Solutions,2025-01-03,365.0,0.0,Stripe,Zenduit Corporation
+INV-010068,GISCAD Guyana Inc,2025-01-03,1282.75,0.0,Stripe,Zenduit Corporation
+INV-010067,Traxxis GPS Solutions,2025-01-03,842.5,0.0,Stripe,Zenduit Corporation
+INV-010066,Traxxis GPS Solutions,2025-01-03,332.5,0.0,Stripe,Zenduit Corporation
+INV-010065,"L and R Auto Parks, Inc.",2025-01-03,35.0,0.0,N/A,Zenduit Corporation
+INV-010064,VLC,2025-01-03,15.0,0.0,Check,Zenduit Corporation
+INV-010063,VLC,2025-01-03,130.0,0.0,Check,Zenduit Corporation
+INV-010062,VLC,2025-01-03,120.0,0.0,Check,Zenduit Corporation
+INV-010061,VLC,2025-01-03,30.0,0.0,Check,Zenduit Corporation
+INV-010060,VLC,2025-01-03,2302.5,0.0,Check,Zenduit Corporation
+INV-010059,VLC,2025-01-03,6750.0,0.0,Check,Zenduit Corporation
+INV-010058,VLC,2025-01-03,7200.0,0.0,Check,Zenduit Corporation
+INV-010057,VLC,2025-01-03,7200.0,0.0,Check,Zenduit Corporation
+INV-010056,LMD Integrated Logistics (USD),2025-01-03,456.0,0.0,Stripe,Zenduit Corporation
+INV-010055,The Standard Design Group (T-Mobile Client),2025-01-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-010054,Outdoor Inc (T-Mobile Client),2025-01-03,190.0,0.0,N/A,Zenduit Corporation
+INV-010053,"Advantage Fleet, LLC.",2025-01-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-010052,SAC Wireless,2025-01-03,600.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010051,JLRG Consulting (Tel-Sol),2025-01-02,5.75,0.0,Stripe,Zenduit Corporation
+INV-010050,ENS Transport (T-Mobile Client),2025-01-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-010049,GA Department of Driver Services,2025-01-02,3576.0,0.0,Check,Zenduit Corporation
+INV-010048,Highland Wireless Services,2024-12-31,145.0,0.0,Check,Zenduit Corporation
+INV-010047,"Geotab, Inc USD",2024-12-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010046,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-12-31,276.0,0.0,Stripe,Zenduit Corporation
+INV-010045,Secure Transportation,2024-12-31,240.0,0.0,Stripe,Zenduit Corporation
+INV-010044,"California Waste Services, LLC(OLD)",2024-12-31,1595.0,0.0,Stripe,Zenduit Corporation
+INV-010043,Pun Enterprises Incorporated,2024-12-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-010042,College Hunks Hauling Junk and Moving of Grand Rapids,2024-12-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-010041,Finger Lakes TC,2024-12-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-010040,Carbentec (Formerly Titan Innovations),2024-12-31,606.0,0.0,N/A,Zenduit Corporation
+INV-010039,Aalto Technologies,2024-12-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-010038,KELLY TOURS,2024-12-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-010037,Incident Clear - Florida,2024-12-30,1840.0,0.0,Stripe,Zenduit Corporation
+INV-010036,GISCAD Jamaica Limited,2024-12-30,384.8,0.0,Stripe,Zenduit Corporation
+INV-010035,Dynasty Communications,2024-12-30,36.0,0.0,Stripe,Zenduit Corporation
+INV-010034,Dynasty Communications,2024-12-30,738.0,0.0,Stripe,Zenduit Corporation
+INV-010033,WEX INC,2024-12-30,1324.0,0.0,N/A,Zenduit Corporation
+INV-010032,Smart Witness LLC,2024-12-30,8175.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010031,"Pat's Offroad, Inc.",2024-12-30,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010030,Metrica Movil,2024-12-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-010029,VLC,2024-12-30,4180.0,0.0,Check,Zenduit Corporation
+INV-010028,Rush Enterprises,2024-12-30,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-010027,"TrackCam, LLC",2024-12-29,45844.0,0.0,N/A,Zenduit Corporation
+INV-010025,http://www.argosconnected.com,2024-12-29,100.0,0.0,Stripe,Zenduit Corporation
+INV-010024,"Badia Spices, LLC. (T-Mobile Client)",2024-12-29,336.0,0.0,N/A,Zenduit Corporation
+INV-010023,Financial Technology Solutions International (T-Mobile Customer),2024-12-29,1261.0,0.0,Stripe,Zenduit Corporation
+INV-010022,Robert J. Devereaux Corp.,2024-12-29,198.0,0.0,Stripe,Zenduit Corporation
+INV-010021,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-12-28,70.0,0.0,Check,Zenduit Corporation
+INV-010020,SSC International (T-Mobile Client),2024-12-28,60.0,0.0,Stripe,Zenduit Corporation
+INV-010017,Trulite Glass and Aluminum Solutions Canada,2024-12-27,149.1,0.0,Check,Zenduit Corporation
+INV-010016,Worldwide Recovery (T-Mobile Client),2024-12-27,240.0,0.0,Check,Zenduit Corporation
+INV-010015,Magic Metals,2024-12-27,240.0,0.0,N/A,Zenduit Corporation
+INV-010014,Quixote Studios LLC,2024-12-26,117334.8,0.0,N/A,Zenduit Corporation
+INV-010013,Merrill Steel Inc (Fiix Lead),2024-12-26,72.0,0.0,Stripe,Zenduit Corporation
+INV-010012,HMR Transportation (T-Mobile Client),2024-12-26,42.0,0.0,Stripe,Zenduit Corporation
+INV-010011,EAGLEi GPS,2024-12-26,1291.82,0.0,Stripe,Zenduit Corporation
+INV-010010,EMS Technology Solutions LLC/ Operative IQ,2024-12-26,465.0,0.0,Stripe,Zenduit Corporation
+INV-010009,Calvin Dillahunty - Tmobile MAE,2024-11-25,0.0,0.0,N/A,Zenduit Corporation
+INV-010008,Mathew Boggs T-Mobile,2024-11-25,0.0,0.0,N/A,Zenduit Corporation
+INV-010007,"Paper Cuts, Inc. (T-Mobile Customer)",2024-12-25,131.89,0.0,Stripe,Zenduit Corporation
+INV-010006,Hagerstown Fire Department,2024-12-25,654.57,0.0,Check,Zenduit Corporation
+INV-010005,Administration of Fleets SA de CV,2024-12-25,480.0,0.0,Stripe,Zenduit Corporation
+INV-010004,Coopers Petroleum (T-Mobile Customer),2024-12-24,219.66,0.0,Stripe,Zenduit Corporation
+INV-010003,Solugaz Inc (Fiix Client),2024-12-24,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-010002,Breakthru Beverage Group Family,2024-12-23,10.0,0.0,Check,Zenduit Corporation
+INV-010001,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-12-23,1570.0,0.0,Check,Zenduit Corporation
+INV-010000,H.T. Hackney,2024-12-23,578.55,0.0,Stripe,Zenduit Corporation
+INV-009999,Premier Truck Group,2024-12-23,2411.99,0.0,Check,Zenduit Corporation
+INV-009998,DeNYSE Signage & Arcitectural Elements,2024-12-23,120.0,0.0,N/A,Zenduit Corporation
+INV-009997,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-12-22,36.0,0.0,Stripe,Zenduit Corporation
+INV-009996,Pontrelli & Laricchia (T-Mobile Customer),2024-12-22,60.0,0.0,Stripe,Zenduit Corporation
+INV-009995,Le Groupe ESSA Inc. (Fiix Client),2024-12-22,265.77,0.0,Stripe,Zenduit Corporation
+INV-009994,Global Plumbing & Fire Supply (T-Mobile Customer),2024-12-22,184.0,0.0,Stripe,Zenduit Corporation
+INV-009993,DBC Group,2024-12-22,174.02,0.0,Stripe,Zenduit Corporation
+INV-009992,"Welch Excavation & Utility Company, Inc.",2024-12-22,585.0,0.0,Stripe,Zenduit Corporation
+INV-009991,The Three C's Properties Inc,2024-12-22,614.5,0.0,Stripe,Zenduit Corporation
+INV-009990,Trulite Glass and Aluminum Solutions,2024-12-22,7124.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009989,Nayab Test Fleet,2024-11-21,685.06,0.0,N/A,Zenduit Corporation
+INV-009988,Track and Talk,2024-11-21,666.0,0.0,Stripe,Zenduit Corporation
+INV-009985,Biomedical Waste Disposal (T-Mobile Client),2024-12-21,132.0,0.0,Stripe,Zenduit Corporation
+INV-009984,"Premier Transportation & Warehousing, Inc",2024-12-21,294.0,0.0,Stripe,Zenduit Corporation
+INV-009983,Locke Supply (T-Mobile Customer),2024-12-21,1253.0,0.0,Check,Zenduit Corporation
+INV-009982,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-12-21,252.0,0.0,Stripe,Zenduit Corporation
+INV-009981,Dynasty Communications,2024-12-21,90.0,0.0,Stripe,Zenduit Corporation
+INV-009980,"Mobile Fleet Solutions, Inc.",2024-12-21,136.0,0.0,Stripe,Zenduit Corporation
+INV-009979,McClay's Transportation Ltd.,2024-12-20,612.57,0.0,Stripe,Zenduit Corporation
+INV-009978,Fleet Shield,2024-12-20,195.0,0.0,Stripe,Zenduit Corporation
+INV-009976,Henry & Henry Inc.,2024-12-20,411.0,0.0,Stripe,Zenduit Corporation
+INV-009975,GotPrint,2024-12-20,108.0,0.0,Stripe,Zenduit Corporation
+INV-009974,"TrackCam, LLC",2025-02-08,14577.2,0.0,N/A,Zenduit Corporation
+INV-009972,Incotec,2024-12-19,145.0,0.0,Stripe,Zenduit Corporation
+INV-009971,Velocity Rail Solution,2024-12-19,8028.0,0.0,N/A,Zenduit Corporation
+INV-009970,Meridith Baer Home (T-Mobile Client),2024-12-18,270.0,0.0,Stripe,Zenduit Corporation
+INV-009969,Dynasty Communications,2024-12-18,72.0,0.0,Stripe,Zenduit Corporation
+INV-009967,NY TRANSPORT INC (T-Mobile Client),2024-12-16,30.0,0.0,Stripe,Zenduit Corporation
+INV-009966,"Midwest Environmental Services, Inc.",2024-12-16,223.0,0.0,Stripe,Zenduit Corporation
+INV-009965,"Cee Kay Supply, Inc.",2024-12-16,228.0,0.0,Check,Zenduit Corporation
+INV-009964,Advantage Asset Tracking Inc.,2024-12-16,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-009963,"Participation House, Markham",2024-12-16,175.15,0.0,Stripe,Zenduit Corporation
+INV-009962,Miami LNG - FIXX/ Samsara,2024-12-15,30.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009961,Dynasty Communications,2024-12-15,106.0,0.0,Stripe,Zenduit Corporation
+INV-009959,"Kenworth Northeast Group, Inc.",2024-12-15,1235.0,0.0,Check,Zenduit Corporation
+INV-009958,Assetflo (Unique Partnership Agreement),2024-12-14,153.91,0.0,Bank Transfer,Zenduit Corporation
+INV-009955,A#1Air,2024-12-14,3285.5,0.0,Check,Zenduit Corporation
+INV-009954,Super Win Enterprises,2024-12-14,90.0,0.0,Stripe,Zenduit Corporation
+INV-009953,Texas Instruments Incorporated,2024-12-13,112.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009951,Smart MUBE,2024-11-13,270.0,0.0,Stripe,Zenduit Corporation
+INV-009950,Port Connect Intermodel,2024-12-13,60.0,0.0,Stripe,Zenduit Corporation
+INV-009949,"Pro-Vac, LLC (Fiix Customer)",2024-12-13,1590.0,0.0,Stripe,Zenduit Corporation
+INV-009948,Dynasty provisions,2024-12-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009947,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-12-12,392.0,0.0,Stripe,Zenduit Corporation
+INV-009946,Dynasty Communications,2024-12-12,234.0,0.0,Stripe,Zenduit Corporation
+INV-009945,City of Vernon,2024-12-12,204.33,0.0,Stripe,Zenduit Corporation
+INV-009944,Marcial Ventas Rastreo Enlinea,2024-12-11,235.0,0.0,N/A,Zenduit Corporation
+INV-009943,SoCal Rentals (T-Mobile Client),2024-12-10,24.0,0.0,Stripe,Zenduit Corporation
+INV-009942,Santosa Delivery (T-Mobile Client),2024-12-10,108.0,0.0,Stripe,Zenduit Corporation
+INV-009940,"A & V Reality Transportation , LLC",2024-12-10,486.0,0.0,Stripe,Zenduit Corporation
+INV-009939,Northern Business Intelligence,2024-12-10,89.7,0.0,Stripe,Zenduit Corporation
+INV-009938,"DICAN, Inc.",2024-12-25,2064.61,0.0,Check,Zenduit Corporation
+INV-009937,EcoTrack Fleet Management,2024-12-09,60.0,0.0,Stripe,Zenduit Corporation
+INV-009936,Line Drive Trucking (T-Mobile Customer),2024-12-09,1454.0,0.0,Check,Zenduit Corporation
+INV-009935,Platinum Energy Services,2024-12-09,402.5,0.0,Stripe,Zenduit Corporation
+INV-009933,GPS to GO Ltd.,2024-12-09,76.03,0.0,Stripe,Zenduit Corporation
+INV-009932,ASAP Trucking Company LLC,2024-12-09,392.0,0.0,Stripe,Zenduit Corporation
+INV-009931,"L and R Auto Parks, Inc.",2024-12-08,30.0,0.0,N/A,Zenduit Corporation
+INV-009930,"TrackCam, LLC",2025-01-11,53660.0,0.0,N/A,Zenduit Corporation
+INV-009929,"TrackCam, LLC",2025-01-11,102456.0,0.0,N/A,Zenduit Corporation
+INV-009928,Furst McNess Company,2024-12-08,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009927,Apex Wireless,2024-12-08,525.0,0.0,Stripe,Zenduit Corporation
+INV-009926,QUALTRACKS,2024-12-08,21.5,0.0,Stripe,Zenduit Corporation
+INV-009925,QES Pressure Control,2024-12-08,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009924,Grupo Invictus,2024-12-07,23.21,0.0,Stripe,Zenduit Corporation
+INV-009921,Quixote Studios LLC,2024-11-07,2779.0,0.0,N/A,Zenduit Corporation
+INV-009920,Genesis Dispatch,2024-12-07,404.55,0.0,Stripe,Zenduit Corporation
+INV-009919,RMA Testing Company Zenduit,2024-12-07,979.34,0.0,N/A,Zenduit Corporation
+INV-009918,Badger Fleet Solutions,2024-12-07,300.0,0.0,Stripe,Zenduit Corporation
+INV-009917,Hawkeye Electronic Security,2024-12-07,475.0,0.0,Stripe,Zenduit Corporation
+INV-009916,Play Telematics / Eye Drivers,2024-12-06,50.0,0.0,Stripe,Zenduit Corporation
+INV-009915,"Georgia Pack & Load Moving and Storage, Inc.",2024-11-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009914,Cal Freight,2024-12-06,30.0,0.0,Stripe,Zenduit Corporation
+INV-009913,Dynasty Communications,2024-12-06,18.0,0.0,Stripe,Zenduit Corporation
+INV-009912,"DICAN, Inc.",2024-12-21,156.3,0.0,Check,Zenduit Corporation
+INV-009911,GA Department of Driver Services,2024-12-05,3798.0,0.0,Check,Zenduit Corporation
+INV-009910,Velocity Rail Solution,2024-12-05,3388.0,0.0,N/A,Zenduit Corporation
+INV-009909,GA Department of Driver Services,2024-12-05,2553.0,0.0,Check,Zenduit Corporation
+INV-009908,"TrackCam, LLC",2024-12-05,4350.0,0.0,N/A,Zenduit Corporation
+INV-009907,Velocity Rail Solution,2024-12-05,17718.0,0.0,N/A,Zenduit Corporation
+INV-009906,Traxxis GPS Solutions,2024-12-05,23130.0,0.0,Stripe,Zenduit Corporation
+INV-009905,Bital Services Inc,2024-12-05,229.75,0.0,Stripe,Zenduit Corporation
+INV-009904,Lee Fish USA (T-Mobile Client),2024-12-05,83.93,0.0,Stripe,Zenduit Corporation
+INV-009903,Arjan Trans Inc (T-Mobile Client),2024-12-05,78.0,0.0,Stripe,Zenduit Corporation
+INV-009902,GLEZ Trucking (T-Mobile Customer),2024-12-05,80.0,0.0,Stripe,Zenduit Corporation
+INV-009901,Dynasty Communications,2024-12-05,78.0,0.0,Stripe,Zenduit Corporation
+INV-009900,Dynasty Communications,2024-12-05,180.5,0.0,Stripe,Zenduit Corporation
+INV-009899,GISCAD Limited,2024-12-05,2896.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009898,LMD Integrated Logistics (USD),2024-12-04,420.0,0.0,Stripe,Zenduit Corporation
+INV-009897,The Standard Design Group (T-Mobile Client),2024-12-04,96.0,0.0,Stripe,Zenduit Corporation
+INV-009896,Outdoor Inc (T-Mobile Client),2024-12-04,190.0,0.0,N/A,Zenduit Corporation
+INV-009895,"Advantage Fleet, LLC.",2024-12-04,90.0,0.0,Stripe,Zenduit Corporation
+INV-009894,SAC Wireless,2024-12-04,680.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009893,JLRG Consulting (Tel-Sol),2024-12-03,5.75,0.0,Stripe,Zenduit Corporation
+INV-009892,ENS Transport (T-Mobile Client),2024-12-03,72.0,0.0,Stripe,Zenduit Corporation
+INV-009891,GA Department of Driver Services,2024-12-03,3414.0,0.0,Check,Zenduit Corporation
+INV-009890,Velocity Rail Solution,2024-12-01,2570.0,0.0,N/A,Zenduit Corporation
+INV-009889,Meridith Baer Home (T-Mobile Client),2024-12-01,97.5,0.0,Stripe,Zenduit Corporation
+INV-009887,Highland Wireless Services,2024-12-01,145.0,0.0,Check,Zenduit Corporation
+INV-009886,"Geotab, Inc USD",2024-12-01,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009885,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-12-01,204.0,0.0,Stripe,Zenduit Corporation
+INV-009884,Secure Transportation,2024-12-01,240.0,0.0,Stripe,Zenduit Corporation
+INV-009883,"California Waste Services, LLC(OLD)",2024-12-01,1595.0,0.0,Stripe,Zenduit Corporation
+INV-009882,Pun Enterprises Incorporated,2024-12-01,36.0,0.0,Stripe,Zenduit Corporation
+INV-009881,College Hunks Hauling Junk and Moving of Grand Rapids,2024-12-01,260.0,0.0,Stripe,Zenduit Corporation
+INV-009880,Time and Alarm Systems,2024-12-01,268.41,0.0,Stripe,Zenduit Corporation
+INV-009879,Finger Lakes TC,2024-12-01,125.0,0.0,Stripe,Zenduit Corporation
+INV-009878,Carbentec (Formerly Titan Innovations),2024-12-01,606.0,0.0,N/A,Zenduit Corporation
+INV-009877,Aalto Technologies,2024-12-01,142.3,0.0,Stripe,Zenduit Corporation
+INV-009876,KELLY TOURS,2024-12-01,420.0,0.0,Stripe,Zenduit Corporation
+INV-009875,VLC,2024-11-30,3854.5,0.0,Check,Zenduit Corporation
+INV-009874,Smart Witness LLC,2024-11-30,8110.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009871,Metrica Movil,2024-11-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-009869,Incident Clear - Florida,2024-11-29,1840.0,0.0,Stripe,Zenduit Corporation
+INV-009868,GISCAD Jamaica Limited,2024-11-29,384.8,0.0,Stripe,Zenduit Corporation
+INV-009867,Dynasty Communications,2024-11-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-009866,Dynasty Communications,2024-11-29,738.0,0.0,Stripe,Zenduit Corporation
+INV-009865,WEX INC,2024-11-29,1324.0,0.0,N/A,Zenduit Corporation
+INV-009864,"Pat's Offroad, Inc.",2024-11-29,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009863,Rush Enterprises,2024-11-29,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009861,"TrackCam, LLC",2024-11-28,2060.0,0.0,N/A,Zenduit Corporation
+INV-009860,"TrackCam, LLC",2024-11-28,4090.0,0.0,N/A,Zenduit Corporation
+INV-009858,http://www.argosconnected.com,2024-11-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-009857,"Badia Spices, LLC. (T-Mobile Client)",2024-11-28,336.0,0.0,Check,Zenduit Corporation
+INV-009856,Financial Technology Solutions International (T-Mobile Customer),2024-11-28,1261.0,0.0,Check,Zenduit Corporation
+INV-009855,Robert J. Devereaux Corp.,2024-11-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-009854,"TrackCam, LLC",2024-11-27,42238.0,0.0,N/A,Zenduit Corporation
+INV-009853,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-11-27,70.0,0.0,Check,Zenduit Corporation
+INV-009852,SSC International (T-Mobile Client),2024-11-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-009850,Extreme Electronics Corp,2024-11-26,74.46,0.0,Stripe,Zenduit Corporation
+INV-009849,Trulite Glass and Aluminum Solutions Canada,2024-11-26,149.1,0.0,Check,Zenduit Corporation
+INV-009848,Worldwide Recovery (T-Mobile Client),2024-11-26,240.0,0.0,Check,Zenduit Corporation
+INV-009847,Magic Metals,2024-11-26,210.0,0.0,Check,Zenduit Corporation
+INV-009846,Merrill Steel Inc (Fiix Lead),2024-11-25,75.12,0.0,Stripe,Zenduit Corporation
+INV-009845,HMR Transportation (T-Mobile Client),2024-11-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-009844,EAGLEi GPS,2024-11-25,1291.82,0.0,Stripe,Zenduit Corporation
+INV-009843,EMS Technology Solutions LLC/ Operative IQ,2024-11-25,465.0,0.0,Stripe,Zenduit Corporation
+INV-009842,"Paper Cuts, Inc. (T-Mobile Customer)",2024-11-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-009841,Hagerstown Fire Department,2024-11-24,654.57,0.0,Check,Zenduit Corporation
+INV-009840,Administration of Fleets SA de CV,2024-11-24,480.0,0.0,Stripe,Zenduit Corporation
+INV-009839,"Georgia Pack & Load Moving and Storage, Inc.",2024-10-24,495.0,0.0,Stripe,Zenduit Corporation
+INV-009838,Grupo Invictus,2024-11-23,325.0,0.0,Stripe,Zenduit Corporation
+INV-009837,Coopers Petroleum (T-Mobile Customer),2024-11-23,219.66,0.0,Stripe,Zenduit Corporation
+INV-009834,Solugaz Inc (Fiix Client),2024-11-23,238.74,0.0,N/A,Zenduit Corporation
+INV-009833,Breakthru Beverage Group Family,2024-11-22,10.0,0.0,Check,Zenduit Corporation
+INV-009832,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-11-22,1540.0,0.0,Check,Zenduit Corporation
+INV-009831,H.T. Hackney,2024-11-22,578.55,0.0,Check,Zenduit Corporation
+INV-009830,Premier Truck Group,2024-11-22,1993.32,0.0,Check,Zenduit Corporation
+INV-009829,DeNYSE Signage & Arcitectural Elements,2024-11-22,120.0,0.0,N/A,Zenduit Corporation
+INV-009828,"Georgia Pack & Load Moving and Storage, Inc.",2024-10-22,1245.0,0.0,Stripe,Zenduit Corporation
+INV-009826,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-11-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-009825,Pontrelli & Laricchia (T-Mobile Customer),2024-11-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-009824,Le Groupe ESSA Inc. (Fiix Client),2024-11-21,265.77,0.0,Stripe,Zenduit Corporation
+INV-009823,Global Plumbing & Fire Supply (T-Mobile Customer),2024-11-21,160.0,0.0,Stripe,Zenduit Corporation
+INV-009822,DBC Group,2024-11-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-009821,"Welch Excavation & Utility Company, Inc.",2024-11-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-009820,The Three C's Properties Inc,2024-11-21,567.5,0.0,Stripe,Zenduit Corporation
+INV-009819,Trulite Glass and Aluminum Solutions,2024-11-21,6957.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009818,Sectran Security,2024-11-20,0.0,0.0,N/A,Zenduit Corporation
+INV-009817,Biomedical Waste Disposal (T-Mobile Client),2024-11-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-009816,"Premier Transportation & Warehousing, Inc",2024-11-20,294.0,0.0,Stripe,Zenduit Corporation
+INV-009815,Locke Supply (T-Mobile Customer),2024-11-20,1137.5,0.0,Check,Zenduit Corporation
+INV-009814,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-11-20,72.0,0.0,Stripe,Zenduit Corporation
+INV-009813,Dynasty Communications,2024-11-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-009812,McClay's Transportation Ltd.,2024-11-19,612.57,0.0,Stripe,Zenduit Corporation
+INV-009811,Fleet Shield,2024-11-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-009809,Henry & Henry Inc.,2024-11-19,373.0,0.0,Stripe,Zenduit Corporation
+INV-009808,GotPrint,2024-11-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-009807,Incotec,2024-11-18,116.0,0.0,Stripe,Zenduit Corporation
+INV-009806,Velocity Rail Solution,2024-11-18,7873.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009805,Four Seasons Landscape and Property Services,2024-11-17,2300.0,0.0,Stripe,Zenduit Corporation
+INV-009804,VNH Enterprises (OLD Account - INACTIVE),2024-11-17,2052.0,0.0,Stripe,Zenduit Corporation
+INV-009803,ENS Transport (T-Mobile Client),2024-11-17,375.0,0.0,Stripe,Zenduit Corporation
+INV-009802,Meridith Baer Home (T-Mobile Client),2024-11-17,255.0,0.0,Stripe,Zenduit Corporation
+INV-009801,Dynasty Communications,2024-11-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-009798,NY TRANSPORT INC (T-Mobile Client),2024-11-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-009797,"Midwest Environmental Services, Inc.",2024-11-15,223.0,0.0,Stripe,Zenduit Corporation
+INV-009796,"Cee Kay Supply, Inc.",2024-11-15,270.0,0.0,Check,Zenduit Corporation
+INV-009795,Advantage Asset Tracking Inc.,2024-11-15,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-009794,"Participation House, Markham",2024-11-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-009793,Bital Services Inc,2024-11-14,1520.0,0.0,Stripe,Zenduit Corporation
+INV-009792,Bital Services Inc,2024-11-14,378.5,0.0,Stripe,Zenduit Corporation
+INV-009791,Miami LNG - FIXX/ Samsara,2024-11-14,30.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009790,Dynasty Communications,2024-11-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-009788,"Kenworth Northeast Group, Inc.",2024-11-14,1220.0,0.0,Check,Zenduit Corporation
+INV-009787,Assetflo (Unique Partnership Agreement),2024-11-13,191.5,0.0,Bank Transfer,Zenduit Corporation
+INV-009786,A#1Air,2024-11-13,3610.5,0.0,Check,Zenduit Corporation
+INV-009785,Super Win Enterprises,2024-11-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-009784,Smart MUBE,2024-10-13,255.0,0.0,Stripe,Zenduit Corporation
+INV-009783,Port Connect Intermodel,2024-11-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009782,"Pro-Vac, LLC (Fiix Customer)",2024-11-12,1599.0,0.0,Stripe,Zenduit Corporation
+INV-009781,Dynasty provisions,2024-11-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-009780,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-11-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-009779,Dynasty Communications,2024-11-11,252.0,0.0,Stripe,Zenduit Corporation
+INV-009778,City of Vernon,2024-11-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-009777,Marcial Ventas Rastreo Enlinea,2024-11-10,235.0,0.0,Stripe,Zenduit Corporation
+INV-009776,Traxxis GPS Solutions,2024-11-09,210.0,0.0,Stripe,Zenduit Corporation
+INV-009775,Traxxis GPS Solutions,2024-11-09,210.0,0.0,Stripe,Zenduit Corporation
+INV-009774,Platinum Energy Services,2024-11-09,1622.5,0.0,Stripe,Zenduit Corporation
+INV-009773,The Three C's Properties Inc,2024-11-09,682.25,0.0,Check,Zenduit Corporation
+INV-009770,SoCal Rentals (T-Mobile Client),2024-11-09,24.0,0.0,Stripe,Zenduit Corporation
+INV-009769,Santosa Delivery (T-Mobile Client),2024-11-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-009768,Merchants Fleet - Christensen Farms,2024-10-10,132.0,0.0,Check,Zenduit Corporation
+INV-009767,"A & V Reality Transportation , LLC",2024-11-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-009766,Northern Business Intelligence,2024-11-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-009765,"DICAN, Inc.",2024-11-24,2064.61,0.0,Bank Transfer,Zenduit Corporation
+INV-009764,VLC,2024-11-08,375.0,0.0,N/A,Zenduit Corporation
+INV-009763,"TrackCam, LLC",2024-11-08,1890.0,0.0,N/A,Zenduit Corporation
+INV-009762,VLC,2024-11-08,2006.7,0.0,N/A,Zenduit Corporation
+INV-009761,Traxxis GPS Solutions,2024-11-08,35.0,0.0,N/A,Zenduit Corporation
+INV-009760,"California Waste Services, LLC(OLD)",2024-11-08,99.4,0.0,Stripe,Zenduit Corporation
+INV-009758,VLC,2024-11-08,88.0,0.0,N/A,Zenduit Corporation
+INV-009757,VLC,2024-11-08,115.0,0.0,N/A,Zenduit Corporation
+INV-009756,VLC,2024-11-08,162.0,0.0,N/A,Zenduit Corporation
+INV-009755,VLC,2024-11-08,578.25,0.0,N/A,Zenduit Corporation
+INV-009754,VLC,2024-11-08,1013.75,0.0,N/A,Zenduit Corporation
+INV-009753,BlueArrow Telematics Inc,2024-11-08,55.0,0.0,Stripe,Zenduit Corporation
+INV-009752,EcoTrack Fleet Management,2024-11-08,250.0,0.0,Stripe,Zenduit Corporation
+INV-009751,Line Drive Trucking (T-Mobile Customer),2024-11-08,1434.0,0.0,Check,Zenduit Corporation
+INV-009750,Platinum Energy Services,2024-11-08,402.5,0.0,Stripe,Zenduit Corporation
+INV-009748,GPS to GO Ltd.,2024-11-08,76.03,0.0,Stripe,Zenduit Corporation
+INV-009747,ASAP Trucking Company LLC,2024-11-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-009746,Smart MUBE,2024-11-07,465.0,0.0,N/A,Zenduit Corporation
+INV-009745,"California Waste Services, LLC(OLD)",2024-11-07,150.0,0.0,Stripe,Zenduit Corporation
+INV-009744,"TrackCam, LLC",2024-11-07,490.0,0.0,N/A,Zenduit Corporation
+INV-009743,Administration of Fleets SA de CV,2024-11-07,110.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009742,"TrackCam, LLC",2025-01-11,33130.0,0.0,N/A,Zenduit Corporation
+INV-009741,"TrackCam, LLC",2024-12-27,69390.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009740,Furst McNess Company,2024-11-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009739,Apex Wireless,2024-11-07,525.0,0.0,Stripe,Zenduit Corporation
+INV-009738,QUALTRACKS,2024-11-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-009737,QES Pressure Control,2024-11-07,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009736,Grupo Invictus,2024-11-06,23.21,0.0,Stripe,Zenduit Corporation
+INV-009735,Quixote Studios LLC,2024-10-07,4340.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009734,Genesis Dispatch,2024-11-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-009733,RMA Testing Company Zenduit,2024-11-06,979.34,0.0,N/A,Zenduit Corporation
+INV-009732,Badger Fleet Solutions,2024-11-06,300.0,0.0,Stripe,Zenduit Corporation
+INV-009731,Hawkeye Electronic Security,2024-11-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-009730,"Georgia Pack & Load Moving and Storage, Inc.",2024-10-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009729,Cal Freight,2024-11-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-009728,Dynasty Communications,2024-11-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-009727,"DICAN, Inc.",2024-11-20,156.3,0.0,N/A,Zenduit Corporation
+INV-009726,Bital Services Inc,2024-11-04,163.75,0.0,Stripe,Zenduit Corporation
+INV-009725,Lee Fish USA (T-Mobile Client),2024-11-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-009724,Arjan Trans Inc (T-Mobile Client),2024-11-04,118.0,0.0,Stripe,Zenduit Corporation
+INV-009723,GLEZ Trucking (T-Mobile Customer),2024-11-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-009722,Dynasty Communications,2024-11-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-009721,Dynasty Communications,2024-11-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-009720,GISCAD Limited,2024-11-04,2798.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009719,LMD Integrated Logistics (USD),2024-11-03,549.15,0.0,Stripe,Zenduit Corporation
+INV-009718,The Standard Design Group (T-Mobile Client),2024-11-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-009717,Outdoor Inc (T-Mobile Client),2024-11-03,190.0,0.0,N/A,Zenduit Corporation
+INV-009716,"Advantage Fleet, LLC.",2024-11-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-009715,SAC Wireless,2024-11-03,840.0,0.0,N/A,Zenduit Corporation
+INV-009714,California Coach Orange Inc.,2024-11-02,0.0,0.0,N/A,Zenduit Corporation
+INV-009713,JLRG Consulting (Tel-Sol),2024-11-02,11.23,0.0,N/A,Zenduit Corporation
+INV-009710,ENS Transport (T-Mobile Client),2024-11-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-009709,GA Department of Driver Services,2024-11-02,3378.0,0.0,Check,Zenduit Corporation
+INV-009708,Highland Wireless Services,2024-10-31,145.0,0.0,Check,Zenduit Corporation
+INV-009707,"Geotab, Inc USD",2024-10-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009706,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-10-31,204.0,0.0,Stripe,Zenduit Corporation
+INV-009705,Secure Transportation,2024-10-31,240.0,0.0,Stripe,Zenduit Corporation
+INV-009704,"California Waste Services, LLC(OLD)",2024-10-31,1595.0,0.0,Stripe,Zenduit Corporation
+INV-009703,Pun Enterprises Incorporated,2024-10-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-009702,College Hunks Hauling Junk and Moving of Grand Rapids,2024-10-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-009701,Time and Alarm Systems,2024-10-31,805.0,0.0,Stripe,Zenduit Corporation
+INV-009700,Finger Lakes TC,2024-10-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-009699,Carbentec (Formerly Titan Innovations),2024-10-31,606.0,0.0,Stripe,Zenduit Corporation
+INV-009698,Aalto Technologies,2024-10-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-009697,KELLY TOURS,2024-10-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-009696,Incident Clear - Florida,2024-10-30,1840.0,0.0,Stripe,Zenduit Corporation
+INV-009695,GISCAD Jamaica Limited,2024-10-30,384.8,0.0,Stripe,Zenduit Corporation
+INV-009694,Dynasty Communications,2024-10-30,36.0,0.0,Stripe,Zenduit Corporation
+INV-009693,Dynasty Communications,2024-10-30,738.0,0.0,Stripe,Zenduit Corporation
+INV-009692,WEX INC,2024-10-30,1324.0,0.0,N/A,Zenduit Corporation
+INV-009691,Smart Witness LLC,2024-10-30,8220.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009690,"Pat's Offroad, Inc.",2024-10-30,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009689,Metrica Movil,2024-10-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-009688,VLC,2024-10-30,3241.75,0.0,Stripe,Zenduit Corporation
+INV-009687,Rush Enterprises,2024-10-30,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009686,http://www.argosconnected.com,2024-10-29,100.0,0.0,Stripe,Zenduit Corporation
+INV-009685,"Badia Spices, LLC. (T-Mobile Client)",2024-10-29,336.0,0.0,Check,Zenduit Corporation
+INV-009684,Financial Technology Solutions International (T-Mobile Customer),2024-10-29,1261.0,0.0,Check,Zenduit Corporation
+INV-009683,Robert J. Devereaux Corp.,2024-10-29,198.0,0.0,Stripe,Zenduit Corporation
+INV-009682,Traxxis GPS Solutions,2024-10-29,37900.25,0.0,Stripe,Zenduit Corporation
+INV-009681,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-10-28,70.0,0.0,Check,Zenduit Corporation
+INV-009680,SSC International (T-Mobile Client),2024-10-28,60.0,0.0,Stripe,Zenduit Corporation
+INV-009678,Extreme Electronics Corp,2024-10-27,74.46,0.0,Stripe,Zenduit Corporation
+INV-009677,Trulite Glass and Aluminum Solutions Canada,2024-10-27,149.1,0.0,Check,Zenduit Corporation
+INV-009676,Worldwide Recovery (T-Mobile Client),2024-10-27,240.0,0.0,Check,Zenduit Corporation
+INV-009675,Magic Metals,2024-10-27,210.0,0.0,Check,Zenduit Corporation
+INV-009674,VNH Enterprises (OLD Account - INACTIVE),2024-10-26,17658.6,0.0,N/A,Zenduit Corporation
+INV-009673,Merrill Steel Inc (Fiix Lead),2024-10-26,75.12,0.0,Stripe,Zenduit Corporation
+INV-009670,HMR Transportation (T-Mobile Client),2024-10-26,42.0,0.0,Stripe,Zenduit Corporation
+INV-009669,"TrackCam, LLC",2024-10-26,39505.0,0.0,N/A,Zenduit Corporation
+INV-009668,EAGLEi GPS,2024-10-26,581.32,0.0,Stripe,Zenduit Corporation
+INV-009667,EMS Technology Solutions LLC/ Operative IQ,2024-10-26,513.0,0.0,Stripe,Zenduit Corporation
+INV-009666,"Georgia Pack & Load Moving and Storage, Inc.",2024-09-25,1970.0,0.0,Check,Zenduit Corporation
+INV-009665,VLC,2024-10-25,175.0,0.0,N/A,Zenduit Corporation
+INV-009664,"Kenworth Northeast Group, Inc.",2024-10-25,175.0,0.0,N/A,Zenduit Corporation
+INV-009663,VLC,2024-10-25,1715.0,0.0,N/A,Zenduit Corporation
+INV-009662,Bital Services Inc,2024-10-25,901.0,0.0,Stripe,Zenduit Corporation
+INV-009661,Trulite Glass and Aluminum Solutions,2024-10-25,430.0,0.0,N/A,Zenduit Corporation
+INV-009660,"Paper Cuts, Inc. (T-Mobile Customer)",2024-10-25,131.89,0.0,Stripe,Zenduit Corporation
+INV-009659,Hagerstown Fire Department,2024-10-25,654.57,0.0,Check,Zenduit Corporation
+INV-009658,Administration of Fleets SA de CV,2024-10-25,440.0,0.0,Stripe,Zenduit Corporation
+INV-009657,Coopers Petroleum (T-Mobile Customer),2024-10-24,219.66,0.0,Stripe,Zenduit Corporation
+INV-009656,Solugaz Inc (Fiix Client),2024-10-24,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-009655,Traxxis GPS Solutions,2024-10-23,35.0,0.0,N/A,Zenduit Corporation
+INV-009654,Time and Alarm Systems,2024-10-23,1185.0,0.0,Stripe,Zenduit Corporation
+INV-009653,Biomedical Waste Disposal (T-Mobile Client),2024-10-23,275.0,0.0,Stripe,Zenduit Corporation
+INV-009652,Traxxis GPS Solutions,2024-10-23,116.0,0.0,Stripe,Zenduit Corporation
+INV-009651,Trulite Glass and Aluminum Solutions,2024-10-23,430.0,0.0,N/A,Zenduit Corporation
+INV-009650,Texas Instruments Incorporated,2024-10-23,215.5,0.0,N/A,Zenduit Corporation
+INV-009649,Platinum Energy Services,2024-10-23,96.5,0.0,Stripe,Zenduit Corporation
+INV-009648,The Three C's Properties Inc,2024-10-23,1213.5,0.0,Check,Zenduit Corporation
+INV-009647,"Kenworth Northeast Group, Inc.",2024-10-23,3263.0,0.0,N/A,Zenduit Corporation
+INV-009645,"California Waste Services, LLC(OLD)",2024-10-23,798.0,0.0,Stripe,Zenduit Corporation
+INV-009644,Time and Alarm Systems,2024-10-23,425.0,0.0,Stripe,Zenduit Corporation
+INV-009643,Traxxis GPS Solutions,2024-10-23,455.0,0.0,Stripe,Zenduit Corporation
+INV-009641,"California Waste Services, LLC(OLD)",2024-10-23,150.0,0.0,Stripe,Zenduit Corporation
+INV-009640,Breakthru Beverage Group Family,2024-10-23,10.0,0.0,N/A,Zenduit Corporation
+INV-009639,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-10-23,1540.0,0.0,Check,Zenduit Corporation
+INV-009638,H.T. Hackney,2024-10-23,578.55,0.0,Check,Zenduit Corporation
+INV-009637,Premier Truck Group,2024-10-23,1993.32,0.0,Check,Zenduit Corporation
+INV-009636,DeNYSE Signage & Arcitectural Elements,2024-10-23,120.0,0.0,N/A,Zenduit Corporation
+INV-009635,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-10-22,36.0,0.0,Stripe,Zenduit Corporation
+INV-009634,Pontrelli & Laricchia (T-Mobile Customer),2024-10-22,60.0,0.0,Stripe,Zenduit Corporation
+INV-009633,Le Groupe ESSA Inc. (Fiix Client),2024-10-22,265.77,0.0,Stripe,Zenduit Corporation
+INV-009632,Global Plumbing & Fire Supply (T-Mobile Customer),2024-10-22,160.0,0.0,Stripe,Zenduit Corporation
+INV-009631,DBC Group,2024-10-22,174.02,0.0,Stripe,Zenduit Corporation
+INV-009630,"Welch Excavation & Utility Company, Inc.",2024-10-22,585.0,0.0,Stripe,Zenduit Corporation
+INV-009629,The Three C's Properties Inc,2024-10-22,473.5,0.0,Stripe,Zenduit Corporation
+INV-009628,Trulite Glass and Aluminum Solutions,2024-10-22,7124.0,0.0,N/A,Zenduit Corporation
+INV-009627,Biomedical Waste Disposal (T-Mobile Client),2024-10-21,132.0,0.0,Stripe,Zenduit Corporation
+INV-009626,"Premier Transportation & Warehousing, Inc",2024-10-21,294.0,0.0,Stripe,Zenduit Corporation
+INV-009625,Locke Supply (T-Mobile Customer),2024-10-21,1137.5,0.0,Check,Zenduit Corporation
+INV-009624,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-10-21,84.0,0.0,Stripe,Zenduit Corporation
+INV-009623,Dynasty Communications,2024-10-21,90.0,0.0,Stripe,Zenduit Corporation
+INV-009622,"Mobile Fleet Solutions, Inc.",2024-10-21,136.0,0.0,Stripe,Zenduit Corporation
+INV-009621,Velocity Rail Solution,2024-10-20,5225.85,0.0,N/A,Zenduit Corporation
+INV-009620,Velocity Rail Solution,2024-10-20,6511.0,0.0,N/A,Zenduit Corporation
+INV-009619,VLC,2024-10-20,9086.8,0.0,N/A,Zenduit Corporation
+INV-009618,VLC,2024-10-20,9086.8,0.0,Stripe,Zenduit Corporation
+INV-009617,VLC,2024-10-20,9086.8,0.0,Stripe,Zenduit Corporation
+INV-009616,Traxxis GPS Solutions,2024-10-20,12040.0,0.0,Stripe,Zenduit Corporation
+INV-009615,Velocity Rail Solution,2024-10-20,12790.0,0.0,N/A,Zenduit Corporation
+INV-009614,McClay's Transportation Ltd.,2024-10-20,612.57,0.0,Stripe,Zenduit Corporation
+INV-009613,Fleet Shield,2024-10-20,195.0,0.0,Stripe,Zenduit Corporation
+INV-009612,QSAC Inc,2024-10-20,2108.0,0.0,Stripe,Zenduit Corporation
+INV-009611,Henry & Henry Inc.,2024-10-20,373.0,0.0,Stripe,Zenduit Corporation
+INV-009610,GotPrint,2024-10-20,108.0,0.0,Stripe,Zenduit Corporation
+INV-009609,"Quick Container Drayage, Inc.",2024-09-19,1122.75,0.0,Stripe,Zenduit Corporation
+INV-009606,Incotec,2024-10-19,116.0,0.0,Stripe,Zenduit Corporation
+INV-009605,Velocity Rail Solution,2024-10-19,7796.0,0.0,N/A,Zenduit Corporation
+INV-009604,Grupo Invictus,2024-10-18,90.0,0.0,Stripe,Zenduit Corporation
+INV-009603,Sync-Test-Vipul12-ACCT-ZEN-CADv4,2024-10-18,0.01,0.0,Cash,Zenduit Corporation
+INV-009602,Meridith Baer Home (T-Mobile Client),2024-10-18,240.0,0.0,Stripe,Zenduit Corporation
+INV-009601,Dynasty Communications,2024-10-18,72.0,0.0,Stripe,Zenduit Corporation
+INV-009600,Line Drive Trucking (T-Mobile Customer),2024-10-16,265.0,0.0,N/A,Zenduit Corporation
+INV-009599,NY TRANSPORT INC (T-Mobile Client),2024-10-16,30.0,0.0,Stripe,Zenduit Corporation
+INV-009598,"Midwest Environmental Services, Inc.",2024-10-16,223.0,0.0,Stripe,Zenduit Corporation
+INV-009597,"Cee Kay Supply, Inc.",2024-10-16,270.0,0.0,Check,Zenduit Corporation
+INV-009596,Advantage Asset Tracking Inc.,2024-10-16,374.26,0.0,N/A,Zenduit Corporation
+INV-009595,"Participation House, Markham",2024-10-16,175.15,0.0,Stripe,Zenduit Corporation
+INV-009594,Miami LNG - FIXX/ Samsara,2024-10-15,30.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009593,Dynasty Communications,2024-10-15,106.0,0.0,Stripe,Zenduit Corporation
+INV-009591,"Kenworth Northeast Group, Inc.",2024-10-15,1220.0,0.0,Check,Zenduit Corporation
+INV-009590,Sync-Test-Vipul13-ACCT-ZEN-USDv2,2024-09-14,0.05,0.0,Cash,Zenduit Corporation
+INV-009589,ZenTest-Sync,2024-09-14,0.02,0.0,Cash,Zenduit Corporation
+INV-009588,Assetflo (Unique Partnership Agreement),2024-10-14,107.63,0.0,Bank Transfer,Zenduit Corporation
+INV-009587,Nu-Era Services,2024-10-14,54.0,0.0,Stripe,Zenduit Corporation
+INV-009586,A#1Air,2024-10-14,3785.5,0.0,Check,Zenduit Corporation
+INV-009585,Super Win Enterprises,2024-10-14,90.0,0.0,Stripe,Zenduit Corporation
+INV-009584,Smart MUBE,2024-09-13,15.0,0.0,Stripe,Zenduit Corporation
+INV-009583,Port Connect Intermodel,2024-10-13,60.0,0.0,Stripe,Zenduit Corporation
+INV-009582,"Pro-Vac, LLC (Fiix Customer)",2024-10-13,1587.0,0.0,Stripe,Zenduit Corporation
+INV-009579,Dynasty provisions,2024-10-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009578,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-10-12,392.0,0.0,Stripe,Zenduit Corporation
+INV-009577,Dynasty Communications,2024-10-12,252.0,0.0,Stripe,Zenduit Corporation
+INV-009576,City of Vernon,2024-10-12,204.33,0.0,Stripe,Zenduit Corporation
+INV-009575,Marcial Ventas Rastreo Enlinea,2024-10-11,235.0,0.0,Stripe,Zenduit Corporation
+INV-009573,Meridith Baer Home (T-Mobile Client),2024-10-10,772.5,0.0,Stripe,Zenduit Corporation
+INV-009572,SoCal Rentals (T-Mobile Client),2024-10-10,24.0,0.0,Stripe,Zenduit Corporation
+INV-009571,Santosa Delivery (T-Mobile Client),2024-10-10,108.0,0.0,Stripe,Zenduit Corporation
+INV-009570,Merchants Fleet - Christensen Farms,2024-09-10,132.0,0.0,Check,Zenduit Corporation
+INV-009569,"A & V Reality Transportation , LLC",2024-10-10,486.0,0.0,Stripe,Zenduit Corporation
+INV-009568,Northern Business Intelligence,2024-10-10,89.7,0.0,Stripe,Zenduit Corporation
+INV-009567,"DICAN, Inc.",2024-10-25,2064.61,0.0,N/A,Zenduit Corporation
+INV-009566,Arias Farms,2024-10-09,1200.0,0.0,Stripe,Zenduit Corporation
+INV-009565,EcoTrack Fleet Management,2024-10-09,250.0,0.0,Stripe,Zenduit Corporation
+INV-009564,Line Drive Trucking (T-Mobile Customer),2024-10-09,1414.0,0.0,Check,Zenduit Corporation
+INV-009563,Platinum Energy Services,2024-10-09,371.5,0.0,Stripe,Zenduit Corporation
+INV-009561,GPS to GO Ltd.,2024-10-09,76.03,0.0,Stripe,Zenduit Corporation
+INV-009560,ASAP Trucking Company LLC,2024-10-09,392.0,0.0,Stripe,Zenduit Corporation
+INV-009559,Furst McNess Company,2024-10-08,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009558,Apex Wireless,2024-10-08,525.0,0.0,Stripe,Zenduit Corporation
+INV-009557,QUALTRACKS,2024-10-08,21.5,0.0,Stripe,Zenduit Corporation
+INV-009556,QES Pressure Control,2024-10-08,1590.0,0.0,N/A,Zenduit Corporation
+INV-009555,Quixote Studios LLC,2024-09-07,1526.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009554,Genesis Dispatch,2024-10-07,404.55,0.0,Stripe,Zenduit Corporation
+INV-009553,RMA Testing Company Zenduit,2024-10-07,979.34,0.0,N/A,Zenduit Corporation
+INV-009552,Badger Fleet Solutions,2024-10-07,300.0,0.0,Stripe,Zenduit Corporation
+INV-009551,Hawkeye Electronic Security,2024-10-07,475.0,0.0,Stripe,Zenduit Corporation
+INV-009550,"Georgia Pack & Load Moving and Storage, Inc.",2024-09-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009549,Cal Freight,2024-10-06,30.0,0.0,Stripe,Zenduit Corporation
+INV-009548,Dynasty Communications,2024-10-06,18.0,0.0,Stripe,Zenduit Corporation
+INV-009546,VLC,2024-09-05,1025.0,0.0,Stripe,Zenduit Corporation
+INV-009545,Financial Technology Solutions International (T-Mobile Customer),2024-10-05,50.0,0.0,N/A,Zenduit Corporation
+INV-009544,EAGLEi GPS,2024-10-05,1388.7,0.0,Stripe,Zenduit Corporation
+INV-009541,Bital Services Inc,2024-10-05,163.75,0.0,Stripe,Zenduit Corporation
+INV-009540,Lee Fish USA (T-Mobile Client),2024-10-05,83.93,0.0,Stripe,Zenduit Corporation
+INV-009539,Arjan Trans Inc (T-Mobile Client),2024-10-05,118.0,0.0,Stripe,Zenduit Corporation
+INV-009538,GLEZ Trucking (T-Mobile Customer),2024-10-05,80.0,0.0,Stripe,Zenduit Corporation
+INV-009537,Dynasty Communications,2024-10-05,78.0,0.0,Stripe,Zenduit Corporation
+INV-009536,Dynasty Communications,2024-10-05,180.5,0.0,Stripe,Zenduit Corporation
+INV-009535,GISCAD Limited,2024-10-05,2653.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009534,Traxxis GPS Solutions,2024-08-31,265.0,0.0,Stripe,Zenduit Corporation
+INV-009533,LMD Integrated Logistics (USD),2024-10-04,408.0,0.0,Stripe,Zenduit Corporation
+INV-009532,The Standard Design Group (T-Mobile Client),2024-10-04,96.0,0.0,Stripe,Zenduit Corporation
+INV-009531,Outdoor Inc (T-Mobile Client),2024-10-04,190.0,0.0,N/A,Zenduit Corporation
+INV-009530,"Advantage Fleet, LLC.",2024-10-04,90.0,0.0,Stripe,Zenduit Corporation
+INV-009529,SAC Wireless,2024-10-04,840.0,0.0,N/A,Zenduit Corporation
+INV-009528,JLRG Consulting (Tel-Sol),2024-10-03,5.75,0.0,N/A,Zenduit Corporation
+INV-009527,Dynasty Communications,2024-10-03,27.0,0.0,Stripe,Zenduit Corporation
+INV-009526,ENS Transport (T-Mobile Client),2024-10-03,72.0,0.0,Stripe,Zenduit Corporation
+INV-009525,GA Department of Driver Services,2024-10-03,3378.0,0.0,Check,Zenduit Corporation
+INV-009524,Highland Wireless Services,2024-10-01,145.0,0.0,Check,Zenduit Corporation
+INV-009523,"Geotab, Inc USD",2024-10-01,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009522,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-10-01,204.0,0.0,Stripe,Zenduit Corporation
+INV-009521,Secure Transportation,2024-10-01,240.0,0.0,Stripe,Zenduit Corporation
+INV-009520,"California Waste Services, LLC(OLD)",2024-10-01,1540.0,0.0,Stripe,Zenduit Corporation
+INV-009519,Pun Enterprises Incorporated,2024-10-01,36.0,0.0,Stripe,Zenduit Corporation
+INV-009518,College Hunks Hauling Junk and Moving of Grand Rapids,2024-10-01,260.0,0.0,Stripe,Zenduit Corporation
+INV-009517,Time and Alarm Systems,2024-10-01,700.0,0.0,Stripe,Zenduit Corporation
+INV-009516,Finger Lakes TC,2024-10-01,125.0,0.0,Stripe,Zenduit Corporation
+INV-009515,Carbentec (Formerly Titan Innovations),2024-10-01,606.0,0.0,Stripe,Zenduit Corporation
+INV-009514,Aalto Technologies,2024-10-01,142.3,0.0,Stripe,Zenduit Corporation
+INV-009513,KELLY TOURS,2024-10-01,420.0,0.0,Stripe,Zenduit Corporation
+INV-009512,Metrica Movil,2024-09-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-009511,Incident Clear - Florida,2024-09-29,1840.0,0.0,Stripe,Zenduit Corporation
+INV-009510,GISCAD Jamaica Limited,2024-09-29,384.8,0.0,Stripe,Zenduit Corporation
+INV-009509,Dynasty Communications,2024-09-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-009508,Dynasty Communications,2024-09-29,738.0,0.0,Stripe,Zenduit Corporation
+INV-009507,WEX INC,2024-09-29,1324.0,0.0,N/A,Zenduit Corporation
+INV-009506,Smart Witness LLC,2024-09-29,8515.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009505,"Pat's Offroad, Inc.",2024-09-29,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009504,VLC,2024-09-29,2999.75,0.0,Stripe,Zenduit Corporation
+INV-009503,Rush Enterprises,2024-09-29,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009500,http://www.argosconnected.com,2024-09-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-009499,"Badia Spices, LLC. (T-Mobile Client)",2024-09-28,336.0,0.0,Check,Zenduit Corporation
+INV-009498,Financial Technology Solutions International (T-Mobile Customer),2024-09-28,1261.0,0.0,N/A,Zenduit Corporation
+INV-009497,Robert J. Devereaux Corp.,2024-09-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-009496,Traxxis GPS Solutions,2024-09-28,33045.5,0.0,Stripe,Zenduit Corporation
+INV-009495,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-09-27,70.0,0.0,Check,Zenduit Corporation
+INV-009494,SSC International (T-Mobile Client),2024-09-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-009493,Command International Security Services (T-Mobile Client),2024-09-27,24.0,0.0,N/A,Zenduit Corporation
+INV-009490,Trulite Glass and Aluminum Solutions Canada,2024-09-26,74.55,0.0,Check,Zenduit Corporation
+INV-009489,Worldwide Recovery (T-Mobile Client),2024-09-26,240.0,0.0,Check,Zenduit Corporation
+INV-009488,Magic Metals,2024-09-26,210.0,0.0,Check,Zenduit Corporation
+INV-009487,Merrill Steel Inc (Fiix Lead),2024-09-25,72.0,0.0,N/A,Zenduit Corporation
+INV-009486,HMR Transportation (T-Mobile Client),2024-09-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-009485,"TrackCam, LLC",2024-09-25,38256.0,0.0,N/A,Zenduit Corporation
+INV-009484,EMS Technology Solutions LLC/ Operative IQ,2024-09-25,513.0,0.0,Stripe,Zenduit Corporation
+INV-009483,"Paper Cuts, Inc. (T-Mobile Customer)",2024-09-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-009482,Hagerstown Fire Department,2024-09-24,654.57,0.0,Check,Zenduit Corporation
+INV-009481,Administration of Fleets SA de CV,2024-09-24,430.0,0.0,Stripe,Zenduit Corporation
+INV-009480,Coopers Petroleum (T-Mobile Customer),2024-09-23,168.0,0.0,Stripe,Zenduit Corporation
+INV-009479,Solugaz Inc (Fiix Client),2024-09-23,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-009477,Test ZN - ZD Test,2024-09-22,1.0,0.0,Cash,Zenduit Corporation
+INV-009476,Breakthru Beverage Group Family,2024-09-22,10.0,0.0,N/A,Zenduit Corporation
+INV-009475,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-09-22,1550.0,0.0,Check,Zenduit Corporation
+INV-009474,H.T. Hackney,2024-09-22,3693.55,0.0,Check,Zenduit Corporation
+INV-009473,Premier Truck Group,2024-09-22,1993.32,0.0,Check,Zenduit Corporation
+INV-009472,DeNYSE Signage & Arcitectural Elements,2024-09-22,120.0,0.0,N/A,Zenduit Corporation
+INV-009470,Velocity Rail Solution,2024-09-21,3570.0,0.0,N/A,Zenduit Corporation
+INV-009466,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-09-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-009465,Pontrelli & Laricchia (T-Mobile Customer),2024-09-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-009464,Le Groupe ESSA Inc. (Fiix Client),2024-09-21,265.77,0.0,Stripe,Zenduit Corporation
+INV-009463,Global Plumbing & Fire Supply (T-Mobile Customer),2024-09-21,160.0,0.0,Stripe,Zenduit Corporation
+INV-009462,DBC Group,2024-09-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-009461,"Welch Excavation & Utility Company, Inc.",2024-09-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-009460,The Three C's Properties Inc,2024-09-21,473.5,0.0,Stripe,Zenduit Corporation
+INV-009459,Trulite Glass and Aluminum Solutions,2024-09-21,7835.75,0.0,Bank Transfer,Zenduit Corporation
+INV-009458,"TrackCam, LLC",2024-10-15,113627.5,0.0,N/A,Zenduit Corporation
+INV-009457,Biomedical Waste Disposal (T-Mobile Client),2024-09-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-009456,"Premier Transportation & Warehousing, Inc",2024-09-20,294.0,0.0,Stripe,Zenduit Corporation
+INV-009455,Locke Supply (T-Mobile Customer),2024-09-20,1137.5,0.0,Check,Zenduit Corporation
+INV-009454,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-09-20,84.0,0.0,Stripe,Zenduit Corporation
+INV-009453,Dynasty Communications,2024-09-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-009452,"Mobile Fleet Solutions, Inc.",2024-09-20,136.0,0.0,Stripe,Zenduit Corporation
+INV-009451,McClay's Transportation Ltd.,2024-09-19,612.57,0.0,Stripe,Zenduit Corporation
+INV-009450,Fleet Shield,2024-09-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-009449,QSAC Inc,2024-09-19,2108.0,0.0,Stripe,Zenduit Corporation
+INV-009448,Henry & Henry Inc.,2024-09-19,373.0,0.0,Stripe,Zenduit Corporation
+INV-009447,GotPrint,2024-09-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-009446,Incotec,2024-09-18,116.0,0.0,Stripe,Zenduit Corporation
+INV-009445,Velocity Rail Solution,2024-09-18,7921.0,0.0,N/A,Zenduit Corporation
+INV-009444,Meridith Baer Home (T-Mobile Client),2024-09-17,75.0,0.0,Stripe,Zenduit Corporation
+INV-009443,Dynasty Communications,2024-09-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-009442,Traxxis GPS Solutions,2024-09-15,265.0,0.0,N/A,Zenduit Corporation
+INV-009441,"TrackCam, LLC",2024-09-15,265.0,0.0,N/A,Zenduit Corporation
+INV-009440,"TrackCam, LLC",2024-09-15,340.0,0.0,N/A,Zenduit Corporation
+INV-009439,"TrackCam, LLC",2024-09-15,340.0,0.0,N/A,Zenduit Corporation
+INV-009438,NY TRANSPORT INC (T-Mobile Client),2024-09-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-009437,"Midwest Environmental Services, Inc.",2024-09-15,223.0,0.0,Stripe,Zenduit Corporation
+INV-009436,"Cee Kay Supply, Inc.",2024-09-15,270.0,0.0,Check,Zenduit Corporation
+INV-009435,Advantage Asset Tracking Inc.,2024-09-15,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-009434,"Participation House, Markham",2024-09-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-009431,Miami LNG - FIXX/ Samsara,2024-09-14,30.0,0.0,Stripe,Zenduit Corporation
+INV-009430,Dynasty Communications,2024-09-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-009428,"Kenworth Northeast Group, Inc.",2024-09-14,1090.0,0.0,Check,Zenduit Corporation
+INV-009427,Assetflo (Unique Partnership Agreement),2024-09-13,107.63,0.0,Bank Transfer,Zenduit Corporation
+INV-009426,Nu-Era Services,2024-09-13,160.0,0.0,Stripe,Zenduit Corporation
+INV-009425,A#1Air,2024-09-13,3960.5,0.0,Check,Zenduit Corporation
+INV-009424,Super Win Enterprises,2024-09-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-009423,Smart MUBE,2024-08-13,15.0,0.0,Stripe,Zenduit Corporation
+INV-009422,Port Connect Intermodel,2024-09-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009421,"Pro-Vac, LLC (Fiix Customer)",2024-09-12,1602.0,0.0,Stripe,Zenduit Corporation
+INV-009420,Dynasty provisions,2024-09-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-009419,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-09-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-009418,Dynasty Communications,2024-09-11,252.0,0.0,Stripe,Zenduit Corporation
+INV-009417,City of Vernon,2024-09-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-009416,Marcial Ventas Rastreo Enlinea,2024-09-10,235.0,0.0,Stripe,Zenduit Corporation
+INV-009415,SoCal Rentals (T-Mobile Client),2024-09-09,24.0,0.0,Stripe,Zenduit Corporation
+INV-009414,Santosa Delivery (T-Mobile Client),2024-09-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-009413,Merchants Fleet - Christensen Farms,2024-08-10,132.0,0.0,Check,Zenduit Corporation
+INV-009412,"A & V Reality Transportation , LLC",2024-09-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-009411,Northern Business Intelligence,2024-09-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-009410,"DICAN, Inc.",2024-09-24,3013.81,0.0,Check,Zenduit Corporation
+INV-009409,EcoTrack Fleet Management,2024-09-08,250.0,0.0,Stripe,Zenduit Corporation
+INV-009408,Line Drive Trucking (T-Mobile Customer),2024-09-08,1334.0,0.0,Check,Zenduit Corporation
+INV-009407,Platinum Energy Services,2024-09-08,371.5,0.0,Stripe,Zenduit Corporation
+INV-009406,Acadian Total Security,2024-09-08,119.0,0.0,Check,Zenduit Corporation
+INV-009404,GPS to GO Ltd.,2024-09-08,104.3,0.0,Stripe,Zenduit Corporation
+INV-009403,ASAP Trucking Company LLC,2024-09-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-009400,Furst McNess Company,2024-09-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009399,Apex Wireless,2024-09-07,525.0,0.0,Stripe,Zenduit Corporation
+INV-009398,QUALTRACKS,2024-09-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-009397,QES Pressure Control,2024-09-07,1590.0,0.0,N/A,Zenduit Corporation
+INV-009396,Quixote Studios LLC,2024-08-07,1526.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009395,Wilcox & Flegel Oil,2024-09-06,354.0,0.0,N/A,Zenduit Corporation
+INV-009394,Genesis Dispatch,2024-09-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-009393,RMA Testing Company Zenduit,2024-09-06,979.34,0.0,N/A,Zenduit Corporation
+INV-009392,Badger Fleet Solutions,2024-09-06,300.0,0.0,Stripe,Zenduit Corporation
+INV-009391,Hawkeye Electronic Security,2024-09-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-009390,"Georgia Pack & Load Moving and Storage, Inc.",2024-08-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009389,Cal Freight,2024-09-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-009388,Dynasty Communications,2024-09-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-009387,"DICAN, Inc.",2024-09-20,48.09,0.0,Check,Zenduit Corporation
+INV-009386,Bital Services Inc,2024-09-04,149.5,0.0,Stripe,Zenduit Corporation
+INV-009385,Good Guys Of Chattanooga Inc. (T-Mobile Customer),2024-09-04,12.0,0.0,N/A,Zenduit Corporation
+INV-009384,Lee Fish USA (T-Mobile Client),2024-09-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-009383,Arjan Trans Inc (T-Mobile Client),2024-09-04,118.0,0.0,Stripe,Zenduit Corporation
+INV-009382,GLEZ Trucking (T-Mobile Customer),2024-09-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-009381,Dynasty Communications,2024-09-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-009380,Dynasty Communications,2024-09-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-009379,GISCAD Limited,2024-09-04,2653.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009378,LMD Integrated Logistics (USD),2024-09-03,408.0,0.0,Stripe,Zenduit Corporation
+INV-009377,The Standard Design Group (T-Mobile Client),2024-09-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-009376,Outdoor Inc (T-Mobile Client),2024-09-03,190.0,0.0,Stripe,Zenduit Corporation
+INV-009375,Servco Pacific Inc,2024-09-03,210.0,0.0,Stripe,Zenduit Corporation
+INV-009374,"Advantage Fleet, LLC.",2024-09-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-009373,SAC Wireless,2024-09-03,860.0,0.0,N/A,Zenduit Corporation
+INV-009372,JLRG Consulting (Tel-Sol),2024-09-02,5.75,0.0,N/A,Zenduit Corporation
+INV-009371,Dynasty Communications,2024-09-02,27.0,0.0,Stripe,Zenduit Corporation
+INV-009370,ENS Transport (T-Mobile Client),2024-09-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-009369,GA Department of Driver Services,2024-09-02,3378.0,0.0,Check,Zenduit Corporation
+INV-009366,Highland Wireless Services,2024-08-31,145.0,0.0,Check,Zenduit Corporation
+INV-009365,"Geotab, Inc USD",2024-08-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009364,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-08-31,204.0,0.0,Stripe,Zenduit Corporation
+INV-009363,Secure Transportation,2024-08-31,240.0,0.0,Stripe,Zenduit Corporation
+INV-009362,"California Waste Services, LLC(OLD)",2024-08-31,1540.0,0.0,Stripe,Zenduit Corporation
+INV-009361,Pun Enterprises Incorporated,2024-08-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-009360,College Hunks Hauling Junk and Moving of Grand Rapids,2024-08-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-009359,Time and Alarm Systems,2024-08-31,770.0,0.0,Stripe,Zenduit Corporation
+INV-009358,Finger Lakes TC,2024-08-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-009357,Carbentec (Formerly Titan Innovations),2024-08-31,606.0,0.0,Stripe,Zenduit Corporation
+INV-009356,Aalto Technologies,2024-08-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-009355,KELLY TOURS,2024-08-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-009354,Estenad Industries Factory (Ma’aden Aluminium),2024-07-31,440.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009353,Metrica Movil,2024-08-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-009352,VLC,2024-07-30,9036.4,0.0,Stripe,Zenduit Corporation
+INV-009351,VLC,2024-07-30,9036.4,0.0,Stripe,Zenduit Corporation
+INV-009350,Incident Clear - Florida,2024-08-29,1840.0,0.0,Stripe,Zenduit Corporation
+INV-009349,GISCAD Jamaica Limited,2024-08-29,384.8,0.0,Stripe,Zenduit Corporation
+INV-009348,Dynasty Communications,2024-08-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-009347,Dynasty Communications,2024-08-29,738.0,0.0,Stripe,Zenduit Corporation
+INV-009346,WEX INC,2024-08-29,3835.0,0.0,Stripe,Zenduit Corporation
+INV-009345,Smart Witness LLC,2024-08-29,8515.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009344,"Pat's Offroad, Inc.",2024-08-29,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009343,VLC,2024-08-29,2657.75,0.0,Stripe,Zenduit Corporation
+INV-009342,Rush Enterprises,2024-08-29,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009341,VLC,2024-07-29,116.25,0.0,Stripe,Zenduit Corporation
+INV-009340,VLC,2024-07-29,419.25,0.0,Stripe,Zenduit Corporation
+INV-009339,"TrackCam, LLC",2024-08-28,569.5,0.0,N/A,Zenduit Corporation
+INV-009338,VLC,2024-07-29,1715.0,0.0,Stripe,Zenduit Corporation
+INV-009337,Line Drive Trucking (T-Mobile Customer),2024-08-28,4626.0,0.0,Check,Zenduit Corporation
+INV-009336,Velocity Rail Solution,2024-08-28,4988.0,0.0,N/A,Zenduit Corporation
+INV-009335,Velocity Rail Solution,2024-08-28,7404.0,0.0,N/A,Zenduit Corporation
+INV-009334,VLC,2024-07-29,11358.5,0.0,Stripe,Zenduit Corporation
+INV-009333,http://www.argosconnected.com,2024-08-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-009332,"Badia Spices, LLC. (T-Mobile Client)",2024-08-28,336.0,0.0,Check,Zenduit Corporation
+INV-009331,Financial Technology Solutions International (T-Mobile Customer),2024-08-28,1261.0,0.0,Check,Zenduit Corporation
+INV-009330,Robert J. Devereaux Corp.,2024-08-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-009329,Traxxis GPS Solutions,2024-08-28,32234.75,0.0,Stripe,Zenduit Corporation
+INV-009328,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-08-27,70.0,0.0,Check,Zenduit Corporation
+INV-009327,SSC International (T-Mobile Client),2024-08-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-009326,Command International Security Services (T-Mobile Client),2024-08-27,24.0,0.0,N/A,Zenduit Corporation
+INV-009325,Trulite Glass and Aluminum Solutions Canada,2024-08-26,74.55,0.0,Check,Zenduit Corporation
+INV-009324,Worldwide Recovery (T-Mobile Client),2024-08-26,240.0,0.0,Check,Zenduit Corporation
+INV-009323,Magic Metals,2024-08-26,210.0,0.0,Check,Zenduit Corporation
+INV-009322,Merrill Steel Inc (Fiix Lead),2024-08-25,72.0,0.0,N/A,Zenduit Corporation
+INV-009321,HMR Transportation (T-Mobile Client),2024-08-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-009320,"TrackCam, LLC",2024-08-25,37001.68,0.0,N/A,Zenduit Corporation
+INV-009319,VNH Enterprises (OLD Account - INACTIVE),2024-08-25,653.0,0.0,Stripe,Zenduit Corporation
+INV-009318,VNH Enterprises (OLD Account - INACTIVE),2024-08-25,10731.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009317,EMS Technology Solutions LLC/ Operative IQ,2024-08-25,513.0,0.0,Stripe,Zenduit Corporation
+INV-009314,"Paper Cuts, Inc. (T-Mobile Customer)",2024-08-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-009313,Hagerstown Fire Department,2024-08-24,654.57,0.0,Check,Zenduit Corporation
+INV-009312,Administration of Fleets SA de CV,2024-08-24,390.0,0.0,Stripe,Zenduit Corporation
+INV-009310,Coopers Petroleum (T-Mobile Customer),2024-08-23,168.0,0.0,Stripe,Zenduit Corporation
+INV-009309,Solugaz Inc (Fiix Client),2024-08-23,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-009308,Breakthru Beverage Group Family,2024-08-22,10.0,0.0,N/A,Zenduit Corporation
+INV-009307,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-08-22,1540.0,0.0,Check,Zenduit Corporation
+INV-009306,H.T. Hackney,2024-08-22,5861.3,0.0,Check,Zenduit Corporation
+INV-009305,Premier Truck Group,2024-08-22,1993.32,0.0,Check,Zenduit Corporation
+INV-009304,DeNYSE Signage & Arcitectural Elements,2024-08-22,120.0,0.0,N/A,Zenduit Corporation
+INV-009303,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-08-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-009302,Pontrelli & Laricchia (T-Mobile Customer),2024-08-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-009301,Le Groupe ESSA Inc. (Fiix Client),2024-08-21,234.23,0.0,Stripe,Zenduit Corporation
+INV-009300,Global Plumbing & Fire Supply (T-Mobile Customer),2024-08-21,160.0,0.0,Stripe,Zenduit Corporation
+INV-009299,DBC Group,2024-08-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-009298,"Welch Excavation & Utility Company, Inc.",2024-08-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-009297,The Three C's Properties Inc,2024-08-21,473.5,0.0,Stripe,Zenduit Corporation
+INV-009296,Trulite Glass and Aluminum Solutions,2024-08-21,7802.75,0.0,Bank Transfer,Zenduit Corporation
+INV-009295,Biomedical Waste Disposal (T-Mobile Client),2024-08-20,132.0,0.0,Stripe,Zenduit Corporation
+INV-009294,Locke Supply (T-Mobile Customer),2024-08-20,1137.5,0.0,Check,Zenduit Corporation
+INV-009293,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-08-20,84.0,0.0,Stripe,Zenduit Corporation
+INV-009292,Dynasty Communications,2024-08-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-009291,"Mobile Fleet Solutions, Inc.",2024-08-20,136.0,0.0,Stripe,Zenduit Corporation
+INV-009290,McClay's Transportation Ltd.,2024-08-19,612.57,0.0,Stripe,Zenduit Corporation
+INV-009289,Fleet Shield,2024-08-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-009288,QSAC Inc,2024-08-19,2108.0,0.0,Stripe,Zenduit Corporation
+INV-009287,Henry & Henry Inc.,2024-08-19,373.0,0.0,Stripe,Zenduit Corporation
+INV-009286,GotPrint,2024-08-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-009285,Incotec,2024-08-18,116.0,0.0,Stripe,Zenduit Corporation
+INV-009284,Velocity Rail Solution,2024-08-18,7621.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009281,Meridith Baer Home (T-Mobile Client),2024-08-17,75.0,0.0,Stripe,Zenduit Corporation
+INV-009280,Dynasty Communications,2024-08-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-009279,VLC,2024-07-16,16062.2,0.0,Stripe,Zenduit Corporation
+INV-009278,GISCAD Guyana Inc,2024-08-15,6177.6,0.0,Stripe,Zenduit Corporation
+INV-009277,Traxxis GPS Solutions,2024-08-15,40.0,0.0,N/A,Zenduit Corporation
+INV-009276,NY TRANSPORT INC (T-Mobile Client),2024-08-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-009275,"Midwest Environmental Services, Inc.",2024-08-15,287.0,0.0,Stripe,Zenduit Corporation
+INV-009274,"Cee Kay Supply, Inc.",2024-08-15,270.0,0.0,Check,Zenduit Corporation
+INV-009273,Advantage Asset Tracking Inc.,2024-08-15,374.26,0.0,N/A,Zenduit Corporation
+INV-009272,"Participation House, Markham",2024-08-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-009271,LMD Integrated Logistics (USD),2024-07-15,2040.0,0.0,Stripe,Zenduit Corporation
+INV-009270,Financial Technology Solutions International (T-Mobile Customer),2024-08-14,150.0,0.0,Check,Zenduit Corporation
+INV-009269,"California Waste Services, LLC(OLD)",2024-08-14,125.0,0.0,Stripe,Zenduit Corporation
+INV-009268,Traxxis GPS Solutions,2024-08-14,140.0,0.0,Stripe,Zenduit Corporation
+INV-009266,Traxxis GPS Solutions,2024-08-14,265.0,0.0,N/A,Zenduit Corporation
+INV-009265,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-08-14,277.0,0.0,N/A,Zenduit Corporation
+INV-009264,Bital Services Inc,2024-08-14,1097.0,0.0,Stripe,Zenduit Corporation
+INV-009263,"TrackCam, LLC",2024-08-14,9872.5,0.0,N/A,Zenduit Corporation
+INV-009262,Premier Truck Group,2024-08-14,37098.61,0.0,Check,Zenduit Corporation
+INV-009261,Miami LNG - FIXX/ Samsara,2024-08-14,30.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009260,Dynasty Communications,2024-08-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-009258,"Kenworth Northeast Group, Inc.",2024-08-14,1140.0,0.0,Check,Zenduit Corporation
+INV-009257,Assetflo (Unique Partnership Agreement),2024-08-13,107.63,0.0,Bank Transfer,Zenduit Corporation
+INV-009256,Nu-Era Services,2024-08-13,293.0,0.0,Stripe,Zenduit Corporation
+INV-009255,A#1Air,2024-08-13,3476.5,0.0,N/A,Zenduit Corporation
+INV-009254,Super Win Enterprises,2024-08-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-009253,Port Connect Intermodel,2024-08-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009252,"Pro-Vac, LLC (Fiix Customer)",2024-08-12,1608.0,0.0,Stripe,Zenduit Corporation
+INV-009251,Smart MUBE (Deprecated),2024-08-12,15.0,0.0,N/A,Zenduit Corporation
+INV-009250,"Edge CCTV, Inc.",2024-08-12,561.0,0.0,Stripe,Zenduit Corporation
+INV-009249,USA Fleet Solutions,2024-07-12,0.0,0.0,N/A,Zenduit Corporation
+INV-009248,Dynasty provisions,2024-08-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-009247,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-08-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-009246,Dynasty Communications,2024-08-11,252.0,0.0,Stripe,Zenduit Corporation
+INV-009245,City of Vernon,2024-08-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-009244,Marcial Ventas Rastreo Enlinea,2024-08-10,188.0,0.0,Stripe,Zenduit Corporation
+INV-009241,SoCal Rentals (T-Mobile Client),2024-08-09,24.0,0.0,Stripe,Zenduit Corporation
+INV-009240,Santosa Delivery (T-Mobile Client),2024-08-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-009239,Merchants Fleet - Christensen Farms,2024-07-10,132.0,0.0,Check,Zenduit Corporation
+INV-009238,"A & V Reality Transportation , LLC",2024-08-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-009237,Northern Business Intelligence,2024-08-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-009236,"DICAN, Inc.",2024-08-24,2991.21,0.0,Check,Zenduit Corporation
+INV-009235,EcoTrack Fleet Management,2024-08-08,250.0,0.0,Stripe,Zenduit Corporation
+INV-009234,Line Drive Trucking (T-Mobile Customer),2024-08-08,1294.0,0.0,Check,Zenduit Corporation
+INV-009233,Platinum Energy Services,2024-08-08,371.5,0.0,Stripe,Zenduit Corporation
+INV-009232,Acadian Total Security,2024-08-08,119.0,0.0,Check,Zenduit Corporation
+INV-009230,GPS to GO Ltd.,2024-08-08,104.3,0.0,Stripe,Zenduit Corporation
+INV-009229,ASAP Trucking Company LLC,2024-08-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-009228,Furst McNess Company,2024-08-07,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009227,Apex Wireless,2024-08-07,525.0,0.0,Stripe,Zenduit Corporation
+INV-009226,QUALTRACKS,2024-08-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-009225,QES Pressure Control,2024-08-07,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009224,Quixote Studios LLC,2024-07-07,1526.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009223,Wilcox & Flegel Oil,2024-08-06,354.0,0.0,N/A,Zenduit Corporation
+INV-009222,Genesis Dispatch,2024-08-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-009221,RMA Testing Company Zenduit,2024-08-06,979.34,0.0,N/A,Zenduit Corporation
+INV-009220,Badger Fleet Solutions,2024-08-06,293.0,0.0,Stripe,Zenduit Corporation
+INV-009219,Hawkeye Electronic Security,2024-08-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-009218,"Georgia Pack & Load Moving and Storage, Inc.",2024-07-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009217,Cal Freight,2024-08-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-009216,Dynasty Communications,2024-08-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-009215,"DICAN, Inc.",2024-08-20,48.09,0.0,N/A,Zenduit Corporation
+INV-009214,Bital Services Inc,2024-08-04,274.25,0.0,Stripe,Zenduit Corporation
+INV-009213,Good Guys Of Chattanooga Inc. (T-Mobile Customer),2024-08-04,12.0,0.0,N/A,Zenduit Corporation
+INV-009212,Lee Fish USA (T-Mobile Client),2024-08-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-009211,Arjan Trans Inc (T-Mobile Client),2024-08-04,118.0,0.0,Stripe,Zenduit Corporation
+INV-009210,GLEZ Trucking (T-Mobile Customer),2024-08-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-009209,Dynasty Communications,2024-08-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-009208,Dynasty Communications,2024-08-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-009207,GISCAD Limited,2024-08-04,2473.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009204,LMD Integrated Logistics (Deprecated),2024-07-04,408.0,0.0,N/A,Zenduit Corporation
+INV-009203,The Standard Design Group (T-Mobile Client),2024-08-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-009202,Outdoor Inc (T-Mobile Client),2024-08-03,190.0,0.0,N/A,Zenduit Corporation
+INV-009201,Servco Pacific Inc,2024-08-03,210.0,0.0,Stripe,Zenduit Corporation
+INV-009200,"Advantage Fleet, LLC.",2024-08-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-009199,SAC Wireless,2024-08-03,2700.0,0.0,N/A,Zenduit Corporation
+INV-009198,JLRG Consulting (Tel-Sol),2024-08-02,5.75,0.0,N/A,Zenduit Corporation
+INV-009197,Dynasty Communications,2024-08-02,27.0,0.0,Stripe,Zenduit Corporation
+INV-009196,ENS Transport (T-Mobile Client),2024-08-02,72.0,0.0,Stripe,Zenduit Corporation
+INV-009195,Leggat Toronto,2024-08-02,135.6,0.0,Stripe,Zenduit Corporation
+INV-009194,GA Department of Driver Services,2024-08-02,3360.0,0.0,Check,Zenduit Corporation
+INV-009193,Highland Wireless Services,2024-07-31,145.0,0.0,Check,Zenduit Corporation
+INV-009192,"Geotab, Inc USD",2024-07-31,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009191,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-07-31,204.0,0.0,Stripe,Zenduit Corporation
+INV-009190,Secure Transportation,2024-07-31,240.0,0.0,Stripe,Zenduit Corporation
+INV-009189,"California Waste Services, LLC(OLD)",2024-07-31,1606.0,0.0,Stripe,Zenduit Corporation
+INV-009188,Pun Enterprises Incorporated,2024-07-31,36.0,0.0,Stripe,Zenduit Corporation
+INV-009187,College Hunks Hauling Junk and Moving of Grand Rapids,2024-07-31,260.0,0.0,Stripe,Zenduit Corporation
+INV-009186,Time and Alarm Systems,2024-07-31,840.0,0.0,Stripe,Zenduit Corporation
+INV-009185,Finger Lakes TC,2024-07-31,125.0,0.0,Stripe,Zenduit Corporation
+INV-009184,Carbentec (Formerly Titan Innovations),2024-07-31,606.0,0.0,Stripe,Zenduit Corporation
+INV-009183,Aalto Technologies,2024-07-31,142.3,0.0,Stripe,Zenduit Corporation
+INV-009182,KELLY TOURS,2024-07-31,420.0,0.0,Stripe,Zenduit Corporation
+INV-009181,Incident Clear - Florida,2024-07-30,1840.0,0.0,Stripe,Zenduit Corporation
+INV-009180,GISCAD Jamaica Limited,2024-07-30,384.8,0.0,Stripe,Zenduit Corporation
+INV-009179,Dynasty Communications,2024-07-30,36.0,0.0,Stripe,Zenduit Corporation
+INV-009178,Dynasty Communications,2024-07-30,864.0,0.0,Stripe,Zenduit Corporation
+INV-009177,WEX INC,2024-07-30,3835.0,0.0,Stripe,Zenduit Corporation
+INV-009176,Smart Witness LLC,2024-07-30,8515.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009175,"Pat's Offroad, Inc.",2024-07-30,100.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009174,Metrica Movil,2024-07-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-009173,VLC,2024-07-30,958.75,0.0,Stripe,Zenduit Corporation
+INV-009172,Rush Enterprises,2024-07-30,225.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009171,http://www.argosconnected.com,2024-07-29,100.0,0.0,Stripe,Zenduit Corporation
+INV-009170,"Badia Spices, LLC. (T-Mobile Client)",2024-07-29,408.0,0.0,Check,Zenduit Corporation
+INV-009169,Financial Technology Solutions International (T-Mobile Customer),2024-07-29,1261.0,0.0,Check,Zenduit Corporation
+INV-009168,Robert J. Devereaux Corp.,2024-07-29,198.0,0.0,Stripe,Zenduit Corporation
+INV-009167,Traxxis GPS Solutions,2024-07-29,31763.5,0.0,Stripe,Zenduit Corporation
+INV-009166,Texas Instruments Incorporated,2024-07-28,14625.0,0.0,N/A,Zenduit Corporation
+INV-009165,Texas Instruments Incorporated,2024-07-28,4875.0,0.0,N/A,Zenduit Corporation
+INV-009164,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-07-28,70.0,0.0,Check,Zenduit Corporation
+INV-009163,SSC International (T-Mobile Client),2024-07-28,60.0,0.0,Stripe,Zenduit Corporation
+INV-009162,Command International Security Services (T-Mobile Client),2024-07-28,24.0,0.0,N/A,Zenduit Corporation
+INV-009159,Trulite Glass and Aluminum Solutions Canada,2024-07-27,74.55,0.0,Check,Zenduit Corporation
+INV-009158,A#1Air,2024-07-27,55.47,0.0,N/A,Zenduit Corporation
+INV-009157,Worldwide Recovery (T-Mobile Client),2024-07-27,240.0,0.0,Check,Zenduit Corporation
+INV-009156,Magic Metals,2024-07-27,210.0,0.0,Check,Zenduit Corporation
+INV-009155,HMR Transportation (T-Mobile Client),2024-07-26,42.0,0.0,Stripe,Zenduit Corporation
+INV-009154,"TrackCam, LLC",2024-07-26,35019.0,0.0,N/A,Zenduit Corporation
+INV-009153,VNH Enterprises (OLD Account - INACTIVE),2024-07-26,653.0,0.0,Stripe,Zenduit Corporation
+INV-009152,VNH Enterprises (OLD Account - INACTIVE),2024-07-26,10731.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009151,EMS Technology Solutions LLC/ Operative IQ,2024-07-26,513.0,0.0,Stripe,Zenduit Corporation
+INV-009150,"TrackCam, LLC",2024-08-31,35850.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009149,"TrackCam, LLC",2024-07-25,39630.0,0.0,N/A,Zenduit Corporation
+INV-009148,"Paper Cuts, Inc. (T-Mobile Customer)",2024-07-25,131.89,0.0,Stripe,Zenduit Corporation
+INV-009147,Hagerstown Fire Department,2024-07-25,654.57,0.0,Check,Zenduit Corporation
+INV-009146,Administration of Fleets SA de CV,2024-07-25,390.0,0.0,Stripe,Zenduit Corporation
+INV-009145,Innovate Digital LLC,2024-07-24,0.0,0.0,N/A,Zenduit Corporation
+INV-009144,Coopers Petroleum (T-Mobile Customer),2024-07-24,168.0,0.0,Stripe,Zenduit Corporation
+INV-009143,Solugaz Inc (Fiix Client),2024-07-24,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-009142,Breakthru Beverage Group Family,2024-07-23,10.0,0.0,N/A,Zenduit Corporation
+INV-009141,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-07-23,1550.0,0.0,Check,Zenduit Corporation
+INV-009140,H.T. Hackney,2024-07-23,5861.3,0.0,Check,Zenduit Corporation
+INV-009139,Premier Truck Group,2024-07-23,1993.32,0.0,Check,Zenduit Corporation
+INV-009138,DeNYSE Signage & Arcitectural Elements,2024-07-23,120.0,0.0,N/A,Zenduit Corporation
+INV-009137,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-07-22,36.0,0.0,Stripe,Zenduit Corporation
+INV-009136,Pontrelli & Laricchia (T-Mobile Customer),2024-07-22,60.0,0.0,Stripe,Zenduit Corporation
+INV-009135,Le Groupe ESSA Inc. (Fiix Client),2024-07-22,234.23,0.0,Stripe,Zenduit Corporation
+INV-009134,Global Plumbing & Fire Supply (T-Mobile Customer),2024-07-22,160.0,0.0,Stripe,Zenduit Corporation
+INV-009133,DBC Group,2024-07-22,174.02,0.0,Stripe,Zenduit Corporation
+INV-009132,"Welch Excavation & Utility Company, Inc.",2024-07-22,585.0,0.0,Stripe,Zenduit Corporation
+INV-009131,The Three C's Properties Inc,2024-07-22,473.5,0.0,Stripe,Zenduit Corporation
+INV-009130,Trulite Glass and Aluminum Solutions,2024-07-22,7846.75,0.0,Bank Transfer,Zenduit Corporation
+INV-009129,"Paper Cuts, Inc. (T-Mobile Customer)",2024-07-21,265.0,0.0,Stripe,Zenduit Corporation
+INV-009128,"California Waste Services, LLC(OLD)",2024-07-21,420.0,0.0,Stripe,Zenduit Corporation
+INV-009127,Traxxis GPS Solutions,2024-07-21,518.0,0.0,N/A,Zenduit Corporation
+INV-009126,"TrackCam, LLC",2024-07-21,940.0,0.0,N/A,Zenduit Corporation
+INV-009125,"TrackCam, LLC",2024-07-21,1000.0,0.0,N/A,Zenduit Corporation
+INV-009124,"Badia Spices, LLC. (T-Mobile Client)",2024-07-21,2088.5,0.0,Check,Zenduit Corporation
+INV-009123,Velocity Rail Solution,2024-07-21,2200.0,0.0,N/A,Zenduit Corporation
+INV-009122,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-07-21,2851.2,0.0,Stripe,Zenduit Corporation
+INV-009121,VLC,2024-06-21,3473.0,0.0,Stripe,Zenduit Corporation
+INV-009120,Biomedical Waste Disposal (T-Mobile Client),2024-07-21,132.0,0.0,Stripe,Zenduit Corporation
+INV-009119,Locke Supply (T-Mobile Customer),2024-07-21,1137.5,0.0,Check,Zenduit Corporation
+INV-009118,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-07-21,84.0,0.0,Stripe,Zenduit Corporation
+INV-009117,Dynasty Communications,2024-07-21,90.0,0.0,Stripe,Zenduit Corporation
+INV-009116,"Mobile Fleet Solutions, Inc.",2024-07-21,136.0,0.0,Stripe,Zenduit Corporation
+INV-009115,Velocity Rail Solution,2024-07-20,3877.88,0.0,N/A,Zenduit Corporation
+INV-009114,Meridith Baer Home (T-Mobile Client),2024-07-20,4089.6,0.0,Stripe,Zenduit Corporation
+INV-009113,"TrackCam, LLC",2024-07-20,84390.0,0.0,N/A,Zenduit Corporation
+INV-009110,McClay's Transportation Ltd.,2024-07-20,612.57,0.0,Stripe,Zenduit Corporation
+INV-009109,Fleet Shield,2024-07-20,195.0,0.0,Stripe,Zenduit Corporation
+INV-009108,QSAC Inc,2024-07-20,2108.0,0.0,Stripe,Zenduit Corporation
+INV-009107,Henry & Henry Inc.,2024-07-20,373.0,0.0,Stripe,Zenduit Corporation
+INV-009106,GotPrint,2024-07-20,108.0,0.0,Stripe,Zenduit Corporation
+INV-009105,Incotec,2024-07-19,116.0,0.0,Stripe,Zenduit Corporation
+INV-009104,Velocity Rail Solution,2024-07-19,7471.0,0.0,N/A,Zenduit Corporation
+INV-009102,Highland Wireless Services,2024-07-18,176.25,0.0,Check,Zenduit Corporation
+INV-009101,Meridith Baer Home (T-Mobile Client),2024-07-18,384.5,0.0,Stripe,Zenduit Corporation
+INV-009100,Traxxis GPS Solutions,2024-07-18,419.98,0.0,Stripe,Zenduit Corporation
+INV-009099,Trulite Glass and Aluminum Solutions,2024-07-18,430.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009098,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-07-18,487.5,0.0,Check,Zenduit Corporation
+INV-009097,Traxxis GPS Solutions,2024-07-18,505.0,0.0,N/A,Zenduit Corporation
+INV-009096,Traxxis GPS Solutions,2024-07-18,900.0,0.0,Stripe,Zenduit Corporation
+INV-009095,Meridith Baer Home (T-Mobile Client),2024-07-18,1053.5,0.0,Stripe,Zenduit Corporation
+INV-009094,Meridith Baer Home (T-Mobile Client),2024-07-18,1388.0,0.0,Stripe,Zenduit Corporation
+INV-009093,Meridith Baer Home (T-Mobile Client),2024-07-18,75.0,0.0,Stripe,Zenduit Corporation
+INV-009092,Dynasty Communications,2024-07-18,72.0,0.0,Stripe,Zenduit Corporation
+INV-009091,Texas Instruments Incorporated,2024-07-17,60.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009090,NY TRANSPORT INC (T-Mobile Client),2024-07-16,30.0,0.0,Stripe,Zenduit Corporation
+INV-009089,"Midwest Environmental Services, Inc.",2024-07-16,287.0,0.0,Stripe,Zenduit Corporation
+INV-009088,"Cee Kay Supply, Inc.",2024-07-16,270.0,0.0,Check,Zenduit Corporation
+INV-009087,Advantage Asset Tracking Inc.,2024-07-16,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-009086,"Participation House, Markham",2024-07-16,175.15,0.0,Stripe,Zenduit Corporation
+INV-009085,Miami LNG - FIXX/ Samsara,2024-07-15,30.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009084,Dynasty Communications,2024-07-15,106.0,0.0,Stripe,Zenduit Corporation
+INV-009082,"Kenworth Northeast Group, Inc.",2024-07-15,1130.0,0.0,Check,Zenduit Corporation
+INV-009081,Assetflo (Unique Partnership Agreement),2024-07-14,107.63,0.0,Bank Transfer,Zenduit Corporation
+INV-009080,Nu-Era Services,2024-07-14,293.0,0.0,Stripe,Zenduit Corporation
+INV-009079,A#1Air,2024-07-14,3230.0,0.0,Stripe,Zenduit Corporation
+INV-009078,Super Win Enterprises,2024-07-14,90.0,0.0,Stripe,Zenduit Corporation
+INV-009075,Port Connect Intermodel,2024-07-13,60.0,0.0,Stripe,Zenduit Corporation
+INV-009074,"Pro-Vac, LLC (Fiix Customer)",2024-07-13,1602.0,0.0,Stripe,Zenduit Corporation
+INV-009073,Smart MUBE (Deprecated),2024-07-13,15.0,0.0,Stripe,Zenduit Corporation
+INV-009072,"Edge CCTV, Inc.",2024-07-13,561.0,0.0,Stripe,Zenduit Corporation
+INV-009071,Dynasty provisions,2024-07-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-009070,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-07-12,392.0,0.0,Stripe,Zenduit Corporation
+INV-009069,Dynasty Communications,2024-07-12,252.0,0.0,Stripe,Zenduit Corporation
+INV-009068,City of Vernon,2024-07-12,204.33,0.0,Stripe,Zenduit Corporation
+INV-009067,Marcial Ventas Rastreo Enlinea,2024-07-11,188.0,0.0,Stripe,Zenduit Corporation
+INV-009066,SoCal Rentals (T-Mobile Client),2024-07-10,24.0,0.0,Stripe,Zenduit Corporation
+INV-009065,Santosa Delivery (T-Mobile Client),2024-07-10,108.0,0.0,Stripe,Zenduit Corporation
+INV-009064,Merchants Fleet - Christensen Farms,2024-06-10,132.0,0.0,Check,Zenduit Corporation
+INV-009063,"A & V Reality Transportation , LLC",2024-07-10,486.0,0.0,Stripe,Zenduit Corporation
+INV-009062,Northern Business Intelligence,2024-07-10,89.7,0.0,Stripe,Zenduit Corporation
+INV-009061,"DICAN, Inc.",2024-07-25,3014.03,0.0,Check,Zenduit Corporation
+INV-009060,EcoTrack Fleet Management,2024-07-09,250.0,0.0,Stripe,Zenduit Corporation
+INV-009059,Line Drive Trucking (T-Mobile Customer),2024-07-09,1274.0,0.0,Check,Zenduit Corporation
+INV-009058,Platinum Energy Services,2024-07-09,371.5,0.0,Stripe,Zenduit Corporation
+INV-009057,Acadian Total Security,2024-07-09,119.0,0.0,Check,Zenduit Corporation
+INV-009055,GPS to GO Ltd.,2024-07-09,104.3,0.0,Stripe,Zenduit Corporation
+INV-009054,ASAP Trucking Company LLC,2024-07-09,392.0,0.0,Stripe,Zenduit Corporation
+INV-009053,Furst McNess Company,2024-07-08,75.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009052,Apex Wireless,2024-07-08,525.0,0.0,Stripe,Zenduit Corporation
+INV-009051,QUALTRACKS,2024-07-08,21.5,0.0,Stripe,Zenduit Corporation
+INV-009050,QES Pressure Control,2024-07-08,1590.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009049,Quixote Studios LLC,2024-06-07,1526.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009048,Wilcox & Flegel Oil,2024-07-07,378.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009047,Genesis Dispatch,2024-07-07,404.55,0.0,Stripe,Zenduit Corporation
+INV-009046,RMA Testing Company Zenduit,2024-07-07,979.34,0.0,N/A,Zenduit Corporation
+INV-009045,Badger Fleet Solutions,2024-07-07,312.0,0.0,Stripe,Zenduit Corporation
+INV-009044,Hawkeye Electronic Security,2024-07-07,475.0,0.0,Stripe,Zenduit Corporation
+INV-009038,"Georgia Pack & Load Moving and Storage, Inc.",2024-06-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-009037,Cal Freight,2024-07-06,30.0,0.0,Stripe,Zenduit Corporation
+INV-009036,Dynasty Communications,2024-07-06,18.0,0.0,Stripe,Zenduit Corporation
+INV-009035,"DICAN, Inc.",2024-07-21,48.09,0.0,Check,Zenduit Corporation
+INV-009034,Biomedical Waste Disposal (T-Mobile Client),2024-07-05,265.0,0.0,N/A,Zenduit Corporation
+INV-009033,Bital Services Inc,2024-07-05,14.25,0.0,Stripe,Zenduit Corporation
+INV-009032,Good Guys Of Chattanooga Inc. (T-Mobile Customer),2024-07-05,12.0,0.0,N/A,Zenduit Corporation
+INV-009031,Lee Fish USA (T-Mobile Client),2024-07-05,83.93,0.0,Stripe,Zenduit Corporation
+INV-009030,Arjan Trans Inc (T-Mobile Client),2024-07-05,118.0,0.0,Stripe,Zenduit Corporation
+INV-009029,GLEZ Trucking (T-Mobile Customer),2024-07-05,80.0,0.0,Stripe,Zenduit Corporation
+INV-009028,Dynasty Communications,2024-07-05,78.0,0.0,Stripe,Zenduit Corporation
+INV-009027,Dynasty Communications,2024-07-05,180.5,0.0,Stripe,Zenduit Corporation
+INV-009026,"L and R Auto Parks, Inc.",2024-07-05,2047.0,0.0,Check,Zenduit Corporation
+INV-009025,GISCAD Limited,2024-07-05,2473.0,0.0,N/A,Zenduit Corporation
+INV-009024,"TrackCam, LLC",2024-07-04,102520.0,0.0,N/A,Zenduit Corporation
+INV-009023,Nuclear Tattoo Medical Supply INC.,2024-06-04,2031.5,0.0,Stripe,Zenduit Corporation
+INV-009022,LMD Integrated Logistics (Deprecated),2024-06-04,408.0,0.0,N/A,Zenduit Corporation
+INV-009021,The Standard Design Group (T-Mobile Client),2024-07-04,96.0,0.0,Stripe,Zenduit Corporation
+INV-009020,Outdoor Inc (T-Mobile Client),2024-07-04,190.0,0.0,N/A,Zenduit Corporation
+INV-009019,Servco Pacific Inc,2024-07-04,210.0,0.0,Stripe,Zenduit Corporation
+INV-009018,"Advantage Fleet, LLC.",2024-07-04,90.0,0.0,Stripe,Zenduit Corporation
+INV-009017,SAC Wireless,2024-07-04,2780.0,0.0,N/A,Zenduit Corporation
+INV-009016,Dynasty Communications,2024-07-03,27.0,0.0,Stripe,Zenduit Corporation
+INV-009015,ENS Transport (T-Mobile Client),2024-07-03,72.0,0.0,Stripe,Zenduit Corporation
+INV-009014,Leggat Toronto,2024-07-03,135.6,0.0,Stripe,Zenduit Corporation
+INV-009013,GA Department of Driver Services,2024-07-03,3360.0,0.0,Check,Zenduit Corporation
+INV-009012,Highland Wireless Services,2024-07-01,420.0,0.0,Check,Zenduit Corporation
+INV-009011,"Geotab, Inc USD",2024-07-01,1356.0,0.0,Bank Transfer,Zenduit Corporation
+INV-009010,"H and H Drug Stores, Inc. (T-Mobile Client)",2024-07-01,180.0,0.0,Stripe,Zenduit Corporation
+INV-009009,Secure Transportation,2024-07-01,240.0,0.0,Stripe,Zenduit Corporation
+INV-009008,"California Waste Services, LLC(OLD)",2024-07-01,1606.0,0.0,Stripe,Zenduit Corporation
+INV-009007,Pun Enterprises Incorporated,2024-07-01,36.0,0.0,Stripe,Zenduit Corporation
+INV-009006,College Hunks Hauling Junk and Moving of Grand Rapids,2024-07-01,260.0,0.0,Stripe,Zenduit Corporation
+INV-009005,Time and Alarm Systems,2024-07-01,735.0,0.0,Stripe,Zenduit Corporation
+INV-009004,Finger Lakes TC,2024-07-01,125.0,0.0,Stripe,Zenduit Corporation
+INV-009003,Carbentec (Formerly Titan Innovations),2024-07-01,606.0,0.0,Stripe,Zenduit Corporation
+INV-009002,Aalto Technologies,2024-07-01,142.3,0.0,Stripe,Zenduit Corporation
+INV-009001,KELLY TOURS,2024-07-01,420.0,0.0,Stripe,Zenduit Corporation
+INV-009000,Metrica Movil,2024-06-30,960.08,0.0,Bank Transfer,Zenduit Corporation
+INV-008999,"California Waste Services, LLC(OLD)",2024-06-29,2065.5,0.0,Stripe,Zenduit Corporation
+INV-008998,"TrackCam, LLC",2024-06-29,2850.0,0.0,N/A,Zenduit Corporation
+INV-008997,Velocity Rail Solution,2024-06-29,2018.5,0.0,N/A,Zenduit Corporation
+INV-008996,Velocity Rail Solution,2024-06-29,3232.0,0.0,N/A,Zenduit Corporation
+INV-008995,"Kenworth Northeast Group, Inc.",2024-05-30,3313.0,0.0,Check,Zenduit Corporation
+INV-008994,VLC,2024-05-30,6246.0,0.0,Stripe,Zenduit Corporation
+INV-008993,Traxxis GPS Solutions,2024-06-29,11565.0,0.0,Stripe,Zenduit Corporation
+INV-008992,Traxxis GPS Solutions,2024-06-29,23130.0,0.0,Stripe,Zenduit Corporation
+INV-008989,Incident Clear - Florida,2024-06-29,1840.0,0.0,Stripe,Zenduit Corporation
+INV-008988,GISCAD Jamaica Limited,2024-06-29,384.8,0.0,Stripe,Zenduit Corporation
+INV-008987,Dynasty Communications,2024-06-29,36.0,0.0,Stripe,Zenduit Corporation
+INV-008986,Dynasty Communications,2024-06-29,864.0,0.0,Stripe,Zenduit Corporation
+INV-008985,Dynasty Communications,2024-06-29,18.5,0.0,Stripe,Zenduit Corporation
+INV-008984,WEX INC,2024-06-29,3835.0,0.0,Stripe,Zenduit Corporation
+INV-008983,Smart Witness LLC,2024-06-29,9005.0,0.0,Bank Transfer,Zenduit Corporation
+INV-008982,"Pat's Offroad, Inc.",2024-06-29,100.0,0.0,Cash,Zenduit Corporation
+INV-008981,VLC,2024-06-29,958.75,0.0,Stripe,Zenduit Corporation
+INV-008980,Rush Enterprises,2024-06-29,225.0,0.0,N/A,Zenduit Corporation
+INV-008979,http://www.argosconnected.com,2024-06-28,100.0,0.0,Stripe,Zenduit Corporation
+INV-008978,"Badia Spices, LLC. (T-Mobile Client)",2024-06-28,384.0,0.0,Check,Zenduit Corporation
+INV-008977,Financial Technology Solutions International (T-Mobile Customer),2024-06-28,1261.0,0.0,Check,Zenduit Corporation
+INV-008976,Robert J. Devereaux Corp.,2024-06-28,198.0,0.0,Stripe,Zenduit Corporation
+INV-008975,Traxxis GPS Solutions,2024-06-28,32202.0,0.0,Stripe,Zenduit Corporation
+INV-008974,"Brody Heating, Air Conditioning & Electrical Contractors, Inc. (T-Mobile Client)",2024-06-27,70.0,0.0,Check,Zenduit Corporation
+INV-008973,SSC International (T-Mobile Client),2024-06-27,60.0,0.0,Stripe,Zenduit Corporation
+INV-008972,Command International Security Services (T-Mobile Client),2024-06-27,24.0,0.0,N/A,Zenduit Corporation
+INV-008971,Dynasty Communications,2024-06-26,284.5,0.0,Stripe,Zenduit Corporation
+INV-008970,VLC,2024-05-27,339.0,0.0,Stripe,Zenduit Corporation
+INV-008969,VLC,2024-05-27,365.0,0.0,Stripe,Zenduit Corporation
+INV-008968,Apex Wireless,2024-06-26,380.0,0.0,Stripe,Zenduit Corporation
+INV-008967,Trulite Glass and Aluminum Solutions,2024-06-26,430.0,0.0,Bank Transfer,Zenduit Corporation
+INV-008966,VLC,2024-05-27,700.0,0.0,Stripe,Zenduit Corporation
+INV-008965,GA Department of Driver Services,2024-06-26,850.0,0.0,Check,Zenduit Corporation
+INV-008964,Velocity Rail Solution,2024-06-26,1194.0,0.0,N/A,Zenduit Corporation
+INV-008963,GISCAD Limited,2024-06-26,1203.5,0.0,N/A,Zenduit Corporation
+INV-008962,Velocity Rail Solution,2024-06-26,1601.0,0.0,N/A,Zenduit Corporation
+INV-008961,Trulite Glass and Aluminum Solutions Canada,2024-06-26,74.55,0.0,Check,Zenduit Corporation
+INV-008960,A#1Air,2024-06-26,55.5,0.0,Check,Zenduit Corporation
+INV-008959,Worldwide Recovery (T-Mobile Client),2024-06-26,240.0,0.0,Check,Zenduit Corporation
+INV-008958,Magic Metals,2024-06-26,210.0,0.0,Check,Zenduit Corporation
+INV-008957,HMR Transportation (T-Mobile Client),2024-06-25,42.0,0.0,Stripe,Zenduit Corporation
+INV-008956,"TrackCam, LLC",2024-06-25,32436.0,0.0,N/A,Zenduit Corporation
+INV-008955,VNH Enterprises (OLD Account - INACTIVE),2024-06-25,653.0,0.0,Stripe,Zenduit Corporation
+INV-008954,VNH Enterprises (OLD Account - INACTIVE),2024-06-25,9778.0,0.0,N/A,Zenduit Corporation
+INV-008953,EMS Technology Solutions LLC/ Operative IQ,2024-06-25,513.0,0.0,Stripe,Zenduit Corporation
+INV-008952,"Paper Cuts, Inc. (T-Mobile Customer)",2024-06-24,131.89,0.0,Stripe,Zenduit Corporation
+INV-008951,Hagerstown Fire Department,2024-06-24,654.57,0.0,Check,Zenduit Corporation
+INV-008950,Administration of Fleets SA de CV,2024-06-24,380.0,0.0,Stripe,Zenduit Corporation
+INV-008949,Coopers Petroleum (T-Mobile Customer),2024-06-23,168.0,0.0,Stripe,Zenduit Corporation
+INV-008948,Solugaz Inc (Fiix Client),2024-06-23,238.74,0.0,Bank Transfer,Zenduit Corporation
+INV-008945,Breakthru Beverage Group Family,2024-06-22,10.0,0.0,N/A,Zenduit Corporation
+INV-008944,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2024-06-22,1540.0,0.0,Check,Zenduit Corporation
+INV-008943,H.T. Hackney,2024-06-22,5861.3,0.0,Check,Zenduit Corporation
+INV-008942,Premier Truck Group,2024-06-22,1993.32,0.0,Check,Zenduit Corporation
+INV-008941,DeNYSE Signage & Arcitectural Elements,2024-06-22,120.0,0.0,N/A,Zenduit Corporation
+INV-008940,DE VRIES TRANSPORT LLC (T-Mobile Customer),2024-06-21,36.0,0.0,Stripe,Zenduit Corporation
+INV-008939,Pontrelli & Laricchia (T-Mobile Customer),2024-06-21,60.0,0.0,Stripe,Zenduit Corporation
+INV-008938,Le Groupe ESSA Inc. (Fiix Client),2024-06-21,243.24,0.0,Stripe,Zenduit Corporation
+INV-008937,Global Plumbing & Fire Supply (T-Mobile Customer),2024-06-21,160.0,0.0,Stripe,Zenduit Corporation
+INV-008936,DBC Group,2024-06-21,174.02,0.0,Stripe,Zenduit Corporation
+INV-008935,"Welch Excavation & Utility Company, Inc.",2024-06-21,585.0,0.0,Stripe,Zenduit Corporation
+INV-008934,The Three C's Properties Inc,2024-06-21,450.0,0.0,Stripe,Zenduit Corporation
+INV-008933,Trulite Glass and Aluminum Solutions,2024-06-21,7846.75,0.0,Bank Transfer,Zenduit Corporation
+INV-008932,Biomedical Waste Disposal (T-Mobile Client),2024-06-20,108.0,0.0,Stripe,Zenduit Corporation
+INV-008931,Locke Supply (T-Mobile Customer),2024-06-20,1137.5,0.0,Check,Zenduit Corporation
+INV-008930,Hight Logistics (Old T-Mobile Client - Now Verizon ),2024-06-20,84.0,0.0,Stripe,Zenduit Corporation
+INV-008929,Dynasty Communications,2024-06-20,90.0,0.0,Stripe,Zenduit Corporation
+INV-008928,"Mobile Fleet Solutions, Inc.",2024-06-20,136.0,0.0,Stripe,Zenduit Corporation
+INV-008927,McClay's Transportation Ltd.,2024-06-19,612.57,0.0,Stripe,Zenduit Corporation
+INV-008926,Fleet Shield,2024-06-19,195.0,0.0,Stripe,Zenduit Corporation
+INV-008925,QSAC Inc,2024-06-19,2108.0,0.0,Stripe,Zenduit Corporation
+INV-008924,Henry & Henry Inc.,2024-06-19,373.0,0.0,Stripe,Zenduit Corporation
+INV-008923,GotPrint,2024-06-19,108.0,0.0,Stripe,Zenduit Corporation
+INV-008922,Incotec,2024-06-18,116.0,0.0,Stripe,Zenduit Corporation
+INV-008921,Velocity Rail Solution,2024-06-18,7496.0,0.0,Bank Transfer,Zenduit Corporation
+INV-008920,Meridith Baer Home (T-Mobile Client),2024-06-17,75.0,0.0,Stripe,Zenduit Corporation
+INV-008919,Aptco LLC (T-Mobile Customer),2024-06-17,3192.0,0.0,Stripe,Zenduit Corporation
+INV-008918,Dynasty Communications,2024-06-17,72.0,0.0,Stripe,Zenduit Corporation
+INV-008915,NY TRANSPORT INC (T-Mobile Client),2024-06-15,30.0,0.0,Stripe,Zenduit Corporation
+INV-008914,"Midwest Environmental Services, Inc.",2024-06-15,287.0,0.0,Stripe,Zenduit Corporation
+INV-008913,"Cee Kay Supply, Inc.",2024-06-15,258.0,0.0,Check,Zenduit Corporation
+INV-008912,Advantage Asset Tracking Inc.,2024-06-15,374.26,0.0,Bank Transfer,Zenduit Corporation
+INV-008911,"Participation House, Markham",2024-06-15,175.15,0.0,Stripe,Zenduit Corporation
+INV-008910,Jacob Sims Demo,2024-06-14,0.0,0.0,N/A,Zenduit Corporation
+INV-008909,Miami LNG - FIXX/ Samsara,2024-06-14,25.0,0.0,Bank Transfer,Zenduit Corporation
+INV-008908,Dynasty Communications,2024-06-14,106.0,0.0,Stripe,Zenduit Corporation
+INV-008906,"Kenworth Northeast Group, Inc.",2024-06-14,1215.0,0.0,Check,Zenduit Corporation
+INV-008905,Nu-Era Services,2024-06-13,293.0,0.0,Stripe,Zenduit Corporation
+INV-008904,A#1Air,2024-06-13,3379.5,0.0,Stripe,Zenduit Corporation
+INV-008903,Super Win Enterprises,2024-06-13,90.0,0.0,Stripe,Zenduit Corporation
+INV-008902,Port Connect Intermodel,2024-06-12,60.0,0.0,Stripe,Zenduit Corporation
+INV-008901,"Pro-Vac, LLC (Fiix Customer)",2024-06-12,1602.0,0.0,Stripe,Zenduit Corporation
+INV-008900,Smart MUBE (Deprecated),2024-06-12,15.0,0.0,N/A,Zenduit Corporation
+INV-008899,"Edge CCTV, Inc.",2024-06-12,561.0,0.0,Stripe,Zenduit Corporation
+INV-008898,Dynasty provisions,2024-06-11,60.0,0.0,Stripe,Zenduit Corporation
+INV-008897,HBC Distributors (dba IPN Express) T-Mobile Customer,2024-06-11,392.0,0.0,Stripe,Zenduit Corporation
+INV-008896,Dynasty Communications,2024-06-11,252.0,0.0,Stripe,Zenduit Corporation
+INV-008895,City of Vernon,2024-06-11,204.33,0.0,Stripe,Zenduit Corporation
+INV-008894,SoCal Rentals (T-Mobile Client),2024-06-09,24.0,0.0,Stripe,Zenduit Corporation
+INV-008893,Santosa Delivery (T-Mobile Client),2024-06-09,108.0,0.0,Stripe,Zenduit Corporation
+INV-008892,Merchants Fleet - Christensen Farms,2024-05-10,132.0,0.0,Check,Zenduit Corporation
+INV-008891,"A & V Reality Transportation , LLC",2024-06-09,486.0,0.0,Stripe,Zenduit Corporation
+INV-008890,Northern Business Intelligence,2024-06-09,89.7,0.0,Stripe,Zenduit Corporation
+INV-008889,"DICAN, Inc.",2024-06-24,2968.83,0.0,Check,Zenduit Corporation
+INV-008888,Highland Wireless Services,2024-06-08,75.0,0.0,Check,Zenduit Corporation
+INV-008887,GLEZ Trucking (T-Mobile Customer),2024-06-08,91.5,0.0,Stripe,Zenduit Corporation
+INV-008886,Assetflo (Unique Partnership Agreement),2024-06-08,187.67,0.0,N/A,Zenduit Corporation
+INV-008885,Traxxis GPS Solutions,2024-06-08,265.0,0.0,N/A,Zenduit Corporation
+INV-008883,Trulite Glass and Aluminum Solutions,2024-06-08,810.0,0.0,Cash,Zenduit Corporation
+INV-008882,VLC,2024-05-09,6181.2,0.0,Stripe,Zenduit Corporation
+INV-008881,GA Department of Driver Services,2024-06-08,279.0,0.0,N/A,Zenduit Corporation
+INV-008878,EcoTrack Fleet Management,2024-06-08,250.0,0.0,Stripe,Zenduit Corporation
+INV-008877,Line Drive Trucking (T-Mobile Customer),2024-06-08,1214.0,0.0,Check,Zenduit Corporation
+INV-008876,Platinum Energy Services,2024-06-08,371.5,0.0,Stripe,Zenduit Corporation
+INV-008875,Acadian Total Security,2024-06-08,544.0,0.0,Check,Zenduit Corporation
+INV-008874,Topaz Tracking,2024-06-08,124.0,0.0,Stripe,Zenduit Corporation
+INV-008873,GPS to GO Ltd.,2024-06-08,104.3,0.0,Stripe,Zenduit Corporation
+INV-008872,ASAP Trucking Company LLC,2024-06-08,392.0,0.0,Stripe,Zenduit Corporation
+INV-008871,"California Waste Services, LLC(OLD)",2024-06-07,1510.0,0.0,Stripe,Zenduit Corporation
+INV-008870,Furst McNess Company,2024-06-07,75.0,0.0,Check,Zenduit Corporation
+INV-008869,Apex Wireless,2024-06-07,525.0,0.0,Stripe,Zenduit Corporation
+INV-008868,QUALTRACKS,2024-06-07,21.5,0.0,Stripe,Zenduit Corporation
+INV-008867,QES Pressure Control,2024-06-07,1590.0,0.0,Cash,Zenduit Corporation
+INV-008866,Quixote Studios LLC,2024-05-07,1526.0,0.0,Cash,Zenduit Corporation
+INV-008865,Wilcox & Flegel Oil,2024-06-06,378.0,0.0,Cash,Zenduit Corporation
+INV-008864,Genesis Dispatch,2024-06-06,404.55,0.0,Stripe,Zenduit Corporation
+INV-008863,RMA Testing Company Zenduit,2024-06-06,979.34,0.0,N/A,Zenduit Corporation
+INV-008862,Badger Fleet Solutions,2024-06-06,293.0,0.0,Stripe,Zenduit Corporation
+INV-008861,Hawkeye Electronic Security,2024-06-06,475.0,0.0,Stripe,Zenduit Corporation
+INV-008860,Line Drive Trucking (T-Mobile Customer),2024-06-05,2775.6,0.0,Check,Zenduit Corporation
+INV-008859,"TrackCam, LLC",2024-06-05,102520.0,0.0,Bank Transfer,Zenduit Corporation
+INV-008858,"Georgia Pack & Load Moving and Storage, Inc.",2024-05-06,168.0,0.0,Stripe,Zenduit Corporation
+INV-008857,Cal Freight,2024-06-05,30.0,0.0,Stripe,Zenduit Corporation
+INV-008856,Dynasty Communications,2024-06-05,18.0,0.0,Stripe,Zenduit Corporation
+INV-008855,"DICAN, Inc.",2024-06-20,48.09,0.0,Check,Zenduit Corporation
+INV-008854,Bital Services Inc,2024-06-04,14.25,0.0,Stripe,Zenduit Corporation
+INV-008853,Good Guys Of Chattanooga Inc. (T-Mobile Customer),2024-06-04,12.0,0.0,N/A,Zenduit Corporation
+INV-008852,Lee Fish USA (T-Mobile Client),2024-06-04,83.93,0.0,Stripe,Zenduit Corporation
+INV-008851,Arjan Trans Inc (T-Mobile Client),2024-06-04,118.0,0.0,Stripe,Zenduit Corporation
+INV-008850,GLEZ Trucking (T-Mobile Customer),2024-06-04,80.0,0.0,Stripe,Zenduit Corporation
+INV-008849,Dynasty Communications,2024-06-04,78.0,0.0,Stripe,Zenduit Corporation
+INV-008848,Dynasty Communications,2024-06-04,180.5,0.0,Stripe,Zenduit Corporation
+INV-008847,"L and R Auto Parks, Inc.",2024-06-04,1808.5,0.0,Check,Zenduit Corporation
+INV-008846,GISCAD Limited,2024-06-04,2013.0,0.0,N/A,Zenduit Corporation
+INV-008845,LMD Integrated Logistics (Deprecated),2024-05-04,612.0,0.0,N/A,Zenduit Corporation
+INV-008844,The Standard Design Group (T-Mobile Client),2024-06-03,96.0,0.0,Stripe,Zenduit Corporation
+INV-008843,Outdoor Inc (T-Mobile Client),2024-06-03,150.0,0.0,N/A,Zenduit Corporation
+INV-008842,Servco Pacific Inc,2024-06-03,210.0,0.0,Stripe,Zenduit Corporation
+INV-008841,"Advantage Fleet, LLC.",2024-06-03,90.0,0.0,Stripe,Zenduit Corporation
+INV-008840,SAC Wireless,2024-06-03,2780.0,0.0,N/A,Zenduit Corporation

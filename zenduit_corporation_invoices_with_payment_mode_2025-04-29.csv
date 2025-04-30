@@ -1,0 +1,521 @@
+invoice_number,customer_name,due_date,total,balance,status,payment_mode,organization
+INV-010869,Premier Wireless,2025-04-29,529.5,529.5,sent,N/A,Zenduit Corporation
+INV-010868,acm servicios multiples,2025-05-29,69.09,0.0,paid,N/A,Zenduit Corporation
+INV-010867,http://www.argosconnected.com,2025-05-29,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010866,"Badia Spices, LLC. (T-Mobile Client)",2025-05-29,432.0,432.0,sent,N/A,Zenduit Corporation
+INV-010865,Financial Technology Solutions International (T-Mobile Customer),2025-05-29,1261.0,0.0,paid,N/A,Zenduit Corporation
+INV-010864,Robert J. Devereaux Corp.,2025-05-29,198.0,0.0,paid,N/A,Zenduit Corporation
+INV-010863,Traxxis GPS Solutions,2025-05-28,505.0,505.0,sent,N/A,Zenduit Corporation
+INV-010862,Nuclear Tattoo Medical Supply INC.,2025-05-28,90.0,90.0,sent,N/A,Zenduit Corporation
+INV-010861,SSC International (T-Mobile Client),2025-05-28,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010860,Trulite Glass and Aluminum Solutions Canada,2025-05-27,223.65,223.65,sent,N/A,Zenduit Corporation
+INV-010859,Worldwide Recovery (T-Mobile Client),2025-05-27,240.0,240.0,sent,N/A,Zenduit Corporation
+INV-010858,Magic Metals,2025-05-27,240.0,240.0,sent,N/A,Zenduit Corporation
+INV-010857,Arias Farms,2025-05-26,50.0,0.0,paid,N/A,Zenduit Corporation
+INV-010856,Merrill Steel Inc (Fiix Lead),2025-05-26,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010855,EAGLEi GPS,2025-05-26,1517.88,1517.88,sent,N/A,Zenduit Corporation
+INV-010854,EMS Technology Solutions LLC/ Operative IQ,2025-05-26,477.0,0.0,paid,N/A,Zenduit Corporation
+INV-010853,"Fleet Nav Systems : Fleet Nav Systems, LLC.",2025-04-25,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010852,"Paper Cuts, Inc. (T-Mobile Customer)",2025-05-25,131.89,0.0,paid,N/A,Zenduit Corporation
+INV-010851,Hagerstown Fire Department,2025-05-25,654.57,654.57,sent,N/A,Zenduit Corporation
+INV-010850,Administration of Fleets SA de CV,2025-05-25,735.0,0.0,paid,N/A,Zenduit Corporation
+INV-010849,"TrackCam, LLC",2025-04-24,81475.0,81475.0,overdue,N/A,Zenduit Corporation
+INV-010848,Coopers Petroleum (T-Mobile Customer),2025-05-24,219.66,0.0,paid,N/A,Zenduit Corporation
+INV-010847,Solugaz Inc (Fiix Client),2025-05-24,238.74,238.74,sent,N/A,Zenduit Corporation
+INV-010846,VLC,2025-05-23,90.0,90.0,sent,N/A,Zenduit Corporation
+INV-010845,SAC Wireless,2025-05-23,25.0,0.0,paid,N/A,Zenduit Corporation
+INV-010844,Meridith Baer Home (T-Mobile Client),2025-05-23,449.0,449.0,sent,N/A,Zenduit Corporation
+INV-010843,Precise Fleet Tracking Solutions,2025-05-23,487.5,487.5,sent,N/A,Zenduit Corporation
+INV-010842,Precise Fleet Tracking Solutions,2025-05-23,1486.0,1486.0,sent,N/A,Zenduit Corporation
+INV-010841,Bital Services Inc,2025-05-23,365.0,365.0,sent,N/A,Zenduit Corporation
+INV-010840,Traxxis GPS Solutions,2025-05-23,57390.0,57390.0,sent,N/A,Zenduit Corporation
+INV-010839,GISCAD Limited,2025-05-23,351.99,351.99,sent,N/A,Zenduit Corporation
+INV-010838,"TrackCam, LLC",2025-05-23,325.0,325.0,sent,N/A,Zenduit Corporation
+INV-010837,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-05-23,1510.0,1510.0,sent,N/A,Zenduit Corporation
+INV-010836,H.T. Hackney,2025-05-23,578.55,578.55,sent,N/A,Zenduit Corporation
+INV-010835,Premier Truck Group,2025-05-23,2937.44,2937.44,sent,N/A,Zenduit Corporation
+INV-010834,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-05-22,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010833,Pontrelli & Laricchia (T-Mobile Customer),2025-05-22,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010832,Le Groupe ESSA Inc. (Fiix Client),2025-05-22,265.77,0.0,paid,N/A,Zenduit Corporation
+INV-010831,Global Plumbing & Fire Supply (T-Mobile Customer),2025-05-22,190.0,0.0,paid,N/A,Zenduit Corporation
+INV-010830,DBC Group,2025-05-22,174.02,0.0,paid,N/A,Zenduit Corporation
+INV-010829,"Welch Excavation & Utility Company, Inc.",2025-05-22,471.0,0.0,paid,N/A,Zenduit Corporation
+INV-010828,The Three C's Properties Inc,2025-05-22,726.5,0.0,paid,N/A,Zenduit Corporation
+INV-010827,Trulite Glass and Aluminum Solutions,2025-05-22,7150.0,7150.0,sent,N/A,Zenduit Corporation
+INV-010826,Neotech,2025-05-21,249.0,0.0,paid,N/A,Zenduit Corporation
+INV-010825,Biomedical Waste Disposal (T-Mobile Client),2025-05-21,144.0,0.0,paid,N/A,Zenduit Corporation
+INV-010824,Locke Supply (T-Mobile Customer),2025-05-21,1295.0,1295.0,sent,N/A,Zenduit Corporation
+INV-010823,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-05-21,312.0,0.0,paid,N/A,Zenduit Corporation
+INV-010822,Dynasty Communications,2025-05-21,90.0,90.0,sent,N/A,Zenduit Corporation
+INV-010821,McClay's Transportation Ltd.,2025-05-20,612.57,0.0,paid,N/A,Zenduit Corporation
+INV-010820,Fleet Shield,2025-05-20,195.0,0.0,paid,N/A,Zenduit Corporation
+INV-010819,Henry & Henry Inc.,2025-05-20,336.0,0.0,paid,N/A,Zenduit Corporation
+INV-010818,GotPrint,2025-05-20,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010817,Four Seasons Landscape and Property Services,2025-05-19,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010816,Incotec,2025-05-19,174.0,174.0,sent,N/A,Zenduit Corporation
+INV-010815,Velocity Rail Solution,2025-05-19,8260.0,8260.0,sent,N/A,Zenduit Corporation
+INV-010814,Meridith Baer Home (T-Mobile Client),2025-05-18,300.0,0.0,paid,N/A,Zenduit Corporation
+INV-010813,Dynasty Communications,2025-05-18,72.0,72.0,sent,N/A,Zenduit Corporation
+INV-010812,Hawkeye Electronic Security,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010811,Lavish Lifestyles Concierge,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010810,"Kenworth Northeast Group, Inc.",2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010809,OnTrak Solutions,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010808,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010807,Incident Clear,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010806,Hagerstown Fire Department,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010805,Traxxis GPS Solutions,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010804,APC Transport (T-Mobile Client),2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010803,Incident Clear - Florida,2025-05-17,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010802,Trulite Glass and Aluminum Solutions,2025-05-16,3220.0,3220.0,sent,N/A,Zenduit Corporation
+INV-010801,"TrackCam, LLC",2025-05-16,4320.0,4320.0,sent,N/A,Zenduit Corporation
+INV-010800,VLC,2025-05-16,4338.99,4338.99,sent,N/A,Zenduit Corporation
+INV-010799,Track and Talk,2025-05-16,85.5,85.5,sent,N/A,Zenduit Corporation
+INV-010798,NY TRANSPORT INC (T-Mobile Client),2025-05-16,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010797,"Midwest Environmental Services, Inc.",2025-05-16,240.0,0.0,paid,N/A,Zenduit Corporation
+INV-010796,"Cee Kay Supply, Inc.",2025-05-16,228.0,228.0,sent,N/A,Zenduit Corporation
+INV-010795,Advantage Asset Tracking Inc.,2025-05-16,374.26,374.26,sent,N/A,Zenduit Corporation
+INV-010794,"Participation House, Markham",2025-05-16,175.15,0.0,paid,N/A,Zenduit Corporation
+INV-010272-REV2,Texas Instruments Incorporated,2025-05-25,4000.0,4000.0,draft,N/A,Zenduit Corporation
+INV-010272-REV1,Texas Instruments Incorporated,2025-05-25,4000.0,4000.0,sent,N/A,Zenduit Corporation
+INV-010273-REV1,Texas Instruments Incorporated,2025-05-25,12000.0,12000.0,sent,N/A,Zenduit Corporation
+INV-010273-REV2,Texas Instruments Incorporated,2025-05-25,12000.0,12000.0,draft,N/A,Zenduit Corporation
+INV-010793,Miami LNG - FIXX/ Samsara,2025-05-15,20.0,0.0,paid,N/A,Zenduit Corporation
+INV-010792,Dynasty Communications,2025-05-15,106.0,106.0,sent,N/A,Zenduit Corporation
+INV-010791,"Kenworth Northeast Group, Inc.",2025-05-15,1370.0,1370.0,sent,N/A,Zenduit Corporation
+INV-010790,Premier Truck Group,2025-05-14,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010789,Assetflo (Unique Partnership Agreement),2025-05-14,153.91,0.0,paid,N/A,Zenduit Corporation
+INV-010788,A#1Air,2025-05-14,3335.5,3335.5,sent,N/A,Zenduit Corporation
+INV-010787,Super Win Enterprises,2025-05-14,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010786,Efficient Fleets,2025-05-13,48.75,48.75,sent,N/A,Zenduit Corporation
+INV-010785,Smart MUBE,2025-04-13,270.0,0.0,paid,N/A,Zenduit Corporation
+INV-010784,Port Connect Intermodel,2025-05-13,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010783,Dynasty provisions,2025-05-12,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010782,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-05-12,392.0,0.0,paid,N/A,Zenduit Corporation
+INV-010781,Dynasty Communications,2025-05-12,234.0,234.0,sent,N/A,Zenduit Corporation
+INV-010780,City of Vernon,2025-05-12,175.14,0.0,paid,N/A,Zenduit Corporation
+INV-010779,MNTNM,2025-05-11,325.0,325.0,sent,N/A,Zenduit Corporation
+INV-010778,SoCal Rentals (T-Mobile Client),2025-05-10,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010777,Santosa Delivery (T-Mobile Client),2025-05-10,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010776,"A & V Reality Transportation , LLC",2025-05-10,270.0,270.0,sent,N/A,Zenduit Corporation
+INV-010775,Northern Business Intelligence,2025-05-10,89.7,0.0,paid,N/A,Zenduit Corporation
+INV-010774,"DICAN, Inc.",2025-05-25,2120.55,2120.55,sent,N/A,Zenduit Corporation
+INV-010773,"Techweb of Puerto Rico, Inc.",2025-05-09,0.0,0.0,draft,N/A,Zenduit Corporation
+INV-010772,"Techweb of Puerto Rico, Inc.",2025-05-09,489.0,0.0,paid,N/A,Zenduit Corporation
+INV-010771,Play Telematics / Eye Drivers,2025-05-09,768.95,768.95,sent,N/A,Zenduit Corporation
+INV-010770,EcoTrack Fleet Management,2025-05-09,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010769,Line Drive Trucking (T-Mobile Customer),2025-05-09,1500.0,0.0,paid,N/A,Zenduit Corporation
+INV-010768,Platinum Energy Services,2025-05-09,387.0,0.0,paid,N/A,Zenduit Corporation
+INV-010767,GPS to GO Ltd.,2025-05-09,434.52,0.0,paid,N/A,Zenduit Corporation
+INV-010766,ASAP Trucking Company LLC,2025-05-09,392.0,0.0,paid,N/A,Zenduit Corporation
+INV-010765,Trulite Glass and Aluminum Solutions,2025-04-30,7072.0,7072.0,sent,N/A,Zenduit Corporation
+INV-010764,Furst McNess Company,2025-05-08,75.0,75.0,sent,N/A,Zenduit Corporation
+INV-010763,Apex Wireless,2025-05-08,565.0,0.0,paid,N/A,Zenduit Corporation
+INV-010762,QUALTRACKS,2025-05-08,21.5,0.0,paid,N/A,Zenduit Corporation
+INV-010761,QES Pressure Control,2025-05-08,1473.0,1473.0,sent,N/A,Zenduit Corporation
+INV-010760,Grupo Invictus,2025-05-07,23.21,0.0,paid,N/A,Zenduit Corporation
+INV-010759,Quixote Studios LLC,2025-04-07,4172.0,4172.0,overdue,N/A,Zenduit Corporation
+INV-010758,Genesis Dispatch,2025-05-07,548.55,0.0,paid,N/A,Zenduit Corporation
+INV-010757,RMA Testing Company Zenduit,2025-05-07,979.34,0.0,paid,N/A,Zenduit Corporation
+INV-010756,Badger Fleet Solutions,2025-05-07,304.0,304.0,sent,N/A,Zenduit Corporation
+INV-010755,Hawkeye Electronic Security,2025-05-07,475.0,0.0,paid,N/A,Zenduit Corporation
+INV-010754,Precise Fleet Tracking Solutions,2025-05-06,5.75,0.0,paid,N/A,Zenduit Corporation
+INV-010753,"Georgia Pack & Load Moving and Storage, Inc.",2025-04-06,243.0,0.0,paid,N/A,Zenduit Corporation
+INV-010752,Cal Freight,2025-05-06,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010751,Dynasty Communications,2025-05-06,18.0,18.0,sent,N/A,Zenduit Corporation
+INV-010750,Bital Services Inc,2025-05-05,448.93,0.0,paid,N/A,Zenduit Corporation
+INV-010749,Lee Fish USA (T-Mobile Client),2025-05-05,83.93,0.0,paid,N/A,Zenduit Corporation
+INV-010748,Arjan Trans Inc (T-Mobile Client),2025-05-05,78.0,0.0,paid,N/A,Zenduit Corporation
+INV-010747,GLEZ Trucking (T-Mobile Customer),2025-05-05,80.0,0.0,paid,N/A,Zenduit Corporation
+INV-010746,Dynasty Communications,2025-05-05,78.0,78.0,sent,N/A,Zenduit Corporation
+INV-010745,Dynasty Communications,2025-05-05,180.5,180.5,sent,N/A,Zenduit Corporation
+INV-010744,GISCAD Limited,2025-05-05,3976.6,3976.6,sent,N/A,Zenduit Corporation
+INV-010268-REV,Texas Instruments Incorporated,2025-05-25,948.23,948.23,sent,N/A,Zenduit Corporation
+INV-010270-REV,Texas Instruments Incorporated,2025-05-25,519.62,519.62,sent,N/A,Zenduit Corporation
+INV-010743,LMD Integrated Logistics (USD),2025-05-04,444.0,0.0,paid,N/A,Zenduit Corporation
+INV-010742,The Standard Design Group (T-Mobile Client),2025-05-04,96.0,0.0,paid,N/A,Zenduit Corporation
+INV-010741,Outdoor Inc (T-Mobile Client),2025-05-04,200.0,200.0,sent,N/A,Zenduit Corporation
+INV-010740,"Advantage Fleet, LLC.",2025-05-04,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010739,SAC Wireless,2025-05-04,240.0,240.0,sent,N/A,Zenduit Corporation
+INV-010738,VLC,2025-05-03,50.0,50.0,sent,N/A,Zenduit Corporation
+INV-010737,"TrackCam, LLC",2025-05-03,8613.6,8613.6,sent,N/A,Zenduit Corporation
+INV-010736,Velocity Rail Solution,2025-05-03,1534.0,1534.0,sent,N/A,Zenduit Corporation
+INV-010735,JLRG Consulting (Tel-Sol),2025-05-03,4298.35,0.0,paid,N/A,Zenduit Corporation
+INV-010734,ARTHOFER FINANCIAL,2025-05-03,15.0,0.0,paid,N/A,Zenduit Corporation
+INV-010733,JLRG Consulting (Tel-Sol),2025-05-03,37.25,37.25,sent,N/A,Zenduit Corporation
+INV-010732,ENS Transport (T-Mobile Client),2025-05-03,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010731,GA Department of Driver Services,2025-05-03,3864.0,0.0,paid,N/A,Zenduit Corporation
+INV-010730,"TrackCam, LLC",2025-04-27,33130.0,16565.0,overdue,N/A,Zenduit Corporation
+INV-010729,Trulite Glass and Aluminum Solutions,2025-05-02,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010728,Highland Wireless Services,2025-05-01,145.0,145.0,sent,N/A,Zenduit Corporation
+INV-010727,"Geotab, Inc USD",2025-05-01,1356.0,1356.0,sent,N/A,Zenduit Corporation
+INV-010726,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-05-01,276.0,276.0,sent,N/A,Zenduit Corporation
+INV-010725,Secure Transportation,2025-05-01,100.0,100.0,sent,N/A,Zenduit Corporation
+INV-010724,"California Waste Services, LLC(OLD)",2025-05-01,1650.0,0.0,paid,N/A,Zenduit Corporation
+INV-010723,Pun Enterprises Incorporated,2025-05-01,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010722,College Hunks Hauling Junk and Moving of Grand Rapids,2025-05-01,260.0,0.0,paid,N/A,Zenduit Corporation
+INV-010721,Finger Lakes TC,2025-05-01,125.0,0.0,paid,N/A,Zenduit Corporation
+INV-010720,Carbentec (Formerly Titan Innovations),2025-05-01,606.0,606.0,sent,N/A,Zenduit Corporation
+INV-010719,Aalto Technologies,2025-05-01,142.3,0.0,paid,N/A,Zenduit Corporation
+INV-010718,KELLY TOURS,2025-05-01,420.0,0.0,paid,N/A,Zenduit Corporation
+INV-010717,"TrackCam, LLC",2025-04-30,48356.0,48356.0,sent,N/A,Zenduit Corporation
+INV-010267-REV,Texas Instruments Incorporated,2025-05-25,260.0,260.0,sent,N/A,Zenduit Corporation
+INV-010264-REV,Texas Instruments Incorporated,2025-05-25,160.0,160.0,sent,N/A,Zenduit Corporation
+INV-010717-MB,Texas Instruments Incorporated,2025-05-25,3626.0,3626.0,draft,N/A,Zenduit Corporation
+INV-010266-REV,Texas Instruments Incorporated,2025-05-25,307.0,307.0,sent,N/A,Zenduit Corporation
+INV-010265-REV,Texas Instruments Incorporated,2025-05-25,3522.0,3522.0,sent,N/A,Zenduit Corporation
+INV-010716,Metrica Movil,2025-04-30,780.08,780.08,sent,N/A,Zenduit Corporation
+INV-010715,GISCAD Jamaica Limited,2025-04-29,384.8,384.8,sent,N/A,Zenduit Corporation
+INV-010714,Dynasty Communications,2025-04-29,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010713,Dynasty Communications,2025-04-29,738.0,0.0,paid,N/A,Zenduit Corporation
+INV-010712,WEX INC,2025-04-29,1352.0,0.0,paid,N/A,Zenduit Corporation
+INV-010711,Smart Witness LLC,2025-04-29,8155.0,0.0,paid,N/A,Zenduit Corporation
+INV-010710,"Pat's Offroad, Inc.",2025-04-29,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010709,Rush Enterprises,2025-04-29,30.0,30.0,sent,N/A,Zenduit Corporation
+INV-010708,http://www.argosconnected.com,2025-04-28,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010707,"Badia Spices, LLC. (T-Mobile Client)",2025-04-28,432.0,0.0,paid,N/A,Zenduit Corporation
+INV-010706,Financial Technology Solutions International (T-Mobile Customer),2025-04-28,1261.0,0.0,paid,N/A,Zenduit Corporation
+INV-010705,Robert J. Devereaux Corp.,2025-04-28,198.0,0.0,paid,N/A,Zenduit Corporation
+INV-010704,Traxxis GPS Solutions,2025-04-28,34225.5,0.0,paid,N/A,Zenduit Corporation
+INV-010703,SSC International (T-Mobile Client),2025-04-27,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010702,Trulite Glass and Aluminum Solutions Canada,2025-04-26,186.38,0.0,paid,N/A,Zenduit Corporation
+INV-010701,Worldwide Recovery (T-Mobile Client),2025-04-26,240.0,240.0,overdue,N/A,Zenduit Corporation
+INV-010700,Magic Metals,2025-04-26,240.0,0.0,paid,N/A,Zenduit Corporation
+INV-010699,Total Protection Security Systems L.L.C,2025-04-25,650.0,0.0,paid,N/A,Zenduit Corporation
+INV-010698,Precise Fleet Tracking Solutions,2025-04-25,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010697,VLC,2025-04-25,735.5,735.5,overdue,N/A,Zenduit Corporation
+INV-010696,Luxury Flush,2025-04-25,138.0,138.0,overdue,N/A,Zenduit Corporation
+INV-010695,Traxxis GPS Solutions,2025-04-25,20530.0,0.0,paid,N/A,Zenduit Corporation
+INV-010694,Meridith Baer Home (T-Mobile Client),2025-04-25,115.0,0.0,paid,N/A,Zenduit Corporation
+INV-010693,Arias Farms,2025-04-25,50.0,0.0,paid,N/A,Zenduit Corporation
+INV-010692,Merrill Steel Inc (Fiix Lead),2025-04-25,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010691,EAGLEi GPS,2025-04-25,1388.7,1388.7,overdue,N/A,Zenduit Corporation
+INV-010690,EMS Technology Solutions LLC/ Operative IQ,2025-04-25,477.0,0.0,paid,N/A,Zenduit Corporation
+INV-010689,"TrackCam, LLC",2025-05-10,61117.0,30558.5,partially_paid,N/A,Zenduit Corporation
+INV-010688,"Paper Cuts, Inc. (T-Mobile Customer)",2025-04-24,131.89,0.0,paid,N/A,Zenduit Corporation
+INV-010687,Hagerstown Fire Department,2025-04-24,654.57,0.0,paid,N/A,Zenduit Corporation
+INV-010686,Administration of Fleets SA de CV,2025-04-24,705.0,0.0,paid,N/A,Zenduit Corporation
+INV-010685,Traxxis GPS Solutions,2025-04-23,715.0,0.0,paid,N/A,Zenduit Corporation
+INV-010684,"TrackCam, LLC",2025-04-23,415.0,0.0,paid,N/A,Zenduit Corporation
+INV-010683,Coopers Petroleum (T-Mobile Customer),2025-04-23,219.66,0.0,paid,N/A,Zenduit Corporation
+INV-010682,Solugaz Inc (Fiix Client),2025-04-23,238.74,0.0,paid,N/A,Zenduit Corporation
+INV-010681,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-04-22,1530.0,1530.0,overdue,N/A,Zenduit Corporation
+INV-010680,H.T. Hackney,2025-04-22,578.55,0.0,paid,N/A,Zenduit Corporation
+INV-010679,Premier Truck Group,2025-04-22,2937.44,0.0,paid,N/A,Zenduit Corporation
+INV-010678,DeNYSE Signage & Arcitectural Elements,2025-04-22,120.0,120.0,overdue,N/A,Zenduit Corporation
+INV-010677,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-04-21,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010676,Pontrelli & Laricchia (T-Mobile Customer),2025-04-21,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010675,Le Groupe ESSA Inc. (Fiix Client),2025-04-21,265.77,0.0,paid,N/A,Zenduit Corporation
+INV-010674,Global Plumbing & Fire Supply (T-Mobile Customer),2025-04-21,190.0,0.0,paid,N/A,Zenduit Corporation
+INV-010673,DBC Group,2025-04-21,174.02,0.0,paid,N/A,Zenduit Corporation
+INV-010672,"Welch Excavation & Utility Company, Inc.",2025-04-21,471.0,0.0,paid,N/A,Zenduit Corporation
+INV-010671,The Three C's Properties Inc,2025-04-21,703.0,0.0,paid,N/A,Zenduit Corporation
+INV-010670,Biomedical Waste Disposal (T-Mobile Client),2025-04-20,132.0,0.0,paid,N/A,Zenduit Corporation
+INV-010669,Locke Supply (T-Mobile Customer),2025-04-20,1295.0,0.0,paid,N/A,Zenduit Corporation
+INV-010668,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-04-20,312.0,0.0,paid,N/A,Zenduit Corporation
+INV-010667,Dynasty Communications,2025-04-20,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010666,"TrackCam, LLC",2025-04-19,8464.0,4232.0,overdue,N/A,Zenduit Corporation
+INV-010665,"TrackCam, LLC",2025-05-10,10595.0,5297.5,partially_paid,N/A,Zenduit Corporation
+INV-010664,Efficient Fleets,2025-04-19,3490.1,0.0,paid,N/A,Zenduit Corporation
+INV-010663,SkyTracksGPS LLC,2025-04-19,460.0,460.0,overdue,N/A,Zenduit Corporation
+INV-010662,McClay's Transportation Ltd.,2025-04-19,612.57,0.0,paid,N/A,Zenduit Corporation
+INV-010661,Fleet Shield,2025-04-19,195.0,0.0,paid,N/A,Zenduit Corporation
+INV-010660,Henry & Henry Inc.,2025-04-19,336.0,0.0,paid,N/A,Zenduit Corporation
+INV-010659,GotPrint,2025-04-19,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010658,Canadian Grounds,2025-04-18,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010657,Four Seasons Landscape and Property Services,2025-04-18,80.0,0.0,paid,N/A,Zenduit Corporation
+INV-010656,Incotec,2025-04-18,174.0,0.0,paid,N/A,Zenduit Corporation
+INV-010655,Velocity Rail Solution,2025-04-18,8335.0,8335.0,overdue,N/A,Zenduit Corporation
+INV-010654,Efficient Fleets,2025-04-17,4553.1,4553.1,void,N/A,Zenduit Corporation
+INV-010653,"TrackCam, LLC",2025-04-17,415.0,0.0,paid,N/A,Zenduit Corporation
+INV-010652,Lan Communications,2025-04-17,700.0,0.0,paid,N/A,Zenduit Corporation
+INV-010651,Meridith Baer Home (T-Mobile Client),2025-04-17,300.0,0.0,paid,N/A,Zenduit Corporation
+INV-010650,Dynasty Communications,2025-04-17,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010649,Axiom Fleet Telematics,2025-04-16,555.0,0.0,paid,N/A,Zenduit Corporation
+INV-010648,Track and Talk,2025-04-15,57.0,57.0,overdue,N/A,Zenduit Corporation
+INV-010647,NY TRANSPORT INC (T-Mobile Client),2025-04-15,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010646,"Midwest Environmental Services, Inc.",2025-04-15,240.0,0.0,paid,N/A,Zenduit Corporation
+INV-010645,"Cee Kay Supply, Inc.",2025-04-15,228.0,0.0,paid,N/A,Zenduit Corporation
+INV-010644,Advantage Asset Tracking Inc.,2025-04-15,374.26,0.0,paid,N/A,Zenduit Corporation
+INV-010643,"Participation House, Markham",2025-04-15,175.15,0.0,paid,N/A,Zenduit Corporation
+INV-010642,Miami LNG - FIXX/ Samsara,2025-04-14,20.0,0.0,paid,N/A,Zenduit Corporation
+INV-010641,Dynasty Communications,2025-04-14,106.0,0.0,paid,N/A,Zenduit Corporation
+INV-010640,"Kenworth Northeast Group, Inc.",2025-04-14,1370.0,1370.0,overdue,N/A,Zenduit Corporation
+INV-010639,Mercury GPS,2025-04-13,3376.0,0.0,paid,N/A,Zenduit Corporation
+INV-010638,Traxxis GPS Solutions,2025-04-13,415.0,415.0,overdue,N/A,Zenduit Corporation
+INV-010637,JLRG Consulting (Tel-Sol),2025-04-13,190.0,0.0,paid,N/A,Zenduit Corporation
+INV-010636,Trulite Glass and Aluminum Solutions,2025-04-13,679.0,0.0,paid,N/A,Zenduit Corporation
+INV-010635,"Techweb of Puerto Rico, Inc.",2025-04-13,3990.0,0.0,paid,N/A,Zenduit Corporation
+INV-010634,The Three C's Properties Inc,2025-04-13,300.0,300.0,overdue,N/A,Zenduit Corporation
+INV-010633,Assetflo (Unique Partnership Agreement),2025-04-13,153.91,0.0,paid,N/A,Zenduit Corporation
+INV-010632,A#1Air,2025-04-13,3335.5,3335.5,overdue,N/A,Zenduit Corporation
+INV-010631,Super Win Enterprises,2025-04-13,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010630,Efficient Fleets,2025-04-12,48.75,0.0,paid,N/A,Zenduit Corporation
+INV-010629,Smart MUBE,2025-03-13,270.0,0.0,paid,N/A,Zenduit Corporation
+INV-010628,Port Connect Intermodel,2025-04-12,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010627,"Pro-Vac, LLC (Fiix Customer)",2025-04-12,1614.0,0.0,paid,N/A,Zenduit Corporation
+INV-010626,Dynasty provisions,2025-04-11,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010625,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-04-11,392.0,0.0,paid,N/A,Zenduit Corporation
+INV-010624,Dynasty Communications,2025-04-11,234.0,0.0,paid,N/A,Zenduit Corporation
+INV-010623,City of Vernon,2025-04-11,175.14,0.0,paid,N/A,Zenduit Corporation
+INV-010622,"TrackCam, LLC",2025-05-10,105959.0,52979.5,partially_paid,N/A,Zenduit Corporation
+INV-010621,"TrackCam, LLC",2025-04-10,32829.4,16414.7,overdue,N/A,Zenduit Corporation
+INV-010620,Precise Fleet Tracking Solutions,2025-04-10,3376.0,0.0,paid,N/A,Zenduit Corporation
+INV-010619,Traxxis GPS Solutions,2025-04-09,40.0,40.0,overdue,N/A,Zenduit Corporation
+INV-010618,SoCal Rentals (T-Mobile Client),2025-04-09,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010617,Santosa Delivery (T-Mobile Client),2025-04-09,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010616,"A & V Reality Transportation , LLC",2025-04-09,396.0,0.0,paid,N/A,Zenduit Corporation
+INV-010615,Northern Business Intelligence,2025-04-09,89.7,0.0,paid,N/A,Zenduit Corporation
+INV-010614,"DICAN, Inc.",2025-04-24,2042.01,2042.01,overdue,N/A,Zenduit Corporation
+INV-010613,Play Telematics / Eye Drivers,2025-04-08,319.13,319.13,overdue,N/A,Zenduit Corporation
+INV-010612,EcoTrack Fleet Management,2025-04-08,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010611,Line Drive Trucking (T-Mobile Customer),2025-04-08,1500.0,0.0,paid,N/A,Zenduit Corporation
+INV-010610,Platinum Energy Services,2025-04-08,387.0,0.0,paid,N/A,Zenduit Corporation
+INV-010609,GPS to GO Ltd.,2025-04-08,146.37,0.0,paid,N/A,Zenduit Corporation
+INV-010608,ASAP Trucking Company LLC,2025-04-08,392.0,392.0,overdue,N/A,Zenduit Corporation
+INV-010607,Furst McNess Company,2025-04-07,75.0,0.0,paid,N/A,Zenduit Corporation
+INV-010606,Apex Wireless,2025-04-07,535.0,0.0,paid,N/A,Zenduit Corporation
+INV-010605,QUALTRACKS,2025-04-07,21.5,0.0,paid,N/A,Zenduit Corporation
+INV-010604,QES Pressure Control,2025-04-07,1590.0,1590.0,overdue,N/A,Zenduit Corporation
+INV-010603,iPTT Wireless Solutions,2025-04-06,141.5,0.0,paid,N/A,Zenduit Corporation
+INV-010602,Grupo Invictus,2025-04-06,23.21,0.0,paid,N/A,Zenduit Corporation
+INV-010601,Quixote Studios LLC,2025-03-07,4172.0,0.0,paid,N/A,Zenduit Corporation
+INV-010600,Genesis Dispatch,2025-04-06,548.55,0.0,paid,N/A,Zenduit Corporation
+INV-010599,RMA Testing Company Zenduit,2025-04-06,979.34,0.0,paid,N/A,Zenduit Corporation
+INV-010598,Badger Fleet Solutions,2025-04-06,304.0,0.0,paid,N/A,Zenduit Corporation
+INV-010597,Hawkeye Electronic Security,2025-04-06,475.0,0.0,paid,N/A,Zenduit Corporation
+INV-010596,Precise Fleet Tracking Solutions,2025-04-05,5.75,0.0,paid,N/A,Zenduit Corporation
+INV-010595,"Georgia Pack & Load Moving and Storage, Inc.",2025-03-06,243.0,0.0,paid,N/A,Zenduit Corporation
+INV-010594,Cal Freight,2025-04-05,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010593,Dynasty Communications,2025-04-05,18.0,0.0,paid,N/A,Zenduit Corporation
+INV-010592,Biomedical Waste Disposal (T-Mobile Client),2025-04-04,275.0,275.0,overdue,N/A,Zenduit Corporation
+INV-010591,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-04-04,100.0,100.0,overdue,N/A,Zenduit Corporation
+INV-010590,Meridith Baer Home (T-Mobile Client),2025-04-04,115.0,0.0,paid,N/A,Zenduit Corporation
+INV-010589,Bital Services Inc,2025-04-04,273.99,0.0,paid,N/A,Zenduit Corporation
+INV-010588,Lee Fish USA (T-Mobile Client),2025-04-04,83.93,0.0,paid,N/A,Zenduit Corporation
+INV-010587,Arjan Trans Inc (T-Mobile Client),2025-04-04,78.0,78.0,overdue,N/A,Zenduit Corporation
+INV-010586,GLEZ Trucking (T-Mobile Customer),2025-04-04,80.0,0.0,paid,N/A,Zenduit Corporation
+INV-010585,Dynasty Communications,2025-04-04,78.0,0.0,paid,N/A,Zenduit Corporation
+INV-010584,Dynasty Communications,2025-04-04,180.5,0.0,paid,N/A,Zenduit Corporation
+INV-010583,GISCAD Limited,2025-04-04,3955.11,0.0,paid,N/A,Zenduit Corporation
+INV-010582,LMD Integrated Logistics (USD),2025-04-03,444.0,0.0,paid,N/A,Zenduit Corporation
+INV-010581,The Standard Design Group (T-Mobile Client),2025-04-03,96.0,0.0,paid,N/A,Zenduit Corporation
+INV-010580,Outdoor Inc (T-Mobile Client),2025-04-03,200.0,200.0,overdue,N/A,Zenduit Corporation
+INV-010579,"Advantage Fleet, LLC.",2025-04-03,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010578,SAC Wireless,2025-04-03,600.0,0.0,paid,N/A,Zenduit Corporation
+INV-010577,ARTHOFER FINANCIAL,2025-04-02,15.0,15.0,overdue,N/A,Zenduit Corporation
+INV-010576,JLRG Consulting (Tel-Sol),2025-04-02,11.5,0.0,paid,N/A,Zenduit Corporation
+INV-010575,ENS Transport (T-Mobile Client),2025-04-02,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010574,GA Department of Driver Services,2025-04-02,3738.0,0.0,paid,N/A,Zenduit Corporation
+INV-010573,Highland Wireless Services,2025-03-31,145.0,0.0,paid,N/A,Zenduit Corporation
+INV-010572,"Geotab, Inc USD",2025-03-31,1356.0,0.0,paid,N/A,Zenduit Corporation
+INV-010571,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-03-31,276.0,276.0,overdue,N/A,Zenduit Corporation
+INV-010570,Secure Transportation,2025-03-31,160.0,160.0,overdue,N/A,Zenduit Corporation
+INV-010569,"California Waste Services, LLC(OLD)",2025-03-31,1595.0,0.0,paid,N/A,Zenduit Corporation
+INV-010568,Pun Enterprises Incorporated,2025-03-31,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010567,College Hunks Hauling Junk and Moving of Grand Rapids,2025-03-31,260.0,0.0,paid,N/A,Zenduit Corporation
+INV-010566,Finger Lakes TC,2025-03-31,125.0,0.0,paid,N/A,Zenduit Corporation
+INV-010565,Carbentec (Formerly Titan Innovations),2025-03-31,606.0,0.0,paid,N/A,Zenduit Corporation
+INV-010564,Aalto Technologies,2025-03-31,142.3,0.0,paid,N/A,Zenduit Corporation
+INV-010563,KELLY TOURS,2025-03-31,420.0,0.0,paid,N/A,Zenduit Corporation
+INV-010562,"TrackCam, LLC",2025-03-30,45923.0,0.0,paid,N/A,Zenduit Corporation
+INV-010561,VLC,2025-03-30,4366.49,0.0,paid,N/A,Zenduit Corporation
+INV-010560,http://www.argosconnected.com,2025-03-30,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010559,"Badia Spices, LLC. (T-Mobile Client)",2025-03-30,432.0,0.0,paid,N/A,Zenduit Corporation
+INV-010558,SSC International (T-Mobile Client),2025-03-30,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010557,Financial Technology Solutions International (T-Mobile Customer),2025-03-30,1261.0,0.0,paid,N/A,Zenduit Corporation
+INV-010556,GISCAD Jamaica Limited,2025-03-30,384.8,0.0,paid,N/A,Zenduit Corporation
+INV-010555,Robert J. Devereaux Corp.,2025-03-30,198.0,0.0,paid,N/A,Zenduit Corporation
+INV-010554,Dynasty Communications,2025-03-30,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010553,Dynasty Communications,2025-03-30,738.0,0.0,paid,N/A,Zenduit Corporation
+INV-010552,WEX INC,2025-03-30,1352.0,0.0,paid,N/A,Zenduit Corporation
+INV-010551,Smart Witness LLC,2025-03-30,8135.0,0.0,paid,N/A,Zenduit Corporation
+INV-010550,Traxxis GPS Solutions,2025-03-30,35101.0,0.0,paid,N/A,Zenduit Corporation
+INV-010549,"Pat's Offroad, Inc.",2025-03-30,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010548,Metrica Movil,2025-03-30,780.08,0.0,paid,N/A,Zenduit Corporation
+INV-010547,Rush Enterprises,2025-03-30,30.0,30.0,overdue,N/A,Zenduit Corporation
+INV-010546,Traxxis GPS Solutions,2025-03-29,265.0,0.0,paid,N/A,Zenduit Corporation
+INV-010545,"TrackCam, LLC",2025-03-29,4926.0,0.0,paid,N/A,Zenduit Corporation
+INV-010544,Velocity Rail Solution,2025-03-29,1594.0,1594.0,draft,N/A,Zenduit Corporation
+INV-010543,Velocity Rail Solution,2025-03-29,1405.0,0.0,paid,N/A,Zenduit Corporation
+INV-010542,Traxxis GPS Solutions,2025-03-29,265.0,0.0,paid,N/A,Zenduit Corporation
+INV-010541,Traxxis GPS Solutions,2025-03-29,279.0,0.0,paid,N/A,Zenduit Corporation
+INV-010540,"TrackCam, LLC",2025-03-29,415.0,0.0,paid,N/A,Zenduit Corporation
+INV-010539,Trulite Glass and Aluminum Solutions Canada,2025-03-29,149.1,0.0,paid,N/A,Zenduit Corporation
+INV-010538,Worldwide Recovery (T-Mobile Client),2025-03-29,240.0,240.0,overdue,N/A,Zenduit Corporation
+INV-010537,Magic Metals,2025-03-29,240.0,0.0,paid,N/A,Zenduit Corporation
+INV-010536,Trulite Glass and Aluminum Solutions,2025-03-29,315.0,0.0,paid,N/A,Zenduit Corporation
+INV-010535,Bital Services Inc,2025-03-29,259.93,259.93,draft,N/A,Zenduit Corporation
+INV-010534,Traxxis GPS Solutions,2025-03-29,1675.0,0.0,paid,N/A,Zenduit Corporation
+INV-010533,Traxxis GPS Solutions,2025-03-29,265.0,0.0,paid,N/A,Zenduit Corporation
+INV-010532,Traxxis GPS Solutions,2025-03-29,279.0,0.0,paid,N/A,Zenduit Corporation
+INV-010531,T&J Unlimited Transportation,2025-02-26,106.0,0.0,paid,N/A,Zenduit Corporation
+INV-010530,Arias Farms,2025-03-28,50.0,0.0,paid,N/A,Zenduit Corporation
+INV-010529,Merrill Steel Inc (Fiix Lead),2025-03-28,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010528,HMR Transportation (T-Mobile Client),2025-03-28,42.0,0.0,paid,N/A,Zenduit Corporation
+INV-010527,EAGLEi GPS,2025-03-28,1388.7,0.0,paid,N/A,Zenduit Corporation
+INV-010526,EMS Technology Solutions LLC/ Operative IQ,2025-03-28,477.0,0.0,paid,N/A,Zenduit Corporation
+INV-010525,"Paper Cuts, Inc. (T-Mobile Customer)",2025-03-27,131.89,0.0,paid,N/A,Zenduit Corporation
+INV-010524,Hagerstown Fire Department,2025-03-27,654.57,0.0,paid,N/A,Zenduit Corporation
+INV-010523,Administration of Fleets SA de CV,2025-03-27,605.0,0.0,paid,N/A,Zenduit Corporation
+INV-010522,Traxxis GPS Solutions,2025-03-26,438.0,0.0,paid,N/A,Zenduit Corporation
+INV-010521,Coopers Petroleum (T-Mobile Customer),2025-03-26,219.66,0.0,paid,N/A,Zenduit Corporation
+INV-010520,Solugaz Inc (Fiix Client),2025-03-26,238.74,0.0,paid,N/A,Zenduit Corporation
+INV-010519,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-03-25,1515.0,0.0,paid,N/A,Zenduit Corporation
+INV-010518,H.T. Hackney,2025-03-25,578.55,0.0,paid,N/A,Zenduit Corporation
+INV-010517,Premier Truck Group,2025-03-25,3222.2,0.0,paid,N/A,Zenduit Corporation
+INV-010516,DeNYSE Signage & Arcitectural Elements,2025-03-25,120.0,0.0,paid,N/A,Zenduit Corporation
+INV-010515,DE VRIES TRANSPORT LLC (T-Mobile Customer),2025-03-24,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010514,Pontrelli & Laricchia (T-Mobile Customer),2025-03-24,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010513,Le Groupe ESSA Inc. (Fiix Client),2025-03-24,265.77,0.0,paid,N/A,Zenduit Corporation
+INV-010512,Global Plumbing & Fire Supply (T-Mobile Customer),2025-03-24,190.0,0.0,paid,N/A,Zenduit Corporation
+INV-010511,DBC Group,2025-03-24,174.02,0.0,paid,N/A,Zenduit Corporation
+INV-010510,"Welch Excavation & Utility Company, Inc.",2025-03-24,585.0,0.0,paid,N/A,Zenduit Corporation
+INV-010509,The Three C's Properties Inc,2025-03-24,679.5,0.0,paid,N/A,Zenduit Corporation
+INV-010508,Trulite Glass and Aluminum Solutions,2025-03-24,7358.0,0.0,paid,N/A,Zenduit Corporation
+INV-010507,"Metro Mobile Electronics, LLC",2025-03-23,859.0,0.0,paid,N/A,Zenduit Corporation
+INV-010506,Biomedical Waste Disposal (T-Mobile Client),2025-03-23,132.0,0.0,paid,N/A,Zenduit Corporation
+INV-010505,Locke Supply (T-Mobile Customer),2025-03-23,1295.0,0.0,paid,N/A,Zenduit Corporation
+INV-010504,Hight Logistics (Old T-Mobile Client - Now Verizon ),2025-03-23,312.0,0.0,paid,N/A,Zenduit Corporation
+INV-010503,Dynasty Communications,2025-03-23,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010502,"Mobile Fleet Solutions, Inc.",2025-03-23,136.0,0.0,paid,N/A,Zenduit Corporation
+INV-010501,McClay's Transportation Ltd.,2025-03-22,612.57,0.0,paid,N/A,Zenduit Corporation
+INV-010500,Fleet Shield,2025-03-22,195.0,0.0,paid,N/A,Zenduit Corporation
+INV-010499,QSAC Inc,2025-03-22,2108.0,2108.0,overdue,N/A,Zenduit Corporation
+INV-010498,Henry & Henry Inc.,2025-03-22,336.0,0.0,paid,N/A,Zenduit Corporation
+INV-010497,GotPrint,2025-03-22,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010496,Four Seasons Landscape and Property Services,2025-03-21,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010495,iPTT Wireless Solutions,2025-02-19,584.0,0.0,paid,N/A,Zenduit Corporation
+INV-010494,Incotec,2025-03-21,174.0,0.0,paid,N/A,Zenduit Corporation
+INV-010493,Velocity Rail Solution,2025-03-21,8310.0,0.0,paid,N/A,Zenduit Corporation
+INV-010492,Meridith Baer Home (T-Mobile Client),2025-03-20,270.0,0.0,paid,N/A,Zenduit Corporation
+INV-010491,Dynasty Communications,2025-03-20,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010490,Track and Talk,2025-03-18,57.0,0.0,paid,N/A,Zenduit Corporation
+INV-010489,NY TRANSPORT INC (T-Mobile Client),2025-03-18,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010488,"Midwest Environmental Services, Inc.",2025-03-18,240.0,0.0,paid,N/A,Zenduit Corporation
+INV-010487,"Cee Kay Supply, Inc.",2025-03-18,228.0,0.0,paid,N/A,Zenduit Corporation
+INV-010486,Advantage Asset Tracking Inc.,2025-03-18,374.26,0.0,paid,N/A,Zenduit Corporation
+INV-010485,"Participation House, Markham",2025-03-18,175.15,0.0,paid,N/A,Zenduit Corporation
+INV-010484,Miami LNG - FIXX/ Samsara,2025-03-17,20.0,0.0,paid,N/A,Zenduit Corporation
+INV-010483,Dynasty Communications,2025-03-17,106.0,0.0,paid,N/A,Zenduit Corporation
+INV-010482,"Kenworth Northeast Group, Inc.",2025-03-17,1370.0,1370.0,overdue,N/A,Zenduit Corporation
+INV-010481,Assetflo (Unique Partnership Agreement),2025-03-16,256.82,0.0,paid,N/A,Zenduit Corporation
+INV-010480,Assetflo (Unique Partnership Agreement),2025-03-16,153.91,0.0,paid,N/A,Zenduit Corporation
+INV-010479,A#1Air,2025-03-16,3335.5,0.0,paid,N/A,Zenduit Corporation
+INV-010478,Super Win Enterprises,2025-03-16,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010477,iPTT Wireless Solutions,2025-03-15,620.0,0.0,paid,N/A,Zenduit Corporation
+INV-010476,Smart MUBE,2025-02-13,270.0,0.0,paid,N/A,Zenduit Corporation
+INV-010475,Port Connect Intermodel,2025-03-15,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010474,"Pro-Vac, LLC (Fiix Customer)",2025-03-15,1614.0,0.0,paid,N/A,Zenduit Corporation
+INV-010473,Efficient Fleets,2025-03-14,50.0,0.0,paid,N/A,Zenduit Corporation
+INV-010472,Meridith Baer Home (T-Mobile Client),2025-03-14,73.5,0.0,paid,N/A,Zenduit Corporation
+INV-010471,"Fleet Nav Systems, LLC.",2025-03-14,171.0,0.0,paid,N/A,Zenduit Corporation
+INV-010470,Traxxis GPS Solutions,2025-03-14,105.0,0.0,paid,N/A,Zenduit Corporation
+INV-010469,Traxxis GPS Solutions,2025-03-14,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010468,Traxxis GPS Solutions,2025-03-14,498.75,0.0,paid,N/A,Zenduit Corporation
+INV-010467,Asset - Hawk,2025-03-14,383.0,0.0,paid,N/A,Zenduit Corporation
+INV-010466,Dynasty provisions,2025-03-14,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010465,HBC Distributors (dba IPN Express) T-Mobile Customer,2025-03-14,392.0,0.0,paid,N/A,Zenduit Corporation
+INV-010464,Dynasty Communications,2025-03-14,234.0,0.0,paid,N/A,Zenduit Corporation
+INV-010463,City of Vernon,2025-03-14,175.14,0.0,paid,N/A,Zenduit Corporation
+INV-010462,GISCAD Guyana Inc,2025-03-13,4189.35,0.0,paid,N/A,Zenduit Corporation
+INV-010461,Traxxis GPS Solutions,2025-03-13,438.0,0.0,paid,N/A,Zenduit Corporation
+INV-010460,Rapid Wireless,2025-03-12,288.25,288.25,overdue,N/A,Zenduit Corporation
+INV-010459,SoCal Rentals (T-Mobile Client),2025-03-12,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010458,Santosa Delivery (T-Mobile Client),2025-03-12,108.0,0.0,paid,N/A,Zenduit Corporation
+INV-010457,"A & V Reality Transportation , LLC",2025-03-12,486.0,0.0,paid,N/A,Zenduit Corporation
+INV-010456,Northern Business Intelligence,2025-03-12,89.7,0.0,paid,N/A,Zenduit Corporation
+INV-010455,"DICAN, Inc.",2025-03-27,2064.61,0.0,paid,N/A,Zenduit Corporation
+INV-010454,Play Telematics / Eye Drivers,2025-03-11,269.15,269.15,overdue,N/A,Zenduit Corporation
+INV-010453,EcoTrack Fleet Management,2025-03-11,60.0,0.0,paid,N/A,Zenduit Corporation
+INV-010452,Line Drive Trucking (T-Mobile Customer),2025-03-11,1500.0,0.0,paid,N/A,Zenduit Corporation
+INV-010451,Platinum Energy Services,2025-03-11,402.5,0.0,paid,N/A,Zenduit Corporation
+INV-010450,GPS to GO Ltd.,2025-03-11,99.47,0.0,paid,N/A,Zenduit Corporation
+INV-010449,ASAP Trucking Company LLC,2025-03-11,392.0,0.0,paid,N/A,Zenduit Corporation
+INV-010448,Furst McNess Company,2025-03-10,75.0,0.0,paid,N/A,Zenduit Corporation
+INV-010447,Apex Wireless,2025-03-10,545.0,0.0,paid,N/A,Zenduit Corporation
+INV-010446,QUALTRACKS,2025-03-10,21.5,0.0,paid,N/A,Zenduit Corporation
+INV-010445,QES Pressure Control,2025-03-10,1590.0,0.0,paid,N/A,Zenduit Corporation
+INV-010444,Grupo Invictus,2025-03-09,23.21,0.0,paid,N/A,Zenduit Corporation
+INV-010443,Quixote Studios LLC,2025-02-07,4172.0,0.0,paid,N/A,Zenduit Corporation
+INV-010442,Genesis Dispatch,2025-03-09,404.55,0.0,paid,N/A,Zenduit Corporation
+INV-010441,RMA Testing Company Zenduit,2025-03-09,979.34,0.0,paid,N/A,Zenduit Corporation
+INV-010440,Badger Fleet Solutions,2025-03-09,304.0,0.0,paid,N/A,Zenduit Corporation
+INV-010439,Hawkeye Electronic Security,2025-03-09,475.0,0.0,paid,N/A,Zenduit Corporation
+INV-010438,Smart MUBE,2025-02-06,15.0,15.0,draft,N/A,Zenduit Corporation
+INV-010437,Precise Fleet Tracking Solutions,2025-03-08,125.0,0.0,paid,N/A,Zenduit Corporation
+INV-010436,"Georgia Pack & Load Moving and Storage, Inc.",2025-02-06,244.0,0.0,paid,N/A,Zenduit Corporation
+INV-010435,Cal Freight,2025-03-08,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010434,Dynasty Communications,2025-03-08,18.0,0.0,paid,N/A,Zenduit Corporation
+INV-010433,Velocity Rail Solution,2025-03-07,200.0,0.0,paid,N/A,Zenduit Corporation
+INV-010432,Traxxis GPS Solutions,2025-03-07,660.0,0.0,paid,N/A,Zenduit Corporation
+INV-010431,Line Drive Trucking (T-Mobile Customer),2025-03-07,2313.0,0.0,paid,N/A,Zenduit Corporation
+INV-010430,Traxxis GPS Solutions,2025-03-07,125.0,0.0,paid,N/A,Zenduit Corporation
+INV-010429,GPS to GO Ltd.,2025-03-07,0.0,0.0,draft,N/A,Zenduit Corporation
+INV-010428,Traxxis GPS Solutions,2025-03-07,2405.0,0.0,paid,N/A,Zenduit Corporation
+INV-010427,Velocity Rail Solution,2025-03-07,935.0,0.0,paid,N/A,Zenduit Corporation
+INV-010426,Biomedical Waste Disposal (T-Mobile Client),2025-03-07,30.0,0.0,paid,N/A,Zenduit Corporation
+INV-010425,Traxxis GPS Solutions,2025-03-07,750.0,0.0,paid,N/A,Zenduit Corporation
+INV-010424,Bital Services Inc,2025-03-07,273.99,0.0,paid,N/A,Zenduit Corporation
+INV-010423,Lee Fish USA (T-Mobile Client),2025-03-07,83.93,0.0,paid,N/A,Zenduit Corporation
+INV-010422,Arjan Trans Inc (T-Mobile Client),2025-03-07,78.0,0.0,paid,N/A,Zenduit Corporation
+INV-010421,GLEZ Trucking (T-Mobile Customer),2025-03-07,80.0,0.0,paid,N/A,Zenduit Corporation
+INV-010420,Dynasty Communications,2025-03-07,78.0,0.0,paid,N/A,Zenduit Corporation
+INV-010419,Dynasty Communications,2025-03-07,180.5,0.0,paid,N/A,Zenduit Corporation
+INV-010418,GISCAD Limited,2025-03-07,3462.86,0.0,paid,N/A,Zenduit Corporation
+INV-010417,Traxxis GPS Solutions,2025-03-06,30469.0,0.0,paid,N/A,Zenduit Corporation
+INV-010416,Traxxis GPS Solutions,2025-03-06,34695.0,0.0,paid,N/A,Zenduit Corporation
+INV-010415,"TrackCam, LLC",2025-03-06,228.0,0.0,paid,N/A,Zenduit Corporation
+INV-010414,"TrackCam, LLC",2025-03-06,2158.55,0.0,paid,N/A,Zenduit Corporation
+INV-010413,"TrackCam, LLC",2025-03-06,3307.0,0.0,paid,N/A,Zenduit Corporation
+INV-010412,"TrackCam, LLC",2025-03-06,2763.0,0.0,paid,N/A,Zenduit Corporation
+INV-010411,"TrackCam, LLC",2025-03-06,0.0,0.0,paid,N/A,Zenduit Corporation
+INV-010410,"TrackCam, LLC",2025-03-21,20050.0,0.0,paid,N/A,Zenduit Corporation
+INV-010409,"TrackCam, LLC",2025-03-06,28875.0,0.0,paid,N/A,Zenduit Corporation
+INV-010408,"TrackCam, LLC",2025-03-06,55615.0,0.0,paid,N/A,Zenduit Corporation
+INV-010407,"TrackCam, LLC",2025-03-06,61590.0,0.0,paid,N/A,Zenduit Corporation
+INV-010406,LMD Integrated Logistics (USD),2025-03-06,444.0,0.0,paid,N/A,Zenduit Corporation
+INV-010405,The Standard Design Group (T-Mobile Client),2025-03-06,96.0,0.0,paid,N/A,Zenduit Corporation
+INV-010404,Outdoor Inc (T-Mobile Client),2025-03-06,200.0,0.0,paid,N/A,Zenduit Corporation
+INV-010403,"Advantage Fleet, LLC.",2025-03-06,90.0,0.0,paid,N/A,Zenduit Corporation
+INV-010402,SAC Wireless,2025-03-06,600.0,0.0,paid,N/A,Zenduit Corporation
+INV-010401,"TrackCam, LLC",2025-03-05,365.0,365.0,overdue,N/A,Zenduit Corporation
+INV-010400,Traxxis GPS Solutions,2025-03-05,265.0,0.0,paid,N/A,Zenduit Corporation
+INV-010399,VLC,2025-03-05,4225.0,0.0,paid,N/A,Zenduit Corporation
+INV-010398,JLRG Consulting (Tel-Sol),2025-03-05,11.5,0.0,paid,N/A,Zenduit Corporation
+INV-010397,ENS Transport (T-Mobile Client),2025-03-05,72.0,0.0,paid,N/A,Zenduit Corporation
+INV-010396,GA Department of Driver Services,2025-03-05,3738.0,0.0,paid,N/A,Zenduit Corporation
+INV-010395,Highland Wireless Services,2025-03-03,145.0,0.0,paid,N/A,Zenduit Corporation
+INV-010394,"Geotab, Inc USD",2025-03-03,1356.0,1356.0,overdue,N/A,Zenduit Corporation
+INV-010393,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-03-03,276.0,0.0,paid,N/A,Zenduit Corporation
+INV-010392,Secure Transportation,2025-03-03,160.0,160.0,overdue,N/A,Zenduit Corporation
+INV-010391,"California Waste Services, LLC(OLD)",2025-03-03,1595.0,0.0,paid,N/A,Zenduit Corporation
+INV-010390,Pun Enterprises Incorporated,2025-03-03,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010389,College Hunks Hauling Junk and Moving of Grand Rapids,2025-03-03,260.0,0.0,paid,N/A,Zenduit Corporation
+INV-010388,Finger Lakes TC,2025-03-03,125.0,0.0,paid,N/A,Zenduit Corporation
+INV-010387,Carbentec (Formerly Titan Innovations),2025-03-03,606.0,0.0,paid,N/A,Zenduit Corporation
+INV-010386,Aalto Technologies,2025-03-03,142.3,0.0,paid,N/A,Zenduit Corporation
+INV-010385,KELLY TOURS,2025-03-03,420.0,0.0,paid,N/A,Zenduit Corporation
+INV-010384,GPS to GO Ltd.,2025-03-02,430.25,0.0,paid,N/A,Zenduit Corporation
+INV-010383,GPS to GO Ltd.,2025-03-02,1015.31,0.0,paid,N/A,Zenduit Corporation
+INV-010382,Metrica Movil,2025-03-02,975.08,975.08,overdue,N/A,Zenduit Corporation
+INV-010381,Traxxis GPS Solutions,2025-03-01,70.0,0.0,paid,N/A,Zenduit Corporation
+INV-010380,Traxxis GPS Solutions,2025-03-01,35.0,0.0,paid,N/A,Zenduit Corporation
+INV-010379,GA Department of Driver Services,2025-03-01,800.0,0.0,paid,N/A,Zenduit Corporation
+INV-010378,"TrackCam, LLC",2025-03-01,261.25,0.0,paid,N/A,Zenduit Corporation
+INV-010377,Reseller Sub Account (Specialty Sales LLC),2025-03-01,45.2,45.2,overdue,N/A,Zenduit Corporation
+INV-010376,Efficient Fleets,2025-01-30,810.0,0.0,paid,N/A,Zenduit Corporation
+INV-010375,Incident Clear - Florida,2025-03-01,1840.0,0.0,paid,N/A,Zenduit Corporation
+INV-010374,GISCAD Jamaica Limited,2025-03-01,384.8,0.0,paid,N/A,Zenduit Corporation
+INV-010373,Dynasty Communications,2025-03-01,36.0,0.0,paid,N/A,Zenduit Corporation
+INV-010372,Dynasty Communications,2025-03-01,738.0,0.0,paid,N/A,Zenduit Corporation
+INV-010371,WEX INC,2025-03-01,1364.0,0.0,paid,N/A,Zenduit Corporation
+INV-010370,Smart Witness LLC,2025-03-01,8185.0,0.0,paid,N/A,Zenduit Corporation
+INV-010369,"Pat's Offroad, Inc.",2025-03-01,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010368,Rush Enterprises,2025-03-01,225.0,0.0,paid,N/A,Zenduit Corporation
+INV-010367,VLC,2025-02-28,4180.0,0.0,paid,N/A,Zenduit Corporation
+INV-010366,Pulsiam Mexico,2025-02-28,38.5,38.5,overdue,N/A,Zenduit Corporation
+INV-010365,http://www.argosconnected.com,2025-02-28,100.0,0.0,paid,N/A,Zenduit Corporation
+INV-010364,"Badia Spices, LLC. (T-Mobile Client)",2025-02-28,432.0,0.0,paid,N/A,Zenduit Corporation
+INV-010363,Financial Technology Solutions International (T-Mobile Customer),2025-02-28,1261.0,0.0,paid,N/A,Zenduit Corporation
+INV-010362,Robert J. Devereaux Corp.,2025-02-28,198.0,0.0,paid,N/A,Zenduit Corporation
+INV-010361,Traxxis GPS Solutions,2025-02-28,36573.75,0.0,paid,N/A,Zenduit Corporation

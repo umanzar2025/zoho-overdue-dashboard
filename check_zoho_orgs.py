@@ -1,7 +1,7 @@
 import requests
 
 # 🔐 Replace these with your actual credentials
-refresh_token = "1000.70726dab2668b0965020fb3d8b76950d.0f1e66164f7cac0a89d1eaf55a666694"
+refresh_token = "1000.ceb56845974e8cf5e5a1f9ac6f2d33f3.2a1c0a5032f87c4a66c5541549fc537c"
 client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
 client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
 
