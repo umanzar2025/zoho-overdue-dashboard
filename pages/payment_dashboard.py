@@ -41,6 +41,7 @@ def get_all_data():
 
 full_df = get_all_data()
 
+import os
 # 💾 Load + merge historical data
 HISTORY_FILE = "data/payment_history.csv"
 if os.path.exists(HISTORY_FILE):
@@ -51,6 +52,9 @@ else:
 
 combined_df = pd.concat([historical_df, full_df], ignore_index=True)
 combined_df.drop_duplicates(subset=["payment_id"], inplace=True)
+
+# Ensure 'data/' directory exists
+os.makedirs("data", exist_ok=True)
 combined_df.to_csv(HISTORY_FILE, index=False)
 
 # 🎯 Filter
