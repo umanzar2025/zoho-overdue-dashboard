@@ -121,5 +121,6 @@ if not df_display.empty:
         st.warning(f"Missing expected column: {e}. Check your CSV format.")
 else:
     st.info("No overdue invoice data available.")
-    st.warning("✅ Debug: Payment breakdown code is here")
 
+# ✅ DEBUG MARKER (Always runs)
+st.warning("✅ Debug: Payment breakdown code is here")
