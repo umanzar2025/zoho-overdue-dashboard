@@ -137,7 +137,12 @@ fig2.update_layout(
     xaxis_title="Month",
     yaxis_title="Amount ($)",
     yaxis_tickprefix="$",
-    height=500
+    height=500,
+    xaxis=dict(
+        tickformat="%b %Y",  # forces labels like "Apr 2025"
+        dtick="M1"           # forces monthly interval
+    )
 )
+
 st.plotly_chart(fig2, use_container_width=True)
 
