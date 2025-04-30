@@ -110,9 +110,19 @@ with st.expander("See breakdown as table"):
 # 📉 Trend line by payment method
 df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
-df_filtered["month"] = df_filtered["date"].dt.to_period("M").astype(str)
 
-total_by_month = df_filtered.groupby(["month", "payment_mode"]).agg({"amount": "sum"}).reset_index()
+# 👇 Fix: Align by proper month start (avoids mid-month misgrouping)
+df_filtered["month"] = df_filtered["date"].dt.to_period("M").dt.to_timestamp()
+
+# Optional debug: Confirm latest date available
+st.caption(f"🕒 Latest payment date: {df_filtered['date'].max().date()}")
+
+total_by_month = (
+    df_filtered.groupby(["month", "payment_mode"])
+    .agg({"amount": "sum"})
+    .reset_index()
+)
+
 total_by_month["amount"] = total_by_month["amount"].round(0).astype(int)
 
 fig2 = px.line(
@@ -123,5 +133,11 @@ fig2 = px.line(
     markers=True,
     title="📈 Monthly Collection Trend by Payment Method"
 )
-fig2.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", yaxis_tickprefix="$", height=500)
+fig2.update_layout(
+    xaxis_title="Month",
+    yaxis_title="Amount ($)",
+    yaxis_tickprefix="$",
+    height=500
+)
 st.plotly_chart(fig2, use_container_width=True)
+
