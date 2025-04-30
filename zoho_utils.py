@@ -19,13 +19,10 @@ def get_access_token(refresh_token, client_id, client_secret):
 
     print("🔍 ZOHO DEBUG RESPONSE:")
     print("Status Code:", response.status_code)
-    print("Response Text:", response.text)  # <= This will show us why Zoho failed
+    print("Response Text:", response.text)
 
-    response.raise_for_status()
+    response.raise_for_status()  # raises an HTTPError if not 200
     return response.json()["access_token"]
-
-
-
 # -------------------------------
 # 📄 FETCH INVOICES (PAID or OVERDUE)
 # -------------------------------
