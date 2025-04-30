@@ -10,12 +10,9 @@ from zoho_utils import (
 )
 
 # 🔐 Credentials (replace with secure method in production)
-import streamlit as st
-
-refresh_token = st.secrets["refresh_token"]
-client_id = st.secrets["client_id"]
-client_secret = st.secrets["client_secret"]
-
+refresh_token = "1000.ceb56845974e8cf5e5a1f9ac6f2d33f3.2a1c0a5032f87c4a66c5541549fc537c"
+client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
+client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
 org_ids = {
     "GoFleet Corporation": "673162904",
     "Zenduit Corporation": "696828433"
@@ -23,39 +20,33 @@ org_ids = {
 
 # 🎛️ Streamlit UI
 st.title("📊 Payment Method Breakdown")
+st.markdown("[📌 Jump to Overdue Invoices](#overdue-invoices-section)", unsafe_allow_html=True)
 org_choice = st.selectbox("Choose Organization", ["GoFleet Corporation", "Zenduit Corporation", "Combined"])
 st.caption("Showing data for the past 3 months")
 
 # 🔐 Access token
 access_token = get_access_token(refresh_token, client_id, client_secret)
 
-# 🧾 Caching to reduce API calls
-@st.cache_data(ttl=3600)
-def get_cached_customer_payments(org_id, access_token, months_back=3):
-    return fetch_customer_payments(org_id, access_token, months_back=months_back)
-
 # 🧾 Fetch and process data
 months_back = 3
-all_data = []
-
-if org_choice == "Combined":
+@st.cache_data(show_spinner=False)
+def get_all_data():
+    all_data = []
     for name, org_id in org_ids.items():
-        payments = get_cached_customer_payments(org_id, access_token, months_back)
+        payments = fetch_customer_payments(org_id, access_token, months_back=months_back)
         for p in payments:
             p["organization"] = name
         all_data.extend(payments)
-else:
-    org_id = org_ids.get(org_choice)
-    if not org_id:
-        st.error("Selected organization is not recognized.")
-        st.stop()
-    payments = get_cached_customer_payments(org_id, access_token, months_back)
-    for p in payments:
-        p["organization"] = org_choice
-    all_data.extend(payments)
+    return pd.DataFrame(all_data)
 
-# 💡 Transform into DataFrame
-df = pd.DataFrame(all_data)
+full_df = get_all_data()
+
+# 🎯 Filter data
+if org_choice == "Combined":
+    df = full_df.copy()
+else:
+    df = full_df[full_df["organization"] == org_choice]
+
 if df.empty:
     st.warning("No data found for the selected organization.")
     st.stop()
@@ -72,16 +63,18 @@ fig = px.pie(
     summary,
     names="payment_mode",
     values="total",
-    title=f"Payment Method Breakdown — {org_choice}",
-    hole=0.4
+    hole=0.4,
 )
 fig.update_traces(
     textinfo="label+text",
-    text=[f"${value:,.0f} ({percent}%)" for value, percent in zip(summary['total'], summary['percentage'])],
+    text=[f"${v:,.0f} ({p}%)" for v, p in zip(summary["total"], summary["percentage"])],
     hovertemplate="%{label}: $%{value:,.0f} (%{percent})",
     textposition="outside"
 )
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
+
+# 🔗 Overdue Invoices Anchor
+st.markdown("<h2 id='overdue-invoices-section'>Overdue Invoices</h2>", unsafe_allow_html=True)
 
 # 📊 Table
 with st.expander("See breakdown as table"):
@@ -92,20 +85,16 @@ df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
 df_filtered["month"] = df_filtered["date"].dt.to_period("M").astype(str)
 
-trend_df = (
-    df_filtered.groupby(["month", "payment_mode"])['amount']
-    .sum()
-    .reset_index()
-)
+total_by_month = df_filtered.groupby(["month", "payment_mode"]).agg({"amount": "sum"}).reset_index()
+total_by_month["amount"] = total_by_month["amount"].round(0).astype(int)
 
-trend_chart = px.line(
-    trend_df,
+fig2 = px.line(
+    total_by_month,
     x="month",
     y="amount",
     color="payment_mode",
-    title="📈 Payment Collection Trend by Method",
     markers=True,
-    labels={"amount": "Amount ($)", "month": "Month"}
+    title="📈 Monthly Collection Trend by Payment Method"
 )
-trend_chart.update_yaxes(tickprefix="$", separatethousands=True)
-st.plotly_chart(trend_chart)
+fig2.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", yaxis_tickprefix="$", height=500)
+st.plotly_chart(fig2, use_container_width=True)
