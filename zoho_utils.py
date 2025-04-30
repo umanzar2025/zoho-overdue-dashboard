@@ -7,15 +7,18 @@ BASE_URL = "https://www.zohoapis.com/books/v3"
 # ✅ AUTHENTICATION
 # -------------------------------
 def get_access_token(refresh_token, client_id, client_secret):
-    url = "https://accounts.zoho.com/oauth/v2/token"
-    payload = {
+    token_url = "https://accounts.zoho.com/oauth/v2/token"
+    params = {
         "refresh_token": refresh_token,
         "client_id": client_id,
         "client_secret": client_secret,
         "grant_type": "refresh_token"
     }
-    response = requests.post(url, data=payload)
-    response.raise_for_status()
+    response = requests.post(token_url, data=params)
+
+    # 🔍 TEMP DEBUG LINE
+    print("ZOHO DEBUG RESPONSE:", response.status_code, response.text)
+
     return response.json()["access_token"]
 
 # -------------------------------
