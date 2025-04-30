@@ -7,12 +7,11 @@ BASE_URL = "https://www.zohoapis.com/books/v3"
 # ✅ AUTHENTICATION
 # -------------------------------
 def get_access_token(refresh_token, client_id, client_secret):
-    token_url = "https://accounts.zoho.com/oauth/v2/token"  # ✅ Add this line
-
+    token_url = "https://accounts.zoho.com/oauth/v2/token"
     params = {
+        "refresh_token": refresh_token,
         "client_id": client_id,
         "client_secret": client_secret,
-        "refresh_token": refresh_token,
         "grant_type": "refresh_token"
     }
 
@@ -20,9 +19,11 @@ def get_access_token(refresh_token, client_id, client_secret):
 
     print("🔍 ZOHO DEBUG RESPONSE:")
     print("Status Code:", response.status_code)
-    print("Response Text:", response.text)
+    print("Response Text:", response.text)  # <= This will show us why Zoho failed
 
+    response.raise_for_status()
     return response.json()["access_token"]
+
 
 
 # -------------------------------
