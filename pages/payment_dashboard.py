@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
+import os
 
 from zoho_utils import (
     get_access_token,
@@ -9,7 +10,7 @@ from zoho_utils import (
     summarize_payment_modes
 )
 
-# 🔐 Credentials (replace with secure method in production)
+# 🔐 Credentials
 refresh_token = "1000.ceb56845974e8cf5e5a1f9ac6f2d33f3.2a1c0a5032f87c4a66c5541549fc537c"
 client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
 client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
@@ -18,11 +19,10 @@ org_ids = {
     "Zenduit Corporation": "696828433"
 }
 
-# 🎛️ Streamlit UI
 st.title("📊 Payment Method Breakdown")
 st.markdown("[📌 Jump to Overdue Invoices](#overdue-invoices-section)", unsafe_allow_html=True)
 org_choice = st.selectbox("Choose Organization", ["GoFleet Corporation", "Zenduit Corporation", "Combined"])
-st.caption("Showing data for the past 3 months")
+st.caption("Showing cumulative data — automatically enriched on every visit")
 
 # 🔐 Access token
 access_token = get_access_token(refresh_token, client_id, client_secret)
@@ -41,24 +41,35 @@ def get_all_data():
 
 full_df = get_all_data()
 
-# 🎯 Filter data
-if org_choice == "Combined":
-    df = full_df.copy()
+# 💾 Load + merge historical data
+HISTORY_FILE = "data/payment_history.csv"
+if os.path.exists(HISTORY_FILE):
+    historical_df = pd.read_csv(HISTORY_FILE)
+    historical_df["date"] = pd.to_datetime(historical_df["date"], errors="coerce")
 else:
-    df = full_df[full_df["organization"] == org_choice]
+    historical_df = pd.DataFrame()
+
+combined_df = pd.concat([historical_df, full_df], ignore_index=True)
+combined_df.drop_duplicates(subset=["payment_id"], inplace=True)
+combined_df.to_csv(HISTORY_FILE, index=False)
+
+# 🎯 Filter
+if org_choice == "Combined":
+    df = combined_df.copy()
+else:
+    df = combined_df[combined_df["organization"] == org_choice]
 
 if df.empty:
     st.warning("No data found for the selected organization.")
     st.stop()
 
-# 💸 Breakdown by payment method
+# 💸 Breakdown
 df_filtered = df[(df["payment_mode"].notna()) & (df["amount"].notna())]
 df_filtered["amount"] = pd.to_numeric(df_filtered["amount"], errors="coerce")
 df_filtered = df_filtered[df_filtered["amount"] > 0]
 
 summary = summarize_payment_modes(df_filtered)
 
-# 📈 Pie Chart
 fig = px.pie(
     summary,
     names="payment_mode",
@@ -76,7 +87,6 @@ st.plotly_chart(fig, use_container_width=True)
 # 🔗 Overdue Invoices Anchor
 st.markdown("<h2 id='overdue-invoices-section'>Overdue Invoices</h2>", unsafe_allow_html=True)
 
-# 📊 Table
 with st.expander("See breakdown as table"):
     st.dataframe(summary.style.format({"total": "$ {:,}", "percentage": "{}%"}))
 
