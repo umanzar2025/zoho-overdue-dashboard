@@ -100,7 +100,8 @@ fig.update_traces(
 st.plotly_chart(fig, use_container_width=True)
 
 # 🔗 Overdue Invoices Anchor
-st.markdown("<h2 id='overdue-invoices-section'>Overdue Invoices</h2>", unsafe_allow_html=True)
+st.markdown("<h2 id='payment-details-section'>Payment Method Details</h2>", unsafe_allow_html=True)
+
 
 # 📊 Table
 with st.expander("See breakdown as table"):
