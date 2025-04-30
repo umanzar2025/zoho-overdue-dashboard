@@ -28,7 +28,7 @@ st.caption("Showing cumulative data — automatically enriched on every visit")
 # 🔐 Access token
 access_token = get_access_token(refresh_token, client_id, client_secret)
 
-# 🧾 Fetch and process data
+# 📦 Fetch and append data
 months_back = 3
 @st.cache_data(show_spinner=False)
 def get_all_data():
@@ -49,12 +49,8 @@ os.makedirs("data", exist_ok=True)
 
 if os.path.exists(HISTORY_FILE):
     historical_df = pd.read_csv(HISTORY_FILE)
-    historical_df["date"] = pd.to_datetime(historical_df["date"], errors="coerce")
     if "timestamp" in historical_df.columns:
-    if "timestamp" in historical_df.columns:
-    historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce")
-
-
+        historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"])
 else:
     historical_df = pd.DataFrame()
 
@@ -62,7 +58,7 @@ combined_df = pd.concat([historical_df, full_df], ignore_index=True)
 combined_df.drop_duplicates(subset=["payment_id"], inplace=True)
 combined_df.to_csv(HISTORY_FILE, index=False)
 
-# 🎯 Filter data
+# 🎯 Filter for display
 if org_choice == "Combined":
     df = combined_df.copy()
 else:
@@ -72,7 +68,7 @@ if df.empty:
     st.warning("No data found for the selected organization.")
     st.stop()
 
-# 💸 Breakdown by payment method
+# 💳 Breakdown by payment method
 df_filtered = df[(df["payment_mode"].notna()) & (df["amount"].notna())]
 df_filtered["amount"] = pd.to_numeric(df_filtered["amount"], errors="coerce")
 df_filtered = df_filtered[df_filtered["amount"] > 0]
@@ -101,7 +97,7 @@ st.markdown("<h2 id='overdue-invoices-section'>Overdue Invoices</h2>", unsafe_al
 with st.expander("See breakdown as table"):
     st.dataframe(summary.style.format({"total": "$ {:,}", "percentage": "{}%"}))
 
-# 📉 Trend line by payment method
+# 📉 Monthly trend by payment method
 df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
 df_filtered["month"] = df_filtered["date"].dt.to_period("M").astype(str)
