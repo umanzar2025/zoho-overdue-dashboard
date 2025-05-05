@@ -88,14 +88,14 @@ with st.expander("See breakdown as table"):
 # 📉 Monthly Collection Trend by Payment Method (Fixed)
 df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
-df_filtered["month_start"] = df_filtered["date"].values.astype('datetime64[M]')
+df_filtered["month"] = df_filtered["date"].dt.strftime("%b %Y")
 
-total_by_month = df_filtered.groupby(["month_start", "payment_mode"]).agg({"amount": "sum"}).reset_index()
+total_by_month = df_filtered.groupby(["month", "payment_mode"]).agg({"amount": "sum"}).reset_index()
 total_by_month["amount"] = total_by_month["amount"].round(0).astype(int)
 
 fig2 = px.line(
     total_by_month,
-    x="month_start",
+    x="month",
     y="amount",
     color="payment_mode",
     markers=True,
@@ -149,14 +149,14 @@ else:
 
     merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-    header_cols = st.columns([4, 1, 3, 2, 2, 5, 1, 5])
+    header_cols = st.columns([3, 1, 2, 2, 2, 7, 1, 7])
     headers = ["Customer", "Risk Score", "Current Payment Method", "Recommended Payment Method", "Approached", "Notes", "N/A", "N/A Notes"]
     for col, header in zip(header_cols, headers):
         col.markdown(f"**{header}**")
 
     edited_rows = []
     for idx, row in merged_df.iterrows():
-        cols = st.columns([4, 1, 3, 2, 2, 5, 1, 5])
+        cols = st.columns([3, 1, 2, 2, 2, 7, 1, 7])
 
         cols[0].markdown(f"{row['customer_name'].title()}")
         cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
@@ -164,9 +164,9 @@ else:
         cols[3].markdown(row["recommended_payment_method"])
 
         approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
-        notes = cols[5].text_area("Notes", str(row["notes"] or ""), key=f"notes_{idx}", height=50)
+        notes = cols[5].text_area("Notes", str(row["notes"]) if pd.notna(row["notes"]) else "", key=f"notes_{idx}", height=50)
         is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
-        na_notes = cols[7].text_area("N/A Notes", str(row["na_notes"] or ""), key=f"na_notes_{idx}", height=50)
+        na_notes = cols[7].text_area("N/A Notes", str(row["na_notes"]) if pd.notna(row["na_notes"]) else "", key=f"na_notes_{idx}", height=50)
 
         edited_rows.append({
             "customer_name": row["customer_name"],
