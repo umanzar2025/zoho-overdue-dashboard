@@ -65,7 +65,7 @@ if "due_date" in df_display.columns:
         lambda row: "🚨 High Risk" if row["days_overdue"] > 90 or row["balance"] > 10000 else "", axis=1
     )
 
-# ===== Aggregate Risk Scoring =====
+# ===== Interactive Aggregate Risk Scoring - Top N Display =====
 st.markdown("### 🚦 Aggregate Risk Scoring")
 
 if not df_display.empty:
@@ -102,9 +102,14 @@ if not df_display.empty:
     # Sort by risk score descending
     customer_summary_sorted = customer_summary.sort_values("aggregate_risk_score", ascending=False).reset_index()
 
-    # Display top 20 risky customers
-    st.markdown("#### 🧹 Top 20 Risky Customers (Based on Aggregate Score)")
-    st.dataframe(customer_summary_sorted[["customer_name", "total_overdue_balance", "avg_days_overdue", "high_risk_invoice_count", "aggregate_risk_score"]].head(20))
+    # ✅ NEW: Allow user to select Top N dynamically
+    st.markdown("#### 🧹 Top Risky Customers (Based on Aggregate Score)")
+    top_n_option = st.selectbox("Select number of top risky customers to display", [20, 50, 100, 200, 500, "All"])
+
+    if top_n_option == "All":
+        st.dataframe(customer_summary_sorted[["customer_name", "total_overdue_balance", "avg_days_overdue", "high_risk_invoice_count", "aggregate_risk_score"]])
+    else:
+        st.dataframe(customer_summary_sorted[["customer_name", "total_overdue_balance", "avg_days_overdue", "high_risk_invoice_count", "aggregate_risk_score"]].head(int(top_n_option)))
 else:
     st.info("No overdue invoice data available to calculate risk scores.")
 
