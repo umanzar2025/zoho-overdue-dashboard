@@ -33,6 +33,14 @@ if os.path.exists(FOLLOWUP_FILE):
 else:
     followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes", "is_na", "na_notes"])
 
+# ✅ Ensure all columns exist
+for col in ["approached", "notes", "is_na", "na_notes"]:
+    if col not in followup_df.columns:
+        if col in ["approached", "is_na"]:
+            followup_df[col] = False
+        else:
+            followup_df[col] = ""
+
 # Merge risk with follow-up notes
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
 merged_df["approached"] = merged_df["approached"].fillna(False)
@@ -40,7 +48,7 @@ merged_df["notes"] = merged_df["notes"].fillna("")
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
 
-# Simulated payment method (optional to replace later with real data)
+# Simulated payment method (optional to be replaced later)
 merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
 
 # ---- UI Controls ----
@@ -56,20 +64,18 @@ def suggest_payment_method(row):
 
 merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-# ---- Filter out N/A customers
-filtered_merged_df = merged_df[~merged_df["is_na"]]
-
+# ---- Display Section ----
 st.markdown("### 📋 Recommended Payment Methods for Customers")
 top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
-display_df = filtered_merged_df.copy()
+display_df = merged_df.copy()
 
 if top_n_option != "All":
     display_df = display_df.head(int(top_n_option))
 
-# ---- Follow-Up Status and Notes ----
 st.markdown("### ✅ Follow-up Status and Notes")
 
-header_cols = st.columns([3, 1, 3, 2, 2, 2, 1, 3])
+# ---- Add headers
+header_cols = st.columns([3, 1, 3, 2, 2, 2, 2, 2])
 header_cols[0].markdown("**Customer**")
 header_cols[1].markdown("**Risk Score**")
 header_cols[2].markdown("**Current Payment Method**")
@@ -82,11 +88,12 @@ header_cols[7].markdown("**N/A Notes**")
 edited_rows = []
 
 for idx, row in display_df.iterrows():
-    cols = st.columns([3, 1, 3, 2, 2, 2, 1, 3])
+    cols = st.columns([3, 1, 3, 2, 2, 2, 2, 2])
     cols[0].markdown(f"{row['customer_name'].title()}")
     cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
     cols[2].markdown(row["current_payment_method"])
     cols[3].markdown(row["recommended_payment_method"])
+
     approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
     notes = cols[5].text_input("Notes", row["notes"], key=f"notes_{idx}")
     is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
@@ -100,6 +107,7 @@ for idx, row in display_df.iterrows():
         "na_notes": na_notes
     })
 
+# ---- Save Follow-up Notes ----
 if st.button("💾 Save Follow-up Notes"):
     followup_save_df = pd.DataFrame(edited_rows)
     followup_save_df.to_csv(FOLLOWUP_FILE, index=False)
