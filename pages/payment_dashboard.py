@@ -37,8 +37,15 @@ else:
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
 merged_df["approached"] = merged_df["approached"].fillna(False)
 merged_df["notes"] = merged_df["notes"].fillna("")
+if "is_na" not in merged_df.columns:
+    merged_df["is_na"] = False
+
+if "na_notes" not in merged_df.columns:
+    merged_df["na_notes"] = ""
+
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
+
 
 # --------------------------------
 # 🎛️ Organization Payment Analysis
