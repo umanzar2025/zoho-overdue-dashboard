@@ -149,14 +149,14 @@ else:
 
     merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-    header_cols = st.columns([4, 1, 3, 2, 2, 3, 1, 3])
+    header_cols = st.columns([4, 1, 3, 2, 2, 5, 1, 5])
     headers = ["Customer", "Risk Score", "Current Payment Method", "Recommended Payment Method", "Approached", "Notes", "N/A", "N/A Notes"]
     for col, header in zip(header_cols, headers):
         col.markdown(f"**{header}**")
 
     edited_rows = []
     for idx, row in merged_df.iterrows():
-        cols = st.columns([4, 1, 3, 2, 2, 3, 1, 3])
+        cols = st.columns([4, 1, 3, 2, 2, 5, 1, 5])
 
         cols[0].markdown(f"{row['customer_name'].title()}")
         cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
@@ -164,9 +164,9 @@ else:
         cols[3].markdown(row["recommended_payment_method"])
 
         approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
-        notes = cols[5].text_area("Notes", row["notes"], key=f"notes_{idx}", height=50)
+        notes = cols[5].text_area("Notes", str(row["notes"] or ""), key=f"notes_{idx}", height=50)
         is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
-        na_notes = cols[7].text_area("N/A Notes", row["na_notes"], key=f"na_notes_{idx}", height=50)
+        na_notes = cols[7].text_area("N/A Notes", str(row["na_notes"] or ""), key=f"na_notes_{idx}", height=50)
 
         edited_rows.append({
             "customer_name": row["customer_name"],
