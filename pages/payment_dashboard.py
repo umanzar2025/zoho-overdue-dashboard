@@ -3,8 +3,9 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 import os
-import glob
 import sys
+import glob
+import numpy as np
 
 st.set_page_config(page_title="Payment Dashboard", layout="wide")
 st.title("💳 Payment Dashboard")
@@ -78,15 +79,12 @@ if os.path.exists(HISTORY_FILE):
     historical_df = pd.read_csv(HISTORY_FILE)
     if "timestamp" in historical_df.columns:
         historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce")
-    st.warning("✅ Debug: Historical data merged")
 else:
     historical_df = pd.DataFrame()
 
 combined_df = pd.concat([historical_df, df], ignore_index=True)
 combined_df.drop_duplicates(subset=["payment_id"], inplace=True)
 combined_df.to_csv(HISTORY_FILE, index=False)
-st.warning("✅ Debug: Data pulled and processed")
-st.warning(f"✅ Debug: Timestamp - {datetime.now().isoformat()}")
 
 # 🎯 Filter data
 if org_choice == "Combined":
@@ -123,7 +121,6 @@ st.plotly_chart(fig, use_container_width=True)
 # 🔗 Overdue Invoices Anchor
 st.markdown("<h2 id='payment-details-section'>Payment Method Details</h2>", unsafe_allow_html=True)
 
-
 # 📊 Table
 with st.expander("See breakdown as table"):
     st.dataframe(summary.style.format({"total": "$ {:,}", "percentage": "{}%"}))
@@ -131,12 +128,7 @@ with st.expander("See breakdown as table"):
 # 📉 Trend line by payment method
 df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
-
-# 👇 Fix: Align by proper month start (avoids mid-month misgrouping)
 df_filtered["month"] = df_filtered["date"].dt.to_period("M").dt.to_timestamp()
-
-# Optional debug: Confirm latest date available
-st.caption(f"🕒 Latest payment date: {df_filtered['date'].max().date()}")
 
 total_by_month = (
     df_filtered.groupby(["month", "payment_mode"])
@@ -160,96 +152,73 @@ fig2.update_layout(
     yaxis_tickprefix="$",
     height=500,
     xaxis=dict(
-        tickformat="%b %Y",  # forces labels like "Apr 2025"
-        dtick="M1"           # forces monthly interval
+        tickformat="%b %Y",
+        dtick="M1"
     )
 )
 
 st.plotly_chart(fig2, use_container_width=True)
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import os
-
+# ---- Customer Risk + Recommendation ----
 st.header("🧭 Customer Risk Analysis & Payment Method Recommendation")
 
-# ---- Load Risk Score from Overdue Dashboard CSV ----
-RISK_SCORE_CSV = "data/overdue_customer_risk_scores.csv"
-
-if not os.path.exists(RISK_SCORE_CSV):
-    st.warning("Risk score file not found. Please export 'overdue_customer_risk_scores.csv' from the Overdue Dashboard.")
+if risk_df.empty:
+    st.warning("Risk score file not found. Please export from the Overdue Dashboard.")
 else:
-    risk_df = pd.read_csv(RISK_SCORE_CSV)
+    risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
-    if "customer_name" not in risk_df.columns or "aggregate_risk_score" not in risk_df.columns:
-        st.error("Risk score CSV is missing required columns.")
-    else:
-        # Prepare risk score dataframe
-        risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
-        risk_df = risk_df[["customer_name", "aggregate_risk_score"]]
+    payment_df = df.copy()
+    payment_df["customer_name"] = payment_df["customer_name"].str.strip().str.lower()
 
-        # Prepare payment data
-        payment_df = df.copy()
-        payment_df["customer_name"] = payment_df["customer_name"].str.strip().str.lower()
+    payment_summary = payment_df.groupby("customer_name").agg({
+        "payment_mode": "first",
+        "amount": "sum"
+    }).rename(columns={"payment_mode": "current_payment_method", "amount": "total_payment"}).reset_index()
 
-        # Aggregate payment data by customer
-        payment_summary = payment_df.groupby("customer_name").agg({
-            "payment_mode": "first",
-            "amount": "sum"
-        }).rename(columns={"payment_mode": "current_payment_method", "amount": "total_payment"}).reset_index()
+    # ✅ FIX → merge risk first, fill payment later
+    merged_df = pd.merge(risk_df, payment_summary, on="customer_name", how="left")
+    merged_df["current_payment_method"] = merged_df["current_payment_method"].fillna("No Payment Record")
 
-        # Merge payment + risk data
-        merged_df = pd.merge(payment_summary, risk_df, on="customer_name", how="left")
+    merged_df["gov_client"] = np.where(merged_df["customer_name"].str.contains("gov|ministry|dept"), True, False)
 
-        # Add simulated Govt flag (replace later with real logic)
-        merged_df["gov_client"] = np.where(merged_df["customer_name"].str.contains("gov|ministry|dept"), True, False)
+    st.sidebar.header("⚙️ Recommendation Settings")
+    risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
+    exclude_gov = st.sidebar.checkbox("Exclude Govt Clients from Recommendation", True)
 
-        # ---- UI Controls ----
-        st.sidebar.header("⚙️ Recommendation Settings")
-        risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
-        exclude_gov = st.sidebar.checkbox("Exclude Govt Clients from Recommendation", True)
+    def suggest_payment_method(row):
+        if row["gov_client"] and exclude_gov:
+            return "Keep Current (Govt Client)"
+        elif pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
+            return "Recommend Stripe"
+        else:
+            return "Keep Current"
 
-        # ---- Recommendation Logic ----
-        def suggest_payment_method(row):
-            if row["gov_client"] and exclude_gov:
-                return "Keep Current (Govt Client)"
-            elif pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
-                return "Recommend Stripe"
-            else:
-                return "Keep Current"
+    merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-        merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
+    st.markdown("### 📋 Recommended Payment Methods for Customers")
+    top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
 
-        # ---- Display Results ----
-        st.markdown("### 📋 Recommended Payment Methods for Customers")
+    display_df = merged_df.rename(columns={"customer_name": "Customer"})
 
-        top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
+    if top_n_option != "All":
+        display_df = display_df.head(int(top_n_option))
 
-        display_df = merged_df.rename(columns={"customer_name": "Customer"})
+    st.dataframe(display_df[["Customer", "aggregate_risk_score", "current_payment_method", "recommended_payment_method", "gov_client"]])
 
-        if top_n_option != "All":
-            display_df = display_df.head(int(top_n_option))
+    st.markdown("#### 📤 Export Recommendation List")
 
-        st.dataframe(display_df[["Customer", "aggregate_risk_score", "current_payment_method", "recommended_payment_method", "gov_client"]])
+    export_df = display_df.copy()
+    export_df.rename(columns={
+        "aggregate_risk_score": "Risk Score",
+        "current_payment_method": "Current Payment Method",
+        "recommended_payment_method": "Recommended Payment Method",
+        "gov_client": "Govt Client"
+    }, inplace=True)
 
-        # ---- Export Button ----
-        st.markdown("#### 📤 Export Recommendation List")
-
-        export_df = display_df.copy()
-        export_df.rename(columns={
-            "aggregate_risk_score": "Risk Score",
-            "current_payment_method": "Current Payment Method",
-            "recommended_payment_method": "Recommended Payment Method",
-            "gov_client": "Govt Client"
-        }, inplace=True)
-
-        csv = export_df.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label="Download Recommendations as CSV",
-            data=csv,
-            file_name='payment_method_recommendations.csv',
-            mime='text/csv',
-        )
-
-
+    csv = export_df.to_csv(index=False).encode('utf-8')
+    st.download_button(
+        label="Download Recommendations as CSV",
+        data=csv,
+        file_name='payment_method_recommendations.csv',
+        mime='text/csv',
+    )
