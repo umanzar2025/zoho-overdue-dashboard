@@ -146,3 +146,89 @@ fig2.update_layout(
 
 st.plotly_chart(fig2, use_container_width=True)
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import os
+
+st.header("🧭 Customer Risk Analysis & Payment Method Recommendation")
+
+# ---- Load Risk Score from Overdue Dashboard CSV ----
+RISK_SCORE_CSV = "data/overdue_customer_risk_scores.csv"
+
+if not os.path.exists(RISK_SCORE_CSV):
+    st.warning("Risk score file not found. Please export 'overdue_customer_risk_scores.csv' from the Overdue Dashboard.")
+else:
+    risk_df = pd.read_csv(RISK_SCORE_CSV)
+
+    if "customer_name" not in risk_df.columns or "aggregate_risk_score" not in risk_df.columns:
+        st.error("Risk score CSV is missing required columns.")
+    else:
+        # Prepare risk score dataframe
+        risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
+        risk_df = risk_df[["customer_name", "aggregate_risk_score"]]
+
+        # Prepare payment data
+        payment_df = df.copy()
+        payment_df["customer_name"] = payment_df["customer_name"].str.strip().str.lower()
+
+        # Aggregate payment data by customer
+        payment_summary = payment_df.groupby("customer_name").agg({
+            "payment_mode": "first",
+            "amount": "sum"
+        }).rename(columns={"payment_mode": "current_payment_method", "amount": "total_payment"}).reset_index()
+
+        # Merge payment + risk data
+        merged_df = pd.merge(payment_summary, risk_df, on="customer_name", how="left")
+
+        # Add simulated Govt flag (replace later with real logic)
+        merged_df["gov_client"] = np.where(merged_df["customer_name"].str.contains("gov|ministry|dept"), True, False)
+
+        # ---- UI Controls ----
+        st.sidebar.header("⚙️ Recommendation Settings")
+        risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
+        exclude_gov = st.sidebar.checkbox("Exclude Govt Clients from Recommendation", True)
+
+        # ---- Recommendation Logic ----
+        def suggest_payment_method(row):
+            if row["gov_client"] and exclude_gov:
+                return "Keep Current (Govt Client)"
+            elif pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
+                return "Recommend Stripe"
+            else:
+                return "Keep Current"
+
+        merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
+
+        # ---- Display Results ----
+        st.markdown("### 📋 Recommended Payment Methods for Customers")
+
+        top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
+
+        display_df = merged_df.rename(columns={"customer_name": "Customer"})
+
+        if top_n_option != "All":
+            display_df = display_df.head(int(top_n_option))
+
+        st.dataframe(display_df[["Customer", "aggregate_risk_score", "current_payment_method", "recommended_payment_method", "gov_client"]])
+
+        # ---- Export Button ----
+        st.markdown("#### 📤 Export Recommendation List")
+
+        export_df = display_df.copy()
+        export_df.rename(columns={
+            "aggregate_risk_score": "Risk Score",
+            "current_payment_method": "Current Payment Method",
+            "recommended_payment_method": "Recommended Payment Method",
+            "gov_client": "Govt Client"
+        }, inplace=True)
+
+        csv = export_df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="Download Recommendations as CSV",
+            data=csv,
+            file_name='payment_method_recommendations.csv',
+            mime='text/csv',
+        )
+
+
