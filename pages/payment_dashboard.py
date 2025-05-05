@@ -12,6 +12,7 @@ st.title("💳 Payment Dashboard")
 
 # ===== Load Latest Risk Score CSV =====
 st.markdown("## 🔄 Loading Latest Risk Scores")
+
 risk_score_files = sorted(glob.glob("data/overdue_customer_risk_scores_*.csv"), reverse=True)
 
 if not risk_score_files:
@@ -20,6 +21,7 @@ if not risk_score_files:
 
 latest_risk_score_file = risk_score_files[0]
 st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
+
 risk_df = pd.read_csv(latest_risk_score_file)
 risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
@@ -37,64 +39,17 @@ else:
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
 merged_df["approached"] = merged_df["approached"].fillna(False)
 merged_df["notes"] = merged_df["notes"].fillna("")
-if "is_na" not in merged_df.columns:
-    merged_df["is_na"] = False
-
-if "na_notes" not in merged_df.columns:
-    merged_df["na_notes"] = ""
-
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
 
+# Simulated payment method (can replace later)
+merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
 
-# --------------------------------
-# 🎛️ Organization Payment Analysis
-st.title("📊 Payment Method Breakdown")
-
-org_choice = st.selectbox("Choose Organization", ["GoFleet Corporation", "Zenduit Corporation", "Combined"])
-
-@st.cache_data(show_spinner=False)
-def get_payment_data():
-    dummy_data = pd.DataFrame({
-        "organization": ["GoFleet Corporation"] * 50 + ["Zenduit Corporation"] * 50,
-        "payment_mode": np.random.choice(["Check", "Bank Transfer", "Stripe"], 100),
-        "amount": np.random.randint(500, 5000, 100),
-        "date": pd.date_range(end=pd.Timestamp.today(), periods=100)
-    })
-    return dummy_data
-
-payment_df = get_payment_data()
-
-if org_choice != "Combined":
-    payment_df = payment_df[payment_df["organization"] == org_choice]
-
-if payment_df.empty:
-    st.warning("No payment data available.")
-else:
-    # 📊 Pie Chart
-    summary = payment_df.groupby("payment_mode")["amount"].sum().reset_index().rename(columns={"amount": "total"})
-    summary["percentage"] = (summary["total"] / summary["total"].sum() * 100).round(2)
-
-    fig = px.pie(summary, names="payment_mode", values="total", hole=0.4)
-    fig.update_traces(textinfo="label+percent", textposition="outside")
-    st.plotly_chart(fig, use_container_width=True)
-
-    # 📈 Trend Line
-    payment_df["month"] = payment_df["date"].dt.to_period("M").dt.to_timestamp()
-    trend = payment_df.groupby(["month", "payment_mode"])["amount"].sum().reset_index()
-
-    fig2 = px.line(trend, x="month", y="amount", color="payment_mode", markers=True, title="Monthly Collection Trend")
-    fig2.update_layout(yaxis_tickprefix="$", xaxis_title="Month", yaxis_title="Amount ($)")
-    st.plotly_chart(fig2, use_container_width=True)
-
-# ---------------------------------
-# 🚦 Customer Risk Recommendations
-
-st.header("🧭 Customer Risk Analysis & Payment Method Recommendation")
-
+# ---- UI Controls ----
 st.sidebar.header("⚙️ Recommendation Settings")
 risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
 
+# ---- Recommendation Logic ----
 def suggest_payment_method(row):
     if pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
         return "Recommend Stripe"
@@ -103,16 +58,19 @@ def suggest_payment_method(row):
 
 merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
+# Filter out N/A customers
+display_df = merged_df[~merged_df["is_na"]].copy()
+
 st.markdown("### 📋 Recommended Payment Methods for Customers")
-top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, "All"])
-display_df = merged_df.copy()
+top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
 
 if top_n_option != "All":
     display_df = display_df.head(int(top_n_option))
 
-# ---- Follow-up Status & Notes ----
+# ---- Interactive Follow-Up Editor ----
 st.markdown("### ✅ Follow-up Status and Notes")
 
+# Add headers
 header_cols = st.columns([3, 1, 3, 2, 2, 3, 1, 3])
 header_cols[0].markdown("**Customer**")
 header_cols[1].markdown("**Risk Score**")
@@ -129,8 +87,9 @@ for idx, row in display_df.iterrows():
     cols = st.columns([3, 1, 3, 2, 2, 3, 1, 3])
     cols[0].markdown(f"{row['customer_name'].title()}")
     cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
-    cols[2].markdown(row.get("current_payment_method", "N/A"))
+    cols[2].markdown(row["current_payment_method"])
     cols[3].markdown(row["recommended_payment_method"])
+    
     approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
     notes = cols[5].text_input("Notes", row["notes"], key=f"notes_{idx}")
     is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
@@ -152,7 +111,6 @@ if st.button("💾 Save Follow-up Notes"):
 
 # ---- Export Button ----
 st.markdown("#### 📤 Export Recommendation List")
-
 export_df = display_df.copy()
 export_df.rename(columns={
     "customer_name": "Customer",
@@ -168,3 +126,40 @@ st.download_button(
     file_name='payment_method_recommendations.csv',
     mime='text/csv',
 )
+
+# ========================================
+# 📈 Payment Trend Analysis (Fixed version → Monthly)
+st.markdown("### 📊 Monthly Collection Trend by Payment Method")
+
+# Load historical payment data if exists
+PAYMENT_FILE = "data/payment_history.csv"
+
+if os.path.exists(PAYMENT_FILE):
+    payment_df = pd.read_csv(PAYMENT_FILE)
+    payment_df["date"] = pd.to_datetime(payment_df["date"], errors="coerce")
+    payment_df = payment_df.dropna(subset=["date"])
+
+    payment_df["month"] = payment_df["date"].dt.to_period("M").dt.to_timestamp()
+
+    summary = payment_df.groupby(["month", "payment_mode"]).agg({"amount": "sum"}).reset_index()
+    summary["amount"] = summary["amount"].round(0).astype(int)
+
+    fig2 = px.line(
+        summary,
+        x="month",
+        y="amount",
+        color="payment_mode",
+        markers=True,
+        title="📈 Monthly Collection Trend by Payment Method"
+    )
+
+    fig2.update_layout(
+        xaxis_title="Month",
+        yaxis_title="Amount ($)",
+        yaxis_tickprefix="$",
+        height=500
+    )
+
+    st.plotly_chart(fig2, use_container_width=True)
+else:
+    st.warning("No historical payment data found.")
