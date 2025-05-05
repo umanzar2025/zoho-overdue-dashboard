@@ -74,9 +74,16 @@ HISTORY_FILE = "data/payment_history.csv"
 os.makedirs("data", exist_ok=True)
 
 if os.path.exists(HISTORY_FILE):
-    historical_df = pd.read_csv(HISTORY_FILE)
-    if "timestamp" in historical_df.columns:
-        historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce")
+    try:
+        historical_df = pd.read_csv(HISTORY_FILE)
+        if "timestamp" in historical_df.columns:
+            historical_df["timestamp"] = pd.to_datetime(historical_df["timestamp"], errors="coerce")
+    except pd.errors.EmptyDataError:
+        st.warning("History file is empty, starting fresh.")
+        historical_df = pd.DataFrame()
+    except pd.errors.ParserError:
+        st.error("History file is corrupted or malformed. Please delete or fix 'data/payment_history.csv'.")
+        st.stop()
 else:
     historical_df = pd.DataFrame()
 
