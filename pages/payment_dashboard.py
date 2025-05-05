@@ -3,7 +3,28 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 import os
+import glob
 import sys
+
+st.set_page_config(page_title="Payment Dashboard", layout="wide")
+st.title("💳 Payment Dashboard")
+
+# ===== Load Latest Risk Score CSV =====
+st.markdown("## 🔄 Loading Latest Risk Scores")
+
+risk_score_files = sorted(glob.glob("data/overdue_customer_risk_scores_*.csv"), reverse=True)
+
+if not risk_score_files:
+    st.error("❗ No risk score files found. Please run the Zoho Dashboard first.")
+    st.stop()
+
+latest_risk_score_file = risk_score_files[0]
+st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
+
+risk_df = pd.read_csv(latest_risk_score_file)
+
+# Show preview
+st.dataframe(risk_df.head())
 
 # 👇 Fix: Add root directory to path to find zoho_utils.py
 sys.path.append(os.path.abspath("."))
