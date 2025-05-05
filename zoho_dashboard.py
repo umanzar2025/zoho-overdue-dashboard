@@ -23,11 +23,9 @@ def load_latest_csv(prefix, org_name):
 
     return df
 
-# Load data
+# ===== Load data =====
 gofleet_df = load_latest_csv("gofleet_corporation", "GoFleet Corporation")
 zenduit_df = load_latest_csv("zenduit_corporation", "Zenduit Corporation")
-
-# Combine
 combined_df = pd.concat([gofleet_df, zenduit_df], ignore_index=True)
 
 # ===== UI Filter =====
@@ -65,14 +63,14 @@ if "due_date" in df_display.columns:
         lambda row: "🚨 High Risk" if row["days_overdue"] > 90 or row["balance"] > 10000 else "", axis=1
     )
 
-# ===== Interactive Aggregate Risk Scoring - Top N Display =====
+# ===== Aggregate Risk Scoring and Export =====
 st.markdown("### 🚦 Aggregate Risk Scoring")
 
 if not df_display.empty:
-    # 1️⃣ Calculate High Risk Invoice Count per customer
+    # Calculate High Risk Invoice Count
     risk_invoice_count = df_display[df_display["risk_flag"] != ""].groupby("customer_name").size().rename("high_risk_invoice_count")
 
-    # 2️⃣ Aggregate per customer
+    # Aggregate per customer
     customer_summary = df_display.groupby("customer_name").agg({
         "balance": "sum",
         "days_overdue": "mean"
@@ -83,7 +81,7 @@ if not df_display.empty:
     customer_summary["normalized_days"] = customer_summary["avg_days_overdue"] / customer_summary["avg_days_overdue"].max()
     customer_summary["normalized_risk_invoices"] = customer_summary["high_risk_invoice_count"] / customer_summary["high_risk_invoice_count"].max()
 
-    # UI sliders to control weights (sum to 1)
+    # Weight sliders
     st.sidebar.header("⚙️ Risk Score Weight Settings")
     balance_weight = st.sidebar.slider("Overdue Balance Weight", 0.0, 1.0, 0.5, 0.05)
     max_days_weight = 1.0 - balance_weight
@@ -92,17 +90,16 @@ if not df_display.empty:
 
     st.sidebar.write("High Risk Invoice Count Weight (calculated):", round(invoice_count_weight, 2))
 
-    # Calculate Aggregate Risk Score
+    # Aggregate Risk Score
     customer_summary["aggregate_risk_score"] = (
         customer_summary["normalized_balance"] * balance_weight +
         customer_summary["normalized_days"] * days_weight +
         customer_summary["normalized_risk_invoices"] * invoice_count_weight
     )
 
-    # Sort by risk score descending
     customer_summary_sorted = customer_summary.sort_values("aggregate_risk_score", ascending=False).reset_index()
 
-    # ✅ NEW: Allow user to select Top N dynamically
+    # ✅ Allow user to select Top N dynamically
     st.markdown("#### 🧹 Top Risky Customers (Based on Aggregate Score)")
     top_n_option = st.selectbox("Select number of top risky customers to display", [20, 50, 100, 200, 500, "All"])
 
@@ -110,10 +107,15 @@ if not df_display.empty:
         st.dataframe(customer_summary_sorted[["customer_name", "total_overdue_balance", "avg_days_overdue", "high_risk_invoice_count", "aggregate_risk_score"]])
     else:
         st.dataframe(customer_summary_sorted[["customer_name", "total_overdue_balance", "avg_days_overdue", "high_risk_invoice_count", "aggregate_risk_score"]].head(int(top_n_option)))
+
+    # ✅ Export for Payment Dashboard
+    export_df = customer_summary_sorted.copy()
+    export_df.to_csv("data/overdue_customer_risk_scores.csv", index=False)
+    st.success("✅ Risk score data exported for Payment Dashboard.")
 else:
     st.info("No overdue invoice data available to calculate risk scores.")
 
-# 🚩 High Risk Invoices block (always runs after risk scoring)
+# 🚩 High Risk Invoices
 st.markdown("### 🚩 High-Risk Invoices")
 high_risk_df = df_display[df_display["risk_flag"] != ""]
 if not high_risk_df.empty:
@@ -173,3 +175,4 @@ else:
 
 # ✅ DEBUG MARKER (Always runs)
 st.warning("✅ Debug: Payment breakdown code is here")
+
