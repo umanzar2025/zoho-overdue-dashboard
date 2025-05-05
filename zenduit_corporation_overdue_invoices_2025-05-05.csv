@@ -1,0 +1,110 @@
+invoice_number,customer_name,due_date,total,balance,status,is_emailed,organization
+INV-010903,"TrackCam, LLC",2025-05-02,43180.0,43180.0,overdue,True,Zenduit Corporation
+INV-010765,Trulite Glass and Aluminum Solutions,2025-04-30,7072.0,7072.0,overdue,True,Zenduit Corporation
+INV-010741,Outdoor Inc (T-Mobile Client),2025-05-04,200.0,200.0,overdue,True,Zenduit Corporation
+INV-010739,SAC Wireless,2025-05-04,240.0,240.0,overdue,True,Zenduit Corporation
+INV-010738,VLC,2025-05-03,50.0,50.0,overdue,True,Zenduit Corporation
+INV-010737,"TrackCam, LLC",2025-05-03,8613.6,8613.6,overdue,True,Zenduit Corporation
+INV-010736,Velocity Rail Solution,2025-05-03,1534.0,1534.0,overdue,True,Zenduit Corporation
+INV-010733,JLRG Consulting (Tel-Sol),2025-05-03,37.25,37.25,overdue,True,Zenduit Corporation
+INV-010728,Highland Wireless Services,2025-05-01,145.0,145.0,overdue,True,Zenduit Corporation
+INV-010726,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-05-01,276.0,276.0,overdue,True,Zenduit Corporation
+INV-010725,Secure Transportation,2025-05-01,100.0,100.0,overdue,True,Zenduit Corporation
+INV-010720,Carbentec (Formerly Titan Innovations),2025-05-01,606.0,606.0,overdue,True,Zenduit Corporation
+INV-010717,"TrackCam, LLC",2025-04-30,48356.0,48356.0,overdue,True,Zenduit Corporation
+INV-010716,Metrica Movil,2025-04-30,780.08,780.08,overdue,True,Zenduit Corporation
+INV-010715,GISCAD Jamaica Limited,2025-04-29,384.8,384.8,overdue,True,Zenduit Corporation
+INV-010697,VLC,2025-04-25,735.5,735.5,overdue,True,Zenduit Corporation
+INV-010696,Luxury Flush,2025-04-25,138.0,138.0,overdue,True,Zenduit Corporation
+INV-010691,EAGLEi GPS,2025-04-25,1388.7,1388.7,overdue,True,Zenduit Corporation
+INV-010681,"CAL-STATE AUTO PARTS, INC. (T-Mobile Customer)",2025-04-22,1530.0,1530.0,overdue,True,Zenduit Corporation
+INV-010678,DeNYSE Signage & Arcitectural Elements,2025-04-22,120.0,120.0,overdue,True,Zenduit Corporation
+INV-010663,SkyTracksGPS LLC,2025-04-19,460.0,460.0,overdue,True,Zenduit Corporation
+INV-010655,Velocity Rail Solution,2025-04-18,8335.0,8335.0,overdue,True,Zenduit Corporation
+INV-010648,Track and Talk,2025-04-15,57.0,57.0,overdue,True,Zenduit Corporation
+INV-010640,"Kenworth Northeast Group, Inc.",2025-04-14,1370.0,1370.0,overdue,True,Zenduit Corporation
+INV-010638,Traxxis GPS Solutions,2025-04-13,415.0,415.0,overdue,True,Zenduit Corporation
+INV-010634,The Three C's Properties Inc,2025-04-13,300.0,300.0,overdue,True,Zenduit Corporation
+INV-010632,A#1Air,2025-04-13,3335.5,3335.5,overdue,True,Zenduit Corporation
+INV-010619,Traxxis GPS Solutions,2025-04-09,40.0,40.0,overdue,True,Zenduit Corporation
+INV-010613,Play Telematics / Eye Drivers,2025-04-08,319.13,319.13,overdue,True,Zenduit Corporation
+INV-010608,ASAP Trucking Company LLC,2025-04-08,392.0,392.0,overdue,True,Zenduit Corporation
+INV-010604,QES Pressure Control,2025-04-07,1590.0,1590.0,overdue,True,Zenduit Corporation
+INV-010592,Biomedical Waste Disposal (T-Mobile Client),2025-04-04,275.0,275.0,overdue,True,Zenduit Corporation
+INV-010591,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-04-04,100.0,100.0,overdue,True,Zenduit Corporation
+INV-010587,Arjan Trans Inc (T-Mobile Client),2025-04-04,78.0,78.0,overdue,True,Zenduit Corporation
+INV-010580,Outdoor Inc (T-Mobile Client),2025-04-03,200.0,200.0,overdue,True,Zenduit Corporation
+INV-010577,ARTHOFER FINANCIAL,2025-04-02,15.0,15.0,overdue,True,Zenduit Corporation
+INV-010571,"H and H Drug Stores, Inc. (T-Mobile Client)",2025-03-31,276.0,276.0,overdue,True,Zenduit Corporation
+INV-010570,Secure Transportation,2025-03-31,160.0,160.0,overdue,True,Zenduit Corporation
+INV-010538,Worldwide Recovery (T-Mobile Client),2025-03-29,240.0,240.0,overdue,True,Zenduit Corporation
+INV-010499,QSAC Inc,2025-03-22,2108.0,2108.0,overdue,True,Zenduit Corporation
+INV-010482,"Kenworth Northeast Group, Inc.",2025-03-17,1370.0,1370.0,overdue,True,Zenduit Corporation
+INV-010460,Rapid Wireless,2025-03-12,288.25,288.25,overdue,True,Zenduit Corporation
+INV-010454,Play Telematics / Eye Drivers,2025-03-11,269.15,269.15,overdue,True,Zenduit Corporation
+INV-010401,"TrackCam, LLC",2025-03-05,365.0,365.0,overdue,True,Zenduit Corporation
+INV-010392,Secure Transportation,2025-03-03,160.0,160.0,overdue,True,Zenduit Corporation
+INV-010377,Reseller Sub Account (Specialty Sales LLC),2025-03-01,45.2,45.2,overdue,True,Zenduit Corporation
+INV-010366,Pulsiam Mexico,2025-02-28,38.5,38.5,overdue,True,Zenduit Corporation
+INV-010359,Command International Security Services (T-Mobile Client),2025-02-27,24.0,24.0,overdue,True,Zenduit Corporation
+INV-010317,Extreme Electronics Corp,2025-02-19,5000.0,2500.0,overdue,True,Zenduit Corporation
+INV-010316,Traxxis GPS Solutions,2025-02-19,239.0,239.0,overdue,True,Zenduit Corporation
+INV-010313,QSAC Inc,2025-02-19,2108.0,2108.0,overdue,True,Zenduit Corporation
+INV-010295,Lavish Lifestyles Concierge,2025-02-14,27.0,27.0,overdue,True,Zenduit Corporation
+INV-010294,"Kenworth Northeast Group, Inc.",2025-02-14,1235.0,1235.0,overdue,True,Zenduit Corporation
+INV-010286,VNH Enterprises (OLD Account - INACTIVE),2025-02-12,325.0,325.0,overdue,True,Zenduit Corporation
+INV-010263,Texas Instruments Incorporated,2025-02-08,310.0,310.0,overdue,True,Zenduit Corporation
+INV-010262,Texas Instruments Incorporated,2025-02-08,39.0,39.0,overdue,True,Zenduit Corporation
+INV-010261,Texas Instruments Incorporated,2025-02-08,310.0,310.0,overdue,True,Zenduit Corporation
+INV-010260,Texas Instruments Incorporated,2025-02-08,39.0,39.0,overdue,True,Zenduit Corporation
+INV-010255,Topaz Tracking,2025-02-08,124.0,124.0,overdue,True,Zenduit Corporation
+INV-010201,Pulsiam Mexico,2025-01-28,38.5,38.5,overdue,True,Zenduit Corporation
+INV-010194,Command International Security Services (T-Mobile Client),2025-01-27,24.0,24.0,overdue,True,Zenduit Corporation
+INV-010150,QSAC Inc,2025-01-19,2108.0,2108.0,overdue,True,Zenduit Corporation
+INV-010132,Lavish Lifestyles Concierge,2025-01-14,27.0,27.0,overdue,True,Zenduit Corporation
+INV-010107,Topaz Tracking,2025-01-08,124.0,124.0,overdue,True,Zenduit Corporation
+INV-010026,Pulsiam Mexico,2024-12-29,38.5,38.5,overdue,True,Zenduit Corporation
+INV-010019,Command International Security Services (T-Mobile Client),2024-12-28,24.0,24.0,overdue,True,Zenduit Corporation
+INV-009977,QSAC Inc,2024-12-20,2108.0,2108.0,overdue,True,Zenduit Corporation
+INV-009960,Lavish Lifestyles Concierge,2024-12-15,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009952,Texas Instruments Incorporated,2024-12-13,103.5,54.21,overdue,True,Zenduit Corporation
+INV-009941,Merchants Fleet - Christensen Farms,2024-11-10,132.0,132.0,overdue,True,Zenduit Corporation
+INV-009934,Topaz Tracking,2024-12-09,124.0,124.0,overdue,True,Zenduit Corporation
+INV-009888,Traxxis GPS Solutions,2024-12-01,332.5,332.5,overdue,True,Zenduit Corporation
+INV-009870,Traxxis GPS Solutions,2024-11-29,43047.75,8812.5,overdue,True,Zenduit Corporation
+INV-009862,"TrackCam, LLC",2025-02-03,49130.0,800.0,overdue,True,Zenduit Corporation
+INV-009859,Pulsiam Mexico,2024-11-28,38.5,38.5,overdue,True,Zenduit Corporation
+INV-009851,Command International Security Services (T-Mobile Client),2024-11-27,24.0,24.0,overdue,True,Zenduit Corporation
+INV-009810,QSAC Inc,2024-11-19,2108.0,2108.0,overdue,True,Zenduit Corporation
+INV-009789,Lavish Lifestyles Concierge,2024-11-14,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009749,Topaz Tracking,2024-11-08,124.0,124.0,overdue,True,Zenduit Corporation
+INV-009679,Command International Security Services (T-Mobile Client),2024-10-28,24.0,24.0,overdue,True,Zenduit Corporation
+INV-009642,Traxxis GPS Solutions,2024-10-23,65.0,65.0,overdue,True,Zenduit Corporation
+INV-009592,Lavish Lifestyles Concierge,2024-10-15,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009562,Topaz Tracking,2024-10-09,124.0,124.0,overdue,True,Zenduit Corporation
+INV-009547,"DICAN, Inc.",2024-10-21,156.3,156.3,overdue,True,Zenduit Corporation
+INV-009491,Pulsiam Mexico,2024-08-27,355.0,355.0,overdue,True,Zenduit Corporation
+INV-009469,Traxxis GPS Solutions,2024-09-21,40.0,40.0,overdue,True,Zenduit Corporation
+INV-009429,Lavish Lifestyles Concierge,2024-09-14,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009405,Topaz Tracking,2024-09-08,124.0,124.0,overdue,True,Zenduit Corporation
+INV-009267,Traxxis GPS Solutions,2024-08-14,265.0,265.0,overdue,True,Zenduit Corporation
+INV-009259,Lavish Lifestyles Concierge,2024-08-14,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009231,Topaz Tracking,2024-08-08,124.0,124.0,overdue,True,Zenduit Corporation
+INV-009103,Traxxis GPS Solutions,2024-07-18,330.0,330.0,overdue,True,Zenduit Corporation
+INV-009083,Lavish Lifestyles Concierge,2024-07-15,70.0,70.0,overdue,True,Zenduit Corporation
+INV-009056,Topaz Tracking,2024-07-09,124.0,124.0,overdue,True,Zenduit Corporation
+INV-008907,Lavish Lifestyles Concierge,2024-06-14,70.0,70.0,overdue,True,Zenduit Corporation
+INV-008884,Traxxis GPS Solutions,2024-06-08,505.0,505.0,overdue,True,Zenduit Corporation
+INV-008538,AutoSonics INC,2024-03-19,210.0,210.0,overdue,True,Zenduit Corporation
+INV-008533,"TrackCam, LLC",2024-04-18,395.0,395.0,overdue,True,Zenduit Corporation
+INV-008289,Traxxis GPS Solutions,2024-03-06,495.0,495.0,overdue,True,Zenduit Corporation
+INV-008186,"TrackCam, LLC",2024-02-18,340.0,340.0,overdue,True,Zenduit Corporation
+INV-008182,"TrackCam, LLC",2024-02-18,365.0,365.0,overdue,True,Zenduit Corporation
+INV-008180,"TrackCam, LLC",2024-02-18,365.0,365.0,overdue,True,Zenduit Corporation
+INV-008059,"TrackCam, LLC",2024-01-28,420.0,420.0,overdue,True,Zenduit Corporation
+INV-007684,Traxxis GPS Solutions,2023-11-22,45.0,45.0,overdue,True,Zenduit Corporation
+INV-007582,VNH Enterprises (OLD Account - INACTIVE),2023-11-02,290.16,290.16,overdue,True,Zenduit Corporation
+INV-007131,Traxxis GPS Solutions,2023-08-16,75.0,75.0,overdue,True,Zenduit Corporation
+INV-006984,Traxxis GPS Solutions,2023-07-20,75.0,75.0,overdue,True,Zenduit Corporation
+INV-006831,Traxxis GPS Solutions,2023-06-23,45.0,45.0,overdue,True,Zenduit Corporation
+INV-006215,VNH Enterprises (OLD Account - INACTIVE),2023-03-03,1478.0,527.0,overdue,True,Zenduit Corporation
