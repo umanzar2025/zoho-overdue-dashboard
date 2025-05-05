@@ -23,9 +23,7 @@ latest_risk_score_file = risk_score_files[0]
 st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
 
 risk_df = pd.read_csv(latest_risk_score_file)
-
-# Show preview
-st.dataframe(risk_df.head())
+risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
 # 👇 Fix: Add root directory to path to find zoho_utils.py
 sys.path.append(os.path.abspath("."))
@@ -162,63 +160,95 @@ st.plotly_chart(fig2, use_container_width=True)
 # ---- Customer Risk + Recommendation ----
 st.header("🧭 Customer Risk Analysis & Payment Method Recommendation")
 
-if risk_df.empty:
-    st.warning("Risk score file not found. Please export from the Overdue Dashboard.")
+# 📌 Load Follow-up Notes
+FOLLOWUP_FILE = "data/payment_followup_notes.csv"
+os.makedirs("data", exist_ok=True)
+
+if os.path.exists(FOLLOWUP_FILE):
+    followup_df = pd.read_csv(FOLLOWUP_FILE)
+    followup_df["customer_name"] = followup_df["customer_name"].str.strip().str.lower()
 else:
-    risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
+    followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes"])
 
-    payment_df = df.copy()
-    payment_df["customer_name"] = payment_df["customer_name"].str.strip().str.lower()
+# Merge risk with follow-up notes
+merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
+merged_df["approached"] = merged_df["approached"].fillna(False)
+merged_df["notes"] = merged_df["notes"].fillna("")
 
-    payment_summary = payment_df.groupby("customer_name").agg({
-        "payment_mode": "first",
-        "amount": "sum"
-    }).rename(columns={"payment_mode": "current_payment_method", "amount": "total_payment"}).reset_index()
+# Simulated payment method for demonstration
+merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
 
-    # ✅ FIX → merge risk first, fill payment later
-    merged_df = pd.merge(risk_df, payment_summary, on="customer_name", how="left")
-    merged_df["current_payment_method"] = merged_df["current_payment_method"].fillna("No Payment Record")
+# Simulated gov client detection
+merged_df["gov_client"] = merged_df["customer_name"].str.contains("gov|ministry|dept")
 
-    merged_df["gov_client"] = np.where(merged_df["customer_name"].str.contains("gov|ministry|dept"), True, False)
+# ---- UI Controls ----
+st.sidebar.header("⚙️ Recommendation Settings")
+risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
+exclude_gov = st.sidebar.checkbox("Exclude Govt Clients from Recommendation", True)
 
-    st.sidebar.header("⚙️ Recommendation Settings")
-    risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
-    exclude_gov = st.sidebar.checkbox("Exclude Govt Clients from Recommendation", True)
+# ---- Recommendation Logic ----
+def suggest_payment_method(row):
+    if row["gov_client"] and exclude_gov:
+        return "Keep Current (Govt Client)"
+    elif pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
+        return "Recommend Stripe"
+    else:
+        return "Keep Current"
 
-    def suggest_payment_method(row):
-        if row["gov_client"] and exclude_gov:
-            return "Keep Current (Govt Client)"
-        elif pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
-            return "Recommend Stripe"
-        else:
-            return "Keep Current"
+merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-    merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
+st.markdown("### 📋 Recommended Payment Methods for Customers")
+top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
 
-    st.markdown("### 📋 Recommended Payment Methods for Customers")
-    top_n_option = st.selectbox("Select number of customers to display", [20, 50, 100, 200, 500, "All"])
+display_df = merged_df.copy()
 
-    display_df = merged_df.rename(columns={"customer_name": "Customer"})
+if top_n_option != "All":
+    display_df = display_df.head(int(top_n_option))
 
-    if top_n_option != "All":
-        display_df = display_df.head(int(top_n_option))
+# ---- Interactive Follow-Up Editor ----
+st.markdown("### ✅ Follow-up Status and Notes")
 
-    st.dataframe(display_df[["Customer", "aggregate_risk_score", "current_payment_method", "recommended_payment_method", "gov_client"]])
+edited_rows = []
 
-    st.markdown("#### 📤 Export Recommendation List")
+for idx, row in display_df.iterrows():
+    cols = st.columns([3, 1, 3, 2, 2, 2])
+    cols[0].markdown(f"**{row['customer_name'].title()}**")
+    cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
+    cols[2].markdown(row["current_payment_method"])
+    cols[3].markdown(row["recommended_payment_method"])
+    approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
+    notes = cols[5].text_input("Notes", row["notes"], key=f"notes_{idx}")
 
-    export_df = display_df.copy()
-    export_df.rename(columns={
-        "aggregate_risk_score": "Risk Score",
-        "current_payment_method": "Current Payment Method",
-        "recommended_payment_method": "Recommended Payment Method",
-        "gov_client": "Govt Client"
-    }, inplace=True)
+    edited_rows.append({
+        "customer_name": row["customer_name"],
+        "approached": approached,
+        "notes": notes
+    })
 
-    csv = export_df.to_csv(index=False).encode('utf-8')
-    st.download_button(
-        label="Download Recommendations as CSV",
-        data=csv,
-        file_name='payment_method_recommendations.csv',
-        mime='text/csv',
-    )
+# ---- Save Follow-up Notes ----
+if st.button("💾 Save Follow-up Notes"):
+    followup_save_df = pd.DataFrame(edited_rows)
+    followup_save_df.to_csv(FOLLOWUP_FILE, index=False)
+    st.success("Follow-up notes saved!")
+
+# ---- Export Button ----
+st.markdown("#### 📤 Export Recommendation List")
+
+export_df = display_df.copy()
+export_df.rename(columns={
+    "customer_name": "Customer",
+    "aggregate_risk_score": "Risk Score",
+    "current_payment_method": "Current Payment Method",
+    "recommended_payment_method": "Recommended Payment Method",
+    "gov_client": "Govt Client",
+    "approached": "Approached",
+    "notes": "Follow-up Notes"
+}, inplace=True)
+
+csv = export_df.to_csv(index=False).encode('utf-8')
+st.download_button(
+    label="Download Recommendations as CSV",
+    data=csv,
+    file_name='payment_method_recommendations.csv',
+    mime='text/csv',
+)
