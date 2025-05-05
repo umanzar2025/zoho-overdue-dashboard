@@ -106,14 +106,26 @@ if not df_display.empty:
     else:
         st.dataframe(customer_summary_sorted.head(int(top_n_option)))
 
-    # ✅ Export for Payment Dashboard
+from datetime import datetime
+import os
+
+# ✅ Export Risk Scores for Payment Dashboard
+if not df_display.empty:
+    export_df = customer_summary_sorted.copy()
+
+    # Export with timestamp to avoid overwriting past exports
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     export_filename = f"data/overdue_customer_risk_scores_{timestamp}.csv"
-    customer_summary_sorted.to_csv(export_filename, index=False)
-    st.success(f"✅ Risk score data exported for Payment Dashboard ({timestamp})")
+    export_df.to_csv(export_filename, index=False)
 
+    # Also copy as "latest" for payment dashboard to auto-load
+    latest_export_path = "data/overdue_customer_risk_scores.csv"
+    export_df.to_csv(latest_export_path, index=False)
+
+    st.success(f"✅ Risk score data exported for Payment Dashboard ({timestamp})")
 else:
     st.info("No overdue invoice data available to calculate risk scores.")
+
 
 # ===== High Risk Invoices =====
 st.markdown("### 🚩 High-Risk Invoices")
