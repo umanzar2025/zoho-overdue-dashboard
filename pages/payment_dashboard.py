@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -9,12 +10,12 @@ import numpy as np
 st.set_page_config(page_title="Payment Dashboard", layout="wide")
 st.title("💳 Payment Dashboard")
 
-# ---- Load latest risk score file ----
+# ===== Load Latest Risk Score CSV =====
 st.markdown("## 🔄 Loading Latest Risk Scores")
 risk_score_files = sorted(glob.glob("data/overdue_customer_risk_scores_*.csv"), reverse=True)
 
 if not risk_score_files:
-    st.error("❗ No risk score files found.")
+    st.error("❗ No risk score files found. Please run the Zoho Dashboard first.")
     st.stop()
 
 latest_risk_score_file = risk_score_files[0]
@@ -22,11 +23,7 @@ st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
 risk_df = pd.read_csv(latest_risk_score_file)
 risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
-# ---- Add organization column ----
-if "organization" not in risk_df.columns:
-    risk_df["organization"] = np.where(risk_df.index % 2 == 0, "GoFleet", "Zenduit")
-
-# ---- Load follow-up notes ----
+# 📌 Load Follow-up Notes
 FOLLOWUP_FILE = "data/payment_followup_notes.csv"
 os.makedirs("data", exist_ok=True)
 
@@ -36,73 +33,72 @@ if os.path.exists(FOLLOWUP_FILE):
 else:
     followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes", "is_na", "na_notes"])
 
-# ---- Merge ----
+# Merge risk with follow-up notes
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
+
+# Ensure columns exist
+for col in ["approached", "notes", "is_na", "na_notes"]:
+    if col not in merged_df.columns:
+        merged_df[col] = False if col == "approached" or col == "is_na" else ""
+
 merged_df["approached"] = merged_df["approached"].fillna(False)
 merged_df["notes"] = merged_df["notes"].fillna("")
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
-merged_df["current_payment_method"] = np.where(merged_df.index % 4 == 0, "Check",
-                                     np.where(merged_df.index % 4 == 1, "Bank Transfer",
-                                     np.where(merged_df.index % 4 == 2, "Stripe", "Cash")))
 
-# ---- Sidebar Controls ----
+# Simulated payment method (optional to be replaced later)
+merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
+
+# ---- UI Controls ----
 st.sidebar.header("⚙️ Recommendation Settings")
 risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
 
+# Organization Filter
+st.sidebar.header("🏢 Organization Filter")
+org_option = st.sidebar.radio("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
+
 # ---- Recommendation Logic ----
-def recommend(row):
+def suggest_payment_method(row):
     if pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
         return "Recommend Stripe"
     else:
         return "Keep Current"
 
-merged_df["recommended_payment_method"] = merged_df.apply(recommend, axis=1)
+merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-# ---- Monthly Collection Trend ----
+# ===== Collection Trend Data (Simulated)
 st.markdown("## 📊 Monthly Collection Trend")
+org_filter = st.selectbox("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
 
-org_filter = st.selectbox("Select Organization", ["Combined", "GoFleet", "Zenduit"])
+np.random.seed(42)
+payment_modes = ["Bank Transfer", "Check", "Stripe", "Cash"]
+dates = pd.date_range(start="2025-01-01", end=datetime.today(), freq="M")
+collection_data = pd.DataFrame({
+    "date": np.tile(dates, len(payment_modes)),
+    "payment_mode": np.repeat(payment_modes, len(dates)),
+    "amount": np.random.randint(5000, 50000, len(dates) * len(payment_modes))
+})
 
-# Simulated collection data
-if "payment_date" not in merged_df.columns:
-    merged_df["payment_date"] = pd.date_range(start="2024-12-01", periods=len(merged_df), freq="D")
+collection_data["month"] = collection_data["date"].dt.to_period("M").astype(str)
 
-df_chart = merged_df.copy()
+monthly_summary = collection_data.groupby(["month", "payment_mode"])["amount"].sum().reset_index()
 
-if org_filter != "Combined":
-    df_chart = df_chart[df_chart["organization"] == org_filter]
-
-df_chart["payment_date"] = pd.to_datetime(df_chart["payment_date"])
-df_chart["month"] = df_chart["payment_date"].dt.to_period('M').astype(str)
-
-df_chart_grouped = df_chart.groupby(["month", "current_payment_method"]).size().reset_index(name='amount')
-
-fig = px.line(df_chart_grouped, x="month", y="amount", color="current_payment_method", markers=True,
-              title="Monthly Collection Trend")
+fig = px.line(monthly_summary, x="month", y="amount", color="payment_mode", markers=True, title="Monthly Collection Trend")
 fig.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", legend_title="Payment Mode")
 st.plotly_chart(fig, use_container_width=True)
 
-# ---- Pie Chart for overdue customers ----
-st.markdown("## 🥧 Overdue Distribution by Payment Method")
+# ====== Pie Chart ======
+st.markdown("### 🥧 Collection Breakdown (Past 3 Months)")
+recent_months = collection_data["month"].sort_values().unique()[-3:]
+pie_data = collection_data[collection_data["month"].isin(recent_months)]
 
-overdue_pie = merged_df.copy()
-overdue_pie["amount"] = 1  # placeholder for count
-
-pie_data = overdue_pie.groupby("current_payment_method")["amount"].sum().reset_index()
-
-fig_pie = px.pie(pie_data, names="current_payment_method", values="amount", title="Overdue by Payment Method")
+pie_summary = pie_data.groupby("payment_mode")["amount"].sum().reset_index()
+fig_pie = px.pie(pie_summary, names="payment_mode", values="amount", title="Collection Share by Payment Mode (Last 3 Months)")
 st.plotly_chart(fig_pie, use_container_width=True)
 
-# ---- Recommended Payment Methods ----
-st.markdown("## 🧭 Customer Risk Analysis & Payment Method Recommendation")
-top_n = st.selectbox("Select number of customers to display", [20, 50, 100, 200, "All"])
+# ======= Risk Recommendation + Follow-ups =======
+st.markdown("## 📌 Customer Risk Analysis & Payment Method Recommendation")
 
-display_df = merged_df.copy()
-if top_n != "All":
-    display_df = display_df.head(int(top_n))
-
-# Add headers
 header_cols = st.columns([3, 1, 3, 2, 2, 2, 1, 2])
 header_cols[0].markdown("**Customer**")
 header_cols[1].markdown("**Risk Score**")
@@ -115,7 +111,7 @@ header_cols[7].markdown("**N/A Notes**")
 
 edited_rows = []
 
-for idx, row in display_df.iterrows():
+for idx, row in merged_df.iterrows():
     cols = st.columns([3, 1, 3, 2, 2, 2, 1, 2])
     cols[0].markdown(f"{row['customer_name'].title()}")
     cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
@@ -123,8 +119,8 @@ for idx, row in display_df.iterrows():
     cols[3].markdown(row["recommended_payment_method"])
     approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
     notes = cols[5].text_input("Notes", row["notes"], key=f"notes_{idx}")
-    is_na = cols[6].checkbox("N/A", row["is_na"], key=f"isna_{idx}")
-    na_notes = cols[7].text_input("N/A Notes", row["na_notes"], key=f"nanotes_{idx}")
+    is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
+    na_notes = cols[7].text_input("N/A Notes", row["na_notes"], key=f"na_notes_{idx}")
 
     edited_rows.append({
         "customer_name": row["customer_name"],
@@ -139,20 +135,3 @@ if st.button("💾 Save Follow-up Notes"):
     followup_save_df.to_csv(FOLLOWUP_FILE, index=False)
     st.success("✅ Follow-up notes saved successfully!")
 
-# ---- Export
-st.markdown("### 📥 Export Recommendation List")
-export_df = display_df.copy()
-export_df.rename(columns={
-    "customer_name": "Customer",
-    "aggregate_risk_score": "Risk Score",
-    "current_payment_method": "Current Payment Method",
-    "recommended_payment_method": "Recommended Payment Method"
-}, inplace=True)
-
-csv = export_df.to_csv(index=False).encode('utf-8')
-st.download_button(
-    label="Download Recommendations as CSV",
-    data=csv,
-    file_name='payment_method_recommendations.csv',
-    mime='text/csv',
-)
