@@ -12,7 +12,7 @@ from zoho_utils import (
     summarize_payment_modes
 )
 
-# 🔐 Credentials (replace with secure method in production)
+# 🔐 Credentials
 refresh_token = "1000.ceb56845974e8cf5e5a1f9ac6f2d33f3.2a1c0a5032f87c4a66c5541549fc537c"
 client_id = "1000.QUF4IG3JGMWC5ARWWDYNILP8TZNJUC"
 client_secret = "398aad9fccb86c6f1bb1793be1ecd6989cf7bc9426"
@@ -24,6 +24,8 @@ org_ids = {
 # 🎛️ Streamlit UI
 st.title("📊 Payment Dashboard (Collections + Risk)")
 st.markdown("[📌 Jump to Overdue Invoices](#overdue-invoices-section)", unsafe_allow_html=True)
+
+st.caption(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 org_choice = st.selectbox("Choose Organization", ["GoFleet Corporation", "Zenduit Corporation", "Combined"])
 st.caption("Showing data for the past 3 months")
 
@@ -83,17 +85,17 @@ st.markdown("<h2 id='overdue-invoices-section'>Overdue Invoices</h2>", unsafe_al
 with st.expander("See breakdown as table"):
     st.dataframe(summary.style.format({"total": "$ {:,}", "percentage": "{}%"}))
 
-# 📉 Monthly Collection Trend by Payment Method
+# 📉 Monthly Collection Trend by Payment Method (Fixed)
 df_filtered["date"] = pd.to_datetime(df_filtered["date"], errors="coerce")
 df_filtered = df_filtered.dropna(subset=["date"])
-df_filtered["month"] = df_filtered["date"].dt.to_period("M").astype(str)
+df_filtered["month_start"] = df_filtered["date"].values.astype('datetime64[M]')
 
-total_by_month = df_filtered.groupby(["month", "payment_mode"]).agg({"amount": "sum"}).reset_index()
+total_by_month = df_filtered.groupby(["month_start", "payment_mode"]).agg({"amount": "sum"}).reset_index()
 total_by_month["amount"] = total_by_month["amount"].round(0).astype(int)
 
 fig2 = px.line(
     total_by_month,
-    x="month",
+    x="month_start",
     y="amount",
     color="payment_mode",
     markers=True,
@@ -103,10 +105,9 @@ fig2.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", yaxis_tickpref
 st.plotly_chart(fig2, use_container_width=True)
 
 # -------------------- Customer Risk Analysis & Payment Method Recommendation --------------------
-
 st.markdown("## 📌 Customer Risk Analysis & Payment Method Recommendation")
 
-# ===== Load Latest Risk Score CSV =====
+# Load Risk Scores
 risk_score_files = sorted(glob.glob("data/overdue_customer_risk_scores_*.csv"), reverse=True)
 
 if not risk_score_files:
@@ -117,7 +118,7 @@ else:
     risk_df = pd.read_csv(latest_risk_score_file)
     risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
-    # 📌 Load Follow-up Notes
+    # Load Follow-up Notes
     FOLLOWUP_FILE = "data/payment_followup_notes.csv"
     os.makedirs("data", exist_ok=True)
 
@@ -127,7 +128,7 @@ else:
     else:
         followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes", "is_na", "na_notes"])
 
-    # Merge risk with follow-up notes
+    # Merge risk and follow-up
     merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
     for col in ["approached", "notes", "is_na", "na_notes"]:
         merged_df[col] = merged_df.get(col, False if col in ["approached", "is_na"] else "")
@@ -148,23 +149,24 @@ else:
 
     merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-    header_cols = st.columns([3, 1, 3, 2, 2, 2, 1, 2])
+    header_cols = st.columns([4, 1, 3, 2, 2, 3, 1, 3])
     headers = ["Customer", "Risk Score", "Current Payment Method", "Recommended Payment Method", "Approached", "Notes", "N/A", "N/A Notes"]
     for col, header in zip(header_cols, headers):
         col.markdown(f"**{header}**")
 
     edited_rows = []
     for idx, row in merged_df.iterrows():
-        cols = st.columns([3, 1, 3, 2, 2, 2, 1, 2])
+        cols = st.columns([4, 1, 3, 2, 2, 3, 1, 3])
+
         cols[0].markdown(f"{row['customer_name'].title()}")
         cols[1].markdown(f"{row['aggregate_risk_score']:.3f}")
         cols[2].markdown(row.get("current_payment_method", "N/A"))
         cols[3].markdown(row["recommended_payment_method"])
 
         approached = cols[4].checkbox("Approached", row["approached"], key=f"approached_{idx}")
-        notes = cols[5].text_input("Notes", row["notes"], key=f"notes_{idx}")
+        notes = cols[5].text_area("Notes", row["notes"], key=f"notes_{idx}", height=50)
         is_na = cols[6].checkbox("N/A", row["is_na"], key=f"is_na_{idx}")
-        na_notes = cols[7].text_input("N/A Notes", row["na_notes"], key=f"na_notes_{idx}")
+        na_notes = cols[7].text_area("N/A Notes", row["na_notes"], key=f"na_notes_{idx}", height=50)
 
         edited_rows.append({
             "customer_name": row["customer_name"],
