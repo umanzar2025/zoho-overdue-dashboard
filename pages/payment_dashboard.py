@@ -37,10 +37,12 @@ else:
 
 # Merge risk with follow-up notes
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
-merged_df["approached"] = merged_df["approached"].fillna(False)
-merged_df["notes"] = merged_df["notes"].fillna("")
-merged_df["is_na"] = merged_df["is_na"].fillna(False)
-merged_df["na_notes"] = merged_df["na_notes"].fillna("")
+
+# Ensure missing columns are added if they don't exist
+for col, default in [("approached", False), ("notes", ""), ("is_na", False), ("na_notes", "")]:
+    if col not in merged_df.columns:
+        merged_df[col] = default
+    merged_df[col] = merged_df[col].fillna(default)
 
 # Simulated payment method (can replace later)
 merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
