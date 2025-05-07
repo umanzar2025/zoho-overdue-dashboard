@@ -8,39 +8,45 @@ import numpy as np
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-st.set_page_config(page_title="Finance Dashboard", layout="wide")
-st.title("📊 Finance Dashboard (Team Version with Google Sheets Follow-ups)")
+st.set_page_config(page_title="Finance Dashboard (Team Version with Google Sheets Follow-ups)", layout="wide")
+st.title("💳 Finance Dashboard (Team Version with Google Sheets Follow-ups)")
 
-# ======= Google Sheets Setup =======
-SHEET_NAME = "Payment Dashboard - Follow-up Notes"
-JSON_KEY_FILE = "secrets/payment_dashboard_google.json"
+# ----------------------------
+# Connect to Google Sheet
+# ----------------------------
+SHEET_NAME = "Finance Follow-up Notes"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scope)
+JSON_KEY_FILE = "secrets/payment_dashboard_google.json"  # Using streamlit secrets
+import json
+
+credentials_dict = st.secrets["gcp_service_account"]
+credentials = ServiceAccountCredentials.from_json_keyfile_dict(credentials_dict, scope)
+
 gc = gspread.authorize(credentials)
 
-# Open Google Sheet (must be shared with service account email)
 try:
     sheet = gc.open(SHEET_NAME).sheet1
-except gspread.exceptions.SpreadsheetNotFound:
-    st.error("❗ Google Sheet not found. Please create it and share with the service account email.")
+except gspread.SpreadsheetNotFound:
+    st.error(f"Spreadsheet '{SHEET_NAME}' not found. Please create it and share with the service account.")
     st.stop()
 
-# Load follow-up notes
-data = sheet.get_all_records()
-followup_df = pd.DataFrame(data)
-
+# Read Google Sheet into DataFrame
+followup_data = sheet.get_all_records()
+followup_df = pd.DataFrame(followup_data)
 if followup_df.empty:
     followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes", "is_na", "na_notes"])
 
-followup_df["customer_name"] = followup_df["customer_name"].astype(str).str.strip().str.lower()
+followup_df["customer_name"] = followup_df["customer_name"].str.strip().str.lower()
 
-# ======= Load Latest Risk Score CSV =======
-st.markdown("## 📥 Loading Latest Risk Scores")
+# ----------------------------
+# Load Risk Scores from CSV
+# ----------------------------
+st.markdown("## 🔄 Loading Latest Risk Scores")
 risk_score_files = sorted(glob.glob("data/overdue_customer_risk_scores_*.csv"), reverse=True)
 
 if not risk_score_files:
-    st.error("❗ No risk score files found. Please run Zoho overdue extraction first.")
+    st.error("❗ No risk score files found. Please run the overdue invoices extraction first.")
     st.stop()
 
 latest_risk_score_file = risk_score_files[0]
@@ -48,7 +54,7 @@ st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
 risk_df = pd.read_csv(latest_risk_score_file)
 risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
-# Merge risk with follow-ups
+# Merge risk scores with follow-ups
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
 
 for col in ["approached", "notes", "is_na", "na_notes"]:
@@ -60,18 +66,16 @@ merged_df["notes"] = merged_df["notes"].fillna("")
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
 
-# Add dummy payment method if missing
+# Simulated payment method
 if "current_payment_method" not in merged_df.columns:
     merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
 
-# ---- UI Controls ----
+# ----------------------------
+# Recommendation Logic
+# ----------------------------
 st.sidebar.header("⚙️ Recommendation Settings")
 risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
 
-st.sidebar.header("🏢 Organization Filter")
-org_option = st.sidebar.radio("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
-
-# ---- Recommendation Logic ----
 def suggest_payment_method(row):
     if pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
         return "Recommend Stripe"
@@ -80,7 +84,9 @@ def suggest_payment_method(row):
 
 merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-# ======= Monthly Collection Trend (Simulated for now) =======
+# ----------------------------
+# Chart - Monthly Collection (Simulated)
+# ----------------------------
 st.markdown("## 📊 Monthly Collection Trend")
 org_filter = st.selectbox("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
 
@@ -100,15 +106,20 @@ fig = px.line(monthly_summary, x="month", y="amount", color="payment_mode", mark
 fig.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", legend_title="Payment Mode")
 st.plotly_chart(fig, use_container_width=True)
 
-# ======= Pie Chart for Collection Share =======
-st.markdown("### 🥧 Collection Breakdown (Last 3 Months)")
+# ----------------------------
+# Chart - Collection Breakdown
+# ----------------------------
+st.markdown("### 🥧 Collection Breakdown (Past 3 Months)")
 recent_months = monthly_summary["month"].drop_duplicates().sort_values().iloc[-3:]
 pie_data = monthly_summary[monthly_summary["month"].isin(recent_months)]
+
 pie_summary = pie_data.groupby("payment_mode")["amount"].sum().reset_index()
-fig_pie = px.pie(pie_summary, names="payment_mode", values="amount", title="Collection Share (Last 3 Months)")
+fig_pie = px.pie(pie_summary, names="payment_mode", values="amount", title="Collection Share by Payment Mode (Last 3 Months)")
 st.plotly_chart(fig_pie, use_container_width=True)
 
-# ======= Customer Risk Analysis & Payment Method Recommendation =======
+# ----------------------------
+# Customer Risk Analysis and Follow-Up
+# ----------------------------
 st.markdown("## 📌 Customer Risk Analysis & Payment Method Recommendation")
 
 display_df = merged_df.copy()
@@ -124,14 +135,20 @@ display_df.rename(columns={
 }, inplace=True)
 
 editable_cols = ["Approached", "Notes", "N/A", "N/A Notes"]
-edited_df = st.data_editor(display_df, num_rows="dynamic", use_container_width=True, disabled=[c for c in display_df.columns if c not in editable_cols])
+edited_df = st.data_editor(display_df, num_rows="dynamic", use_container_width=True, disabled=[
+    c for c in display_df.columns if c not in editable_cols
+])
 
-# ======= Save Logic to Google Sheet =======
+# ----------------------------
+# Save Follow-up Notes to Google Sheets
+# ----------------------------
 if st.button("💾 Save Follow-up Notes"):
     save_df = edited_df[["Customer", "Approached", "Notes", "N/A", "N/A Notes"]].copy()
-    save_df.columns = ["customer_name", "approached", "notes", "is_na", "na_notes"]
-
-    # Clear + update sheet
+    save_df.rename(columns={"Customer": "customer_name", "Approached": "approached", "Notes": "notes", "N/A": "is_na", "N/A Notes": "na_notes"}, inplace=True)
+    
+    # Clear existing and write new data to Google Sheets
     sheet.clear()
     sheet.update([save_df.columns.values.tolist()] + save_df.values.tolist())
-    st.success("✅ Follow-up notes saved successfully to Google Sheet!")
+
+    st.success("✅ Follow-up notes saved successfully to Google Sheets!")
+
