@@ -1,1 +1,21 @@
+# Streamlit and secrets
 .streamlit/secrets.toml
+secrets/
+
+# Ignore all CSV exports and local data
+data/
+*.csv
+
+# Ignore zip files
+*.zip
+
+# Ignore temp + package folders
+__pycache__/
+*.pyc
+
+# Ignore Invoice Reco and other project folders
+Invoice Reco. project/
+Sims_data/
+geotab_validation_*
+validation_dashboard.py
+zoho_dashboardv2.py
