@@ -40,5 +40,6 @@ watchdog==6.0.0
 plotly==5.21.0
 gspread
 oauth2client
+xlsxwriter
 
 
