@@ -41,5 +41,6 @@ plotly==5.21.0
 gspread
 oauth2client
 xlsxwriter
+openpyxl
 
 
