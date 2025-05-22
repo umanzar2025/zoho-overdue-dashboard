@@ -19,7 +19,6 @@ scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/au
 credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scope)
 gc = gspread.authorize(credentials)
 
-# Open Google Sheet (must be shared with service account email)
 try:
     sheet = gc.open(SHEET_NAME).sheet1
 except gspread.exceptions.SpreadsheetNotFound:
@@ -29,7 +28,6 @@ except gspread.exceptions.SpreadsheetNotFound:
 # Load follow-up notes
 data = sheet.get_all_records()
 followup_df = pd.DataFrame(data)
-
 if followup_df.empty:
     followup_df = pd.DataFrame(columns=["customer_name", "approached", "notes", "is_na", "na_notes"])
 
@@ -48,7 +46,7 @@ st.info(f"Using risk score file: {os.path.basename(latest_risk_score_file)}")
 risk_df = pd.read_csv(latest_risk_score_file)
 risk_df["customer_name"] = risk_df["customer_name"].str.strip().str.lower()
 
-# Merge risk with follow-ups
+# ======= Merge risk with follow-up =======
 merged_df = pd.merge(risk_df, followup_df, on="customer_name", how="left")
 
 for col in ["approached", "notes", "is_na", "na_notes"]:
@@ -60,18 +58,26 @@ merged_df["notes"] = merged_df["notes"].fillna("")
 merged_df["is_na"] = merged_df["is_na"].fillna(False)
 merged_df["na_notes"] = merged_df["na_notes"].fillna("")
 
-# Add dummy payment method if missing
-if "current_payment_method" not in merged_df.columns:
-    merged_df["current_payment_method"] = np.where(merged_df.index % 3 == 0, "Check", "Bank Transfer")
+# ======= Payment History: Real Data =======
+HISTORY_FILE = "data/payment_history.csv"
+if os.path.exists(HISTORY_FILE):
+    df = pd.read_csv(HISTORY_FILE)
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df["amount"] = pd.to_numeric(df["amount"], errors="coerce")
+    df = df.dropna(subset=["date", "amount"])
+    df["month"] = df["date"].values.astype("datetime64[M]")
+else:
+    st.warning("⚠️ payment_history.csv not found. Using empty dataset.")
+    df = pd.DataFrame(columns=["date", "payment_mode", "amount", "month"])
 
-# ---- UI Controls ----
+# ======= UI Filters =======
 st.sidebar.header("⚙️ Recommendation Settings")
 risk_threshold = st.sidebar.slider("Risk Score Threshold for Stripe Recommendation", 0.0, 1.0, 0.5, 0.05)
 
 st.sidebar.header("🏢 Organization Filter")
 org_option = st.sidebar.radio("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
 
-# ---- Recommendation Logic ----
+# ======= Recommendation Logic =======
 def suggest_payment_method(row):
     if pd.notna(row["aggregate_risk_score"]) and row["aggregate_risk_score"] >= risk_threshold:
         return "Recommend Stripe"
@@ -80,35 +86,31 @@ def suggest_payment_method(row):
 
 merged_df["recommended_payment_method"] = merged_df.apply(suggest_payment_method, axis=1)
 
-# ======= Monthly Collection Trend (Simulated for now) =======
+# ======= Monthly Collection Trend =======
 st.markdown("## 📊 Monthly Collection Trend")
-org_filter = st.selectbox("Select Organization", ["Combined", "Go Fleet", "Zenduit"])
 
-np.random.seed(42)
-payment_modes = ["Bank Transfer", "Check", "Stripe"]
-dates = pd.date_range(start="2025-01-01", end=datetime.today(), freq="D")
-collection_data = pd.DataFrame({
-    "date": np.tile(dates, len(payment_modes)),
-    "payment_mode": np.repeat(payment_modes, len(dates)),
-    "amount": np.random.randint(5000, 50000, len(dates) * len(payment_modes))
-})
+monthly_summary = df.groupby(["month", "payment_mode"])["amount"].sum().reset_index()
 
-collection_data["month"] = pd.to_datetime(collection_data["date"]).dt.to_period("M").dt.to_timestamp()
-monthly_summary = collection_data.groupby(["month", "payment_mode"])["amount"].sum().reset_index()
-
-fig = px.line(monthly_summary, x="month", y="amount", color="payment_mode", markers=True, title="Monthly Collection Trend by Payment Method")
+fig = px.line(monthly_summary, x="month", y="amount", color="payment_mode", markers=True,
+              title="Monthly Collection Trend by Payment Method")
 fig.update_layout(xaxis_title="Month", yaxis_title="Amount ($)", legend_title="Payment Mode")
 st.plotly_chart(fig, use_container_width=True)
 
-# ======= Pie Chart for Collection Share =======
+# ======= Pie Chart for Last 3 Months =======
 st.markdown("### 🥧 Collection Breakdown (Last 3 Months)")
-recent_months = monthly_summary["month"].drop_duplicates().sort_values().iloc[-3:]
-pie_data = monthly_summary[monthly_summary["month"].isin(recent_months)]
-pie_summary = pie_data.groupby("payment_mode")["amount"].sum().reset_index()
-fig_pie = px.pie(pie_summary, names="payment_mode", values="amount", title="Collection Share (Last 3 Months)")
-st.plotly_chart(fig_pie, use_container_width=True)
 
-# ======= Customer Risk Analysis & Payment Method Recommendation =======
+if not df.empty:
+    recent_months = df["month"].drop_duplicates().sort_values().iloc[-3:]
+    pie_data = df[df["month"].isin(recent_months)]
+    pie_summary = pie_data.groupby("payment_mode")["amount"].sum().reset_index()
+
+    fig_pie = px.pie(pie_summary, names="payment_mode", values="amount",
+                     title="Collection Share by Payment Mode (Last 3 Months)")
+    st.plotly_chart(fig_pie, use_container_width=True)
+else:
+    st.warning("⚠️ No data available for pie chart.")
+
+# ======= Editable Customer Table =======
 st.markdown("## 📌 Customer Risk Analysis & Payment Method Recommendation")
 
 display_df = merged_df.copy()
@@ -124,14 +126,25 @@ display_df.rename(columns={
 }, inplace=True)
 
 editable_cols = ["Approached", "Notes", "N/A", "N/A Notes"]
-edited_df = st.data_editor(display_df, num_rows="dynamic", use_container_width=True, disabled=[c for c in display_df.columns if c not in editable_cols])
+edited_df = st.data_editor(display_df, num_rows="dynamic", use_container_width=True,
+                           disabled=[c for c in display_df.columns if c not in editable_cols])
 
-# ======= Save Logic to Google Sheet =======
+# ======= Save Logic to Google Sheets =======
 if st.button("💾 Save Follow-up Notes"):
     save_df = edited_df[["Customer", "Approached", "Notes", "N/A", "N/A Notes"]].copy()
     save_df.columns = ["customer_name", "approached", "notes", "is_na", "na_notes"]
 
-    # Clear + update sheet
+    # Merge with previous data to preserve untouched rows
+    original_df = pd.DataFrame(sheet.get_all_records())
+    original_df["customer_name"] = original_df["customer_name"].astype(str).str.strip().str.lower()
+    save_df["customer_name"] = save_df["customer_name"].astype(str).str.strip().str.lower()
+
+    updated = pd.merge(original_df, save_df, on="customer_name", how="outer", suffixes=("", "_new"))
+
+    for col in ["approached", "notes", "is_na", "na_notes"]:
+        updated[col] = updated[f"{col}_new"].combine_first(updated[col])
+        updated.drop(columns=[f"{col}_new"], inplace=True)
+
     sheet.clear()
-    sheet.update([save_df.columns.values.tolist()] + save_df.values.tolist())
-    st.success("✅ Follow-up notes saved successfully to Google Sheet!")
+    sheet.update([updated.columns.tolist()] + updated.values.tolist())
+    st.success("✅ Follow-up notes saved to Google Sheet (with old values preserved)")
