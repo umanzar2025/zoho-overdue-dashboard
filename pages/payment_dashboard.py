@@ -16,7 +16,7 @@ SHEET_NAME = "Payment Dashboard - Follow-up Notes"
 JSON_KEY_FILE = "secrets/payment_dashboard_google.json"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scope)
+credentials = ServiceAccountCredentials.from_json_keyfile_dict(st.secrets["gcp_service_account"], scope)
 gc = gspread.authorize(credentials)
 
 try:
