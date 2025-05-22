@@ -12,7 +12,7 @@ st.set_page_config(page_title="Finance Dashboard", layout="wide")
 st.title("📊 Finance Dashboard (Team Version with Google Sheets Follow-ups)")
 
 # ======= Google Sheets Setup =======
-SHEET_NAME = "Payment Dashboard - Follow-up Notes"
+SHEET_NAME = "Finance Follow-up Notes"
 JSON_KEY_FILE = "secrets/payment_dashboard_google.json"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
