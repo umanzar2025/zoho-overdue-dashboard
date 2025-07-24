@@ -22,22 +22,28 @@ def get_access_token():
 
 # 📥 Fetch all overdue invoices with pagination
 def fetch_overdue_invoices(org_id, access_token):
-    invoices = []
-    page = 1
-    while True:
-        url = f"https://www.zohoapis.com/books/v3/invoices?organization_id={org_id}&status=overdue&page={page}&per_page=200"
-        headers = {
-            "Authorization": f"Zoho-oauthtoken {access_token}"
-        }
-        response = requests.get(url, headers=headers)
+    url = "https://www.zohoapis.com/books/v3/invoices"
+    headers = {
+        "Authorization": f"Zoho-oauthtoken {access_token}"
+    }
+    params = {
+        "organization_id": org_id,
+        "status": "overdue",
+        "page": 1,
+        "per_page": 200
+    }
+
+    response = requests.get(url, headers=headers, params=params)
+    try:
         response.raise_for_status()
-        data = response.json()
-        if "invoices" in data:
-            invoices.extend(data["invoices"])
-        if not data.get("page_context", {}).get("has_more_page"):
-            break
-        page += 1
-    return invoices
+    except requests.exceptions.HTTPError as e:
+        print("❌ API call failed:")
+        print(f"🔗 URL: {response.url}")
+        print(f"📄 Status Code: {response.status_code}")
+        print(f"📬 Response Body: {response.text}")
+        raise e
+
+    return response.json().get("invoices", [])
 
 # 💾 Write invoices to CSV
 def export_to_csv(invoices, org_name):
